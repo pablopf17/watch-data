@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-04T15:31:50",
+ "generated": "2026-11-04T15:43:52",
  "kpis": {
   "runs": 79,
-  "done": 71,
+  "done": 72,
   "ok": 36,
-  "ok_pct": 50.7,
+  "ok_pct": 50.0,
   "applied": 20,
-  "blocked": 25,
+  "blocked": 26,
   "manual": 12,
-  "manual_pct": 16.9,
+  "manual_pct": 16.7,
   "median_min": 4.5,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 14.4,
+  "p90_min": 14.2,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
   "last_24h": 22,
@@ -74,13 +74,13 @@
    "runs": 13,
    "ok": 3,
    "applied": 3,
-   "blocked": 4
+   "blocked": 5
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 15
+   "n": 16
   },
   {
    "reason": "login / cuenta",
@@ -634,18 +634,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 8909,
-      "company": "Fokus Management Consulting AG",
-      "title": "Consultants Financial Services",
-      "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-04T15:28:43"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1170,8 +1160,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 21,
+    "count": 22,
     "cards": [
+     {
+      "row": 8909,
+      "company": "Fokus Management Consulting AG",
+      "title": "Consultants Financial Services",
+      "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-04T15:28:43"
+     },
      {
       "row": 6898,
       "company": "Nicoll Curtin",
@@ -1515,24 +1514,24 @@
    "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
    "lang": "en",
    "started": "2026-11-04T15:28:43",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-04T15:38:47",
+   "dur_min": 10.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "hermes",
-   "blocked": "",
+   "blocked": "sin_formulario",
    "manual": false,
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "",
+   "apply_path": "agregador",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 2,
+   "avisos": 6,
+   "verify_ok": false
   },
   {
    "row": 8879,
