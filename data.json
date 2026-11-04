@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T14:01:40",
+ "generated": "2026-11-04T14:07:40",
  "kpis": {
-  "runs": 72,
-  "done": 66,
+  "runs": 73,
+  "done": 67,
   "ok": 36,
-  "ok_pct": 54.5,
+  "ok_pct": 53.7,
   "applied": 20,
-  "blocked": 22,
-  "manual": 10,
-  "manual_pct": 15.2,
-  "median_min": 4.4,
+  "blocked": 23,
+  "manual": 11,
+  "manual_pct": 16.4,
+  "median_min": 4.5,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 15.3,
-  "per_hour": 3.21,
-  "median_gap_min": 18.7,
-  "last_24h": 15,
+  "p90_min": 15.1,
+  "per_hour": 3.26,
+  "median_gap_min": 18.4,
+  "last_24h": 16,
   "retries": 1,
-  "queue_pending": 65
+  "queue_pending": 64
  },
  "per_day": [
   {
@@ -71,10 +71,10 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 6,
+   "runs": 7,
    "ok": 3,
    "applied": 3,
-   "blocked": 1
+   "blocked": 2
   }
  ],
  "blockers": [
@@ -87,11 +87,11 @@
    "n": 5
   },
   {
-   "reason": "easy apply (sin formulario)",
-   "n": 1
+   "reason": "captcha",
+   "n": 2
   },
   {
-   "reason": "captcha",
+   "reason": "easy apply (sin formulario)",
    "n": 1
   },
   {
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 65,
+    "count": 64,
     "cards": [
-     {
-      "row": 8508,
-      "company": "die Mobiliar",
-      "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
-      "url": "https://www.linkedin.com/jobs/view/4483488386/",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
      {
       "row": 8749,
       "company": "AfterQuery",
@@ -697,25 +688,16 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
      {
-      "row": 8425,
-      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
-      "title": "Contrôleur/Analyste de la qualité des données",
-      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
+      "row": 8508,
+      "company": "die Mobiliar",
+      "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483488386/",
       "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T14:01:40"
-     },
-     {
-      "row": 8425,
-      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
-      "title": "Contrôleur/Analyste de la qualité des données",
-      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-04T14:00:26"
+      "ts": "2026-11-04T14:07:40"
      }
     ],
     "more": 0
@@ -723,15 +705,34 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 8425,
+      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+      "title": "Contrôleur/Analyste de la qualité des données",
+      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
+      "score": "",
+      "note": "captcha",
+      "ts": "2026-11-04T14:00:26"
+     }
+    ],
     "more": 0
    },
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 51,
+    "count": 52,
     "cards": [
+     {
+      "row": 8508,
+      "company": "die Mobiliar",
+      "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483488386/",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-04T14:06:21"
+     },
      {
       "row": 8368,
       "company": "Jobgether",
@@ -1423,14 +1424,14 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 1,
-   "runs_today": 0,
+   "runs": 2,
+   "runs_today": 1,
    "last": {
-    "row": 8133,
-    "company": "Capgemini Engineering",
-    "title": "Data Analyst",
-    "started": "2026-11-03T19:43:39",
-    "applied": true
+    "row": 8508,
+    "company": "die Mobiliar",
+    "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
+    "started": "2026-11-04T14:06:21",
+    "applied": false
    },
    "limit": null,
    "limit_folder": "",
@@ -1440,22 +1441,22 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8425,
-   "company": "Caisse cantonale vaudoise de compensation (CCVD)",
-   "title": "Contrôleur/Analyste de la qualité des données",
+   "row": 8508,
+   "company": "die Mobiliar",
+   "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
    "score": 10,
-   "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
-   "domain": "jobagent.ch",
+   "url": "https://www.linkedin.com/jobs/view/4483488386/",
+   "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-04T14:00:18",
-   "pid": 49364,
+   "started": "2026-11-04T14:06:14",
+   "pid": 49564,
    "lane": 0
   },
-  "pending": 65,
+  "pending": 64,
   "counters": {
-   "pending": 66,
+   "pending": 65,
    "sent": 0,
    "review": 0,
    "blocked": 0,
@@ -1465,19 +1466,11 @@
   "config": {
    "max": 2,
    "min_score": 0,
-   "engine": "claude",
+   "engine": "hermes",
    "timeout": 600,
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 8508,
-    "company": "die Mobiliar",
-    "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
-    "score": 10,
-    "url": "https://www.linkedin.com/jobs/view/4483488386/",
-    "domain": "linkedin.com"
-   },
    {
     "row": 8749,
     "company": "AfterQuery",
@@ -1509,9 +1502,28 @@
     "score": 10,
     "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
     "domain": "jobagent.ch"
+   },
+   {
+    "row": 2156,
+    "company": "EY",
+    "title": "Senior Consultant - Assurance - Technology Risk",
+    "score": 9,
+    "url": "https://www.linkedin.com/jobs/view/4385096310/",
+    "domain": "linkedin.com"
    }
   ],
   "last": [
+   {
+    "ts": "2026-11-04T14:02:58",
+    "row": 8425,
+    "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+    "title": "Contrôleur/Analyste de la qualité des données",
+    "score": 10,
+    "domain": "jobagent.ch",
+    "state": "stopped",
+    "note": "fichero STOP detectado",
+    "dur_s": null
+   },
    {
     "ts": "2026-11-04T07:31:15",
     "row": 8144,
@@ -1555,35 +1567,24 @@
     "state": "review",
     "note": "pendiente de revisión",
     "dur_s": 110
-   },
-   {
-    "ts": "2026-11-03T17:45:46",
-    "row": 8100,
-    "company": "Swisslinx",
-    "title": "Senior IT Business Analyst – Compliance & Workflow Automation (100%)",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "5 avisos",
-    "dur_s": 350
    }
   ]
  },
  "runs": [
   {
-   "row": 8425,
-   "folder": "8425_caisse-cantonale-vaudoise-de-compensatio",
-   "company": "Caisse cantonale vaudoise de compensation (CCVD)",
-   "title": "Contrôleur/Analyste de la qualité des données",
-   "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
-   "lang": "en",
-   "started": "2026-11-04T14:00:26",
+   "row": 8508,
+   "folder": "8508_die-mobiliar-business-analyst-transforma",
+   "company": "die Mobiliar",
+   "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
+   "url": "https://www.linkedin.com/jobs/view/4483488386/",
+   "lang": "fr",
+   "started": "2026-11-04T14:06:21",
    "finished": null,
    "dur_min": null,
    "phase": "running",
    "status": "",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
+   "status_at_start": "APPLIED",
+   "engine": "hermes",
    "blocked": "",
    "manual": false,
    "ok": false,
@@ -1596,6 +1597,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8425,
+   "folder": "8425_caisse-cantonale-vaudoise-de-compensatio",
+   "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+   "title": "Contrôleur/Analyste de la qualité des données",
+   "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
+   "lang": "en",
+   "started": "2026-11-04T14:00:26",
+   "finished": "2026-11-04T14:05:32",
+   "dur_min": 5.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "captcha",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "agregador",
+   "files_verified": 4,
+   "files_total": 4,
+   "required_missing": 1,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": false
   },
   {
    "row": 8368,
