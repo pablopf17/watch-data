@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T17:26:06",
+ "generated": "2026-11-04T17:31:42",
  "kpis": {
   "runs": 80,
   "done": 72,
@@ -107,28 +107,415 @@
     "count": 57,
     "cards": [
      {
-      "row": 3905,
-      "company": "CLEEVEN",
-      "title": "Consultant fonctionnel/Consultante fonctionnel",
-      "url": "https://www.linkedin.com/jobs/view/4434701724/",
-      "score": "9",
+      "row": 9131,
+      "company": "Banque Pictet & Cie SA",
+      "title": "Data Analytics Expert (125320)",
+      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+      "score": "8",
       "note": "listo para lanzar",
-      "ts": "2026-06-29"
+      "ts": "2026-11-03"
      },
      {
-      "row": 4255,
-      "company": "Federal Police fedpol",
-      "title": "Referente specialista Compliance dei dati",
-      "url": "https://www.linkedin.com/jobs/view/4460956930/",
+      "row": 9027,
+      "company": "Infinigate (Schweiz) AG",
+      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
+      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-03"
+     },
+     {
+      "row": 9004,
+      "company": "",
+      "title": "Gestionnaire administratif compliance",
+      "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-02"
+     },
+     {
+      "row": 9002,
+      "company": "Gunvor",
+      "title": "Risk Officer - Derivatives",
+      "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-02"
+     },
+     {
+      "row": 8975,
+      "company": "nxt digital AG",
+      "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
+      "url": "https://www.jobagent.ch/job/unternehmensberater-business-consultant-auf-stufe-manager-m-w-d-60-100-fu%CC%88r-financial-services/324e414c33",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-02"
+     },
+     {
+      "row": 8878,
+      "company": "",
+      "title": "Contrôleur Financier - Réglementations Financières F1",
+      "url": "https://www.job-room.ch/job-search/6dbeb02f-8fc3-4dd7-b490-367ee3b8cd04",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-01"
+     },
+     {
+      "row": 8689,
+      "company": "coni+partner AG",
+      "title": "Operational Risk Officer",
+      "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-31"
+     },
+     {
+      "row": 8688,
+      "company": "Mirabaud Group",
+      "title": "Group MLRO Financial Crime Framework",
+      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-31"
+     },
+     {
+      "row": 8642,
+      "company": "Mirabaud",
+      "title": "Transaction Monitoring Compliance Officer",
+      "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000158738272",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8620,
+      "company": "Interim Legal",
+      "title": "Compliance Officer, Wealth Management",
+      "url": "https://www.linkedin.com/jobs/view/4483467868/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8587,
+      "company": "EY",
+      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+      "url": "https://www.linkedin.com/jobs/view/4477907467/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-12"
+     },
+     {
+      "row": 8553,
+      "company": "vector8",
+      "title": "Senior Project Manager, AI Solutions, CH",
+      "url": "https://www.linkedin.com/jobs/view/4476196188/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-06"
+     },
+     {
+      "row": 8510,
+      "company": "Mirabaud Group",
+      "title": "Transaction Monitoring Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4485393562/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8505,
+      "company": "Julius Baer",
+      "title": "Credit Officer - Mortgages 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4485325885/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8461,
+      "company": "Bank for International Settlements – BIS",
+      "title": "Senior Business Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484854445/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8456,
+      "company": "Rocken®",
+      "title": "Finance & Business Analyst (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483453374/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8366,
+      "company": "Grupo Dul-Cesar I.C.S.A.",
+      "title": "Crypto Project Manager",
+      "url": "https://www.linkedin.com/jobs/view/4483869132/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-28"
+     },
+     {
+      "row": 8228,
+      "company": "OKX",
+      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+      "url": "https://www.linkedin.com/jobs/view/4474244818/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-05"
+     },
+     {
+      "row": 8161,
+      "company": "Akkodis",
+      "title": "Data analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484118533/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-28"
+     },
+     {
+      "row": 8155,
+      "company": "Talent Access Technologies",
+      "title": "Expert Denodo",
+      "url": "https://www.linkedin.com/jobs/view/4479285173/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-14"
+     },
+     {
+      "row": 8131,
+      "company": "World Intellectual Property Organization – WIPO",
+      "title": "Program Consultant (Temporary Parental Leave Cover)",
+      "url": "https://www.linkedin.com/jobs/view/4483440231/",
+      "score": "4",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8130,
+      "company": "UNICEF",
+      "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
+      "url": "https://www.linkedin.com/jobs/view/4483720352/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-26"
+     },
+     {
+      "row": 8123,
+      "company": "HUG - Hopitaux Universitaires de Genève",
+      "title": "Auditeur ou Auditrice interne - 100%",
+      "url": "https://www.linkedin.com/jobs/view/4485324661/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-30"
+     },
+     {
+      "row": 8111,
+      "company": "Alpinum Solutions",
+      "title": "Senior Compliance Officer (Spanish speaking)",
+      "url": "https://www.linkedin.com/jobs/view/4478986672/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-21"
+     },
+     {
+      "row": 8102,
+      "company": "Flex Suisse",
+      "title": "Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4479426090/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-21"
+     },
+     {
+      "row": 8091,
+      "company": "TMS Technology",
+      "title": "Product Owner | Anti-Financial Crime Software | Zurich",
+      "url": "https://www.linkedin.com/jobs/view/4475579401/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-05"
+     },
+     {
+      "row": 8083,
+      "company": "Julius Baer",
+      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+      "url": "https://www.linkedin.com/jobs/view/4478702740/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-12"
+     },
+     {
+      "row": 8072,
+      "company": "Hays",
+      "title": "Compliance Specialist AML",
+      "url": "https://www.linkedin.com/jobs/view/4484477438/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-28"
+     },
+     {
+      "row": 8060,
+      "company": "Schroders",
+      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+      "url": "https://www.linkedin.com/jobs/view/4482163474/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-21"
+     },
+     {
+      "row": 8045,
+      "company": "Netlight",
+      "title": "Tech Management Consultant",
+      "url": "https://www.linkedin.com/jobs/view/4478999846/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-21"
+     },
+     {
+      "row": 8039,
+      "company": "UBS",
+      "title": "Audit Expert IB Execution Services",
+      "url": "https://www.linkedin.com/jobs/view/4472890308/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-02"
+     },
+     {
+      "row": 8012,
+      "company": "Versified",
+      "title": "Senior Business Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4482451675/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-22"
+     },
+     {
+      "row": 8004,
+      "company": "Vontobel",
+      "title": "Third Party Risk Manager",
+      "url": "https://www.linkedin.com/jobs/view/4481462887/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-26"
+     },
+     {
+      "row": 7979,
+      "company": "Zurich Insurance",
+      "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
+      "url": "https://www.linkedin.com/jobs/view/4481159463/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-21"
+     },
+     {
+      "row": 7822,
+      "company": "KPMG Switzerland",
+      "title": "Consultant - Digital Transformation",
+      "url": "https://www.linkedin.com/jobs/view/4482791655/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-23"
+     },
+     {
+      "row": 7773,
+      "company": "SGI",
+      "title": "Business Analyst / Test Lead – Pricing Tool",
+      "url": "https://www.linkedin.com/jobs/view/4482893047/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-23"
+     },
+     {
+      "row": 7772,
+      "company": "Julius Baer",
+      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4478510327/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-12"
+     },
+     {
+      "row": 7695,
+      "company": "Julius Baer",
+      "title": "Data Scientist 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483119293/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-23"
+     },
+     {
+      "row": 7677,
+      "company": "SGI",
+      "title": "Data and AI Consultant",
+      "url": "https://www.linkedin.com/jobs/view/4483532759/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-26"
+     },
+     {
+      "row": 7671,
+      "company": "On",
+      "title": "Senior Specialist - HD Analytics & Reporting",
+      "url": "https://www.linkedin.com/jobs/view/4477410557/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-08"
+     },
+     {
+      "row": 7655,
+      "company": "Belimo",
+      "title": "Project Enabler & Business Analyst (80-100%)",
+      "url": "https://www.linkedin.com/jobs/view/4460675452/",
       "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-09-02"
      },
      {
-      "row": 6550,
-      "company": "Geberit Schweiz",
-      "title": "Data Analyst (a) 80 - 100%",
-      "url": "https://www.linkedin.com/jobs/view/4483884165/",
+      "row": 7629,
+      "company": "ALTEN",
+      "title": "Analyste de données",
+      "url": "https://www.linkedin.com/jobs/view/4475432454/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-10-07"
+     },
+     {
+      "row": 7616,
+      "company": "FYUL",
+      "title": "Senior Data Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484956970/",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-10-29"
+     },
+     {
+      "row": 7554,
+      "company": "Ekkiden",
+      "title": "Senior Business Analyst Data Warehouse (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4479824642/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-15"
+     },
+     {
+      "row": 7268,
+      "company": "Geistlich",
+      "title": "Manager Shared Services",
+      "url": "https://www.linkedin.com/jobs/view/4481692644/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-23"
+     },
+     {
+      "row": 7161,
+      "company": "LGT Capital Partners",
+      "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
+      "url": "https://www.linkedin.com/jobs/view/4484712002/",
       "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-10-28"
@@ -143,211 +530,13 @@
       "ts": "2026-10-27"
      },
      {
-      "row": 7161,
-      "company": "LGT Capital Partners",
-      "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
-      "url": "https://www.linkedin.com/jobs/view/4484712002/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
-     },
-     {
-      "row": 7268,
-      "company": "Geistlich",
-      "title": "Manager Shared Services",
-      "url": "https://www.linkedin.com/jobs/view/4481692644/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23"
-     },
-     {
-      "row": 7554,
-      "company": "Ekkiden",
-      "title": "Senior Business Analyst Data Warehouse (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4479824642/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-15"
-     },
-     {
-      "row": 7655,
-      "company": "Belimo",
-      "title": "Project Enabler & Business Analyst (80-100%)",
-      "url": "https://www.linkedin.com/jobs/view/4460675452/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-09-02"
-     },
-     {
-      "row": 7677,
-      "company": "SGI",
-      "title": "Data and AI Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4483532759/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-26"
-     },
-     {
-      "row": 7695,
-      "company": "Julius Baer",
-      "title": "Data Scientist 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4483119293/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23"
-     },
-     {
-      "row": 7772,
-      "company": "Julius Baer",
-      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4478510327/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-12"
-     },
-     {
-      "row": 8004,
-      "company": "Vontobel",
-      "title": "Third Party Risk Manager",
-      "url": "https://www.linkedin.com/jobs/view/4481462887/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-26"
-     },
-     {
-      "row": 8060,
-      "company": "Schroders",
-      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-      "url": "https://www.linkedin.com/jobs/view/4482163474/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-21"
-     },
-     {
-      "row": 8083,
-      "company": "Julius Baer",
-      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
-      "url": "https://www.linkedin.com/jobs/view/4478702740/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-12"
-     },
-     {
-      "row": 8091,
-      "company": "TMS Technology",
-      "title": "Product Owner | Anti-Financial Crime Software | Zurich",
-      "url": "https://www.linkedin.com/jobs/view/4475579401/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-05"
-     },
-     {
-      "row": 8102,
-      "company": "Flex Suisse",
-      "title": "Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4479426090/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-21"
-     },
-     {
-      "row": 8123,
-      "company": "HUG - Hopitaux Universitaires de Genève",
-      "title": "Auditeur ou Auditrice interne - 100%",
-      "url": "https://www.linkedin.com/jobs/view/4485324661/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8130,
-      "company": "UNICEF",
-      "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
-      "url": "https://www.linkedin.com/jobs/view/4483720352/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-26"
-     },
-     {
-      "row": 8155,
-      "company": "Talent Access Technologies",
-      "title": "Expert Denodo",
-      "url": "https://www.linkedin.com/jobs/view/4479285173/",
-      "score": "9",
+      "row": 6905,
+      "company": "System Recruitment Specialists",
+      "title": "Lead Internal Auditor - Banking",
+      "url": "https://www.linkedin.com/jobs/view/4478469082/",
+      "score": "8",
       "note": "listo para lanzar",
       "ts": "2026-10-14"
-     },
-     {
-      "row": 8366,
-      "company": "Grupo Dul-Cesar I.C.S.A.",
-      "title": "Crypto Project Manager",
-      "url": "https://www.linkedin.com/jobs/view/4483869132/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
-     },
-     {
-      "row": 8456,
-      "company": "Rocken®",
-      "title": "Finance & Business Analyst (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4483453374/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8587,
-      "company": "EY",
-      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-      "url": "https://www.linkedin.com/jobs/view/4477907467/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-12"
-     },
-     {
-      "row": 8975,
-      "company": "nxt digital AG",
-      "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
-      "url": "https://www.jobagent.ch/job/unternehmensberater-business-consultant-auf-stufe-manager-m-w-d-60-100-fu%CC%88r-financial-services/324e414c33",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-02"
-     },
-     {
-      "row": 9004,
-      "company": "",
-      "title": "Gestionnaire administratif compliance",
-      "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-02"
-     },
-     {
-      "row": 4189,
-      "company": "Allianz Suisse",
-      "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4458277129/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-08-24"
-     },
-     {
-      "row": 4314,
-      "company": "coni+partner AG",
-      "title": "Manager Group Internal Auditor Bank",
-      "url": "https://www.linkedin.com/jobs/view/4451291525/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-08-15"
-     },
-     {
-      "row": 5945,
-      "company": "Beyond Potentials",
-      "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
-      "url": "https://beyondpotentials.zohorecruit.com/jobs/Careers/495205000026656001/Senior-Compliance-Officer---Onboarding---Fluent-in-FR-EN?source=CareerSite",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
      },
      {
       "row": 6901,
@@ -359,148 +548,67 @@
       "ts": "2026-10-19"
      },
      {
-      "row": 6905,
-      "company": "System Recruitment Specialists",
-      "title": "Lead Internal Auditor - Banking",
-      "url": "https://www.linkedin.com/jobs/view/4478469082/",
-      "score": "8",
+      "row": 6642,
+      "company": "Valora Group",
+      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4479354970/",
+      "score": "3",
       "note": "listo para lanzar",
-      "ts": "2026-10-14"
+      "ts": "2026-10-16"
      },
      {
-      "row": 7629,
-      "company": "ALTEN",
-      "title": "Analyste de données",
-      "url": "https://www.linkedin.com/jobs/view/4475432454/",
-      "score": "8",
+      "row": 6550,
+      "company": "Geberit Schweiz",
+      "title": "Data Analyst (a) 80 - 100%",
+      "url": "https://www.linkedin.com/jobs/view/4483884165/",
+      "score": "9",
       "note": "listo para lanzar",
-      "ts": "2026-10-07"
+      "ts": "2026-10-28"
      },
      {
-      "row": 7671,
-      "company": "On",
-      "title": "Senior Specialist - HD Analytics & Reporting",
-      "url": "https://www.linkedin.com/jobs/view/4477410557/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-08"
-     },
-     {
-      "row": 7822,
-      "company": "KPMG Switzerland",
-      "title": "Consultant - Digital Transformation",
-      "url": "https://www.linkedin.com/jobs/view/4482791655/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23"
-     },
-     {
-      "row": 7979,
-      "company": "Zurich Insurance",
-      "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
-      "url": "https://www.linkedin.com/jobs/view/4481159463/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-21"
-     },
-     {
-      "row": 8045,
-      "company": "Netlight",
-      "title": "Tech Management Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4478999846/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-21"
-     },
-     {
-      "row": 8111,
-      "company": "Alpinum Solutions",
-      "title": "Senior Compliance Officer (Spanish speaking)",
-      "url": "https://www.linkedin.com/jobs/view/4478986672/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-21"
-     },
-     {
-      "row": 8161,
-      "company": "Akkodis",
-      "title": "Data analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484118533/",
+      "row": 5945,
+      "company": "Beyond Potentials",
+      "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
+      "url": "https://beyondpotentials.zohorecruit.com/jobs/Careers/495205000026656001/Senior-Compliance-Officer---Onboarding---Fluent-in-FR-EN?source=CareerSite",
       "score": "8",
       "note": "listo para lanzar",
       "ts": "2026-10-28"
      },
      {
-      "row": 8461,
-      "company": "Bank for International Settlements – BIS",
-      "title": "Senior Business Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484854445/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8510,
-      "company": "Mirabaud Group",
-      "title": "Transaction Monitoring Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4485393562/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8642,
-      "company": "Mirabaud",
-      "title": "Transaction Monitoring Compliance Officer",
-      "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000158738272",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8689,
+      "row": 4314,
       "company": "coni+partner AG",
-      "title": "Operational Risk Officer",
-      "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
+      "title": "Manager Group Internal Auditor Bank",
+      "url": "https://www.linkedin.com/jobs/view/4451291525/",
       "score": "8",
       "note": "listo para lanzar",
-      "ts": "2026-10-31"
+      "ts": "2026-08-15"
      },
      {
-      "row": 8878,
-      "company": "",
-      "title": "Contrôleur Financier - Réglementations Financières F1",
-      "url": "https://www.job-room.ch/job-search/6dbeb02f-8fc3-4dd7-b490-367ee3b8cd04",
-      "score": "8",
+      "row": 4255,
+      "company": "Federal Police fedpol",
+      "title": "Referente specialista Compliance dei dati",
+      "url": "https://www.linkedin.com/jobs/view/4460956930/",
+      "score": "9",
       "note": "listo para lanzar",
-      "ts": "2026-11-01"
+      "ts": "2026-09-02"
      },
      {
-      "row": 9002,
-      "company": "Gunvor",
-      "title": "Risk Officer - Derivatives",
-      "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
+      "row": 4189,
+      "company": "Allianz Suisse",
+      "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4458277129/",
       "score": "8",
       "note": "listo para lanzar",
-      "ts": "2026-11-02"
+      "ts": "2026-08-24"
      },
      {
-      "row": 9027,
-      "company": "Infinigate (Schweiz) AG",
-      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
-      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
-      "score": "8",
+      "row": 3905,
+      "company": "CLEEVEN",
+      "title": "Consultant fonctionnel/Consultante fonctionnel",
+      "url": "https://www.linkedin.com/jobs/view/4434701724/",
+      "score": "9",
       "note": "listo para lanzar",
-      "ts": "2026-11-03"
-     },
-     {
-      "row": 9131,
-      "company": "Banque Pictet & Cie SA",
-      "title": "Data Analytics Expert (125320)",
-      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-11-03"
+      "ts": "2026-06-29"
      },
      {
       "row": 2162,
@@ -510,114 +618,6 @@
       "score": "7",
       "note": "listo para lanzar",
       "ts": "2026-03-18"
-     },
-     {
-      "row": 7616,
-      "company": "FYUL",
-      "title": "Senior Data Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484956970/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-29"
-     },
-     {
-      "row": 7773,
-      "company": "SGI",
-      "title": "Business Analyst / Test Lead – Pricing Tool",
-      "url": "https://www.linkedin.com/jobs/view/4482893047/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23"
-     },
-     {
-      "row": 8012,
-      "company": "Versified",
-      "title": "Senior Business Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4482451675/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-22"
-     },
-     {
-      "row": 8039,
-      "company": "UBS",
-      "title": "Audit Expert IB Execution Services",
-      "url": "https://www.linkedin.com/jobs/view/4472890308/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-02"
-     },
-     {
-      "row": 8072,
-      "company": "Hays",
-      "title": "Compliance Specialist AML",
-      "url": "https://www.linkedin.com/jobs/view/4484477438/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
-     },
-     {
-      "row": 8228,
-      "company": "OKX",
-      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-      "url": "https://www.linkedin.com/jobs/view/4474244818/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-05"
-     },
-     {
-      "row": 8505,
-      "company": "Julius Baer",
-      "title": "Credit Officer - Mortgages 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4485325885/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8553,
-      "company": "vector8",
-      "title": "Senior Project Manager, AI Solutions, CH",
-      "url": "https://www.linkedin.com/jobs/view/4476196188/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-06"
-     },
-     {
-      "row": 8620,
-      "company": "Interim Legal",
-      "title": "Compliance Officer, Wealth Management",
-      "url": "https://www.linkedin.com/jobs/view/4483467868/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8688,
-      "company": "Mirabaud Group",
-      "title": "Group MLRO Financial Crime Framework",
-      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-31"
-     },
-     {
-      "row": 8131,
-      "company": "World Intellectual Property Organization – WIPO",
-      "title": "Program Consultant (Temporary Parental Leave Cover)",
-      "url": "https://www.linkedin.com/jobs/view/4483440231/",
-      "score": "4",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 6642,
-      "company": "Valora Group",
-      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4479354970/",
-      "score": "3",
-      "note": "listo para lanzar",
-      "ts": "2026-10-16"
      }
     ],
     "more": 0
@@ -625,17 +625,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
-     {
-      "row": 2156,
-      "company": "EY",
-      "title": "Senior Consultant - Assurance - Technology Risk",
-      "url": "https://www.linkedin.com/jobs/view/4385096310/",
-      "score": 9,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T17:26:06"
-     },
      {
       "row": 2156,
       "company": "EY",
@@ -1439,20 +1430,7 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 2156,
-   "company": "EY",
-   "title": "Senior Consultant - Assurance - Technology Risk",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4385096310/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-04T17:20:36",
-   "pid": 51940,
-   "lane": 0
-  },
+  "running": null,
   "pending": 57,
   "counters": {
    "pending": 58,
@@ -1460,7 +1438,8 @@
    "review": 0,
    "blocked": 0,
    "errors": 0,
-   "skipped": 0
+   "skipped": 0,
+   "timeout": 1
   },
   "config": {
    "max": 1,
@@ -1513,6 +1492,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-04T17:30:36",
+    "row": 2156,
+    "company": "EY",
+    "title": "Senior Consultant - Assurance - Technology Risk",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "timeout",
+    "note": "sin cerrar en 600s",
+    "dur_s": null
+   },
+   {
     "ts": "2026-11-04T14:26:49",
     "row": 6891,
     "company": "J. Safra Sarasin",
@@ -1554,17 +1544,6 @@
     "domain": "linkedin.com",
     "state": "stopped",
     "note": "fichero STOP detectado",
-    "dur_s": null
-   },
-   {
-    "ts": "2026-11-04T14:16:14",
-    "row": 8508,
-    "company": "die Mobiliar",
-    "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "timeout",
-    "note": "sin cerrar en 600s",
     "dur_s": null
    }
   ]
