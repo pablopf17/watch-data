@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T13:49:41",
+ "generated": "2026-11-04T13:55:39",
  "kpis": {
-  "runs": 70,
+  "runs": 71,
   "done": 65,
   "ok": 35,
   "ok_pct": 53.8,
@@ -13,9 +13,9 @@
   "median_min_ok": 5.6,
   "median_min_applied": 5.7,
   "p90_min": 15.5,
-  "per_hour": 3.21,
-  "median_gap_min": 18.7,
-  "last_24h": 13,
+  "per_hour": 3.16,
+  "median_gap_min": 19.0,
+  "last_24h": 14,
   "retries": 1,
   "queue_pending": 67
  },
@@ -71,7 +71,7 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 4,
+   "runs": 5,
    "ok": 2,
    "applied": 2,
    "blocked": 1
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 67,
+    "count": 66,
     "cards": [
-     {
-      "row": 8368,
-      "company": "Jobgether",
-      "title": "Finance & Accounting Expert",
-      "url": "https://www.linkedin.com/jobs/view/4484523026/",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-10-29"
-     },
      {
       "row": 8425,
       "company": "Caisse cantonale vaudoise de compensation (CCVD)",
@@ -715,7 +706,7 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 2,
     "cards": [
      {
       "row": 8216,
@@ -724,7 +715,16 @@
       "url": "https://www.linkedin.com/jobs/view/4459090835/",
       "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T13:49:41"
+      "ts": "2026-11-04T13:55:39"
+     },
+     {
+      "row": 8368,
+      "company": "Jobgether",
+      "title": "Finance & Accounting Expert",
+      "url": "https://www.linkedin.com/jobs/view/4484523026/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-04T13:55:05"
      }
     ],
     "more": 0
@@ -1382,14 +1382,14 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 56,
-   "runs_today": 3,
+   "runs": 57,
+   "runs_today": 4,
    "last": {
-    "row": 8216,
-    "company": "YO IT Consulting",
-    "title": "Document Reviewer - Remote",
-    "started": "2026-11-04T13:23:20",
-    "applied": true
+    "row": 8368,
+    "company": "Jobgether",
+    "title": "Finance & Accounting Expert",
+    "started": "2026-11-04T13:55:05",
+    "applied": false
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:30pm (Europe/Zurich)",
@@ -1570,6 +1570,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 8368,
+   "folder": "8368_jobgether-finance-accounting-expert",
+   "company": "Jobgether",
+   "title": "Finance & Accounting Expert",
+   "url": "https://www.linkedin.com/jobs/view/4484523026/",
+   "lang": "en",
+   "started": "2026-11-04T13:55:05",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 8216,
    "folder": "8216_yo-it-consulting-document-reviewer-remot",
