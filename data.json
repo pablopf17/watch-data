@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:55:46",
+ "generated": "2026-11-04T15:13:48",
  "kpis": {
   "runs": 78,
   "done": 72,
@@ -657,8 +657,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 54,
+    "count": 55,
     "cards": [
+     {
+      "row": 8894,
+      "company": "UNOPS",
+      "title": "ICT Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4483970986/",
+      "score": "",
+      "note": "con respuesta",
+      "ts": "2026-11-04T14:40:17"
+     },
      {
       "row": 6891,
       "company": "J. Safra Sarasin",
@@ -1151,17 +1160,8 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 23,
+    "count": 22,
     "cards": [
-     {
-      "row": 8894,
-      "company": "UNOPS",
-      "title": "ICT Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4483970986/",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-04T14:40:17"
-     },
      {
       "row": 8879,
       "company": "",
