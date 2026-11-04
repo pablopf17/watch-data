@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T21:20:30",
+ "generated": "2026-11-04T21:26:30",
  "kpis": {
-  "runs": 81,
-  "done": 73,
+  "runs": 82,
+  "done": 74,
   "ok": 36,
-  "ok_pct": 49.3,
+  "ok_pct": 48.6,
   "applied": 20,
-  "blocked": 26,
-  "manual": 12,
-  "manual_pct": 16.4,
+  "blocked": 27,
+  "manual": 13,
+  "manual_pct": 17.6,
   "median_min": 4.5,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 15.9,
-  "per_hour": 3.77,
-  "median_gap_min": 15.9,
-  "last_24h": 16,
+  "p90_min": 15.7,
+  "per_hour": 3.85,
+  "median_gap_min": 15.6,
+  "last_24h": 17,
   "retries": 1,
-  "queue_pending": 56
+  "queue_pending": 55
  },
  "per_day": [
   {
@@ -71,10 +71,10 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 15,
+   "runs": 16,
    "ok": 3,
    "applied": 3,
-   "blocked": 5
+   "blocked": 6
   }
  ],
  "blockers": [
@@ -84,7 +84,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 6
+   "n": 7
   },
   {
    "reason": "captcha",
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 56,
+    "count": 55,
     "cards": [
-     {
-      "row": 9027,
-      "company": "Infinigate (Schweiz) AG",
-      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
-      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-11-03"
-     },
      {
       "row": 9004,
       "company": "",
@@ -619,22 +610,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 9131,
-      "company": "Banque Pictet & Cie SA",
-      "title": "Data Analytics Expert (125320)",
-      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+      "row": 9027,
+      "company": "Infinigate (Schweiz) AG",
+      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
+      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
       "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T21:20:30"
+      "ts": "2026-11-04T21:26:30"
      },
      {
-      "row": 9131,
-      "company": "Banque Pictet & Cie SA",
-      "title": "Data Analytics Expert (125320)",
-      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+      "row": 9027,
+      "company": "Infinigate (Schweiz) AG",
+      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
+      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-04T21:15:19"
+      "ts": "2026-11-04T21:21:19"
      }
     ],
     "more": 0
@@ -642,8 +633,18 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9131,
+      "company": "Banque Pictet & Cie SA",
+      "title": "Data Analytics Expert (125320)",
+      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-04T21:15:19"
+     }
+    ],
     "more": 0
    },
    {
@@ -1423,13 +1424,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 7,
-   "runs_today": 6,
+   "runs": 8,
+   "runs_today": 7,
    "last": {
-    "row": 9131,
-    "company": "Banque Pictet & Cie SA",
-    "title": "Data Analytics Expert (125320)",
-    "started": "2026-11-04T21:15:19",
+    "row": 9027,
+    "company": "Infinigate (Schweiz) AG",
+    "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
+    "started": "2026-11-04T21:21:19",
     "applied": false
    },
    "limit": null,
@@ -1440,25 +1441,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 9131,
-   "company": "Banque Pictet & Cie SA",
-   "title": "Data Analytics Expert (125320)",
+   "row": 9027,
+   "company": "Infinigate (Schweiz) AG",
+   "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
    "score": 8,
-   "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
-   "domain": "job-room.ch",
+   "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
+   "domain": "jobagent.ch",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-04T21:15:12",
-   "pid": 14652,
+   "started": "2026-11-04T21:21:12",
+   "pid": 10164,
    "lane": 0
   },
-  "pending": 56,
+  "pending": 55,
   "counters": {
    "pending": 57,
    "sent": 0,
    "review": 0,
-   "blocked": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0
   },
@@ -1513,6 +1514,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-04T21:21:12",
+    "row": 9131,
+    "company": "Banque Pictet & Cie SA",
+    "title": "Data Analytics Expert (125320)",
+    "score": 8,
+    "domain": "job-room.ch",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 360
+   },
+   {
     "ts": "2026-11-04T17:30:36",
     "row": 2156,
     "company": "EY",
@@ -1555,29 +1567,18 @@
     "state": "stopped",
     "note": "fichero STOP detectado",
     "dur_s": null
-   },
-   {
-    "ts": "2026-11-04T14:16:44",
-    "row": 8749,
-    "company": "AfterQuery",
-    "title": "Compliance Officer Expert",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "stopped",
-    "note": "fichero STOP detectado",
-    "dur_s": null
    }
   ]
  },
  "runs": [
   {
-   "row": 9131,
-   "folder": "9131_banque-pictet-cie-sa-data-analytics-expe",
-   "company": "Banque Pictet & Cie SA",
-   "title": "Data Analytics Expert (125320)",
-   "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+   "row": 9027,
+   "folder": "9027_infinigate-schweiz-ag-fp-a-manager-group",
+   "company": "Infinigate (Schweiz) AG",
+   "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
+   "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
    "lang": "en",
-   "started": "2026-11-04T21:15:19",
+   "started": "2026-11-04T21:21:19",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1596,6 +1597,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 9131,
+   "folder": "9131_banque-pictet-cie-sa-data-analytics-expe",
+   "company": "Banque Pictet & Cie SA",
+   "title": "Data Analytics Expert (125320)",
+   "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+   "lang": "en",
+   "started": "2026-11-04T21:15:19",
+   "finished": "2026-11-04T21:21:05",
+   "dur_min": 5.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 2,
+   "avisos": 6,
+   "verify_ok": false
   },
   {
    "row": 2156,
