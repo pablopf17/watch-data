@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T15:13:48",
+ "generated": "2026-11-04T15:19:50",
  "kpis": {
   "runs": 78,
-  "done": 72,
+  "done": 71,
   "ok": 36,
-  "ok_pct": 50.0,
+  "ok_pct": 50.7,
   "applied": 20,
   "blocked": 25,
   "manual": 12,
-  "manual_pct": 16.7,
+  "manual_pct": 16.9,
   "median_min": 4.5,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 16.1,
-  "per_hour": 3.92,
-  "median_gap_min": 15.3,
+  "p90_min": 14.4,
+  "per_hour": 3.85,
+  "median_gap_min": 15.6,
   "last_24h": 21,
   "retries": 1,
-  "queue_pending": 62
+  "queue_pending": 0
  },
  "per_day": [
   {
@@ -643,8 +643,18 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 8879,
+      "company": "",
+      "title": "Business Analyst en Finance pour une société internationale !",
+      "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
+      "score": "",
+      "note": "reach_only · sin cerrar",
+      "ts": "2026-11-04T15:16:45"
+     }
+    ],
     "more": 0
    },
    {
@@ -1160,24 +1170,15 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 22,
+    "count": 21,
     "cards": [
-     {
-      "row": 8879,
-      "company": "",
-      "title": "Business Analyst en Finance pour une société internationale !",
-      "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-04T14:34:52"
-     },
      {
       "row": 6898,
       "company": "Nicoll Curtin",
       "title": "Senior Auditor",
       "url": "https://www.linkedin.com/jobs/view/4479411555/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "duplicada",
       "ts": "2026-11-04T14:19:06"
      },
      {
@@ -1416,10 +1417,10 @@
    "runs": 4,
    "runs_today": 3,
    "last": {
-    "row": 8894,
-    "company": "UNOPS",
-    "title": "ICT Analyst",
-    "started": "2026-11-04T14:40:17",
+    "row": 8879,
+    "company": "",
+    "title": "Business Analyst en Finance pour une société internationale !",
+    "started": "2026-11-04T15:16:45",
     "applied": false
    },
    "limit": null,
@@ -1430,64 +1431,23 @@
  "queue": {
   "exists": true,
   "running": null,
-  "pending": 62,
+  "pending": 0,
   "counters": {
-   "pending": 64,
+   "pending": 0,
    "sent": 0,
    "review": 0,
-   "blocked": 2,
+   "blocked": 0,
    "errors": 0,
    "skipped": 0
   },
   "config": {
-   "max": 2,
+   "max": 1,
    "min_score": 0,
    "engine": "claude",
    "timeout": 600,
    "per_domain": 0
   },
-  "next": [
-   {
-    "row": 8749,
-    "company": "AfterQuery",
-    "title": "Compliance Officer Expert",
-    "score": 10,
-    "url": "https://www.linkedin.com/jobs/view/4483928712/",
-    "domain": "linkedin.com"
-   },
-   {
-    "row": 8879,
-    "company": "",
-    "title": "Business Analyst en Finance pour une société internationale !",
-    "score": 10,
-    "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
-    "domain": "job-room.ch"
-   },
-   {
-    "row": 8894,
-    "company": "UNOPS",
-    "title": "ICT Analyst",
-    "score": 10,
-    "url": "https://www.linkedin.com/jobs/view/4483970986/",
-    "domain": "linkedin.com"
-   },
-   {
-    "row": 8909,
-    "company": "Fokus Management Consulting AG",
-    "title": "Consultants Financial Services",
-    "score": 10,
-    "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
-    "domain": "jobagent.ch"
-   },
-   {
-    "row": 2156,
-    "company": "EY",
-    "title": "Senior Consultant - Assurance - Technology Risk",
-    "score": 9,
-    "url": "https://www.linkedin.com/jobs/view/4385096310/",
-    "domain": "linkedin.com"
-   }
-  ],
+  "next": [],
   "last": [
    {
     "ts": "2026-11-04T14:26:49",
@@ -1548,17 +1508,17 @@
  },
  "runs": [
   {
-   "row": 8894,
-   "folder": "8894_unops-ict-analyst",
-   "company": "UNOPS",
-   "title": "ICT Analyst",
-   "url": "https://www.linkedin.com/jobs/view/4483970986/",
-   "lang": "en",
-   "started": "2026-11-04T14:40:17",
-   "finished": "2026-11-04T14:52:48",
-   "dur_min": 12.5,
-   "phase": "done",
-   "status": "TAILORED",
+   "row": 8879,
+   "folder": "8879_business-analyst-en-finance-pour-une-soc",
+   "company": "",
+   "title": "Business Analyst en Finance pour une société internationale !",
+   "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
+   "lang": "fr",
+   "started": "2026-11-04T15:16:45",
+   "finished": null,
+   "dur_min": null,
+   "phase": "reach_only",
+   "status": "",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
@@ -1575,18 +1535,18 @@
    "verify_ok": false
   },
   {
-   "row": 8879,
-   "folder": "8879_business-analyst-en-finance-pour-une-soc",
-   "company": "",
-   "title": "Business Analyst en Finance pour une société internationale !",
-   "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
-   "lang": "fr",
-   "started": "2026-11-04T14:34:52",
-   "finished": "2026-11-04T14:52:49",
-   "dur_min": 17.9,
+   "row": 8894,
+   "folder": "8894_unops-ict-analyst",
+   "company": "UNOPS",
+   "title": "ICT Analyst",
+   "url": "https://www.linkedin.com/jobs/view/4483970986/",
+   "lang": "en",
+   "started": "2026-11-04T14:40:17",
+   "finished": "2026-11-04T14:52:48",
+   "dur_min": 12.5,
    "phase": "done",
    "status": "TAILORED",
-   "status_at_start": "IN PROGRESS",
+   "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
    "manual": false,
