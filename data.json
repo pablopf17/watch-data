@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T14:19:42",
+ "generated": "2026-11-04T14:25:43",
  "kpis": {
-  "runs": 75,
-  "done": 68,
+  "runs": 76,
+  "done": 69,
   "ok": 36,
-  "ok_pct": 52.9,
+  "ok_pct": 52.2,
   "applied": 20,
-  "blocked": 23,
+  "blocked": 24,
   "manual": 11,
-  "manual_pct": 16.2,
+  "manual_pct": 15.9,
   "median_min": 4.5,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 14.9,
-  "per_hour": 3.77,
-  "median_gap_min": 15.9,
-  "last_24h": 18,
+  "p90_min": 14.8,
+  "per_hour": 3.85,
+  "median_gap_min": 15.6,
+  "last_24h": 19,
   "retries": 1,
-  "queue_pending": 63
+  "queue_pending": 62
  },
  "per_day": [
   {
@@ -71,16 +71,16 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 9,
+   "runs": 10,
    "ok": 3,
    "applied": 3,
-   "blocked": 2
+   "blocked": 3
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 14
+   "n": 15
   },
   {
    "reason": "login / cuenta",
@@ -104,7 +104,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 62,
+    "count": 61,
     "cards": [
      {
       "row": 8879,
@@ -168,15 +168,6 @@
       "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-10-28"
-     },
-     {
-      "row": 6891,
-      "company": "J. Safra Sarasin",
-      "title": "Lead Auditor",
-      "url": "https://www.linkedin.com/jobs/view/4477401160/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-08"
      },
      {
       "row": 6974,
@@ -673,22 +664,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 6898,
-      "company": "Nicoll Curtin",
-      "title": "Senior Auditor",
-      "url": "https://www.linkedin.com/jobs/view/4479411555/",
+      "row": 6891,
+      "company": "J. Safra Sarasin",
+      "title": "Lead Auditor",
+      "url": "https://www.linkedin.com/jobs/view/4477401160/",
       "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T14:19:42"
+      "ts": "2026-11-04T14:25:43"
      },
      {
-      "row": 6898,
-      "company": "Nicoll Curtin",
-      "title": "Senior Auditor",
-      "url": "https://www.linkedin.com/jobs/view/4479411555/",
+      "row": 6891,
+      "company": "J. Safra Sarasin",
+      "title": "Lead Auditor",
+      "url": "https://www.linkedin.com/jobs/view/4477401160/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-04T14:19:06"
+      "ts": "2026-11-04T14:22:07"
      }
     ],
     "more": 0
@@ -1189,8 +1180,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 20,
+    "count": 21,
     "cards": [
+     {
+      "row": 6898,
+      "company": "Nicoll Curtin",
+      "title": "Senior Auditor",
+      "url": "https://www.linkedin.com/jobs/view/4479411555/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-04T14:19:06"
+     },
      {
       "row": 8749,
       "company": "AfterQuery",
@@ -1383,13 +1383,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 60,
-   "runs_today": 7,
+   "runs": 61,
+   "runs_today": 8,
    "last": {
-    "row": 6898,
-    "company": "Nicoll Curtin",
-    "title": "Senior Auditor",
-    "started": "2026-11-04T14:19:06",
+    "row": 6891,
+    "company": "J. Safra Sarasin",
+    "title": "Lead Auditor",
+    "started": "2026-11-04T14:22:07",
     "applied": false
    },
    "limit": {
@@ -1441,25 +1441,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 6898,
-   "company": "Nicoll Curtin",
-   "title": "Senior Auditor",
+   "row": 6891,
+   "company": "J. Safra Sarasin",
+   "title": "Lead Auditor",
    "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4479411555/",
+   "url": "https://www.linkedin.com/jobs/view/4477401160/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-04T14:18:58",
-   "pid": 23564,
+   "started": "2026-11-04T14:21:58",
+   "pid": 19656,
    "lane": 0
   },
-  "pending": 63,
+  "pending": 62,
   "counters": {
    "pending": 64,
    "sent": 0,
    "review": 0,
-   "blocked": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0
   },
@@ -1514,6 +1514,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-04T14:21:58",
+    "row": 6898,
+    "company": "Nicoll Curtin",
+    "title": "Senior Auditor",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 180
+   },
+   {
     "ts": "2026-11-04T14:16:45",
     "row": 8749,
     "company": "AfterQuery",
@@ -1556,29 +1567,18 @@
     "state": "stopped",
     "note": "fichero STOP detectado",
     "dur_s": null
-   },
-   {
-    "ts": "2026-11-04T07:31:15",
-    "row": 8144,
-    "company": "Pictet Group",
-    "title": "Financial Controlling Analyst - - 12-month contract",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 170
    }
   ]
  },
  "runs": [
   {
-   "row": 6898,
-   "folder": "6898_nicoll-curtin-senior-auditor",
-   "company": "Nicoll Curtin",
-   "title": "Senior Auditor",
-   "url": "https://www.linkedin.com/jobs/view/4479411555/",
+   "row": 6891,
+   "folder": "6891_j-safra-sarasin-lead-auditor",
+   "company": "J. Safra Sarasin",
+   "title": "Lead Auditor",
+   "url": "https://www.linkedin.com/jobs/view/4477401160/",
    "lang": "en",
-   "started": "2026-11-04T14:19:06",
+   "started": "2026-11-04T14:22:07",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1597,6 +1597,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 6898,
+   "folder": "6898_nicoll-curtin-senior-auditor",
+   "company": "Nicoll Curtin",
+   "title": "Senior Auditor",
+   "url": "https://www.linkedin.com/jobs/view/4479411555/",
+   "lang": "en",
+   "started": "2026-11-04T14:19:06",
+   "finished": "2026-11-04T14:21:58",
+   "dur_min": 2.9,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 0,
+   "avisos": 3,
+   "verify_ok": false
   },
   {
    "row": 8749,
