@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T15:19:50",
+ "generated": "2026-11-04T15:31:50",
  "kpis": {
-  "runs": 78,
+  "runs": 79,
   "done": 71,
   "ok": 36,
   "ok_pct": 50.7,
@@ -13,9 +13,9 @@
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
   "p90_min": 14.4,
-  "per_hour": 3.85,
-  "median_gap_min": 15.6,
-  "last_24h": 21,
+  "per_hour": 3.92,
+  "median_gap_min": 15.3,
+  "last_24h": 22,
   "retries": 1,
   "queue_pending": 0
  },
@@ -71,7 +71,7 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 12,
+   "runs": 13,
    "ok": 3,
    "applied": 3,
    "blocked": 4
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 59,
+    "count": 58,
     "cards": [
-     {
-      "row": 8909,
-      "company": "Fokus Management Consulting AG",
-      "title": "Consultants Financial Services",
-      "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-02"
-     },
      {
       "row": 2156,
       "company": "EY",
@@ -646,13 +637,13 @@
     "count": 1,
     "cards": [
      {
-      "row": 8879,
-      "company": "",
-      "title": "Business Analyst en Finance pour une société internationale !",
-      "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
+      "row": 8909,
+      "company": "Fokus Management Consulting AG",
+      "title": "Consultants Financial Services",
+      "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
       "score": "",
-      "note": "reach_only · sin cerrar",
-      "ts": "2026-11-04T15:16:45"
+      "note": "running · sin cerrar",
+      "ts": "2026-11-04T15:28:43"
      }
     ],
     "more": 0
@@ -667,8 +658,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 55,
+    "count": 56,
     "cards": [
+     {
+      "row": 8879,
+      "company": "",
+      "title": "Business Analyst en Finance pour une société internationale !",
+      "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-04T15:16:45"
+     },
      {
       "row": 8894,
       "company": "UNOPS",
@@ -1414,13 +1414,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 4,
-   "runs_today": 3,
+   "runs": 5,
+   "runs_today": 4,
    "last": {
-    "row": 8879,
-    "company": "",
-    "title": "Business Analyst en Finance pour une société internationale !",
-    "started": "2026-11-04T15:16:45",
+    "row": 8909,
+    "company": "Fokus Management Consulting AG",
+    "title": "Consultants Financial Services",
+    "started": "2026-11-04T15:28:43",
     "applied": false
    },
    "limit": null,
@@ -1507,6 +1507,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 8909,
+   "folder": "8909_fokus-management-consulting-ag-consultan",
+   "company": "Fokus Management Consulting AG",
+   "title": "Consultants Financial Services",
+   "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
+   "lang": "en",
+   "started": "2026-11-04T15:28:43",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 8879,
    "folder": "8879_business-analyst-en-finance-pour-une-soc",
