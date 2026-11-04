@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-04T17:50:07",
+ "generated": "2026-11-04T17:56:07",
  "kpis": {
   "runs": 80,
-  "done": 72,
+  "done": 73,
   "ok": 36,
-  "ok_pct": 50.0,
+  "ok_pct": 49.3,
   "applied": 20,
   "blocked": 26,
   "manual": 12,
-  "manual_pct": 16.7,
+  "manual_pct": 16.4,
   "median_min": 4.5,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 14.2,
+  "p90_min": 15.9,
   "per_hour": 3.85,
   "median_gap_min": 15.6,
   "last_24h": 15,
@@ -625,18 +625,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 2156,
-      "company": "EY",
-      "title": "Senior Consultant - Assurance - Technology Risk",
-      "url": "https://www.linkedin.com/jobs/view/4385096310/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-04T17:20:45"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1161,8 +1151,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 22,
+    "count": 23,
     "cards": [
+     {
+      "row": 2156,
+      "company": "EY",
+      "title": "Senior Consultant - Assurance - Technology Risk",
+      "url": "https://www.linkedin.com/jobs/view/4385096310/",
+      "score": "",
+      "note": "sin formulario",
+      "ts": "2026-11-04T17:20:45"
+     },
      {
       "row": 8909,
       "company": "Fokus Management Consulting AG",
@@ -1557,10 +1556,10 @@
    "url": "https://www.linkedin.com/jobs/view/4385096310/",
    "lang": "en",
    "started": "2026-11-04T17:20:45",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-04T17:53:32",
+   "dur_min": 32.8,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
@@ -1574,7 +1573,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 8909,
