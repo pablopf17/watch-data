@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T23:44:46",
+ "generated": "2026-11-05T00:02:51",
  "kpis": {
   "runs": 82,
   "done": 75,
@@ -1382,7 +1382,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 61,
-   "runs_today": 8,
+   "runs_today": 0,
    "last": {
     "row": 6891,
     "company": "J. Safra Sarasin",
@@ -1405,7 +1405,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
    "runs": 12,
-   "runs_today": 1,
+   "runs_today": 0,
    "last": {
     "row": 8144,
     "company": "Pictet Group",
@@ -1423,7 +1423,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
    "runs": 8,
-   "runs_today": 7,
+   "runs_today": 0,
    "last": {
     "row": 9027,
     "company": "Infinigate (Schweiz) AG",
