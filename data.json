@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:32:31",
+ "generated": "2026-11-04T21:38:32",
  "kpis": {
   "runs": 82,
   "done": 74,
@@ -607,18 +607,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 9027,
-      "company": "Infinigate (Schweiz) AG",
-      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
-      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-04T21:21:19"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -631,8 +621,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 56,
+    "count": 57,
     "cards": [
+     {
+      "row": 9027,
+      "company": "Infinigate (Schweiz) AG",
+      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
+      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-04T21:21:19"
+     },
      {
       "row": 9131,
       "company": "Banque Pictet & Cie SA",
