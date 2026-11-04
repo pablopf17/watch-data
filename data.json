@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T17:56:07",
+ "generated": "2026-11-04T18:08:08",
  "kpis": {
   "runs": 80,
   "done": 73,
@@ -639,7 +639,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 56,
+    "count": 55,
     "cards": [
      {
       "row": 8879,
@@ -883,15 +883,6 @@
       "score": "",
       "note": "enviada · pasada paró en 7 avisos",
       "ts": "2026-11-01T16:24:06"
-     },
-     {
-      "row": 6049,
-      "company": "JPMorganChase",
-      "title": "Compliance and Operational Risk Testing Senior Specialist",
-      "url": "https://www.linkedin.com/jobs/view/4483039327/",
-      "score": "",
-      "note": "enviada · pasada paró en 9 avisos",
-      "ts": "2026-11-01T16:16:23"
      },
      {
       "row": 6890,
@@ -1151,7 +1142,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 23,
+    "count": 24,
     "cards": [
      {
       "row": 2156,
@@ -1233,6 +1224,15 @@
       "score": "",
       "note": "no disponible",
       "ts": "2026-11-03T16:46:35"
+     },
+     {
+      "row": 6049,
+      "company": "JPMorganChase",
+      "title": "Compliance and Operational Risk Testing Senior Specialist",
+      "url": "https://www.linkedin.com/jobs/view/4483039327/",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-01T16:16:23"
      },
      {
       "row": 6814,
