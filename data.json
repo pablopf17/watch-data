@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-04T12:31:30",
+ "generated": "2026-11-04T12:37:31",
  "kpis": {
-  "runs": 69,
-  "done": 64,
+  "runs": 70,
+  "done": 65,
   "ok": 34,
-  "ok_pct": 53.1,
+  "ok_pct": 52.3,
   "applied": 18,
-  "blocked": 22,
+  "blocked": 23,
   "manual": 10,
-  "manual_pct": 15.6,
-  "median_min": 4.4,
+  "manual_pct": 15.4,
+  "median_min": 4.3,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 15.7,
-  "per_hour": 3.77,
-  "median_gap_min": 15.9,
-  "last_24h": 11,
+  "p90_min": 15.5,
+  "per_hour": 3.49,
+  "median_gap_min": 17.2,
+  "last_24h": 12,
   "retries": 1,
   "queue_pending": 67
  },
@@ -71,10 +71,10 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 2,
+   "runs": 3,
    "ok": 1,
    "applied": 1,
-   "blocked": 1
+   "blocked": 2
   }
  ],
  "blockers": [
@@ -87,15 +87,15 @@
    "n": 5
   },
   {
+   "reason": "otro",
+   "n": 2
+  },
+  {
    "reason": "easy apply (sin formulario)",
    "n": 1
   },
   {
    "reason": "captcha",
-   "n": 1
-  },
-  {
-   "reason": "otro",
    "n": 1
   }
  ],
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 68,
+    "count": 67,
     "cards": [
-     {
-      "row": 8216,
-      "company": "YO IT Consulting",
-      "title": "Document Reviewer - Remote",
-      "url": "https://www.linkedin.com/jobs/view/4459090835/",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-08-26"
-     },
      {
       "row": 8368,
       "company": "Jobgether",
@@ -733,7 +724,7 @@
       "url": "https://www.linkedin.com/jobs/view/4459090835/",
       "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T12:31:30"
+      "ts": "2026-11-04T12:37:31"
      }
     ],
     "more": 0
@@ -741,8 +732,18 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 8216,
+      "company": "YO IT Consulting",
+      "title": "Document Reviewer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4459090835/",
+      "score": "",
+      "note": "sin_navegador",
+      "ts": "2026-11-04T12:33:46"
+     }
+    ],
     "more": 0
    },
    {
@@ -1382,14 +1383,14 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 55,
-   "runs_today": 1,
+   "runs": 56,
+   "runs_today": 2,
    "last": {
-    "row": 8113,
-    "company": "Magpie Projects",
-    "title": "(Senior) Consultant (m/f/d) Risk",
-    "started": "2026-11-04T07:13:34",
-    "applied": true
+    "row": 8216,
+    "company": "YO IT Consulting",
+    "title": "Document Reviewer - Remote",
+    "started": "2026-11-04T12:33:46",
+    "applied": false
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:30pm (Europe/Zurich)",
@@ -1570,6 +1571,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 8216,
+   "folder": "8216_yo-it-consulting-document-reviewer-remot",
+   "company": "YO IT Consulting",
+   "title": "Document Reviewer - Remote",
+   "url": "https://www.linkedin.com/jobs/view/4459090835/",
+   "lang": "en",
+   "started": "2026-11-04T12:33:46",
+   "finished": "2026-11-04T12:36:18",
+   "dur_min": 2.5,
+   "phase": "done",
+   "status": "TAILORED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_navegador",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 2,
+   "verify_ok": false
+  },
   {
    "row": 8144,
    "folder": "8144_pictet-group-financial-controlling-analy",
