@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T12:43:31",
+ "generated": "2026-11-04T12:49:34",
  "kpis": {
   "runs": 70,
   "done": 65,
@@ -15,7 +15,7 @@
   "p90_min": 15.5,
   "per_hour": 3.49,
   "median_gap_min": 17.2,
-  "last_24h": 12,
+  "last_24h": 13,
   "retries": 1,
   "queue_pending": 67
  },
@@ -57,7 +57,7 @@
   },
   {
    "d": "2026-11-02",
-   "runs": 9,
+   "runs": 8,
    "ok": 7,
    "applied": 5,
    "blocked": 0
@@ -71,7 +71,7 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 3,
+   "runs": 4,
    "ok": 1,
    "applied": 1,
    "blocked": 2
@@ -724,7 +724,7 @@
       "url": "https://www.linkedin.com/jobs/view/4459090835/",
       "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T12:43:31"
+      "ts": "2026-11-04T12:49:34"
      }
     ],
     "more": 0
@@ -751,6 +751,15 @@
     "label": "✅ Enviada / con respuesta",
     "count": 50,
     "cards": [
+     {
+      "row": 5671,
+      "company": "Roche & Hirschy Executive Search Sàrl",
+      "title": "Candidature spontanée secteur bancaire et financier Romandie",
+      "url": "https://www.jobagent.ch/job/candidature-spontane%CC%81e-secteur-bancaire-et-financier-romandie/324f79677a",
+      "score": "",
+      "note": "enviada · pasada paró en 5 avisos",
+      "ts": "2026-11-04T12:45:30"
+     },
      {
       "row": 8113,
       "company": "Magpie Projects",
@@ -849,15 +858,6 @@
       "score": "",
       "note": "con respuesta · pasada paró en 4 avisos",
       "ts": "2026-11-02T12:33:25"
-     },
-     {
-      "row": 5671,
-      "company": "Roche & Hirschy Executive Search Sàrl",
-      "title": "Candidature spontanée secteur bancaire et financier Romandie",
-      "url": "https://www.jobagent.ch/job/candidature-spontane%CC%81e-secteur-bancaire-et-financier-romandie/324f79677a",
-      "score": "",
-      "note": "enviada · pasada paró en 5 avisos",
-      "ts": "2026-11-02T12:31:27"
      },
      {
       "row": 6496,
@@ -1384,12 +1384,12 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 56,
-   "runs_today": 2,
+   "runs_today": 3,
    "last": {
-    "row": 8216,
-    "company": "YO IT Consulting",
-    "title": "Document Reviewer - Remote",
-    "started": "2026-11-04T12:33:46",
+    "row": 5671,
+    "company": "Roche & Hirschy Executive Search Sàrl",
+    "title": "Candidature spontanée secteur bancaire et financier Romandie",
+    "started": "2026-11-04T12:45:30",
     "applied": false
    },
    "limit": {
@@ -1571,6 +1571,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 5671,
+   "folder": "5671_roche-hirschy-executive-search-sarl-cand",
+   "company": "Roche & Hirschy Executive Search Sàrl",
+   "title": "Candidature spontanée secteur bancaire et financier Romandie",
+   "url": "https://www.jobagent.ch/job/candidature-spontane%CC%81e-secteur-bancaire-et-financier-romandie/324f79677a",
+   "lang": "fr",
+   "started": "2026-11-04T12:45:30",
+   "finished": null,
+   "dur_min": null,
+   "phase": "packaged",
+   "status": "",
+   "status_at_start": "APPLIED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": null
+  },
   {
    "row": 8216,
    "folder": "8216_yo-it-consulting-document-reviewer-remot",
@@ -2002,33 +2029,6 @@
    "needs_approval": 0,
    "avisos": 4,
    "verify_ok": true
-  },
-  {
-   "row": 5671,
-   "folder": "5671_roche-hirschy-executive-search-sarl-cand",
-   "company": "Roche & Hirschy Executive Search Sàrl",
-   "title": "Candidature spontanée secteur bancaire et financier Romandie",
-   "url": "https://www.jobagent.ch/job/candidature-spontane%CC%81e-secteur-bancaire-et-financier-romandie/324f79677a",
-   "lang": "fr",
-   "started": "2026-11-02T12:31:27",
-   "finished": null,
-   "dur_min": null,
-   "phase": "packaged",
-   "status": "",
-   "status_at_start": "APPLIED",
-   "engine": "claude",
-   "blocked": "",
-   "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": true,
-   "apply_path": "intermedio",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 2,
-   "needs_approval": 2,
-   "avisos": 5,
-   "verify_ok": null
   },
   {
    "row": 6496,
