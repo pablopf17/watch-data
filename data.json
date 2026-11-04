@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-04T21:38:32",
+ "generated": "2026-11-04T21:44:32",
  "kpis": {
   "runs": 82,
-  "done": 74,
+  "done": 75,
   "ok": 36,
-  "ok_pct": 48.6,
+  "ok_pct": 48.0,
   "applied": 20,
   "blocked": 27,
   "manual": 13,
-  "manual_pct": 17.6,
-  "median_min": 4.5,
+  "manual_pct": 17.3,
+  "median_min": 4.6,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 15.7,
+  "p90_min": 17.5,
   "per_hour": 3.85,
   "median_gap_min": 15.6,
   "last_24h": 17,
@@ -104,8 +104,17 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 55,
+    "count": 56,
     "cards": [
+     {
+      "row": 9203,
+      "company": "Michael Page Switzerland",
+      "title": "Contrôleur de gestion",
+      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-04"
+     },
      {
       "row": 9004,
       "company": "",
@@ -1364,7 +1373,7 @@
     "more": 0
    }
   ],
-  "total": 136
+  "total": 137
  },
  "engines": [
   {
@@ -1556,10 +1565,10 @@
    "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
    "lang": "en",
    "started": "2026-11-04T21:21:19",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-04T21:40:45",
+   "dur_min": 19.4,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
@@ -1573,7 +1582,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 9131,
