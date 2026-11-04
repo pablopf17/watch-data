@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T13:55:39",
+ "generated": "2026-11-04T14:01:40",
  "kpis": {
-  "runs": 71,
-  "done": 65,
-  "ok": 35,
-  "ok_pct": 53.8,
-  "applied": 19,
+  "runs": 72,
+  "done": 66,
+  "ok": 36,
+  "ok_pct": 54.5,
+  "applied": 20,
   "blocked": 22,
   "manual": 10,
-  "manual_pct": 15.4,
+  "manual_pct": 15.2,
   "median_min": 4.4,
-  "median_min_ok": 5.6,
-  "median_min_applied": 5.7,
-  "p90_min": 15.5,
-  "per_hour": 3.16,
-  "median_gap_min": 19.0,
-  "last_24h": 14,
+  "median_min_ok": 5.3,
+  "median_min_applied": 5.6,
+  "p90_min": 15.3,
+  "per_hour": 3.21,
+  "median_gap_min": 18.7,
+  "last_24h": 15,
   "retries": 1,
-  "queue_pending": 67
+  "queue_pending": 65
  },
  "per_day": [
   {
@@ -71,9 +71,9 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 5,
-   "ok": 2,
-   "applied": 2,
+   "runs": 6,
+   "ok": 3,
+   "applied": 3,
    "blocked": 1
   }
  ],
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 66,
+    "count": 65,
     "cards": [
-     {
-      "row": 8425,
-      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
-      "title": "Contrôleur/Analyste de la qualité des données",
-      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
      {
       "row": 8508,
       "company": "die Mobiliar",
@@ -709,22 +700,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8216,
-      "company": "YO IT Consulting",
-      "title": "Document Reviewer - Remote",
-      "url": "https://www.linkedin.com/jobs/view/4459090835/",
+      "row": 8425,
+      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+      "title": "Contrôleur/Analyste de la qualité des données",
+      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
       "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T13:55:39"
+      "ts": "2026-11-04T14:01:40"
      },
      {
-      "row": 8368,
-      "company": "Jobgether",
-      "title": "Finance & Accounting Expert",
-      "url": "https://www.linkedin.com/jobs/view/4484523026/",
+      "row": 8425,
+      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+      "title": "Contrôleur/Analyste de la qualité des données",
+      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-04T13:55:05"
+      "ts": "2026-11-04T14:00:26"
      }
     ],
     "more": 0
@@ -742,6 +733,15 @@
     "count": 51,
     "cards": [
      {
+      "row": 8368,
+      "company": "Jobgether",
+      "title": "Finance & Accounting Expert",
+      "url": "https://www.linkedin.com/jobs/view/4484523026/",
+      "score": "",
+      "note": "enviada · pasada paró en 1 avisos",
+      "ts": "2026-11-04T13:55:05"
+     },
+     {
       "row": 8216,
       "company": "YO IT Consulting",
       "title": "Document Reviewer - Remote",
@@ -749,15 +749,6 @@
       "score": "",
       "note": "enviada · pasada paró en 3 avisos",
       "ts": "2026-11-04T13:23:20"
-     },
-     {
-      "row": 5671,
-      "company": "Roche & Hirschy Executive Search Sàrl",
-      "title": "Candidature spontanée secteur bancaire et financier Romandie",
-      "url": "https://www.jobagent.ch/job/candidature-spontane%CC%81e-secteur-bancaire-et-financier-romandie/324f79677a",
-      "score": "",
-      "note": "enviada · pasada paró en 5 avisos",
-      "ts": "2026-11-04T12:45:30"
      },
      {
       "row": 8113,
@@ -1206,8 +1197,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 18,
+    "count": 19,
     "cards": [
+     {
+      "row": 5671,
+      "company": "Roche & Hirschy Executive Search Sàrl",
+      "title": "Candidature spontanée secteur bancaire et financier Romandie",
+      "url": "https://www.jobagent.ch/job/candidature-spontane%CC%81e-secteur-bancaire-et-financier-romandie/324f79677a",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-04T12:45:30"
+     },
      {
       "row": 8144,
       "company": "Pictet Group",
@@ -1382,13 +1382,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 57,
-   "runs_today": 4,
+   "runs": 58,
+   "runs_today": 5,
    "last": {
-    "row": 8368,
-    "company": "Jobgether",
-    "title": "Finance & Accounting Expert",
-    "started": "2026-11-04T13:55:05",
+    "row": 8425,
+    "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+    "title": "Contrôleur/Analyste de la qualité des données",
+    "started": "2026-11-04T14:00:26",
     "applied": false
    },
    "limit": {
@@ -1440,22 +1440,22 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8216,
-   "company": "YO IT Consulting",
-   "title": "Document Reviewer - Remote",
+   "row": 8425,
+   "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+   "title": "Contrôleur/Analyste de la qualité des données",
    "score": 10,
-   "url": "https://www.linkedin.com/jobs/view/4459090835/",
-   "domain": "linkedin.com",
+   "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
+   "domain": "jobagent.ch",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-04T12:23:30",
-   "pid": 22580,
+   "started": "2026-11-04T14:00:18",
+   "pid": 49364,
    "lane": 0
   },
-  "pending": 67,
+  "pending": 65,
   "counters": {
-   "pending": 68,
+   "pending": 66,
    "sent": 0,
    "review": 0,
    "blocked": 0,
@@ -1463,29 +1463,13 @@
    "skipped": 0
   },
   "config": {
-   "max": 1,
+   "max": 2,
    "min_score": 0,
-   "engine": "hermes",
+   "engine": "claude",
    "timeout": 600,
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 8368,
-    "company": "Jobgether",
-    "title": "Finance & Accounting Expert",
-    "score": 10,
-    "url": "https://www.linkedin.com/jobs/view/4484523026/",
-    "domain": "linkedin.com"
-   },
-   {
-    "row": 8425,
-    "company": "Caisse cantonale vaudoise de compensation (CCVD)",
-    "title": "Contrôleur/Analyste de la qualité des données",
-    "score": 10,
-    "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
-    "domain": "jobagent.ch"
-   },
    {
     "row": 8508,
     "company": "die Mobiliar",
@@ -1509,6 +1493,22 @@
     "score": 10,
     "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
     "domain": "job-room.ch"
+   },
+   {
+    "row": 8894,
+    "company": "UNOPS",
+    "title": "ICT Analyst",
+    "score": 10,
+    "url": "https://www.linkedin.com/jobs/view/4483970986/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 8909,
+    "company": "Fokus Management Consulting AG",
+    "title": "Consultants Financial Services",
+    "score": 10,
+    "url": "https://www.jobagent.ch/job/consultants-financial-services/31515a5041",
+    "domain": "jobagent.ch"
    }
   ],
   "last": [
@@ -1571,13 +1571,13 @@
  },
  "runs": [
   {
-   "row": 8368,
-   "folder": "8368_jobgether-finance-accounting-expert",
-   "company": "Jobgether",
-   "title": "Finance & Accounting Expert",
-   "url": "https://www.linkedin.com/jobs/view/4484523026/",
+   "row": 8425,
+   "folder": "8425_caisse-cantonale-vaudoise-de-compensatio",
+   "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+   "title": "Contrôleur/Analyste de la qualité des données",
+   "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
    "lang": "en",
-   "started": "2026-11-04T13:55:05",
+   "started": "2026-11-04T14:00:26",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1596,6 +1596,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8368,
+   "folder": "8368_jobgether-finance-accounting-expert",
+   "company": "Jobgether",
+   "title": "Finance & Accounting Expert",
+   "url": "https://www.linkedin.com/jobs/view/4484523026/",
+   "lang": "en",
+   "started": "2026-11-04T13:55:05",
+   "finished": "2026-11-04T13:59:44",
+   "dur_min": 4.7,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 1,
+   "verify_ok": false
   },
   {
    "row": 8216,
