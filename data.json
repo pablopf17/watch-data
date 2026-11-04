@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T17:20:03",
+ "generated": "2026-11-04T17:26:06",
  "kpis": {
-  "runs": 79,
+  "runs": 80,
   "done": 72,
   "ok": 36,
   "ok_pct": 50.0,
@@ -13,11 +13,11 @@
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
   "p90_min": 14.2,
-  "per_hour": 3.92,
-  "median_gap_min": 15.3,
-  "last_24h": 17,
+  "per_hour": 3.85,
+  "median_gap_min": 15.6,
+  "last_24h": 18,
   "retries": 1,
-  "queue_pending": 0
+  "queue_pending": 57
  },
  "per_day": [
   {
@@ -71,7 +71,7 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 13,
+   "runs": 14,
    "ok": 3,
    "applied": 3,
    "blocked": 5
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 58,
+    "count": 57,
     "cards": [
-     {
-      "row": 2156,
-      "company": "EY",
-      "title": "Senior Consultant - Assurance - Technology Risk",
-      "url": "https://www.linkedin.com/jobs/view/4385096310/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-03-19"
-     },
      {
       "row": 3905,
       "company": "CLEEVEN",
@@ -634,8 +625,27 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 2,
+    "cards": [
+     {
+      "row": 2156,
+      "company": "EY",
+      "title": "Senior Consultant - Assurance - Technology Risk",
+      "url": "https://www.linkedin.com/jobs/view/4385096310/",
+      "score": 9,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-04T17:26:06"
+     },
+     {
+      "row": 2156,
+      "company": "EY",
+      "title": "Senior Consultant - Assurance - Technology Risk",
+      "url": "https://www.linkedin.com/jobs/view/4385096310/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-04T17:20:45"
+     }
+    ],
     "more": 0
    },
    {
@@ -1413,13 +1423,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 5,
-   "runs_today": 4,
+   "runs": 6,
+   "runs_today": 5,
    "last": {
-    "row": 8909,
-    "company": "Fokus Management Consulting AG",
-    "title": "Consultants Financial Services",
-    "started": "2026-11-04T15:28:43",
+    "row": 2156,
+    "company": "EY",
+    "title": "Senior Consultant - Assurance - Technology Risk",
+    "started": "2026-11-04T17:20:45",
     "applied": false
    },
    "limit": null,
@@ -1429,10 +1439,23 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 0,
+  "running": {
+   "row": 2156,
+   "company": "EY",
+   "title": "Senior Consultant - Assurance - Technology Risk",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4385096310/",
+   "domain": "linkedin.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-04T17:20:36",
+   "pid": 51940,
+   "lane": 0
+  },
+  "pending": 57,
   "counters": {
-   "pending": 0,
+   "pending": 58,
    "sent": 0,
    "review": 0,
    "blocked": 0,
@@ -1442,11 +1465,52 @@
   "config": {
    "max": 1,
    "min_score": 0,
-   "engine": "claude",
+   "engine": "hermes",
    "timeout": 600,
    "per_domain": 0
   },
-  "next": [],
+  "next": [
+   {
+    "row": 3905,
+    "company": "CLEEVEN",
+    "title": "Consultant fonctionnel/Consultante fonctionnel",
+    "score": 9,
+    "url": "https://www.linkedin.com/jobs/view/4434701724/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 4255,
+    "company": "Federal Police fedpol",
+    "title": "Referente specialista Compliance dei dati",
+    "score": 9,
+    "url": "https://www.linkedin.com/jobs/view/4460956930/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 6550,
+    "company": "Geberit Schweiz",
+    "title": "Data Analyst (a) 80 - 100%",
+    "score": 9,
+    "url": "https://www.linkedin.com/jobs/view/4483884165/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 6974,
+    "company": "Stryker",
+    "title": "Project Associate, Regulatory Affairs (m/f/d)",
+    "score": 9,
+    "url": "https://www.linkedin.com/jobs/view/4483634441/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 7161,
+    "company": "LGT Capital Partners",
+    "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
+    "score": 9,
+    "url": "https://www.linkedin.com/jobs/view/4484712002/",
+    "domain": "linkedin.com"
+   }
+  ],
   "last": [
    {
     "ts": "2026-11-04T14:26:49",
@@ -1506,6 +1570,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 2156,
+   "folder": "2156_ey-senior-consultant-assurance-technolog",
+   "company": "EY",
+   "title": "Senior Consultant - Assurance - Technology Risk",
+   "url": "https://www.linkedin.com/jobs/view/4385096310/",
+   "lang": "en",
+   "started": "2026-11-04T17:20:45",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 8909,
    "folder": "8909_fokus-management-consulting-ag-consultan",
