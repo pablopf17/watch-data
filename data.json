@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:26:30",
+ "generated": "2026-11-04T21:32:31",
  "kpis": {
   "runs": 82,
   "done": 74,
@@ -607,17 +607,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
-     {
-      "row": 9027,
-      "company": "Infinigate (Schweiz) AG",
-      "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
-      "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
-      "score": 8,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T21:26:30"
-     },
      {
       "row": 9027,
       "company": "Infinigate (Schweiz) AG",
@@ -633,7 +624,14 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 1,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "sent",
+    "label": "✅ Enviada / con respuesta",
+    "count": 56,
     "cards": [
      {
       "row": 9131,
@@ -641,17 +639,9 @@
       "title": "Data Analytics Expert (125320)",
       "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
       "score": "",
-      "note": "login",
+      "note": "enviada · pasada paró en login",
       "ts": "2026-11-04T21:15:19"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "sent",
-    "label": "✅ Enviada / con respuesta",
-    "count": 55,
-    "cards": [
+     },
      {
       "row": 8879,
       "company": "",
@@ -1395,7 +1385,7 @@
    "limit": {
     "msg": "You've hit your session limit · resets 9:30pm (Europe/Zurich)",
     "when": "2026-11-04T06:58:42",
-    "resets_at": "2026-11-04T21:30:00",
+    "resets_at": "2026-11-05T21:30:00",
     "resets_label": "21:30"
    },
    "limit_folder": "8133_capgemini-engineering-data-analyst",
@@ -1440,20 +1430,7 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 9027,
-   "company": "Infinigate (Schweiz) AG",
-   "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
-   "score": 8,
-   "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
-   "domain": "jobagent.ch",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-04T21:21:12",
-   "pid": 10164,
-   "lane": 0
-  },
+  "running": null,
   "pending": 55,
   "counters": {
    "pending": 57,
@@ -1461,7 +1438,8 @@
    "review": 0,
    "blocked": 1,
    "errors": 0,
-   "skipped": 0
+   "skipped": 0,
+   "timeout": 1
   },
   "config": {
    "max": 2,
@@ -1514,6 +1492,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-04T21:31:12",
+    "row": 9027,
+    "company": "Infinigate (Schweiz) AG",
+    "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
+    "score": 8,
+    "domain": "jobagent.ch",
+    "state": "timeout",
+    "note": "sin cerrar en 600s",
+    "dur_s": null
+   },
+   {
     "ts": "2026-11-04T21:21:12",
     "row": 9131,
     "company": "Banque Pictet & Cie SA",
@@ -1556,17 +1545,6 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 180
-   },
-   {
-    "ts": "2026-11-04T14:16:45",
-    "row": 8749,
-    "company": "AfterQuery",
-    "title": "Compliance Officer Expert",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "stopped",
-    "note": "fichero STOP detectado",
-    "dur_s": null
    }
   ]
  },
