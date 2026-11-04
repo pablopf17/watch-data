@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T14:31:43",
+ "generated": "2026-11-04T14:37:44",
  "kpis": {
-  "runs": 76,
+  "runs": 77,
   "done": 70,
   "ok": 36,
   "ok_pct": 51.4,
@@ -13,9 +13,9 @@
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
   "p90_min": 14.6,
-  "per_hour": 3.85,
-  "median_gap_min": 15.6,
-  "last_24h": 19,
+  "per_hour": 3.92,
+  "median_gap_min": 15.3,
+  "last_24h": 20,
   "retries": 1,
   "queue_pending": 62
  },
@@ -71,7 +71,7 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 10,
+   "runs": 11,
    "ok": 3,
    "applied": 3,
    "blocked": 4
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 61,
+    "count": 60,
     "cards": [
-     {
-      "row": 8879,
-      "company": "",
-      "title": "Business Analyst en Finance pour une société internationale !",
-      "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-01"
-     },
      {
       "row": 8894,
       "company": "UNOPS",
@@ -661,14 +652,31 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 8879,
+      "company": "",
+      "title": "Business Analyst en Finance pour une société internationale !",
+      "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-04T14:34:52"
+     }
+    ],
     "more": 0
    },
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "sent",
+    "label": "✅ Enviada / con respuesta",
+    "count": 54,
     "cards": [
      {
       "row": 6891,
@@ -676,26 +684,9 @@
       "title": "Lead Auditor",
       "url": "https://www.linkedin.com/jobs/view/4477401160/",
       "score": "",
-      "note": "login",
+      "note": "enviada · pasada paró en login",
       "ts": "2026-11-04T14:25:49"
      },
-     {
-      "row": 8425,
-      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
-      "title": "Contrôleur/Analyste de la qualité des données",
-      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
-      "score": "",
-      "note": "captcha",
-      "ts": "2026-11-04T14:00:26"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "sent",
-    "label": "✅ Enviada / con respuesta",
-    "count": 52,
-    "cards": [
      {
       "row": 8508,
       "company": "die Mobiliar",
@@ -704,6 +695,15 @@
       "score": "",
       "note": "enviada",
       "ts": "2026-11-04T14:06:21"
+     },
+     {
+      "row": 8425,
+      "company": "Caisse cantonale vaudoise de compensation (CCVD)",
+      "title": "Contrôleur/Analyste de la qualité des données",
+      "url": "https://www.jobagent.ch/job/contro%CC%82leur-analyste-de-la-qualite%CC%81-des-donne%CC%81es/32564c4132",
+      "score": "",
+      "note": "enviada · pasada paró en captcha",
+      "ts": "2026-11-04T14:00:26"
      },
      {
       "row": 8368,
@@ -1414,13 +1414,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 2,
-   "runs_today": 1,
+   "runs": 3,
+   "runs_today": 2,
    "last": {
-    "row": 8508,
-    "company": "die Mobiliar",
-    "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
-    "started": "2026-11-04T14:06:21",
+    "row": 8879,
+    "company": "",
+    "title": "Business Analyst en Finance pour une société internationale !",
+    "started": "2026-11-04T14:34:52",
     "applied": false
    },
    "limit": null,
@@ -1548,6 +1548,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 8879,
+   "folder": "8879_business-analyst-en-finance-pour-une-soc",
+   "company": "",
+   "title": "Business Analyst en Finance pour une société internationale !",
+   "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
+   "lang": "fr",
+   "started": "2026-11-04T14:34:52",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "IN PROGRESS",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 6891,
    "folder": "6891_j-safra-sarasin-lead-auditor",
