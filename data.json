@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T08:48:05",
+ "generated": "2026-11-04T12:25:29",
  "kpis": {
   "runs": 69,
   "done": 64,
@@ -17,7 +17,7 @@
   "median_gap_min": 15.9,
   "last_24h": 11,
   "retries": 1,
-  "queue_pending": 68
+  "queue_pending": 67
  },
  "per_day": [
   {
@@ -724,8 +724,18 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 8216,
+      "company": "YO IT Consulting",
+      "title": "Document Reviewer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4459090835/",
+      "score": 10,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-04T12:25:29"
+     }
+    ],
     "more": 0
    },
    {
@@ -1429,32 +1439,37 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 68,
+  "running": {
+   "row": 8216,
+   "company": "YO IT Consulting",
+   "title": "Document Reviewer - Remote",
+   "score": 10,
+   "url": "https://www.linkedin.com/jobs/view/4459090835/",
+   "domain": "linkedin.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-04T12:23:30",
+   "pid": 22580,
+   "lane": 0
+  },
+  "pending": 67,
   "counters": {
-   "pending": 69,
+   "pending": 68,
    "sent": 0,
    "review": 0,
-   "blocked": 1,
+   "blocked": 0,
    "errors": 0,
    "skipped": 0
   },
   "config": {
    "max": 1,
    "min_score": 0,
-   "engine": "codex",
+   "engine": "hermes",
    "timeout": 600,
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 8216,
-    "company": "YO IT Consulting",
-    "title": "Document Reviewer - Remote",
-    "score": 10,
-    "url": "https://www.linkedin.com/jobs/view/4459090835/",
-    "domain": "linkedin.com"
-   },
    {
     "row": 8368,
     "company": "Jobgether",
@@ -1486,6 +1501,14 @@
     "score": 10,
     "url": "https://www.linkedin.com/jobs/view/4483928712/",
     "domain": "linkedin.com"
+   },
+   {
+    "row": 8879,
+    "company": "",
+    "title": "Business Analyst en Finance pour une société internationale !",
+    "score": 10,
+    "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
+    "domain": "job-room.ch"
    }
   ],
   "last": [
