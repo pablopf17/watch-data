@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-04T14:43:45",
+ "generated": "2026-11-04T14:55:46",
  "kpis": {
   "runs": 78,
-  "done": 70,
+  "done": 72,
   "ok": 36,
-  "ok_pct": 51.4,
+  "ok_pct": 50.0,
   "applied": 20,
   "blocked": 25,
   "manual": 12,
-  "manual_pct": 17.1,
-  "median_min": 4.4,
+  "manual_pct": 16.7,
+  "median_min": 4.5,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 14.6,
+  "p90_min": 16.1,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
   "last_24h": 21,
@@ -643,18 +643,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 8894,
-      "company": "UNOPS",
-      "title": "ICT Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4483970986/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-04T14:40:17"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1161,15 +1151,24 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 22,
+    "count": 23,
     "cards": [
+     {
+      "row": 8894,
+      "company": "UNOPS",
+      "title": "ICT Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4483970986/",
+      "score": "",
+      "note": "sin formulario",
+      "ts": "2026-11-04T14:40:17"
+     },
      {
       "row": 8879,
       "company": "",
       "title": "Business Analyst en Finance pour une société internationale !",
       "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
       "score": "",
-      "note": "duplicada",
+      "note": "sin formulario",
       "ts": "2026-11-04T14:34:52"
      },
      {
@@ -1556,10 +1555,10 @@
    "url": "https://www.linkedin.com/jobs/view/4483970986/",
    "lang": "en",
    "started": "2026-11-04T14:40:17",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-04T14:52:48",
+   "dur_min": 12.5,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
@@ -1573,7 +1572,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 8879,
@@ -1583,10 +1582,10 @@
    "url": "https://www.job-room.ch/job-search/9c014737-9117-4cfc-86a6-b1759f10dc19",
    "lang": "fr",
    "started": "2026-11-04T14:34:52",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-04T14:52:49",
+   "dur_min": 17.9,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "IN PROGRESS",
    "engine": "hermes",
    "blocked": "",
@@ -1600,7 +1599,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 6891,
