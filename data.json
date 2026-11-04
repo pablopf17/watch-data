@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T21:08:28",
+ "generated": "2026-11-04T21:20:30",
  "kpis": {
-  "runs": 80,
+  "runs": 81,
   "done": 73,
   "ok": 36,
   "ok_pct": 49.3,
@@ -13,11 +13,11 @@
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
   "p90_min": 15.9,
-  "per_hour": 3.85,
-  "median_gap_min": 15.6,
-  "last_24h": 15,
+  "per_hour": 3.77,
+  "median_gap_min": 15.9,
+  "last_24h": 16,
   "retries": 1,
-  "queue_pending": 57
+  "queue_pending": 56
  },
  "per_day": [
   {
@@ -71,7 +71,7 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 14,
+   "runs": 15,
    "ok": 3,
    "applied": 3,
    "blocked": 5
@@ -104,17 +104,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 57,
+    "count": 56,
     "cards": [
-     {
-      "row": 9131,
-      "company": "Banque Pictet & Cie SA",
-      "title": "Data Analytics Expert (125320)",
-      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-11-03"
-     },
      {
       "row": 9027,
       "company": "Infinigate (Schweiz) AG",
@@ -625,8 +616,27 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 2,
+    "cards": [
+     {
+      "row": 9131,
+      "company": "Banque Pictet & Cie SA",
+      "title": "Data Analytics Expert (125320)",
+      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+      "score": 8,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-04T21:20:30"
+     },
+     {
+      "row": 9131,
+      "company": "Banque Pictet & Cie SA",
+      "title": "Data Analytics Expert (125320)",
+      "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-04T21:15:19"
+     }
+    ],
     "more": 0
    },
    {
@@ -1413,13 +1423,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 6,
-   "runs_today": 5,
+   "runs": 7,
+   "runs_today": 6,
    "last": {
-    "row": 2156,
-    "company": "EY",
-    "title": "Senior Consultant - Assurance - Technology Risk",
-    "started": "2026-11-04T17:20:45",
+    "row": 9131,
+    "company": "Banque Pictet & Cie SA",
+    "title": "Data Analytics Expert (125320)",
+    "started": "2026-11-04T21:15:19",
     "applied": false
    },
    "limit": null,
@@ -1429,19 +1439,31 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 57,
+  "running": {
+   "row": 9131,
+   "company": "Banque Pictet & Cie SA",
+   "title": "Data Analytics Expert (125320)",
+   "score": 8,
+   "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+   "domain": "job-room.ch",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-04T21:15:12",
+   "pid": 14652,
+   "lane": 0
+  },
+  "pending": 56,
   "counters": {
-   "pending": 58,
+   "pending": 57,
    "sent": 0,
    "review": 0,
    "blocked": 0,
    "errors": 0,
-   "skipped": 0,
-   "timeout": 1
+   "skipped": 0
   },
   "config": {
-   "max": 1,
+   "max": 2,
    "min_score": 0,
    "engine": "hermes",
    "timeout": 600,
@@ -1548,6 +1570,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9131,
+   "folder": "9131_banque-pictet-cie-sa-data-analytics-expe",
+   "company": "Banque Pictet & Cie SA",
+   "title": "Data Analytics Expert (125320)",
+   "url": "https://www.job-room.ch/job-search/035aad05-d5a3-408d-87da-76d55cd26255",
+   "lang": "en",
+   "started": "2026-11-04T21:15:19",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 2156,
    "folder": "2156_ey-senior-consultant-assurance-technolog",
