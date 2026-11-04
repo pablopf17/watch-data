@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-04T13:25:36",
+ "generated": "2026-11-04T13:31:36",
  "kpis": {
   "runs": 70,
-  "done": 64,
-  "ok": 34,
-  "ok_pct": 53.1,
-  "applied": 18,
+  "done": 65,
+  "ok": 35,
+  "ok_pct": 53.8,
+  "applied": 19,
   "blocked": 22,
   "manual": 10,
-  "manual_pct": 15.6,
+  "manual_pct": 15.4,
   "median_min": 4.4,
-  "median_min_ok": 5.3,
-  "median_min_applied": 5.6,
-  "p90_min": 15.7,
+  "median_min_ok": 5.6,
+  "median_min_applied": 5.7,
+  "p90_min": 15.5,
   "per_hour": 3.21,
   "median_gap_min": 18.7,
   "last_24h": 13,
@@ -72,9 +72,9 @@
   {
    "d": "2026-11-04",
    "runs": 4,
-   "ok": 1,
-   "applied": 1,
-   "blocked": 2
+   "ok": 2,
+   "applied": 2,
+   "blocked": 1
   }
  ],
  "blockers": [
@@ -715,7 +715,7 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
      {
       "row": 8216,
@@ -724,16 +724,7 @@
       "url": "https://www.linkedin.com/jobs/view/4459090835/",
       "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T13:25:36"
-     },
-     {
-      "row": 8216,
-      "company": "YO IT Consulting",
-      "title": "Document Reviewer - Remote",
-      "url": "https://www.linkedin.com/jobs/view/4459090835/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-04T13:23:20"
+      "ts": "2026-11-04T13:31:36"
      }
     ],
     "more": 0
@@ -748,8 +739,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 50,
+    "count": 51,
     "cards": [
+     {
+      "row": 8216,
+      "company": "YO IT Consulting",
+      "title": "Document Reviewer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4459090835/",
+      "score": "",
+      "note": "enviada · pasada paró en 3 avisos",
+      "ts": "2026-11-04T13:23:20"
+     },
      {
       "row": 5671,
       "company": "Roche & Hirschy Executive Search Sàrl",
@@ -1389,7 +1389,7 @@
     "company": "YO IT Consulting",
     "title": "Document Reviewer - Remote",
     "started": "2026-11-04T13:23:20",
-    "applied": false
+    "applied": true
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:30pm (Europe/Zurich)",
@@ -1578,23 +1578,23 @@
    "url": "https://www.linkedin.com/jobs/view/4459090835/",
    "lang": "en",
    "started": "2026-11-04T13:23:20",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-04T13:28:59",
+   "dur_min": 5.7,
+   "phase": "done",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
-   "blocked": "sin_navegador",
+   "blocked": "",
    "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 1,
    "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 1,
-   "avisos": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 3,
    "verify_ok": false
   },
   {
