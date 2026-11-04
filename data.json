@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-04T13:19:37",
+ "generated": "2026-11-04T13:25:36",
  "kpis": {
   "runs": 70,
-  "done": 65,
+  "done": 64,
   "ok": 34,
-  "ok_pct": 52.3,
+  "ok_pct": 53.1,
   "applied": 18,
-  "blocked": 23,
+  "blocked": 22,
   "manual": 10,
-  "manual_pct": 15.4,
-  "median_min": 4.3,
+  "manual_pct": 15.6,
+  "median_min": 4.4,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 15.5,
-  "per_hour": 3.49,
-  "median_gap_min": 17.2,
+  "p90_min": 15.7,
+  "per_hour": 3.21,
+  "median_gap_min": 18.7,
   "last_24h": 13,
   "retries": 1,
   "queue_pending": 67
@@ -87,15 +87,15 @@
    "n": 5
   },
   {
-   "reason": "otro",
-   "n": 2
-  },
-  {
    "reason": "easy apply (sin formulario)",
    "n": 1
   },
   {
    "reason": "captcha",
+   "n": 1
+  },
+  {
+   "reason": "otro",
    "n": 1
   }
  ],
@@ -715,7 +715,7 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 2,
     "cards": [
      {
       "row": 8216,
@@ -724,7 +724,16 @@
       "url": "https://www.linkedin.com/jobs/view/4459090835/",
       "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-04T13:19:37"
+      "ts": "2026-11-04T13:25:36"
+     },
+     {
+      "row": 8216,
+      "company": "YO IT Consulting",
+      "title": "Document Reviewer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4459090835/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-04T13:23:20"
      }
     ],
     "more": 0
@@ -732,18 +741,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 1,
-    "cards": [
-     {
-      "row": 8216,
-      "company": "YO IT Consulting",
-      "title": "Document Reviewer - Remote",
-      "url": "https://www.linkedin.com/jobs/view/4459090835/",
-      "score": "",
-      "note": "sin_navegador",
-      "ts": "2026-11-04T12:33:46"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1386,10 +1385,10 @@
    "runs": 56,
    "runs_today": 3,
    "last": {
-    "row": 5671,
-    "company": "Roche & Hirschy Executive Search Sàrl",
-    "title": "Candidature spontanée secteur bancaire et financier Romandie",
-    "started": "2026-11-04T12:45:30",
+    "row": 8216,
+    "company": "YO IT Consulting",
+    "title": "Document Reviewer - Remote",
+    "started": "2026-11-04T13:23:20",
     "applied": false
    },
    "limit": {
@@ -1572,6 +1571,33 @@
  },
  "runs": [
   {
+   "row": 8216,
+   "folder": "8216_yo-it-consulting-document-reviewer-remot",
+   "company": "YO IT Consulting",
+   "title": "Document Reviewer - Remote",
+   "url": "https://www.linkedin.com/jobs/view/4459090835/",
+   "lang": "en",
+   "started": "2026-11-04T13:23:20",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_navegador",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 2,
+   "verify_ok": false
+  },
+  {
    "row": 5671,
    "folder": "5671_roche-hirschy-executive-search-sarl-cand",
    "company": "Roche & Hirschy Executive Search Sàrl",
@@ -1597,33 +1623,6 @@
    "needs_approval": 2,
    "avisos": 5,
    "verify_ok": null
-  },
-  {
-   "row": 8216,
-   "folder": "8216_yo-it-consulting-document-reviewer-remot",
-   "company": "YO IT Consulting",
-   "title": "Document Reviewer - Remote",
-   "url": "https://www.linkedin.com/jobs/view/4459090835/",
-   "lang": "en",
-   "started": "2026-11-04T12:33:46",
-   "finished": "2026-11-04T12:36:18",
-   "dur_min": 2.5,
-   "phase": "done",
-   "status": "TAILORED",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "sin_navegador",
-   "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 1,
-   "avisos": 2,
-   "verify_ok": false
   },
   {
    "row": 8144,
