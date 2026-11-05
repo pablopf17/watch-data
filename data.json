@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-05T15:52:41",
+ "generated": "2026-11-05T15:58:42",
  "kpis": {
   "runs": 100,
-  "done": 92,
+  "done": 91,
   "ok": 45,
-  "ok_pct": 48.9,
+  "ok_pct": 49.5,
   "applied": 27,
-  "blocked": 33,
-  "manual": 14,
-  "manual_pct": 15.2,
+  "blocked": 32,
+  "manual": 13,
+  "manual_pct": 14.3,
   "median_min": 5.0,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 15.1,
-  "per_hour": 4.03,
-  "median_gap_min": 14.9,
+  "p90_min": 15.2,
+  "per_hour": 3.95,
+  "median_gap_min": 15.2,
   "last_24h": 22,
   "retries": 1,
   "queue_pending": 41
@@ -91,7 +91,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 9
+   "n": 8
   },
   {
    "reason": "captcha",
@@ -488,14 +488,7 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 2,
+    "count": 1,
     "cards": [
      {
       "row": 8461,
@@ -503,9 +496,17 @@
       "title": "Senior Business Analyst",
       "url": "https://www.linkedin.com/jobs/view/4484854445/",
       "score": "",
-      "note": "login",
-      "ts": "2026-11-05T15:36:43"
-     },
+      "note": "running · sin cerrar",
+      "ts": "2026-11-05T15:57:12"
+     }
+    ],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 1,
+    "cards": [
      {
       "row": 8131,
       "company": "World Intellectual Property Organization – WIPO",
@@ -1416,23 +1417,41 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 75,
-   "runs_today": 15,
+   "runs": 74,
+   "runs_today": 14,
    "last": {
-    "row": 8461,
-    "company": "Bank for International Settlements – BIS",
-    "title": "Senior Business Analyst",
-    "started": "2026-11-05T15:36:43",
+    "row": 8456,
+    "company": "Rocken®",
+    "title": "Finance & Business Analyst (m/w/d)",
+    "started": "2026-11-05T15:26:03",
     "applied": false
    },
    "limit": {
     "msg": "You've hit your session limit · resets 6:30pm (Europe/Zurich)",
-    "when": "2026-11-05T15:50:09",
+    "when": "2026-11-05T15:53:39",
     "resets_at": "2026-11-05T18:30:00",
     "resets_label": "18:30"
    },
    "limit_folder": "8461_bank-for-international-settlements-bis-s",
    "limited": true
+  },
+  {
+   "engine": "hermes",
+   "label": "Hermes",
+   "cli": true,
+   "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
+   "runs": 13,
+   "runs_today": 5,
+   "last": {
+    "row": 8461,
+    "company": "Bank for International Settlements – BIS",
+    "title": "Senior Business Analyst",
+    "started": "2026-11-05T15:57:12",
+    "applied": false
+   },
+   "limit": null,
+   "limit_folder": "",
+   "limited": false
   },
   {
    "engine": "codex",
@@ -1446,24 +1465,6 @@
     "company": "Pictet Group",
     "title": "Financial Controlling Analyst - - 12-month contract",
     "started": "2026-11-04T07:28:31",
-    "applied": false
-   },
-   "limit": null,
-   "limit_folder": "",
-   "limited": false
-  },
-  {
-   "engine": "hermes",
-   "label": "Hermes",
-   "cli": true,
-   "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 12,
-   "runs_today": 4,
-   "last": {
-    "row": 8366,
-    "company": "Grupo Dul-Cesar I.C.S.A.",
-    "title": "Crypto Project Manager",
-    "started": "2026-11-05T14:37:14",
     "applied": false
    },
    "limit": null,
@@ -1599,13 +1600,13 @@
    "title": "Senior Business Analyst",
    "url": "https://www.linkedin.com/jobs/view/4484854445/",
    "lang": "en",
-   "started": "2026-11-05T15:36:43",
-   "finished": "2026-11-05T15:50:22",
-   "dur_min": 13.7,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
+   "started": "2026-11-05T15:57:12",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "hermes",
    "blocked": "login",
    "manual": true,
    "ok": false,
