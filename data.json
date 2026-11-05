@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:41:45",
+ "generated": "2026-11-05T23:11:47",
  "kpis": {
   "runs": 110,
   "done": 102,
@@ -111,8 +111,17 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 31,
+    "count": 32,
     "cards": [
+     {
+      "row": 9305,
+      "company": "Michael Page",
+      "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+      "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-05"
+     },
      {
       "row": 8091,
       "company": "TMS Technology",
@@ -1408,7 +1417,7 @@
     "more": 0
    }
   ],
-  "total": 140
+  "total": 141
  },
  "engines": [
   {
