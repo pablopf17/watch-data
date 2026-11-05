@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T15:58:42",
+ "generated": "2026-11-05T16:23:09",
  "kpis": {
-  "runs": 100,
-  "done": 91,
-  "ok": 45,
-  "ok_pct": 49.5,
-  "applied": 27,
+  "runs": 101,
+  "done": 92,
+  "ok": 46,
+  "ok_pct": 50.0,
+  "applied": 28,
   "blocked": 32,
   "manual": 13,
-  "manual_pct": 14.3,
+  "manual_pct": 14.1,
   "median_min": 5.0,
   "median_min_ok": 5.7,
-  "median_min_applied": 5.7,
-  "p90_min": 15.2,
-  "per_hour": 3.95,
-  "median_gap_min": 15.2,
-  "last_24h": 22,
+  "median_min_applied": 5.8,
+  "p90_min": 16.3,
+  "per_hour": 3.92,
+  "median_gap_min": 15.3,
+  "last_24h": 23,
   "retries": 1,
-  "queue_pending": 41
+  "queue_pending": 40
  },
  "per_day": [
   {
@@ -78,10 +78,10 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 19,
-   "ok": 10,
-   "applied": 8,
-   "blocked": 6
+   "runs": 20,
+   "ok": 11,
+   "applied": 9,
+   "blocked": 5
   }
  ],
  "blockers": [
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 41,
+    "count": 40,
     "cards": [
      {
       "row": 9298,
@@ -202,15 +202,6 @@
       "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-10-05"
-     },
-     {
-      "row": 8083,
-      "company": "Julius Baer",
-      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
-      "url": "https://www.linkedin.com/jobs/view/4478702740/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-12"
      },
      {
       "row": 8072,
@@ -488,16 +479,25 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 2,
     "cards": [
      {
-      "row": 8461,
-      "company": "Bank for International Settlements – BIS",
-      "title": "Senior Business Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484854445/",
+      "row": 8083,
+      "company": "Julius Baer",
+      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+      "url": "https://www.linkedin.com/jobs/view/4478702740/",
+      "score": 9,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-05T16:23:09"
+     },
+     {
+      "row": 8083,
+      "company": "Julius Baer",
+      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+      "url": "https://www.linkedin.com/jobs/view/4478702740/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-05T15:57:12"
+      "ts": "2026-11-05T16:21:47"
      }
     ],
     "more": 0
@@ -522,8 +522,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 69,
+    "count": 70,
     "cards": [
+     {
+      "row": 8461,
+      "company": "Bank for International Settlements – BIS",
+      "title": "Senior Business Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484854445/",
+      "score": "",
+      "note": "enviada · pasada paró en 3 avisos",
+      "ts": "2026-11-05T15:57:12"
+     },
      {
       "row": 8553,
       "company": "vector8",
@@ -1436,6 +1445,24 @@
    "limited": true
   },
   {
+   "engine": "codex",
+   "label": "ChatGPT (codex)",
+   "cli": true,
+   "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
+   "runs": 13,
+   "runs_today": 1,
+   "last": {
+    "row": 8083,
+    "company": "Julius Baer",
+    "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+    "started": "2026-11-05T16:21:47",
+    "applied": false
+   },
+   "limit": null,
+   "limit_folder": "",
+   "limited": false
+  },
+  {
    "engine": "hermes",
    "label": "Hermes",
    "cli": true,
@@ -1447,25 +1474,7 @@
     "company": "Bank for International Settlements – BIS",
     "title": "Senior Business Analyst",
     "started": "2026-11-05T15:57:12",
-    "applied": false
-   },
-   "limit": null,
-   "limit_folder": "",
-   "limited": false
-  },
-  {
-   "engine": "codex",
-   "label": "ChatGPT (codex)",
-   "cli": true,
-   "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
-   "runs": 12,
-   "runs_today": 0,
-   "last": {
-    "row": 8144,
-    "company": "Pictet Group",
-    "title": "Financial Controlling Analyst - - 12-month contract",
-    "started": "2026-11-04T07:28:31",
-    "applied": false
+    "applied": true
    },
    "limit": null,
    "limit_folder": "",
@@ -1474,13 +1483,26 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 41,
+  "running": {
+   "row": 8083,
+   "company": "Julius Baer",
+   "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4478702740/",
+   "domain": "linkedin.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-05T16:21:37+01:00",
+   "pid": 48300,
+   "lane": 0
+  },
+  "pending": 40,
   "counters": {
-   "pending": 42,
+   "pending": 41,
    "sent": 0,
    "review": 0,
-   "blocked": 1,
+   "blocked": 0,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1488,7 +1510,7 @@
   "config": {
    "max": 1,
    "min_score": 0,
-   "engine": "claude",
+   "engine": "codex",
    "timeout": 600,
    "per_domain": 0
   },
@@ -1594,6 +1616,33 @@
  },
  "runs": [
   {
+   "row": 8083,
+   "folder": "8083_julius-baer-business-risk-manager-100-f",
+   "company": "Julius Baer",
+   "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+   "url": "https://www.linkedin.com/jobs/view/4478702740/",
+   "lang": "en",
+   "started": "2026-11-05T16:21:47",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "codex",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
+  {
    "row": 8461,
    "folder": "8461_bank-for-international-settlements-bis-s",
    "company": "Bank for International Settlements – BIS",
@@ -1601,23 +1650,23 @@
    "url": "https://www.linkedin.com/jobs/view/4484854445/",
    "lang": "en",
    "started": "2026-11-05T15:57:12",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T16:20:59",
+   "dur_min": 23.8,
+   "phase": "done",
+   "status": "APPLIED",
    "status_at_start": "PENDING APPROVAL",
    "engine": "hermes",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
    "apply_path": "linkedin_external",
-   "files_verified": 0,
+   "files_verified": 1,
    "files_total": 2,
-   "required_missing": 4,
-   "needs_approval": 2,
-   "avisos": 4,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 3,
    "verify_ok": false
   },
   {
