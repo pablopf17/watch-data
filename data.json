@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T15:22:39",
+ "generated": "2026-11-05T15:28:37",
  "kpis": {
-  "runs": 98,
-  "done": 89,
-  "ok": 43,
-  "ok_pct": 48.3,
-  "applied": 25,
+  "runs": 99,
+  "done": 91,
+  "ok": 45,
+  "ok_pct": 49.5,
+  "applied": 27,
   "blocked": 32,
-  "manual": 14,
-  "manual_pct": 15.7,
-  "median_min": 4.9,
+  "manual": 13,
+  "manual_pct": 14.3,
+  "median_min": 5.0,
   "median_min_ok": 5.7,
-  "median_min_applied": 5.6,
-  "p90_min": 15.3,
-  "per_hour": 3.95,
-  "median_gap_min": 15.2,
-  "last_24h": 21,
+  "median_min_applied": 5.7,
+  "p90_min": 15.2,
+  "per_hour": 3.97,
+  "median_gap_min": 15.1,
+  "last_24h": 22,
   "retries": 1,
-  "queue_pending": 43
+  "queue_pending": 42
  },
  "per_day": [
   {
@@ -78,20 +78,20 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 17,
-   "ok": 8,
-   "applied": 6,
+   "runs": 18,
+   "ok": 10,
+   "applied": 8,
    "blocked": 5
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 19
+   "n": 20
   },
   {
    "reason": "login / cuenta",
-   "n": 9
+   "n": 8
   },
   {
    "reason": "captcha",
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 43,
+    "count": 42,
     "cards": [
      {
       "row": 9298,
@@ -164,15 +164,6 @@
       "title": "Senior Business Analyst",
       "url": "https://www.linkedin.com/jobs/view/4484854445/",
       "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8456,
-      "company": "Rocken®",
-      "title": "Finance & Business Analyst (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4483453374/",
-      "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-10-30"
      },
@@ -506,43 +497,15 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
-    "cards": [
-     {
-      "row": 8553,
-      "company": "vector8",
-      "title": "Senior Project Manager, AI Solutions, CH",
-      "url": "https://www.linkedin.com/jobs/view/4476196188/",
-      "score": 7,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T15:22:39"
-     },
-     {
-      "row": 8553,
-      "company": "vector8",
-      "title": "Senior Project Manager, AI Solutions, CH",
-      "url": "https://www.linkedin.com/jobs/view/4476196188/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T15:19:02"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 2,
+    "count": 1,
     "cards": [
-     {
-      "row": 8505,
-      "company": "Julius Baer",
-      "title": "Credit Officer - Mortgages 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4485325885/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-05T15:14:55"
-     },
      {
       "row": 8131,
       "company": "World Intellectual Property Organization – WIPO",
@@ -558,8 +521,26 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 67,
+    "count": 69,
     "cards": [
+     {
+      "row": 8553,
+      "company": "vector8",
+      "title": "Senior Project Manager, AI Solutions, CH",
+      "url": "https://www.linkedin.com/jobs/view/4476196188/",
+      "score": "",
+      "note": "con respuesta · pasada paró en 4 avisos",
+      "ts": "2026-11-05T15:19:02"
+     },
+     {
+      "row": 8505,
+      "company": "Julius Baer",
+      "title": "Credit Officer - Mortgages 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4485325885/",
+      "score": "",
+      "note": "enviada · pasada paró en 4 avisos",
+      "ts": "2026-11-05T15:14:55"
+     },
      {
       "row": 8155,
       "company": "Talent Access Technologies",
@@ -1169,8 +1150,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 27,
+    "count": 28,
     "cards": [
+     {
+      "row": 8456,
+      "company": "Rocken®",
+      "title": "Finance & Business Analyst (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483453374/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-05T15:26:03"
+     },
      {
       "row": 8366,
       "company": "Grupo Dul-Cesar I.C.S.A.",
@@ -1426,13 +1416,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 73,
-   "runs_today": 13,
+   "runs": 74,
+   "runs_today": 14,
    "last": {
-    "row": 8553,
-    "company": "vector8",
-    "title": "Senior Project Manager, AI Solutions, CH",
-    "started": "2026-11-05T15:19:02",
+    "row": 8456,
+    "company": "Rocken®",
+    "title": "Finance & Business Analyst (m/w/d)",
+    "started": "2026-11-05T15:26:03",
     "applied": false
    },
    "limit": {
@@ -1483,26 +1473,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 8553,
-   "company": "vector8",
-   "title": "Senior Project Manager, AI Solutions, CH",
-   "score": 7,
-   "url": "https://www.linkedin.com/jobs/view/4476196188/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-05T15:18:54+01:00",
-   "pid": 5480,
-   "lane": 0
-  },
-  "pending": 43,
+  "running": null,
+  "pending": 42,
   "counters": {
    "pending": 47,
-   "sent": 0,
+   "sent": 1,
    "review": 1,
-   "blocked": 2,
+   "blocked": 3,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1558,6 +1535,28 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T15:28:24+01:00",
+    "row": 8456,
+    "company": "Rocken®",
+    "title": "Finance & Business Analyst (m/w/d)",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 150
+   },
+   {
+    "ts": "2026-11-05T15:25:54+01:00",
+    "row": 8553,
+    "company": "vector8",
+    "title": "Senior Project Manager, AI Solutions, CH",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 420
+   },
+   {
     "ts": "2026-11-05T15:18:54+01:00",
     "row": 8505,
     "company": "Julius Baer",
@@ -1589,32 +1588,37 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 170
-   },
-   {
-    "ts": "2026-11-05T14:46:15+01:00",
-    "row": 8366,
-    "company": "Grupo Dul-Cesar I.C.S.A.",
-    "title": "Crypto Project Manager",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 550
-   },
-   {
-    "ts": "2026-11-05T10:36:47+01:00",
-    "row": 8228,
-    "company": "OKX",
-    "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-    "score": 7,
-    "domain": "linkedin.com",
-    "state": "timeout",
-    "note": "sin cerrar en 600s",
-    "dur_s": null
    }
   ]
  },
  "runs": [
+  {
+   "row": 8456,
+   "folder": "8456_rocken-finance-business-analyst-m-w-d",
+   "company": "Rocken®",
+   "title": "Finance & Business Analyst (m/w/d)",
+   "url": "https://www.linkedin.com/jobs/view/4483453374/",
+   "lang": "de",
+   "started": "2026-11-05T15:26:03",
+   "finished": "2026-11-05T15:28:15",
+   "dur_min": 2.2,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
+  },
   {
    "row": 8553,
    "folder": "8553_vector8-senior-project-manager-ai-soluti",
@@ -1623,24 +1627,24 @@
    "url": "https://www.linkedin.com/jobs/view/4476196188/",
    "lang": "en",
    "started": "2026-11-05T15:19:02",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T15:25:44",
+   "dur_min": 6.7,
+   "phase": "done",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 1,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 8505,
@@ -1650,24 +1654,24 @@
    "url": "https://www.linkedin.com/jobs/view/4485325885/",
    "lang": "en",
    "started": "2026-11-05T15:14:55",
-   "finished": "2026-11-05T15:18:52",
-   "dur_min": 4.0,
+   "finished": "2026-11-05T15:28:34",
+   "dur_min": 13.7,
    "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
    "apply_path": "linkedin_external",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 4,
-   "needs_approval": 2,
-   "avisos": 3,
-   "verify_ok": false
+   "files_verified": 4,
+   "files_total": 4,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 4,
+   "verify_ok": true
   },
   {
    "row": 8155,
