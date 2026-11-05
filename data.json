@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T15:16:36",
+ "generated": "2026-11-05T15:22:39",
  "kpis": {
-  "runs": 97,
-  "done": 88,
+  "runs": 98,
+  "done": 89,
   "ok": 43,
-  "ok_pct": 48.9,
+  "ok_pct": 48.3,
   "applied": 25,
-  "blocked": 31,
-  "manual": 13,
-  "manual_pct": 14.8,
-  "median_min": 5.0,
+  "blocked": 32,
+  "manual": 14,
+  "manual_pct": 15.7,
+  "median_min": 4.9,
   "median_min_ok": 5.7,
   "median_min_applied": 5.6,
-  "p90_min": 15.4,
-  "per_hour": 3.92,
-  "median_gap_min": 15.3,
+  "p90_min": 15.3,
+  "per_hour": 3.95,
+  "median_gap_min": 15.2,
   "last_24h": 21,
   "retries": 1,
-  "queue_pending": 44
+  "queue_pending": 43
  },
  "per_day": [
   {
@@ -78,10 +78,10 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 16,
+   "runs": 17,
    "ok": 8,
    "applied": 6,
-   "blocked": 4
+   "blocked": 5
   }
  ],
  "blockers": [
@@ -91,7 +91,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 8
+   "n": 9
   },
   {
    "reason": "captcha",
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 44,
+    "count": 43,
     "cards": [
      {
       "row": 9298,
@@ -148,15 +148,6 @@
       "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-10-12"
-     },
-     {
-      "row": 8553,
-      "company": "vector8",
-      "title": "Senior Project Manager, AI Solutions, CH",
-      "url": "https://www.linkedin.com/jobs/view/4476196188/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-06"
      },
      {
       "row": 8510,
@@ -518,22 +509,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8505,
-      "company": "Julius Baer",
-      "title": "Credit Officer - Mortgages 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4485325885/",
+      "row": 8553,
+      "company": "vector8",
+      "title": "Senior Project Manager, AI Solutions, CH",
+      "url": "https://www.linkedin.com/jobs/view/4476196188/",
       "score": 7,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T15:16:36"
+      "ts": "2026-11-05T15:22:39"
      },
      {
-      "row": 8505,
-      "company": "Julius Baer",
-      "title": "Credit Officer - Mortgages 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4485325885/",
+      "row": 8553,
+      "company": "vector8",
+      "title": "Senior Project Manager, AI Solutions, CH",
+      "url": "https://www.linkedin.com/jobs/view/4476196188/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-05T15:14:55"
+      "ts": "2026-11-05T15:19:02"
      }
     ],
     "more": 0
@@ -544,13 +535,13 @@
     "count": 2,
     "cards": [
      {
-      "row": 8155,
-      "company": "Talent Access Technologies",
-      "title": "Expert Denodo",
-      "url": "https://www.linkedin.com/jobs/view/4479285173/",
+      "row": 8505,
+      "company": "Julius Baer",
+      "title": "Credit Officer - Mortgages 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4485325885/",
       "score": "",
-      "note": "3 avisos",
-      "ts": "2026-11-05T15:07:49"
+      "note": "login",
+      "ts": "2026-11-05T15:14:55"
      },
      {
       "row": 8131,
@@ -567,8 +558,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 66,
+    "count": 67,
     "cards": [
+     {
+      "row": 8155,
+      "company": "Talent Access Technologies",
+      "title": "Expert Denodo",
+      "url": "https://www.linkedin.com/jobs/view/4479285173/",
+      "score": "",
+      "note": "enviada · pasada paró en 3 avisos",
+      "ts": "2026-11-05T15:07:49"
+     },
      {
       "row": 9002,
       "company": "Gunvor",
@@ -1426,13 +1426,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 72,
-   "runs_today": 12,
+   "runs": 73,
+   "runs_today": 13,
    "last": {
-    "row": 8505,
-    "company": "Julius Baer",
-    "title": "Credit Officer - Mortgages 100% (f/m/d)",
-    "started": "2026-11-05T15:14:55",
+    "row": 8553,
+    "company": "vector8",
+    "title": "Senior Project Manager, AI Solutions, CH",
+    "started": "2026-11-05T15:19:02",
     "applied": false
    },
    "limit": {
@@ -1484,25 +1484,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8505,
-   "company": "Julius Baer",
-   "title": "Credit Officer - Mortgages 100% (f/m/d)",
+   "row": 8553,
+   "company": "vector8",
+   "title": "Senior Project Manager, AI Solutions, CH",
    "score": 7,
-   "url": "https://www.linkedin.com/jobs/view/4485325885/",
+   "url": "https://www.linkedin.com/jobs/view/4476196188/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T15:14:44+01:00",
-   "pid": 40084,
+   "started": "2026-11-05T15:18:54+01:00",
+   "pid": 5480,
    "lane": 0
   },
-  "pending": 44,
+  "pending": 43,
   "counters": {
    "pending": 47,
    "sent": 0,
    "review": 1,
-   "blocked": 1,
+   "blocked": 2,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1558,6 +1558,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T15:18:54+01:00",
+    "row": 8505,
+    "company": "Julius Baer",
+    "title": "Credit Officer - Mortgages 100% (f/m/d)",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 250
+   },
+   {
     "ts": "2026-11-05T15:14:44+01:00",
     "row": 8155,
     "company": "Talent Access Technologies",
@@ -1600,29 +1611,18 @@
     "state": "timeout",
     "note": "sin cerrar en 600s",
     "dur_s": null
-   },
-   {
-    "ts": "2026-11-05T10:26:40+01:00",
-    "row": 8161,
-    "company": "Akkodis",
-    "title": "Data analyst",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 320
    }
   ]
  },
  "runs": [
   {
-   "row": 8505,
-   "folder": "8505_julius-baer-credit-officer-mortgages-100",
-   "company": "Julius Baer",
-   "title": "Credit Officer - Mortgages 100% (f/m/d)",
-   "url": "https://www.linkedin.com/jobs/view/4485325885/",
+   "row": 8553,
+   "folder": "8553_vector8-senior-project-manager-ai-soluti",
+   "company": "vector8",
+   "title": "Senior Project Manager, AI Solutions, CH",
+   "url": "https://www.linkedin.com/jobs/view/4476196188/",
    "lang": "en",
-   "started": "2026-11-05T15:14:55",
+   "started": "2026-11-05T15:19:02",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1641,6 +1641,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8505,
+   "folder": "8505_julius-baer-credit-officer-mortgages-100",
+   "company": "Julius Baer",
+   "title": "Credit Officer - Mortgages 100% (f/m/d)",
+   "url": "https://www.linkedin.com/jobs/view/4485325885/",
+   "lang": "en",
+   "started": "2026-11-05T15:14:55",
+   "finished": "2026-11-05T15:18:52",
+   "dur_min": 4.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 4,
+   "needs_approval": 2,
+   "avisos": 3,
+   "verify_ok": false
   },
   {
    "row": 8155,
