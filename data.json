@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T13:28:21",
+ "generated": "2026-11-05T13:34:22",
  "kpis": {
   "runs": 93,
   "done": 85,
@@ -15,7 +15,7 @@
   "p90_min": 15.7,
   "per_hour": 3.97,
   "median_gap_min": 15.1,
-  "last_24h": 25,
+  "last_24h": 24,
   "retries": 1,
   "queue_pending": 47
  },
@@ -1601,8 +1601,8 @@
    "url": "https://www.linkedin.com/jobs/view/4474244818/",
    "lang": "en",
    "started": "2026-11-05T10:26:54",
-   "finished": "2026-11-05T13:27:13",
-   "dur_min": 180.3,
+   "finished": "2026-11-05T13:32:50",
+   "dur_min": 185.9,
    "phase": "done",
    "status": "APPLIED",
    "status_at_start": "TAILORED",
