@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T10:03:58",
+ "generated": "2026-11-05T10:09:58",
  "kpis": {
-  "runs": 90,
-  "done": 81,
-  "ok": 37,
-  "ok_pct": 45.7,
-  "applied": 20,
+  "runs": 91,
+  "done": 82,
+  "ok": 38,
+  "ok_pct": 46.3,
+  "applied": 21,
   "blocked": 30,
   "manual": 13,
-  "manual_pct": 16.0,
-  "median_min": 4.6,
-  "median_min_ok": 5.2,
-  "median_min_applied": 5.2,
-  "p90_min": 16.3,
+  "manual_pct": 15.9,
+  "median_min": 4.7,
+  "median_min_ok": 5.4,
+  "median_min_applied": 5.4,
+  "p90_min": 16.1,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
-  "last_24h": 23,
+  "last_24h": 24,
   "retries": 1,
-  "queue_pending": 50
+  "queue_pending": 49
  },
  "per_day": [
   {
@@ -78,9 +78,9 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 9,
-   "ok": 2,
-   "applied": 1,
+   "runs": 10,
+   "ok": 3,
+   "applied": 2,
    "blocked": 3
   }
  ],
@@ -111,17 +111,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 50,
+    "count": 49,
     "cards": [
-     {
-      "row": 8688,
-      "company": "Mirabaud Group",
-      "title": "Group MLRO Financial Crime Framework",
-      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-31"
-     },
      {
       "row": 8642,
       "company": "Mirabaud",
@@ -572,22 +563,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8689,
-      "company": "coni+partner AG",
-      "title": "Operational Risk Officer",
-      "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
-      "score": 8,
+      "row": 8688,
+      "company": "Mirabaud Group",
+      "title": "Group MLRO Financial Crime Framework",
+      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
+      "score": 7,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T10:03:58"
+      "ts": "2026-11-05T10:09:58"
      },
      {
-      "row": 8689,
-      "company": "coni+partner AG",
-      "title": "Operational Risk Officer",
-      "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
+      "row": 8688,
+      "company": "Mirabaud Group",
+      "title": "Group MLRO Financial Crime Framework",
+      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
       "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T09:58:55"
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-05T10:09:42"
      }
     ],
     "more": 0
@@ -621,8 +612,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 60,
+    "count": 61,
     "cards": [
+     {
+      "row": 8689,
+      "company": "coni+partner AG",
+      "title": "Operational Risk Officer",
+      "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
+      "score": "",
+      "note": "enviada · pasada paró en 1 avisos",
+      "ts": "2026-11-05T09:58:55"
+     },
      {
       "row": 9230,
       "company": "Jobgether",
@@ -1417,13 +1417,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 67,
-   "runs_today": 7,
+   "runs": 68,
+   "runs_today": 8,
    "last": {
-    "row": 8689,
-    "company": "coni+partner AG",
-    "title": "Operational Risk Officer",
-    "started": "2026-11-05T09:58:55",
+    "row": 8688,
+    "company": "Mirabaud Group",
+    "title": "Group MLRO Financial Crime Framework",
+    "started": "2026-11-05T10:09:42",
     "applied": false
    },
    "limit": {
@@ -1475,31 +1475,31 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8689,
-   "company": "coni+partner AG",
-   "title": "Operational Risk Officer",
-   "score": 8,
-   "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
+   "row": 8688,
+   "company": "Mirabaud Group",
+   "title": "Group MLRO Financial Crime Framework",
+   "score": 7,
+   "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
    "domain": "ch.linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T09:58:46+01:00",
-   "pid": 4416,
+   "started": "2026-11-05T10:09:03+01:00",
+   "pid": 43456,
    "lane": 0
   },
-  "pending": 50,
+  "pending": 49,
   "counters": {
-   "pending": 52,
+   "pending": 50,
    "sent": 0,
    "review": 0,
-   "blocked": 1,
+   "blocked": 0,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
   },
   "config": {
-   "max": 2,
+   "max": 1,
    "min_score": 0,
    "engine": "claude",
    "timeout": 600,
@@ -1549,6 +1549,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T10:04:56+01:00",
+    "row": 8689,
+    "company": "coni+partner AG",
+    "title": "Operational Risk Officer",
+    "score": 8,
+    "domain": "ch.linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 370
+   },
+   {
     "ts": "2026-11-05T09:58:46+01:00",
     "row": 8878,
     "company": "",
@@ -1591,32 +1602,21 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 120
-   },
-   {
-    "ts": "2026-11-05T08:28:19+01:00",
-    "row": 9002,
-    "company": "Gunvor",
-    "title": "Risk Officer - Derivatives",
-    "score": 8,
-    "domain": "gunvor.wd3.myworkdayjobs.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 230
    }
   ]
  },
  "runs": [
   {
-   "row": 8689,
-   "folder": "8689_coni-partner-ag-operational-risk-officer",
-   "company": "coni+partner AG",
-   "title": "Operational Risk Officer",
-   "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
+   "row": 8688,
+   "folder": "8688_mirabaud-group-group-mlro-financial-crim",
+   "company": "Mirabaud Group",
+   "title": "Group MLRO Financial Crime Framework",
+   "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
    "lang": "en",
-   "started": "2026-11-05T09:58:55",
+   "started": "2026-11-05T10:09:42",
    "finished": null,
    "dur_min": null,
-   "phase": "running",
+   "phase": "starting",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
@@ -1632,6 +1632,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8689,
+   "folder": "8689_coni-partner-ag-operational-risk-officer",
+   "company": "coni+partner AG",
+   "title": "Operational Risk Officer",
+   "url": "https://ch.linkedin.com/jobs/view/operational-risk-officer-at-coni-partner-ag-4483936201",
+   "lang": "en",
+   "started": "2026-11-05T09:58:55",
+   "finished": "2026-11-05T10:04:55",
+   "dur_min": 6.0,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 1,
+   "verify_ok": false
   },
   {
    "row": 8878,
