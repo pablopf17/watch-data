@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T08:09:45",
+ "generated": "2026-11-05T08:27:46",
  "kpis": {
-  "runs": 84,
-  "done": 77,
-  "ok": 36,
-  "ok_pct": 46.8,
-  "applied": 20,
+  "runs": 85,
+  "done": 76,
+  "ok": 35,
+  "ok_pct": 46.1,
+  "applied": 19,
   "blocked": 27,
-  "manual": 13,
-  "manual_pct": 16.9,
+  "manual": 12,
+  "manual_pct": 15.8,
   "median_min": 4.7,
-  "median_min_ok": 5.3,
-  "median_min_applied": 5.6,
-  "p90_min": 18.1,
-  "per_hour": 3.77,
-  "median_gap_min": 15.9,
-  "last_24h": 16,
+  "median_min_ok": 5.1,
+  "median_min_applied": 5.3,
+  "p90_min": 17.3,
+  "per_hour": 3.49,
+  "median_gap_min": 17.2,
+  "last_24h": 18,
   "retries": 1,
-  "queue_pending": 54
+  "queue_pending": 53
  },
  "per_day": [
   {
@@ -50,9 +50,9 @@
   },
   {
    "d": "2026-11-01",
-   "runs": 19,
-   "ok": 9,
-   "applied": 8,
+   "runs": 18,
+   "ok": 8,
+   "applied": 7,
    "blocked": 6
   },
   {
@@ -78,7 +78,7 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 2,
+   "runs": 4,
    "ok": 0,
    "applied": 0,
    "blocked": 0
@@ -111,16 +111,25 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 54,
+    "count": 55,
     "cards": [
      {
-      "row": 9002,
-      "company": "Gunvor",
-      "title": "Risk Officer - Derivatives",
-      "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
-      "score": "8",
+      "row": 9232,
+      "company": "ETFBOOK",
+      "title": "Data Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484670254/",
+      "score": "9",
       "note": "listo para lanzar",
-      "ts": "2026-11-02"
+      "ts": "2026-11-03"
+     },
+     {
+      "row": 9230,
+      "company": "Jobgether",
+      "title": "Senior Project Manager (Contract)",
+      "url": "https://www.linkedin.com/jobs/view/4484642500/",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-03"
      },
      {
       "row": 8975,
@@ -605,8 +614,27 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 2,
+    "cards": [
+     {
+      "row": 9002,
+      "company": "Gunvor",
+      "title": "Risk Officer - Derivatives",
+      "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
+      "score": 8,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-05T08:27:46"
+     },
+     {
+      "row": 9002,
+      "company": "Gunvor",
+      "title": "Risk Officer - Derivatives",
+      "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-05T08:24:36"
+     }
+    ],
     "more": 0
    },
    {
@@ -619,8 +647,26 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 57,
+    "count": 58,
     "cards": [
+     {
+      "row": 5157,
+      "company": "ODDO BHF (Schweiz) AG",
+      "title": "Responsable Risques & Contrôle Interne",
+      "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d3a2891-416c-4703-b035-4f65eeb391d7/",
+      "score": "",
+      "note": "enviada · pasada paró en 7 avisos",
+      "ts": "2026-11-05T08:26:15"
+     },
+     {
+      "row": 9203,
+      "company": "Michael Page Switzerland",
+      "title": "Contrôleur de gestion",
+      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-05T07:32:24"
+     },
      {
       "row": 9027,
       "company": "Infinigate (Schweiz) AG",
@@ -872,15 +918,6 @@
       "score": "",
       "note": "enviada · pasada paró en 5 avisos",
       "ts": "2026-11-01T17:23:20"
-     },
-     {
-      "row": 5157,
-      "company": "ODDO BHF (Schweiz) AG",
-      "title": "Responsable Risques & Contrôle Interne",
-      "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d3a2891-416c-4703-b035-4f65eeb391d7/",
-      "score": "",
-      "note": "enviada · pasada paró en 7 avisos",
-      "ts": "2026-11-01T16:24:06"
      },
      {
       "row": 6890,
@@ -1140,17 +1177,8 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 26,
+    "count": 25,
     "cards": [
-     {
-      "row": 9203,
-      "company": "Michael Page Switzerland",
-      "title": "Contrôleur de gestion",
-      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-05T07:32:24"
-     },
      {
       "row": 9004,
       "company": "",
@@ -1380,7 +1408,7 @@
     "more": 0
    }
   ],
-  "total": 137
+  "total": 139
  },
  "engines": [
   {
@@ -1388,13 +1416,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 61,
-   "runs_today": 0,
+   "runs": 62,
+   "runs_today": 2,
    "last": {
-    "row": 6891,
-    "company": "J. Safra Sarasin",
-    "title": "Lead Auditor",
-    "started": "2026-11-04T14:25:49",
+    "row": 5157,
+    "company": "ODDO BHF (Schweiz) AG",
+    "title": "Responsable Risques & Contrôle Interne",
+    "started": "2026-11-05T08:26:15",
     "applied": false
    },
    "limit": {
@@ -1445,21 +1473,34 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 54,
+  "running": {
+   "row": 9002,
+   "company": "Gunvor",
+   "title": "Risk Officer - Derivatives",
+   "score": 8,
+   "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
+   "domain": "gunvor.wd3.myworkdayjobs.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-05T08:24:29+01:00",
+   "pid": 11848,
+   "lane": 0
+  },
+  "pending": 53,
   "counters": {
-   "pending": 56,
+   "pending": 54,
    "sent": 0,
    "review": 0,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
-   "timeout": 2
+   "login_blocked": 0
   },
   "config": {
    "max": 2,
    "min_score": 0,
-   "engine": "hermes",
+   "engine": "claude",
    "timeout": 600,
    "per_domain": 0
   },
@@ -1564,6 +1605,60 @@
   ]
  },
  "runs": [
+  {
+   "row": 5157,
+   "folder": "5157_oddo-bhf-schweiz-ag-responsable-risques",
+   "company": "ODDO BHF (Schweiz) AG",
+   "title": "Responsable Risques & Contrôle Interne",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d3a2891-416c-4703-b035-4f65eeb391d7/",
+   "lang": "fr",
+   "started": "2026-11-05T08:26:15",
+   "finished": null,
+   "dur_min": null,
+   "phase": "packaged",
+   "status": "",
+   "status_at_start": "APPLIED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 7,
+   "verify_ok": true
+  },
+  {
+   "row": 9002,
+   "folder": "9002_gunvor-risk-officer-derivatives",
+   "company": "Gunvor",
+   "title": "Risk Officer - Derivatives",
+   "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
+   "lang": "en",
+   "started": "2026-11-05T08:24:36",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 9203,
    "folder": "9203_michael-page-switzerland-controleur-de-g",
@@ -2615,33 +2710,6 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 5,
-   "verify_ok": true
-  },
-  {
-   "row": 5157,
-   "folder": "5157_oddo-bhf-schweiz-ag-responsable-risques",
-   "company": "ODDO BHF (Schweiz) AG",
-   "title": "Responsable Risques & Contrôle Interne",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d3a2891-416c-4703-b035-4f65eeb391d7/",
-   "lang": "fr",
-   "started": "2026-11-01T16:24:06",
-   "finished": "2026-11-01T18:04:41",
-   "dur_min": 100.6,
-   "phase": "done",
-   "status": "APPLIED",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "",
-   "manual": true,
-   "ok": true,
-   "applied": true,
-   "form_reached": true,
-   "apply_path": "intermedio",
-   "files_verified": 2,
-   "files_total": 2,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 7,
    "verify_ok": true
   },
   {
