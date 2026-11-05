@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T08:45:49",
+ "generated": "2026-11-05T08:51:49",
  "kpis": {
   "runs": 88,
-  "done": 79,
-  "ok": 36,
-  "ok_pct": 45.6,
-  "applied": 19,
+  "done": 80,
+  "ok": 37,
+  "ok_pct": 46.2,
+  "applied": 20,
   "blocked": 29,
   "manual": 13,
-  "manual_pct": 16.5,
-  "median_min": 4.6,
-  "median_min_ok": 5.3,
-  "median_min_applied": 5.3,
-  "p90_min": 16.7,
+  "manual_pct": 16.2,
+  "median_min": 4.7,
+  "median_min_ok": 5.2,
+  "median_min_applied": 5.2,
+  "p90_min": 16.5,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
   "last_24h": 21,
@@ -79,8 +79,8 @@
   {
    "d": "2026-11-05",
    "runs": 7,
-   "ok": 1,
-   "applied": 0,
+   "ok": 2,
+   "applied": 1,
    "blocked": 2
   }
  ],
@@ -587,27 +587,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
-    "cards": [
-     {
-      "row": 9230,
-      "company": "Jobgether",
-      "title": "Senior Project Manager (Contract)",
-      "url": "https://www.linkedin.com/jobs/view/4484642500/",
-      "score": 10,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T08:45:49"
-     },
-     {
-      "row": 9230,
-      "company": "Jobgether",
-      "title": "Senior Project Manager (Contract)",
-      "url": "https://www.linkedin.com/jobs/view/4484642500/",
-      "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-05T08:45:15"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -639,8 +620,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 59,
+    "count": 60,
     "cards": [
+     {
+      "row": 9230,
+      "company": "Jobgether",
+      "title": "Senior Project Manager (Contract)",
+      "url": "https://www.linkedin.com/jobs/view/4484642500/",
+      "score": "",
+      "note": "enviada · pasada paró en 1 avisos",
+      "ts": "2026-11-05T08:45:15"
+     },
      {
       "row": 8975,
       "company": "nxt digital AG",
@@ -1424,7 +1414,7 @@
     "company": "Jobgether",
     "title": "Senior Project Manager (Contract)",
     "started": "2026-11-05T08:45:15",
-    "applied": false
+    "applied": true
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:30pm (Europe/Zurich)",
@@ -1474,24 +1464,11 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 9230,
-   "company": "Jobgether",
-   "title": "Senior Project Manager (Contract)",
-   "score": 10,
-   "url": "https://www.linkedin.com/jobs/view/4484642500/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-05T08:45:07+01:00",
-   "pid": 36980,
-   "lane": 0
-  },
+  "running": null,
   "pending": 52,
   "counters": {
    "pending": 54,
-   "sent": 0,
+   "sent": 1,
    "review": 1,
    "blocked": 0,
    "errors": 0,
@@ -1549,6 +1526,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T08:50:27+01:00",
+    "row": 9230,
+    "company": "Jobgether",
+    "title": "Senior Project Manager (Contract)",
+    "score": 10,
+    "domain": "linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 320
+   },
+   {
     "ts": "2026-11-05T08:45:07+01:00",
     "row": 9232,
     "company": "ETFBOOK",
@@ -1591,17 +1579,6 @@
     "state": "timeout",
     "note": "sin cerrar en 600s",
     "dur_s": null
-   },
-   {
-    "ts": "2026-11-05T07:07:44",
-    "row": 9203,
-    "company": "Michael Page Switzerland",
-    "title": "Contrôleur de gestion",
-    "score": 8,
-    "domain": "job-room.ch",
-    "state": "timeout",
-    "note": "sin cerrar en 600s",
-    "dur_s": null
    }
   ]
  },
@@ -1614,24 +1591,24 @@
    "url": "https://www.linkedin.com/jobs/view/4484642500/",
    "lang": "en",
    "started": "2026-11-05T08:45:15",
-   "finished": null,
-   "dur_min": null,
-   "phase": "starting",
-   "status": "",
+   "finished": "2026-11-05T08:50:25",
+   "dur_min": 5.2,
+   "phase": "done",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 1,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "avisos": 1,
+   "verify_ok": false
   },
   {
    "row": 9232,
