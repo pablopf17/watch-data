@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T15:10:35",
+ "generated": "2026-11-05T15:16:36",
  "kpis": {
-  "runs": 96,
-  "done": 87,
-  "ok": 42,
-  "ok_pct": 48.3,
+  "runs": 97,
+  "done": 88,
+  "ok": 43,
+  "ok_pct": 48.9,
   "applied": 25,
   "blocked": 31,
   "manual": 13,
-  "manual_pct": 14.9,
-  "median_min": 4.9,
-  "median_min_ok": 5.6,
+  "manual_pct": 14.8,
+  "median_min": 5.0,
+  "median_min_ok": 5.7,
   "median_min_applied": 5.6,
-  "p90_min": 15.5,
+  "p90_min": 15.4,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
-  "last_24h": 20,
+  "last_24h": 21,
   "retries": 1,
-  "queue_pending": 45
+  "queue_pending": 44
  },
  "per_day": [
   {
@@ -78,8 +78,8 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 15,
-   "ok": 7,
+   "runs": 16,
+   "ok": 8,
    "applied": 6,
    "blocked": 4
   }
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 45,
+    "count": 44,
     "cards": [
      {
       "row": 9298,
@@ -164,15 +164,6 @@
       "title": "Transaction Monitoring Compliance Officer",
       "url": "https://www.linkedin.com/jobs/view/4485393562/",
       "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
-     {
-      "row": 8505,
-      "company": "Julius Baer",
-      "title": "Credit Officer - Mortgages 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4485325885/",
-      "score": "7",
       "note": "listo para lanzar",
       "ts": "2026-10-30"
      },
@@ -527,22 +518,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8155,
-      "company": "Talent Access Technologies",
-      "title": "Expert Denodo",
-      "url": "https://www.linkedin.com/jobs/view/4479285173/",
-      "score": 9,
+      "row": 8505,
+      "company": "Julius Baer",
+      "title": "Credit Officer - Mortgages 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4485325885/",
+      "score": 7,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T15:10:35"
+      "ts": "2026-11-05T15:16:36"
      },
      {
-      "row": 8155,
-      "company": "Talent Access Technologies",
-      "title": "Expert Denodo",
-      "url": "https://www.linkedin.com/jobs/view/4479285173/",
+      "row": 8505,
+      "company": "Julius Baer",
+      "title": "Credit Officer - Mortgages 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4485325885/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-05T15:07:49"
+      "ts": "2026-11-05T15:14:55"
      }
     ],
     "more": 0
@@ -550,8 +541,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 1,
+    "count": 2,
     "cards": [
+     {
+      "row": 8155,
+      "company": "Talent Access Technologies",
+      "title": "Expert Denodo",
+      "url": "https://www.linkedin.com/jobs/view/4479285173/",
+      "score": "",
+      "note": "3 avisos",
+      "ts": "2026-11-05T15:07:49"
+     },
      {
       "row": 8131,
       "company": "World Intellectual Property Organization – WIPO",
@@ -1426,13 +1426,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 71,
-   "runs_today": 11,
+   "runs": 72,
+   "runs_today": 12,
    "last": {
-    "row": 8155,
-    "company": "Talent Access Technologies",
-    "title": "Expert Denodo",
-    "started": "2026-11-05T15:07:49",
+    "row": 8505,
+    "company": "Julius Baer",
+    "title": "Credit Officer - Mortgages 100% (f/m/d)",
+    "started": "2026-11-05T15:14:55",
     "applied": false
    },
    "limit": {
@@ -1484,24 +1484,24 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8155,
-   "company": "Talent Access Technologies",
-   "title": "Expert Denodo",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4479285173/",
+   "row": 8505,
+   "company": "Julius Baer",
+   "title": "Credit Officer - Mortgages 100% (f/m/d)",
+   "score": 7,
+   "url": "https://www.linkedin.com/jobs/view/4485325885/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T15:07:33+01:00",
-   "pid": 12312,
+   "started": "2026-11-05T15:14:44+01:00",
+   "pid": 40084,
    "lane": 0
   },
-  "pending": 45,
+  "pending": 44,
   "counters": {
    "pending": 47,
    "sent": 0,
-   "review": 0,
+   "review": 1,
    "blocked": 1,
    "errors": 0,
    "skipped": 0,
@@ -1558,6 +1558,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T15:14:44+01:00",
+    "row": 8155,
+    "company": "Talent Access Technologies",
+    "title": "Expert Denodo",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "3 avisos",
+    "dur_s": 430
+   },
+   {
     "ts": "2026-11-05T15:07:33+01:00",
     "row": 8131,
     "company": "World Intellectual Property Organization – WIPO",
@@ -1600,29 +1611,18 @@
     "state": "sent",
     "note": "enviada",
     "dur_s": 320
-   },
-   {
-    "ts": "2026-11-05T10:18:43+01:00",
-    "row": 8688,
-    "company": "Mirabaud Group",
-    "title": "Group MLRO Financial Crime Framework",
-    "score": 7,
-    "domain": "ch.linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 580
    }
   ]
  },
  "runs": [
   {
-   "row": 8155,
-   "folder": "8155_talent-access-technologies-expert-denodo",
-   "company": "Talent Access Technologies",
-   "title": "Expert Denodo",
-   "url": "https://www.linkedin.com/jobs/view/4479285173/",
-   "lang": "fr",
-   "started": "2026-11-05T15:07:49",
+   "row": 8505,
+   "folder": "8505_julius-baer-credit-officer-mortgages-100",
+   "company": "Julius Baer",
+   "title": "Credit Officer - Mortgages 100% (f/m/d)",
+   "url": "https://www.linkedin.com/jobs/view/4485325885/",
+   "lang": "en",
+   "started": "2026-11-05T15:14:55",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1641,6 +1641,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8155,
+   "folder": "8155_talent-access-technologies-expert-denodo",
+   "company": "Talent Access Technologies",
+   "title": "Expert Denodo",
+   "url": "https://www.linkedin.com/jobs/view/4479285173/",
+   "lang": "fr",
+   "started": "2026-11-05T15:07:49",
+   "finished": "2026-11-05T15:14:37",
+   "dur_min": 6.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 1,
+   "avisos": 3,
+   "verify_ok": false
   },
   {
    "row": 8131,
