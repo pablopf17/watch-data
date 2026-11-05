@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T20:23:23",
+ "generated": "2026-11-05T20:29:23",
  "kpis": {
-  "runs": 106,
-  "done": 97,
-  "ok": 49,
-  "ok_pct": 50.5,
-  "applied": 28,
+  "runs": 107,
+  "done": 98,
+  "ok": 50,
+  "ok_pct": 51.0,
+  "applied": 29,
   "blocked": 34,
   "manual": 14,
-  "manual_pct": 14.4,
+  "manual_pct": 14.3,
   "median_min": 5.0,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 15.5,
-  "per_hour": 4.03,
-  "median_gap_min": 14.9,
-  "last_24h": 27,
+  "p90_min": 15.4,
+  "per_hour": 4.05,
+  "median_gap_min": 14.8,
+  "last_24h": 28,
   "retries": 1,
-  "queue_pending": 35
+  "queue_pending": 34
  },
  "per_day": [
   {
@@ -78,9 +78,9 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 25,
-   "ok": 14,
-   "applied": 9,
+   "runs": 26,
+   "ok": 15,
+   "applied": 10,
    "blocked": 7
   }
  ],
@@ -111,17 +111,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 35,
+    "count": 34,
     "cards": [
-     {
-      "row": 8130,
-      "company": "UNICEF",
-      "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
-      "url": "https://www.linkedin.com/jobs/view/4483720352/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-26"
-     },
      {
       "row": 8123,
       "company": "HUG - Hopitaux Universitaires de Genève",
@@ -437,22 +428,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8510,
-      "company": "Mirabaud Group",
-      "title": "Transaction Monitoring Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4485393562/",
-      "score": 8,
+      "row": 8130,
+      "company": "UNICEF",
+      "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
+      "url": "https://www.linkedin.com/jobs/view/4483720352/",
+      "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T20:23:23"
+      "ts": "2026-11-05T20:29:23"
      },
      {
-      "row": 8510,
-      "company": "Mirabaud Group",
-      "title": "Transaction Monitoring Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4485393562/",
+      "row": 8130,
+      "company": "UNICEF",
+      "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
+      "url": "https://www.linkedin.com/jobs/view/4483720352/",
       "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T20:18:47"
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-05T20:28:26"
      }
     ],
     "more": 0
@@ -513,8 +504,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 70,
+    "count": 71,
     "cards": [
+     {
+      "row": 8510,
+      "company": "Mirabaud Group",
+      "title": "Transaction Monitoring Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4485393562/",
+      "score": "",
+      "note": "con respuesta · pasada paró en 4 avisos",
+      "ts": "2026-11-05T20:18:47"
+     },
      {
       "row": 8461,
       "company": "Bank for International Settlements – BIS",
@@ -1426,13 +1426,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 79,
-   "runs_today": 19,
+   "runs": 80,
+   "runs_today": 20,
    "last": {
-    "row": 8510,
-    "company": "Mirabaud Group",
-    "title": "Transaction Monitoring Compliance Officer",
-    "started": "2026-11-05T20:18:47",
+    "row": 8130,
+    "company": "UNICEF",
+    "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
+    "started": "2026-11-05T20:28:26",
     "applied": false
    },
    "limit": {
@@ -1484,23 +1484,23 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8510,
-   "company": "Mirabaud Group",
-   "title": "Transaction Monitoring Compliance Officer",
-   "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4485393562/",
+   "row": 8130,
+   "company": "UNICEF",
+   "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4483720352/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T20:18:38+01:00",
-   "pid": 50324,
+   "started": "2026-11-05T20:28:19+01:00",
+   "pid": 42460,
    "lane": 0
   },
-  "pending": 35,
+  "pending": 34,
   "counters": {
    "pending": 40,
-   "sent": 0,
+   "sent": 1,
    "review": 3,
    "blocked": 1,
    "errors": 0,
@@ -1558,6 +1558,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T20:28:19+01:00",
+    "row": 8510,
+    "company": "Mirabaud Group",
+    "title": "Transaction Monitoring Compliance Officer",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 580
+   },
+   {
     "ts": "2026-11-05T20:18:38+01:00",
     "row": 8587,
     "company": "EY",
@@ -1600,32 +1611,21 @@
     "state": "review",
     "note": "5 avisos",
     "dur_s": 260
-   },
-   {
-    "ts": "2026-11-05T16:26:17+01:00",
-    "row": 8083,
-    "company": "Julius Baer",
-    "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 280
    }
   ]
  },
  "runs": [
   {
-   "row": 8510,
-   "folder": "8510_mirabaud-group-transaction-monitoring-co",
-   "company": "Mirabaud Group",
-   "title": "Transaction Monitoring Compliance Officer",
-   "url": "https://www.linkedin.com/jobs/view/4485393562/",
+   "row": 8130,
+   "folder": "8130_unicef-digital-data-analyst-eap-region-c",
+   "company": "UNICEF",
+   "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
+   "url": "https://www.linkedin.com/jobs/view/4483720352/",
    "lang": "en",
-   "started": "2026-11-05T20:18:47",
+   "started": "2026-11-05T20:28:26",
    "finished": null,
    "dur_min": null,
-   "phase": "running",
+   "phase": "starting",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
@@ -1641,6 +1641,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8510,
+   "folder": "8510_mirabaud-group-transaction-monitoring-co",
+   "company": "Mirabaud Group",
+   "title": "Transaction Monitoring Compliance Officer",
+   "url": "https://www.linkedin.com/jobs/view/4485393562/",
+   "lang": "en",
+   "started": "2026-11-05T20:18:47",
+   "finished": "2026-11-05T20:28:10",
+   "dur_min": 9.4,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "directo",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 4,
+   "verify_ok": true
   },
   {
    "row": 8587,
