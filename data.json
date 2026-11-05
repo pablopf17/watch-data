@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T07:27:39",
+ "generated": "2026-11-05T07:33:40",
  "kpis": {
   "runs": 84,
   "done": 76,
@@ -13,9 +13,9 @@
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
   "p90_min": 17.3,
-  "per_hour": 3.92,
-  "median_gap_min": 15.3,
-  "last_24h": 17,
+  "per_hour": 3.77,
+  "median_gap_min": 15.9,
+  "last_24h": 16,
   "retries": 1,
   "queue_pending": 54
  },
@@ -613,8 +613,8 @@
       "title": "Contrôleur de gestion",
       "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
       "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-05T06:57:51"
+      "note": "running · sin cerrar",
+      "ts": "2026-11-05T07:32:24"
      }
     ],
     "more": 0
@@ -1433,10 +1433,10 @@
    "runs": 10,
    "runs_today": 2,
    "last": {
-    "row": 9004,
-    "company": "",
-    "title": "Gestionnaire administratif compliance",
-    "started": "2026-11-05T07:07:53",
+    "row": 9203,
+    "company": "Michael Page Switzerland",
+    "title": "Contrôleur de gestion",
+    "started": "2026-11-05T07:32:24",
     "applied": false
    },
    "limit": null,
@@ -1566,6 +1566,33 @@
  },
  "runs": [
   {
+   "row": 9203,
+   "folder": "9203_michael-page-switzerland-controleur-de-g",
+   "company": "Michael Page Switzerland",
+   "title": "Contrôleur de gestion",
+   "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+   "lang": "fr",
+   "started": "2026-11-05T07:32:24",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
+  {
    "row": 9004,
    "folder": "9004_gestionnaire-administratif-compliance",
    "company": "",
@@ -1591,33 +1618,6 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": false
-  },
-  {
-   "row": 9203,
-   "folder": "9203_michael-page-switzerland-controleur-de-g",
-   "company": "Michael Page Switzerland",
-   "title": "Contrôleur de gestion",
-   "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
-   "lang": "fr",
-   "started": "2026-11-05T06:57:51",
-   "finished": null,
-   "dur_min": null,
-   "phase": "starting",
-   "status": "",
-   "status_at_start": "TAILORED",
-   "engine": "hermes",
-   "blocked": "",
-   "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
   },
   {
    "row": 9027,
