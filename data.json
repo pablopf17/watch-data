@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T10:34:01",
+ "generated": "2026-11-05T10:40:03",
  "kpis": {
   "runs": 93,
   "done": 84,
@@ -542,17 +542,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
-     {
-      "row": 8228,
-      "company": "OKX",
-      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-      "url": "https://www.linkedin.com/jobs/view/4474244818/",
-      "score": 7,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T10:34:01"
-     },
      {
       "row": 8228,
       "company": "OKX",
@@ -568,17 +559,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 2,
+    "count": 1,
     "cards": [
-     {
-      "row": 9232,
-      "company": "ETFBOOK",
-      "title": "Data Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484670254/",
-      "score": "",
-      "note": "5 avisos",
-      "ts": "2026-11-05T08:39:24"
-     },
      {
       "row": 9002,
       "company": "Gunvor",
@@ -594,7 +576,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 63,
+    "count": 64,
     "cards": [
      {
       "row": 8161,
@@ -631,6 +613,15 @@
       "score": "",
       "note": "enviada · pasada paró en 1 avisos",
       "ts": "2026-11-05T08:45:15"
+     },
+     {
+      "row": 9232,
+      "company": "ETFBOOK",
+      "title": "Data Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484670254/",
+      "score": "",
+      "note": "enviada · pasada paró en 5 avisos",
+      "ts": "2026-11-05T08:39:24"
      },
      {
       "row": 8975,
@@ -1474,20 +1465,7 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 8228,
-   "company": "OKX",
-   "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-   "score": 7,
-   "url": "https://www.linkedin.com/jobs/view/4474244818/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-05T10:26:47+01:00",
-   "pid": 14424,
-   "lane": 0
-  },
+  "running": null,
   "pending": 47,
   "counters": {
    "pending": 48,
@@ -1496,7 +1474,8 @@
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
-   "login_blocked": 0
+   "login_blocked": 0,
+   "timeout": 1
   },
   "config": {
    "max": 1,
@@ -1549,6 +1528,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T10:36:47+01:00",
+    "row": 8228,
+    "company": "OKX",
+    "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "timeout",
+    "note": "sin cerrar en 600s",
+    "dur_s": null
+   },
+   {
     "ts": "2026-11-05T10:26:40+01:00",
     "row": 8161,
     "company": "Akkodis",
@@ -1591,17 +1581,6 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 160
-   },
-   {
-    "ts": "2026-11-05T08:50:27+01:00",
-    "row": 9230,
-    "company": "Jobgether",
-    "title": "Senior Project Manager (Contract)",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 320
    }
   ]
  },
