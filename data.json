@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T12:46:16",
+ "generated": "2026-11-05T13:28:21",
  "kpis": {
   "runs": 93,
   "done": 85,
-  "ok": 40,
-  "ok_pct": 47.1,
-  "applied": 23,
+  "ok": 41,
+  "ok_pct": 48.2,
+  "applied": 24,
   "blocked": 30,
   "manual": 13,
   "manual_pct": 15.3,
-  "median_min": 4.8,
+  "median_min": 4.7,
   "median_min_ok": 5.4,
   "median_min_applied": 5.4,
-  "p90_min": 17.5,
+  "p90_min": 15.7,
   "per_hour": 3.97,
   "median_gap_min": 15.1,
   "last_24h": 25,
@@ -79,8 +79,8 @@
   {
    "d": "2026-11-05",
    "runs": 12,
-   "ok": 5,
-   "applied": 4,
+   "ok": 6,
+   "applied": 5,
    "blocked": 3
   }
  ],
@@ -575,8 +575,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 64,
+    "count": 65,
     "cards": [
+     {
+      "row": 8228,
+      "company": "OKX",
+      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+      "url": "https://www.linkedin.com/jobs/view/4474244818/",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-05T10:26:54"
+     },
      {
       "row": 8161,
       "company": "Akkodis",
@@ -1159,17 +1168,8 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 27,
+    "count": 26,
     "cards": [
-     {
-      "row": 8228,
-      "company": "OKX",
-      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-      "url": "https://www.linkedin.com/jobs/view/4474244818/",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-05T10:26:54"
-     },
      {
       "row": 8878,
       "company": "",
@@ -1464,7 +1464,7 @@
     "company": "OKX",
     "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
     "started": "2026-11-05T10:26:54",
-    "applied": false
+    "applied": true
    },
    "limit": null,
    "limit_folder": "",
@@ -1601,20 +1601,20 @@
    "url": "https://www.linkedin.com/jobs/view/4474244818/",
    "lang": "en",
    "started": "2026-11-05T10:26:54",
-   "finished": "2026-11-05T10:52:10",
-   "dur_min": 25.3,
+   "finished": "2026-11-05T13:27:13",
+   "dur_min": 180.3,
    "phase": "done",
-   "status": "TAILORED",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
    "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "directo",
+   "files_verified": 2,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
