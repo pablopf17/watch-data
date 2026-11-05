@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T08:33:47",
+ "generated": "2026-11-05T08:39:48",
  "kpis": {
-  "runs": 86,
+  "runs": 87,
   "done": 78,
   "ok": 35,
   "ok_pct": 44.9,
@@ -13,11 +13,11 @@
   "median_min_ok": 5.1,
   "median_min_applied": 5.3,
   "p90_min": 16.9,
-  "per_hour": 3.77,
-  "median_gap_min": 15.9,
-  "last_24h": 19,
+  "per_hour": 3.85,
+  "median_gap_min": 15.6,
+  "last_24h": 20,
   "retries": 1,
-  "queue_pending": 52
+  "queue_pending": 53
  },
  "per_day": [
   {
@@ -78,7 +78,7 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 5,
+   "runs": 6,
    "ok": 0,
    "applied": 0,
    "blocked": 2
@@ -111,17 +111,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 54,
+    "count": 53,
     "cards": [
-     {
-      "row": 9232,
-      "company": "ETFBOOK",
-      "title": "Data Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484670254/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-03"
-     },
      {
       "row": 9230,
       "company": "Jobgether",
@@ -605,8 +596,27 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 2,
+    "cards": [
+     {
+      "row": 9232,
+      "company": "ETFBOOK",
+      "title": "Data Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484670254/",
+      "score": 9,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-05T08:39:48"
+     },
+     {
+      "row": 9232,
+      "company": "ETFBOOK",
+      "title": "Data Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484670254/",
+      "score": "",
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-05T08:39:24"
+     }
+    ],
     "more": 0
    },
    {
@@ -629,8 +639,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 58,
+    "count": 59,
     "cards": [
+     {
+      "row": 8975,
+      "company": "nxt digital AG",
+      "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
+      "url": "https://www.jobagent.ch/job/unternehmensberater-business-consultant-auf-stufe-manager-m-w-d-60-100-fu%CC%88r-financial-services/324e414c33",
+      "score": "",
+      "note": "enviada · pasada paró en sin_formulario",
+      "ts": "2026-11-05T08:28:26"
+     },
      {
       "row": 5157,
       "company": "ODDO BHF (Schweiz) AG",
@@ -646,7 +665,7 @@
       "title": "Contrôleur de gestion",
       "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
       "score": "",
-      "note": "enviada",
+      "note": "con respuesta",
       "ts": "2026-11-05T07:32:24"
      },
      {
@@ -1159,17 +1178,8 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 26,
+    "count": 25,
     "cards": [
-     {
-      "row": 8975,
-      "company": "nxt digital AG",
-      "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
-      "url": "https://www.jobagent.ch/job/unternehmensberater-business-consultant-auf-stufe-manager-m-w-d-60-100-fu%CC%88r-financial-services/324e414c33",
-      "score": "",
-      "note": "sin_formulario",
-      "ts": "2026-11-05T08:28:26"
-     },
      {
       "row": 9004,
       "company": "",
@@ -1407,13 +1417,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 63,
-   "runs_today": 3,
+   "runs": 64,
+   "runs_today": 4,
    "last": {
-    "row": 8975,
-    "company": "nxt digital AG",
-    "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
-    "started": "2026-11-05T08:28:26",
+    "row": 9232,
+    "company": "ETFBOOK",
+    "title": "Data Analyst",
+    "started": "2026-11-05T08:39:24",
     "applied": false
    },
    "limit": {
@@ -1464,13 +1474,26 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 52,
+  "running": {
+   "row": 9232,
+   "company": "ETFBOOK",
+   "title": "Data Analyst",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4484670254/",
+   "domain": "linkedin.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-05T08:39:17+01:00",
+   "pid": 32840,
+   "lane": 0
+  },
+  "pending": 53,
   "counters": {
    "pending": 54,
    "sent": 0,
    "review": 0,
-   "blocked": 2,
+   "blocked": 0,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1483,6 +1506,14 @@
    "per_domain": 0
   },
   "next": [
+   {
+    "row": 9230,
+    "company": "Jobgether",
+    "title": "Senior Project Manager (Contract)",
+    "score": 10,
+    "url": "https://www.linkedin.com/jobs/view/4484642500/",
+    "domain": "linkedin.com"
+   },
    {
     "row": 3905,
     "company": "CLEEVEN",
@@ -1513,14 +1544,6 @@
     "title": "Project Associate, Regulatory Affairs (m/f/d)",
     "score": 9,
     "url": "https://www.linkedin.com/jobs/view/4483634441/",
-    "domain": "linkedin.com"
-   },
-   {
-    "row": 7161,
-    "company": "LGT Capital Partners",
-    "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
-    "score": 9,
-    "url": "https://www.linkedin.com/jobs/view/4484712002/",
     "domain": "linkedin.com"
    }
   ],
@@ -1583,6 +1606,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9232,
+   "folder": "9232_etfbook-data-analyst",
+   "company": "ETFBOOK",
+   "title": "Data Analyst",
+   "url": "https://www.linkedin.com/jobs/view/4484670254/",
+   "lang": "en",
+   "started": "2026-11-05T08:39:24",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 8975,
    "folder": "8975_nxt-digital-ag-unternehmensberater-busin",
