@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T08:27:46",
+ "generated": "2026-11-05T08:33:47",
  "kpis": {
-  "runs": 85,
-  "done": 76,
+  "runs": 86,
+  "done": 78,
   "ok": 35,
-  "ok_pct": 46.1,
+  "ok_pct": 44.9,
   "applied": 19,
-  "blocked": 27,
-  "manual": 12,
-  "manual_pct": 15.8,
-  "median_min": 4.7,
+  "blocked": 29,
+  "manual": 13,
+  "manual_pct": 16.7,
+  "median_min": 4.5,
   "median_min_ok": 5.1,
   "median_min_applied": 5.3,
-  "p90_min": 17.3,
-  "per_hour": 3.49,
-  "median_gap_min": 17.2,
-  "last_24h": 18,
+  "p90_min": 16.9,
+  "per_hour": 3.77,
+  "median_gap_min": 15.9,
+  "last_24h": 19,
   "retries": 1,
-  "queue_pending": 53
+  "queue_pending": 52
  },
  "per_day": [
   {
@@ -78,20 +78,20 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 4,
+   "runs": 5,
    "ok": 0,
    "applied": 0,
-   "blocked": 0
+   "blocked": 2
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 16
+   "n": 17
   },
   {
    "reason": "login / cuenta",
-   "n": 7
+   "n": 8
   },
   {
    "reason": "captcha",
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 55,
+    "count": 54,
     "cards": [
      {
       "row": 9232,
@@ -130,15 +130,6 @@
       "score": "10",
       "note": "listo para lanzar",
       "ts": "2026-11-03"
-     },
-     {
-      "row": 8975,
-      "company": "nxt digital AG",
-      "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
-      "url": "https://www.jobagent.ch/job/unternehmensberater-business-consultant-auf-stufe-manager-m-w-d-60-100-fu%CC%88r-financial-services/324e414c33",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-02"
      },
      {
       "row": 8878,
@@ -614,34 +605,25 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 1,
     "cards": [
      {
       "row": 9002,
       "company": "Gunvor",
       "title": "Risk Officer - Derivatives",
       "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
-      "score": 8,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T08:27:46"
-     },
-     {
-      "row": 9002,
-      "company": "Gunvor",
-      "title": "Risk Officer - Derivatives",
-      "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "login",
       "ts": "2026-11-05T08:24:36"
      }
     ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 0,
-    "cards": [],
     "more": 0
    },
    {
@@ -656,7 +638,7 @@
       "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d3a2891-416c-4703-b035-4f65eeb391d7/",
       "score": "",
       "note": "enviada · pasada paró en 7 avisos",
-      "ts": "2026-11-05T08:26:15"
+      "ts": "2026-11-05T08:28:16"
      },
      {
       "row": 9203,
@@ -1177,8 +1159,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 25,
+    "count": 26,
     "cards": [
+     {
+      "row": 8975,
+      "company": "nxt digital AG",
+      "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
+      "url": "https://www.jobagent.ch/job/unternehmensberater-business-consultant-auf-stufe-manager-m-w-d-60-100-fu%CC%88r-financial-services/324e414c33",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-05T08:28:26"
+     },
      {
       "row": 9004,
       "company": "",
@@ -1416,13 +1407,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 62,
-   "runs_today": 2,
+   "runs": 63,
+   "runs_today": 3,
    "last": {
-    "row": 5157,
-    "company": "ODDO BHF (Schweiz) AG",
-    "title": "Responsable Risques & Contrôle Interne",
-    "started": "2026-11-05T08:26:15",
+    "row": 8975,
+    "company": "nxt digital AG",
+    "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
+    "started": "2026-11-05T08:28:26",
     "applied": false
    },
    "limit": {
@@ -1473,26 +1464,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 9002,
-   "company": "Gunvor",
-   "title": "Risk Officer - Derivatives",
-   "score": 8,
-   "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
-   "domain": "gunvor.wd3.myworkdayjobs.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-05T08:24:29+01:00",
-   "pid": 11848,
-   "lane": 0
-  },
-  "pending": 53,
+  "running": null,
+  "pending": 52,
   "counters": {
    "pending": 54,
    "sent": 0,
    "review": 0,
-   "blocked": 0,
+   "blocked": 2,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1548,6 +1526,28 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T08:30:19+01:00",
+    "row": 8975,
+    "company": "nxt digital AG",
+    "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
+    "score": 9,
+    "domain": "jobagent.ch",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 120
+   },
+   {
+    "ts": "2026-11-05T08:28:19+01:00",
+    "row": 9002,
+    "company": "Gunvor",
+    "title": "Risk Officer - Derivatives",
+    "score": 8,
+    "domain": "gunvor.wd3.myworkdayjobs.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 230
+   },
+   {
     "ts": "2026-11-05T07:17:44",
     "row": 9004,
     "company": "",
@@ -1579,32 +1579,37 @@
     "state": "timeout",
     "note": "sin cerrar en 600s",
     "dur_s": null
-   },
-   {
-    "ts": "2026-11-04T21:21:12",
-    "row": 9131,
-    "company": "Banque Pictet & Cie SA",
-    "title": "Data Analytics Expert (125320)",
-    "score": 8,
-    "domain": "job-room.ch",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 360
-   },
-   {
-    "ts": "2026-11-04T17:30:36",
-    "row": 2156,
-    "company": "EY",
-    "title": "Senior Consultant - Assurance - Technology Risk",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "timeout",
-    "note": "sin cerrar en 600s",
-    "dur_s": null
    }
   ]
  },
  "runs": [
+  {
+   "row": 8975,
+   "folder": "8975_nxt-digital-ag-unternehmensberater-busin",
+   "company": "nxt digital AG",
+   "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
+   "url": "https://www.jobagent.ch/job/unternehmensberater-business-consultant-auf-stufe-manager-m-w-d-60-100-fu%CC%88r-financial-services/324e414c33",
+   "lang": "de",
+   "started": "2026-11-05T08:28:26",
+   "finished": "2026-11-05T08:30:17",
+   "dur_min": 1.9,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "agregador",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 1,
+   "avisos": 5,
+   "verify_ok": false
+  },
   {
    "row": 5157,
    "folder": "5157_oddo-bhf-schweiz-ag-responsable-risques",
@@ -1612,7 +1617,7 @@
    "title": "Responsable Risques & Contrôle Interne",
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d3a2891-416c-4703-b035-4f65eeb391d7/",
    "lang": "fr",
-   "started": "2026-11-05T08:26:15",
+   "started": "2026-11-05T08:28:16",
    "finished": null,
    "dur_min": null,
    "phase": "packaged",
@@ -1640,24 +1645,24 @@
    "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
    "lang": "en",
    "started": "2026-11-05T08:24:36",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T08:28:10",
+   "dur_min": 3.6,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
-   "blocked": "",
-   "manual": false,
+   "blocked": "login",
+   "manual": true,
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "",
+   "apply_path": "directo",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "files_total": 2,
+   "required_missing": 4,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": false
   },
   {
    "row": 9203,
