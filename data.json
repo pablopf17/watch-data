@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T14:28:28",
+ "generated": "2026-11-05T14:40:33",
  "kpis": {
-  "runs": 93,
+  "runs": 94,
   "done": 85,
   "ok": 42,
   "ok_pct": 49.4,
@@ -15,7 +15,7 @@
   "p90_min": 15.7,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
-  "last_24h": 18,
+  "last_24h": 19,
   "retries": 1,
   "queue_pending": 47
  },
@@ -78,7 +78,7 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 12,
+   "runs": 13,
    "ok": 7,
    "applied": 6,
    "blocked": 2
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 48,
+    "count": 47,
     "cards": [
      {
       "row": 9298,
@@ -193,15 +193,6 @@
       "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-10-30"
-     },
-     {
-      "row": 8366,
-      "company": "Grupo Dul-Cesar I.C.S.A.",
-      "title": "Crypto Project Manager",
-      "url": "https://www.linkedin.com/jobs/view/4483869132/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
      },
      {
       "row": 8155,
@@ -551,8 +542,27 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 2,
+    "cards": [
+     {
+      "row": 8366,
+      "company": "Grupo Dul-Cesar I.C.S.A.",
+      "title": "Crypto Project Manager",
+      "url": "https://www.linkedin.com/jobs/view/4483869132/",
+      "score": 9,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-05T14:40:33"
+     },
+     {
+      "row": 8366,
+      "company": "Grupo Dul-Cesar I.C.S.A.",
+      "title": "Crypto Project Manager",
+      "url": "https://www.linkedin.com/jobs/view/4483869132/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-05T14:37:14"
+     }
+    ],
     "more": 0
    },
    {
@@ -1456,14 +1466,14 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 11,
-   "runs_today": 3,
+   "runs": 12,
+   "runs_today": 4,
    "last": {
-    "row": 8228,
-    "company": "OKX",
-    "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-    "started": "2026-11-05T10:26:54",
-    "applied": true
+    "row": 8366,
+    "company": "Grupo Dul-Cesar I.C.S.A.",
+    "title": "Crypto Project Manager",
+    "started": "2026-11-05T14:37:14",
+    "applied": false
    },
    "limit": null,
    "limit_folder": "",
@@ -1472,7 +1482,20 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
+  "running": {
+   "row": 8366,
+   "company": "Grupo Dul-Cesar I.C.S.A.",
+   "title": "Crypto Project Manager",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4483869132/",
+   "domain": "linkedin.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-05T14:37:05+01:00",
+   "pid": 37680,
+   "lane": 0
+  },
   "pending": 47,
   "counters": {
    "pending": 48,
@@ -1481,8 +1504,7 @@
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
-   "login_blocked": 0,
-   "timeout": 1
+   "login_blocked": 0
   },
   "config": {
    "max": 1,
@@ -1492,6 +1514,14 @@
    "per_domain": 0
   },
   "next": [
+   {
+    "row": 9298,
+    "company": "Kraken",
+    "title": "Lead, Business Operations - Payward Services",
+    "score": 10,
+    "url": "https://www.linkedin.com/jobs/view/4486529707/",
+    "domain": "linkedin.com"
+   },
    {
     "row": 3905,
     "company": "CLEEVEN",
@@ -1522,14 +1552,6 @@
     "title": "Project Associate, Regulatory Affairs (m/f/d)",
     "score": 9,
     "url": "https://www.linkedin.com/jobs/view/4483634441/",
-    "domain": "linkedin.com"
-   },
-   {
-    "row": 7161,
-    "company": "LGT Capital Partners",
-    "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
-    "score": 9,
-    "url": "https://www.linkedin.com/jobs/view/4484712002/",
     "domain": "linkedin.com"
    }
   ],
@@ -1592,6 +1614,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 8366,
+   "folder": "8366_grupo-dul-cesar-i-c-s-a-crypto-project-m",
+   "company": "Grupo Dul-Cesar I.C.S.A.",
+   "title": "Crypto Project Manager",
+   "url": "https://www.linkedin.com/jobs/view/4483869132/",
+   "lang": "en",
+   "started": "2026-11-05T14:37:14",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 9002,
    "folder": "9002_gunvor-risk-officer-derivatives",
