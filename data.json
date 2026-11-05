@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T10:22:00",
+ "generated": "2026-11-05T10:28:02",
  "kpis": {
-  "runs": 92,
-  "done": 83,
-  "ok": 39,
-  "ok_pct": 47.0,
-  "applied": 22,
+  "runs": 93,
+  "done": 84,
+  "ok": 40,
+  "ok_pct": 47.6,
+  "applied": 23,
   "blocked": 30,
   "manual": 13,
-  "manual_pct": 15.7,
+  "manual_pct": 15.5,
   "median_min": 4.7,
-  "median_min_ok": 5.6,
-  "median_min_applied": 5.6,
-  "p90_min": 15.9,
-  "per_hour": 3.95,
-  "median_gap_min": 15.2,
-  "last_24h": 25,
+  "median_min_ok": 5.4,
+  "median_min_applied": 5.4,
+  "p90_min": 15.7,
+  "per_hour": 3.97,
+  "median_gap_min": 15.1,
+  "last_24h": 26,
   "retries": 1,
-  "queue_pending": 48
+  "queue_pending": 47
  },
  "per_day": [
   {
@@ -78,9 +78,9 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 11,
-   "ok": 4,
-   "applied": 3,
+   "runs": 12,
+   "ok": 5,
+   "applied": 4,
    "blocked": 3
   }
  ],
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 48,
+    "count": 47,
     "cards": [
      {
       "row": 8642,
@@ -193,15 +193,6 @@
       "score": "9",
       "note": "listo para lanzar",
       "ts": "2026-10-28"
-     },
-     {
-      "row": 8228,
-      "company": "OKX",
-      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-      "url": "https://www.linkedin.com/jobs/view/4474244818/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-05"
      },
      {
       "row": 8155,
@@ -554,22 +545,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8161,
-      "company": "Akkodis",
-      "title": "Data analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484118533/",
-      "score": 8,
+      "row": 8228,
+      "company": "OKX",
+      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+      "url": "https://www.linkedin.com/jobs/view/4474244818/",
+      "score": 7,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T10:22:00"
+      "ts": "2026-11-05T10:28:02"
      },
      {
-      "row": 8161,
-      "company": "Akkodis",
-      "title": "Data analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484118533/",
+      "row": 8228,
+      "company": "OKX",
+      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+      "url": "https://www.linkedin.com/jobs/view/4474244818/",
       "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-05T10:21:27"
+      "note": "running · sin cerrar",
+      "ts": "2026-11-05T10:26:54"
      }
     ],
     "more": 0
@@ -603,8 +594,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 62,
+    "count": 63,
     "cards": [
+     {
+      "row": 8161,
+      "company": "Akkodis",
+      "title": "Data analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484118533/",
+      "score": "",
+      "note": "enviada · pasada paró en 2 avisos",
+      "ts": "2026-11-05T10:21:27"
+     },
      {
       "row": 8688,
       "company": "Mirabaud Group",
@@ -1424,7 +1424,7 @@
     "company": "Akkodis",
     "title": "Data analyst",
     "started": "2026-11-05T10:21:27",
-    "applied": false
+    "applied": true
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:30pm (Europe/Zurich)",
@@ -1458,13 +1458,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 10,
-   "runs_today": 2,
+   "runs": 11,
+   "runs_today": 3,
    "last": {
-    "row": 9203,
-    "company": "Michael Page Switzerland",
-    "title": "Contrôleur de gestion",
-    "started": "2026-11-05T07:32:24",
+    "row": 8228,
+    "company": "OKX",
+    "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+    "started": "2026-11-05T10:26:54",
     "applied": false
    },
    "limit": null,
@@ -1475,22 +1475,22 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8161,
-   "company": "Akkodis",
-   "title": "Data analyst",
-   "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4484118533/",
+   "row": 8228,
+   "company": "OKX",
+   "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+   "score": 7,
+   "url": "https://www.linkedin.com/jobs/view/4474244818/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T10:21:20+01:00",
-   "pid": 34352,
+   "started": "2026-11-05T10:26:47+01:00",
+   "pid": 14424,
    "lane": 0
   },
-  "pending": 48,
+  "pending": 47,
   "counters": {
-   "pending": 49,
+   "pending": 48,
    "sent": 0,
    "review": 0,
    "blocked": 0,
@@ -1501,7 +1501,7 @@
   "config": {
    "max": 1,
    "min_score": 0,
-   "engine": "claude",
+   "engine": "hermes",
    "timeout": 600,
    "per_domain": 0
   },
@@ -1549,6 +1549,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T10:26:40+01:00",
+    "row": 8161,
+    "company": "Akkodis",
+    "title": "Data analyst",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 320
+   },
+   {
     "ts": "2026-11-05T10:18:43+01:00",
     "row": 8688,
     "company": "Mirabaud Group",
@@ -1591,35 +1602,24 @@
     "state": "sent",
     "note": "enviada",
     "dur_s": 320
-   },
-   {
-    "ts": "2026-11-05T08:45:07+01:00",
-    "row": 9232,
-    "company": "ETFBOOK",
-    "title": "Data Analyst",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "5 avisos",
-    "dur_s": 350
    }
   ]
  },
  "runs": [
   {
-   "row": 8161,
-   "folder": "8161_akkodis-data-analyst",
-   "company": "Akkodis",
-   "title": "Data analyst",
-   "url": "https://www.linkedin.com/jobs/view/4484118533/",
-   "lang": "fr",
-   "started": "2026-11-05T10:21:27",
+   "row": 8228,
+   "folder": "8228_okx-compliance-analyst-senior-compliance",
+   "company": "OKX",
+   "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+   "url": "https://www.linkedin.com/jobs/view/4474244818/",
+   "lang": "en",
+   "started": "2026-11-05T10:26:54",
    "finished": null,
    "dur_min": null,
-   "phase": "starting",
+   "phase": "running",
    "status": "",
    "status_at_start": "TAILORED",
-   "engine": "claude",
+   "engine": "hermes",
    "blocked": "",
    "manual": false,
    "ok": false,
@@ -1632,6 +1632,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8161,
+   "folder": "8161_akkodis-data-analyst",
+   "company": "Akkodis",
+   "title": "Data analyst",
+   "url": "https://www.linkedin.com/jobs/view/4484118533/",
+   "lang": "fr",
+   "started": "2026-11-05T10:21:27",
+   "finished": "2026-11-05T10:26:31",
+   "dur_min": 5.1,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 2,
+   "verify_ok": false
   },
   {
    "row": 8688,
