@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T14:46:31",
+ "generated": "2026-11-05T14:52:32",
  "kpis": {
   "runs": 94,
   "done": 86,
@@ -12,7 +12,7 @@
   "median_min": 5.0,
   "median_min_ok": 5.6,
   "median_min_applied": 5.6,
-  "p90_min": 15.5,
+  "p90_min": 15.6,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
   "last_24h": 19,
@@ -1166,7 +1166,7 @@
       "title": "Crypto Project Manager",
       "url": "https://www.linkedin.com/jobs/view/4483869132/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "nogo",
       "ts": "2026-11-05T14:37:14"
      },
      {
@@ -1599,10 +1599,10 @@
    "url": "https://www.linkedin.com/jobs/view/4483869132/",
    "lang": "en",
    "started": "2026-11-05T14:37:14",
-   "finished": "2026-11-05T14:46:13",
-   "dur_min": 9.0,
+   "finished": "2026-11-05T14:52:05",
+   "dur_min": 14.8,
    "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status": "NOGO",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "sin_formulario",
