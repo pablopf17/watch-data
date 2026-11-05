@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:04:12",
+ "generated": "2026-11-05T12:46:16",
  "kpis": {
   "runs": 93,
   "done": 85,
@@ -15,7 +15,7 @@
   "p90_min": 17.5,
   "per_hour": 3.97,
   "median_gap_min": 15.1,
-  "last_24h": 26,
+  "last_24h": 25,
   "retries": 1,
   "queue_pending": 47
  },
