@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T06:09:30",
+ "generated": "2026-11-05T07:03:36",
  "kpis": {
-  "runs": 82,
+  "runs": 83,
   "done": 75,
   "ok": 36,
   "ok_pct": 48.0,
@@ -75,6 +75,13 @@
    "ok": 3,
    "applied": 3,
    "blocked": 6
+  },
+  {
+   "d": "2026-11-05",
+   "runs": 1,
+   "ok": 0,
+   "applied": 0,
+   "blocked": 0
   }
  ],
  "blockers": [
@@ -104,17 +111,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 56,
+    "count": 55,
     "cards": [
-     {
-      "row": 9203,
-      "company": "Michael Page Switzerland",
-      "title": "Contrôleur de gestion",
-      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-11-04"
-     },
      {
       "row": 9004,
       "company": "",
@@ -616,8 +614,27 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 2,
+    "cards": [
+     {
+      "row": 9203,
+      "company": "Michael Page Switzerland",
+      "title": "Contrôleur de gestion",
+      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+      "score": 8,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-05T07:03:36"
+     },
+     {
+      "row": 9203,
+      "company": "Michael Page Switzerland",
+      "title": "Contrôleur de gestion",
+      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+      "score": "",
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-05T06:57:51"
+     }
+    ],
     "more": 0
    },
    {
@@ -1422,13 +1439,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 8,
-   "runs_today": 0,
+   "runs": 9,
+   "runs_today": 1,
    "last": {
-    "row": 9027,
-    "company": "Infinigate (Schweiz) AG",
-    "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
-    "started": "2026-11-04T21:21:19",
+    "row": 9203,
+    "company": "Michael Page Switzerland",
+    "title": "Contrôleur de gestion",
+    "started": "2026-11-05T06:57:51",
     "applied": false
    },
    "limit": null,
@@ -1438,16 +1455,28 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
+  "running": {
+   "row": 9203,
+   "company": "Michael Page Switzerland",
+   "title": "Contrôleur de gestion",
+   "score": 8,
+   "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+   "domain": "job-room.ch",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-05T06:57:44",
+   "pid": 20292,
+   "lane": 0
+  },
   "pending": 55,
   "counters": {
-   "pending": 57,
+   "pending": 56,
    "sent": 0,
    "review": 0,
-   "blocked": 1,
+   "blocked": 0,
    "errors": 0,
-   "skipped": 0,
-   "timeout": 1
+   "skipped": 0
   },
   "config": {
    "max": 2,
@@ -1557,6 +1586,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9203,
+   "folder": "9203_michael-page-switzerland-controleur-de-g",
+   "company": "Michael Page Switzerland",
+   "title": "Contrôleur de gestion",
+   "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+   "lang": "fr",
+   "started": "2026-11-05T06:57:51",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 9027,
    "folder": "9027_infinigate-schweiz-ag-fp-a-manager-group",
