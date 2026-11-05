@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T17:59:01",
+ "generated": "2026-11-05T18:35:09",
  "kpis": {
   "runs": 101,
   "done": 93,
@@ -1428,7 +1428,7 @@
    "limit": {
     "msg": "You've hit your session limit · resets 6:30pm (Europe/Zurich)",
     "when": "2026-11-05T15:53:39",
-    "resets_at": "2026-11-05T18:30:00",
+    "resets_at": "2026-11-06T18:30:00",
     "resets_label": "18:30"
    },
    "limit_folder": "8461_bank-for-international-settlements-bis-s",
