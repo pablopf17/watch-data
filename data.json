@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T07:21:38",
+ "generated": "2026-11-05T07:27:39",
  "kpis": {
   "runs": 84,
-  "done": 75,
+  "done": 76,
   "ok": 36,
-  "ok_pct": 48.0,
+  "ok_pct": 47.4,
   "applied": 20,
   "blocked": 27,
   "manual": 13,
-  "manual_pct": 17.3,
-  "median_min": 4.6,
+  "manual_pct": 17.1,
+  "median_min": 4.7,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 17.5,
+  "p90_min": 17.3,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
   "last_24h": 17,
@@ -605,17 +605,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
-     {
-      "row": 9004,
-      "company": "",
-      "title": "Gestionnaire administratif compliance",
-      "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T07:07:53"
-     },
      {
       "row": 9203,
       "company": "Michael Page Switzerland",
@@ -1159,8 +1150,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 24,
+    "count": 25,
     "cards": [
+     {
+      "row": 9004,
+      "company": "",
+      "title": "Gestionnaire administratif compliance",
+      "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-05T07:07:53"
+     },
      {
       "row": 2156,
       "company": "EY",
@@ -1573,10 +1573,10 @@
    "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
    "lang": "fr",
    "started": "2026-11-05T07:07:53",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T07:20:00",
+   "dur_min": 12.1,
+   "phase": "done",
+   "status": "UNAVAILABLE",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
