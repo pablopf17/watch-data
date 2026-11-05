@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-05T13:34:22",
+ "generated": "2026-11-05T13:46:23",
  "kpis": {
   "runs": 93,
   "done": 85,
-  "ok": 41,
-  "ok_pct": 48.2,
-  "applied": 24,
-  "blocked": 30,
-  "manual": 13,
-  "manual_pct": 15.3,
-  "median_min": 4.7,
-  "median_min_ok": 5.4,
-  "median_min_applied": 5.4,
+  "ok": 42,
+  "ok_pct": 49.4,
+  "applied": 25,
+  "blocked": 29,
+  "manual": 12,
+  "manual_pct": 14.1,
+  "median_min": 4.9,
+  "median_min_ok": 5.6,
+  "median_min_applied": 5.6,
   "p90_min": 15.7,
-  "per_hour": 3.97,
-  "median_gap_min": 15.1,
+  "per_hour": 3.92,
+  "median_gap_min": 15.3,
   "last_24h": 24,
   "retries": 1,
   "queue_pending": 47
@@ -79,9 +79,9 @@
   {
    "d": "2026-11-05",
    "runs": 12,
-   "ok": 6,
-   "applied": 5,
-   "blocked": 3
+   "ok": 7,
+   "applied": 6,
+   "blocked": 2
   }
  ],
  "blockers": [
@@ -91,7 +91,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 8
+   "n": 7
   },
   {
    "reason": "captcha",
@@ -558,7 +558,14 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 1,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "sent",
+    "label": "✅ Enviada / con respuesta",
+    "count": 66,
     "cards": [
      {
       "row": 9002,
@@ -566,17 +573,9 @@
       "title": "Risk Officer - Derivatives",
       "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
       "score": "",
-      "note": "login",
-      "ts": "2026-11-05T08:24:36"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "sent",
-    "label": "✅ Enviada / con respuesta",
-    "count": 65,
-    "cards": [
+      "note": "enviada · pasada paró en 5 avisos",
+      "ts": "2026-11-05T13:35:13"
+     },
      {
       "row": 8228,
       "company": "OKX",
@@ -1419,10 +1418,10 @@
    "runs": 69,
    "runs_today": 9,
    "last": {
-    "row": 8161,
-    "company": "Akkodis",
-    "title": "Data analyst",
-    "started": "2026-11-05T10:21:27",
+    "row": 9002,
+    "company": "Gunvor",
+    "title": "Risk Officer - Derivatives",
+    "started": "2026-11-05T13:35:13",
     "applied": true
    },
    "limit": {
@@ -1593,6 +1592,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9002,
+   "folder": "9002_gunvor-risk-officer-derivatives",
+   "company": "Gunvor",
+   "title": "Risk Officer - Derivatives",
+   "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
+   "lang": "en",
+   "started": "2026-11-05T13:35:13",
+   "finished": "2026-11-05T13:42:16",
+   "dur_min": 7.0,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "APPLIED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "directo",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 5,
+   "verify_ok": true
+  },
   {
    "row": 8228,
    "folder": "8228_okx-compliance-analyst-senior-compliance",
@@ -1835,33 +1861,6 @@
    "needs_approval": 0,
    "avisos": 7,
    "verify_ok": true
-  },
-  {
-   "row": 9002,
-   "folder": "9002_gunvor-risk-officer-derivatives",
-   "company": "Gunvor",
-   "title": "Risk Officer - Derivatives",
-   "url": "https://gunvor.wd3.myworkdayjobs.com/en-US/Gunvor_Careers/job/Geneva/Risk-Officer---Derivatives_JR102860-1",
-   "lang": "en",
-   "started": "2026-11-05T08:24:36",
-   "finished": "2026-11-05T08:28:10",
-   "dur_min": 3.6,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "directo",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 4,
-   "needs_approval": 2,
-   "avisos": 5,
-   "verify_ok": false
   },
   {
    "row": 9203,
