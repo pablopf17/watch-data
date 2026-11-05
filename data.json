@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T20:11:21",
+ "generated": "2026-11-05T20:17:24",
  "kpis": {
-  "runs": 104,
-  "done": 95,
-  "ok": 48,
-  "ok_pct": 50.5,
+  "runs": 105,
+  "done": 96,
+  "ok": 49,
+  "ok_pct": 51.0,
   "applied": 28,
   "blocked": 33,
   "manual": 13,
-  "manual_pct": 13.7,
+  "manual_pct": 13.5,
   "median_min": 5.0,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 15.7,
-  "per_hour": 3.95,
-  "median_gap_min": 15.2,
-  "last_24h": 25,
+  "p90_min": 15.6,
+  "per_hour": 3.97,
+  "median_gap_min": 15.1,
+  "last_24h": 26,
   "retries": 1,
-  "queue_pending": 37
+  "queue_pending": 36
  },
  "per_day": [
   {
@@ -78,8 +78,8 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 23,
-   "ok": 13,
+   "runs": 24,
+   "ok": 14,
    "applied": 9,
    "blocked": 6
   }
@@ -111,17 +111,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 37,
+    "count": 36,
     "cards": [
-     {
-      "row": 8587,
-      "company": "EY",
-      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-      "url": "https://www.linkedin.com/jobs/view/4477907467/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-12"
-     },
      {
       "row": 8510,
       "company": "Mirabaud Group",
@@ -455,22 +446,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8620,
-      "company": "Interim Legal",
-      "title": "Compliance Officer, Wealth Management",
-      "url": "https://www.linkedin.com/jobs/view/4483467868/",
-      "score": 7,
+      "row": 8587,
+      "company": "EY",
+      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+      "url": "https://www.linkedin.com/jobs/view/4477907467/",
+      "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T20:11:21"
+      "ts": "2026-11-05T20:17:24"
      },
      {
-      "row": 8620,
-      "company": "Interim Legal",
-      "title": "Compliance Officer, Wealth Management",
-      "url": "https://www.linkedin.com/jobs/view/4483467868/",
+      "row": 8587,
+      "company": "EY",
+      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+      "url": "https://www.linkedin.com/jobs/view/4477907467/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-05T20:07:27"
+      "ts": "2026-11-05T20:14:18"
      }
     ],
     "more": 0
@@ -478,8 +469,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 3,
+    "count": 4,
     "cards": [
+     {
+      "row": 8620,
+      "company": "Interim Legal",
+      "title": "Compliance Officer, Wealth Management",
+      "url": "https://www.linkedin.com/jobs/view/4483467868/",
+      "score": "",
+      "note": "6 avisos",
+      "ts": "2026-11-05T20:07:27"
+     },
      {
       "row": 8642,
       "company": "Mirabaud",
@@ -1426,13 +1426,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 77,
-   "runs_today": 17,
+   "runs": 78,
+   "runs_today": 18,
    "last": {
-    "row": 8620,
-    "company": "Interim Legal",
-    "title": "Compliance Officer, Wealth Management",
-    "started": "2026-11-05T20:07:27",
+    "row": 8587,
+    "company": "EY",
+    "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+    "started": "2026-11-05T20:14:18",
     "applied": false
    },
    "limit": {
@@ -1484,24 +1484,24 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8620,
-   "company": "Interim Legal",
-   "title": "Compliance Officer, Wealth Management",
-   "score": 7,
-   "url": "https://www.linkedin.com/jobs/view/4483467868/",
+   "row": 8587,
+   "company": "EY",
+   "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4477907467/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T20:07:18+01:00",
-   "pid": 18452,
+   "started": "2026-11-05T20:14:08+01:00",
+   "pid": 31176,
    "lane": 0
   },
-  "pending": 37,
+  "pending": 36,
   "counters": {
    "pending": 40,
    "sent": 0,
-   "review": 2,
+   "review": 3,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
@@ -1558,6 +1558,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T20:14:08+01:00",
+    "row": 8620,
+    "company": "Interim Legal",
+    "title": "Compliance Officer, Wealth Management",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "6 avisos",
+    "dur_s": 410
+   },
+   {
     "ts": "2026-11-05T20:07:18+01:00",
     "row": 8642,
     "company": "Mirabaud",
@@ -1600,29 +1611,18 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 160
-   },
-   {
-    "ts": "2026-11-05T15:28:24+01:00",
-    "row": 8456,
-    "company": "Rocken®",
-    "title": "Finance & Business Analyst (m/w/d)",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 150
    }
   ]
  },
  "runs": [
   {
-   "row": 8620,
-   "folder": "8620_interim-legal-compliance-officer-wealth",
-   "company": "Interim Legal",
-   "title": "Compliance Officer, Wealth Management",
-   "url": "https://www.linkedin.com/jobs/view/4483467868/",
+   "row": 8587,
+   "folder": "8587_ey-senior-consultant-business-consulting",
+   "company": "EY",
+   "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+   "url": "https://www.linkedin.com/jobs/view/4477907467/",
    "lang": "en",
-   "started": "2026-11-05T20:07:27",
+   "started": "2026-11-05T20:14:18",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1641,6 +1641,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8620,
+   "folder": "8620_interim-legal-compliance-officer-wealth",
+   "company": "Interim Legal",
+   "title": "Compliance Officer, Wealth Management",
+   "url": "https://www.linkedin.com/jobs/view/4483467868/",
+   "lang": "en",
+   "started": "2026-11-05T20:07:27",
+   "finished": "2026-11-05T20:14:03",
+   "dur_min": 6.6,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 1,
+   "avisos": 6,
+   "verify_ok": false
   },
   {
    "row": 8642,
