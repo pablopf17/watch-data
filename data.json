@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T08:39:48",
+ "generated": "2026-11-05T08:45:49",
  "kpis": {
-  "runs": 87,
-  "done": 78,
-  "ok": 35,
-  "ok_pct": 44.9,
+  "runs": 88,
+  "done": 79,
+  "ok": 36,
+  "ok_pct": 45.6,
   "applied": 19,
   "blocked": 29,
   "manual": 13,
-  "manual_pct": 16.7,
-  "median_min": 4.5,
-  "median_min_ok": 5.1,
+  "manual_pct": 16.5,
+  "median_min": 4.6,
+  "median_min_ok": 5.3,
   "median_min_applied": 5.3,
-  "p90_min": 16.9,
-  "per_hour": 3.85,
-  "median_gap_min": 15.6,
-  "last_24h": 20,
+  "p90_min": 16.7,
+  "per_hour": 3.92,
+  "median_gap_min": 15.3,
+  "last_24h": 21,
   "retries": 1,
-  "queue_pending": 53
+  "queue_pending": 52
  },
  "per_day": [
   {
@@ -78,8 +78,8 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 6,
-   "ok": 0,
+   "runs": 7,
+   "ok": 1,
    "applied": 0,
    "blocked": 2
   }
@@ -111,17 +111,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 53,
+    "count": 52,
     "cards": [
-     {
-      "row": 9230,
-      "company": "Jobgether",
-      "title": "Senior Project Manager (Contract)",
-      "url": "https://www.linkedin.com/jobs/view/4484642500/",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-03"
-     },
      {
       "row": 8878,
       "company": "",
@@ -599,22 +590,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 9232,
-      "company": "ETFBOOK",
-      "title": "Data Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484670254/",
-      "score": 9,
+      "row": 9230,
+      "company": "Jobgether",
+      "title": "Senior Project Manager (Contract)",
+      "url": "https://www.linkedin.com/jobs/view/4484642500/",
+      "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T08:39:48"
+      "ts": "2026-11-05T08:45:49"
      },
      {
-      "row": 9232,
-      "company": "ETFBOOK",
-      "title": "Data Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484670254/",
+      "row": 9230,
+      "company": "Jobgether",
+      "title": "Senior Project Manager (Contract)",
+      "url": "https://www.linkedin.com/jobs/view/4484642500/",
       "score": "",
       "note": "starting · sin cerrar",
-      "ts": "2026-11-05T08:39:24"
+      "ts": "2026-11-05T08:45:15"
      }
     ],
     "more": 0
@@ -622,8 +613,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 1,
+    "count": 2,
     "cards": [
+     {
+      "row": 9232,
+      "company": "ETFBOOK",
+      "title": "Data Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484670254/",
+      "score": "",
+      "note": "5 avisos",
+      "ts": "2026-11-05T08:39:24"
+     },
      {
       "row": 9002,
       "company": "Gunvor",
@@ -1417,13 +1417,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 64,
-   "runs_today": 4,
+   "runs": 65,
+   "runs_today": 5,
    "last": {
-    "row": 9232,
-    "company": "ETFBOOK",
-    "title": "Data Analyst",
-    "started": "2026-11-05T08:39:24",
+    "row": 9230,
+    "company": "Jobgether",
+    "title": "Senior Project Manager (Contract)",
+    "started": "2026-11-05T08:45:15",
     "applied": false
    },
    "limit": {
@@ -1475,24 +1475,24 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 9232,
-   "company": "ETFBOOK",
-   "title": "Data Analyst",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4484670254/",
+   "row": 9230,
+   "company": "Jobgether",
+   "title": "Senior Project Manager (Contract)",
+   "score": 10,
+   "url": "https://www.linkedin.com/jobs/view/4484642500/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T08:39:17+01:00",
-   "pid": 32840,
+   "started": "2026-11-05T08:45:07+01:00",
+   "pid": 36980,
    "lane": 0
   },
-  "pending": 53,
+  "pending": 52,
   "counters": {
    "pending": 54,
    "sent": 0,
-   "review": 0,
+   "review": 1,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
@@ -1506,14 +1506,6 @@
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 9230,
-    "company": "Jobgether",
-    "title": "Senior Project Manager (Contract)",
-    "score": 10,
-    "url": "https://www.linkedin.com/jobs/view/4484642500/",
-    "domain": "linkedin.com"
-   },
    {
     "row": 3905,
     "company": "CLEEVEN",
@@ -1545,9 +1537,28 @@
     "score": 9,
     "url": "https://www.linkedin.com/jobs/view/4483634441/",
     "domain": "linkedin.com"
+   },
+   {
+    "row": 7161,
+    "company": "LGT Capital Partners",
+    "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
+    "score": 9,
+    "url": "https://www.linkedin.com/jobs/view/4484712002/",
+    "domain": "linkedin.com"
    }
   ],
   "last": [
+   {
+    "ts": "2026-11-05T08:45:07+01:00",
+    "row": 9232,
+    "company": "ETFBOOK",
+    "title": "Data Analyst",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "5 avisos",
+    "dur_s": 350
+   },
    {
     "ts": "2026-11-05T08:30:19+01:00",
     "row": 8975,
@@ -1591,29 +1602,18 @@
     "state": "timeout",
     "note": "sin cerrar en 600s",
     "dur_s": null
-   },
-   {
-    "ts": "2026-11-04T21:31:12",
-    "row": 9027,
-    "company": "Infinigate (Schweiz) AG",
-    "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
-    "score": 8,
-    "domain": "jobagent.ch",
-    "state": "timeout",
-    "note": "sin cerrar en 600s",
-    "dur_s": null
    }
   ]
  },
  "runs": [
   {
-   "row": 9232,
-   "folder": "9232_etfbook-data-analyst",
-   "company": "ETFBOOK",
-   "title": "Data Analyst",
-   "url": "https://www.linkedin.com/jobs/view/4484670254/",
+   "row": 9230,
+   "folder": "9230_jobgether-senior-project-manager-contrac",
+   "company": "Jobgether",
+   "title": "Senior Project Manager (Contract)",
+   "url": "https://www.linkedin.com/jobs/view/4484642500/",
    "lang": "en",
-   "started": "2026-11-05T08:39:24",
+   "started": "2026-11-05T08:45:15",
    "finished": null,
    "dur_min": null,
    "phase": "starting",
@@ -1632,6 +1632,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 9232,
+   "folder": "9232_etfbook-data-analyst",
+   "company": "ETFBOOK",
+   "title": "Data Analyst",
+   "url": "https://www.linkedin.com/jobs/view/4484670254/",
+   "lang": "en",
+   "started": "2026-11-05T08:39:24",
+   "finished": "2026-11-05T08:45:06",
+   "dur_min": 5.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "directo",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": true
   },
   {
    "row": 8975,
