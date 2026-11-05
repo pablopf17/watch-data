@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T20:17:24",
+ "generated": "2026-11-05T20:23:23",
  "kpis": {
-  "runs": 105,
-  "done": 96,
+  "runs": 106,
+  "done": 97,
   "ok": 49,
-  "ok_pct": 51.0,
+  "ok_pct": 50.5,
   "applied": 28,
-  "blocked": 33,
-  "manual": 13,
-  "manual_pct": 13.5,
+  "blocked": 34,
+  "manual": 14,
+  "manual_pct": 14.4,
   "median_min": 5.0,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 15.6,
-  "per_hour": 3.97,
-  "median_gap_min": 15.1,
-  "last_24h": 26,
+  "p90_min": 15.5,
+  "per_hour": 4.03,
+  "median_gap_min": 14.9,
+  "last_24h": 27,
   "retries": 1,
-  "queue_pending": 36
+  "queue_pending": 35
  },
  "per_day": [
   {
@@ -78,10 +78,10 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 24,
+   "runs": 25,
    "ok": 14,
    "applied": 9,
-   "blocked": 6
+   "blocked": 7
   }
  ],
  "blockers": [
@@ -91,7 +91,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 8
+   "n": 9
   },
   {
    "reason": "captcha",
@@ -111,17 +111,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 36,
+    "count": 35,
     "cards": [
-     {
-      "row": 8510,
-      "company": "Mirabaud Group",
-      "title": "Transaction Monitoring Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4485393562/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-30"
-     },
      {
       "row": 8130,
       "company": "UNICEF",
@@ -446,22 +437,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8587,
-      "company": "EY",
-      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-      "url": "https://www.linkedin.com/jobs/view/4477907467/",
-      "score": 9,
+      "row": 8510,
+      "company": "Mirabaud Group",
+      "title": "Transaction Monitoring Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4485393562/",
+      "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T20:17:24"
+      "ts": "2026-11-05T20:23:23"
      },
      {
-      "row": 8587,
-      "company": "EY",
-      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-      "url": "https://www.linkedin.com/jobs/view/4477907467/",
+      "row": 8510,
+      "company": "Mirabaud Group",
+      "title": "Transaction Monitoring Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4485393562/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-05T20:14:18"
+      "ts": "2026-11-05T20:18:47"
      }
     ],
     "more": 0
@@ -469,8 +460,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 4,
+    "count": 5,
     "cards": [
+     {
+      "row": 8587,
+      "company": "EY",
+      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+      "url": "https://www.linkedin.com/jobs/view/4477907467/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-05T20:14:18"
+     },
      {
       "row": 8620,
       "company": "Interim Legal",
@@ -1426,13 +1426,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 78,
-   "runs_today": 18,
+   "runs": 79,
+   "runs_today": 19,
    "last": {
-    "row": 8587,
-    "company": "EY",
-    "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-    "started": "2026-11-05T20:14:18",
+    "row": 8510,
+    "company": "Mirabaud Group",
+    "title": "Transaction Monitoring Compliance Officer",
+    "started": "2026-11-05T20:18:47",
     "applied": false
    },
    "limit": {
@@ -1484,25 +1484,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8587,
-   "company": "EY",
-   "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4477907467/",
+   "row": 8510,
+   "company": "Mirabaud Group",
+   "title": "Transaction Monitoring Compliance Officer",
+   "score": 8,
+   "url": "https://www.linkedin.com/jobs/view/4485393562/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T20:14:08+01:00",
-   "pid": 31176,
+   "started": "2026-11-05T20:18:38+01:00",
+   "pid": 50324,
    "lane": 0
   },
-  "pending": 36,
+  "pending": 35,
   "counters": {
    "pending": 40,
    "sent": 0,
    "review": 3,
-   "blocked": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1558,6 +1558,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T20:18:38+01:00",
+    "row": 8587,
+    "company": "EY",
+    "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 270
+   },
+   {
     "ts": "2026-11-05T20:14:08+01:00",
     "row": 8620,
     "company": "Interim Legal",
@@ -1600,29 +1611,18 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 280
-   },
-   {
-    "ts": "2026-11-05T15:39:09+01:00",
-    "row": 8461,
-    "company": "Bank for International Settlements – BIS",
-    "title": "Senior Business Analyst",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 160
    }
   ]
  },
  "runs": [
   {
-   "row": 8587,
-   "folder": "8587_ey-senior-consultant-business-consulting",
-   "company": "EY",
-   "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-   "url": "https://www.linkedin.com/jobs/view/4477907467/",
+   "row": 8510,
+   "folder": "8510_mirabaud-group-transaction-monitoring-co",
+   "company": "Mirabaud Group",
+   "title": "Transaction Monitoring Compliance Officer",
+   "url": "https://www.linkedin.com/jobs/view/4485393562/",
    "lang": "en",
-   "started": "2026-11-05T20:14:18",
+   "started": "2026-11-05T20:18:47",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1641,6 +1641,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8587,
+   "folder": "8587_ey-senior-consultant-business-consulting",
+   "company": "EY",
+   "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+   "url": "https://www.linkedin.com/jobs/view/4477907467/",
+   "lang": "en",
+   "started": "2026-11-05T20:14:18",
+   "finished": "2026-11-05T20:18:35",
+   "dur_min": 4.3,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": false
   },
   {
    "row": 8620,
