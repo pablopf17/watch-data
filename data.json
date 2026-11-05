@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T15:40:40",
+ "generated": "2026-11-05T15:52:41",
  "kpis": {
   "runs": 100,
   "done": 92,
@@ -1426,12 +1426,12 @@
     "applied": false
    },
    "limit": {
-    "msg": "You've hit your session limit · resets 9:30pm (Europe/Zurich)",
-    "when": "2026-11-04T06:58:42",
-    "resets_at": "2026-11-05T21:30:00",
-    "resets_label": "21:30"
+    "msg": "You've hit your session limit · resets 6:30pm (Europe/Zurich)",
+    "when": "2026-11-05T15:50:09",
+    "resets_at": "2026-11-05T18:30:00",
+    "resets_label": "18:30"
    },
-   "limit_folder": "8133_capgemini-engineering-data-analyst",
+   "limit_folder": "8461_bank-for-international-settlements-bis-s",
    "limited": true
   },
   {
@@ -1600,8 +1600,8 @@
    "url": "https://www.linkedin.com/jobs/view/4484854445/",
    "lang": "en",
    "started": "2026-11-05T15:36:43",
-   "finished": "2026-11-05T15:39:04",
-   "dur_min": 2.4,
+   "finished": "2026-11-05T15:50:22",
+   "dur_min": 13.7,
    "phase": "done",
    "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
