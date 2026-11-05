@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T07:15:38",
+ "generated": "2026-11-05T07:21:38",
  "kpis": {
   "runs": 84,
   "done": 75,
@@ -15,7 +15,7 @@
   "p90_min": 17.5,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
-  "last_24h": 18,
+  "last_24h": 17,
   "retries": 1,
   "queue_pending": 54
  },
@@ -605,17 +605,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 3,
+    "count": 2,
     "cards": [
-     {
-      "row": 9004,
-      "company": "",
-      "title": "Gestionnaire administratif compliance",
-      "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
-      "score": 9,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T07:15:38"
-     },
      {
       "row": 9004,
       "company": "",
@@ -1455,20 +1446,7 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 9004,
-   "company": "",
-   "title": "Gestionnaire administratif compliance",
-   "score": 9,
-   "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
-   "domain": "job-room.ch",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-05T07:07:44",
-   "pid": 40180,
-   "lane": 0
-  },
+  "running": null,
   "pending": 54,
   "counters": {
    "pending": 56,
@@ -1477,7 +1455,7 @@
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
-   "timeout": 1
+   "timeout": 2
   },
   "config": {
    "max": 2,
@@ -1530,6 +1508,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T07:17:44",
+    "row": 9004,
+    "company": "",
+    "title": "Gestionnaire administratif compliance",
+    "score": 9,
+    "domain": "job-room.ch",
+    "state": "timeout",
+    "note": "sin cerrar en 600s",
+    "dur_s": null
+   },
+   {
     "ts": "2026-11-05T07:07:44",
     "row": 9203,
     "company": "Michael Page Switzerland",
@@ -1572,17 +1561,6 @@
     "state": "timeout",
     "note": "sin cerrar en 600s",
     "dur_s": null
-   },
-   {
-    "ts": "2026-11-04T14:26:49",
-    "row": 6891,
-    "company": "J. Safra Sarasin",
-    "title": "Lead Auditor",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 290
    }
   ]
  },
@@ -1612,7 +1590,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 9203,
