@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T19:59:18",
+ "generated": "2026-11-05T20:05:22",
  "kpis": {
   "runs": 103,
   "done": 94,
@@ -470,7 +470,7 @@
       "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000158738272",
       "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T19:59:18"
+      "ts": "2026-11-05T20:05:22"
      },
      {
       "row": 8642,
@@ -478,7 +478,7 @@
       "title": "Transaction Monitoring Compliance Officer",
       "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000158738272",
       "score": "",
-      "note": "starting · sin cerrar",
+      "note": "running · sin cerrar",
       "ts": "2026-11-05T19:59:03"
      }
     ],
@@ -1625,7 +1625,7 @@
    "started": "2026-11-05T19:59:03",
    "finished": null,
    "dur_min": null,
-   "phase": "starting",
+   "phase": "running",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
