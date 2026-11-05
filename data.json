@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T10:09:58",
+ "generated": "2026-11-05T10:15:59",
  "kpis": {
   "runs": 91,
   "done": 82,
@@ -569,7 +569,7 @@
       "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
       "score": 7,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T10:09:58"
+      "ts": "2026-11-05T10:15:59"
      },
      {
       "row": 8688,
@@ -577,7 +577,7 @@
       "title": "Group MLRO Financial Crime Framework",
       "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
       "score": "",
-      "note": "starting · sin cerrar",
+      "note": "running · sin cerrar",
       "ts": "2026-11-05T10:09:42"
      }
     ],
@@ -1616,7 +1616,7 @@
    "started": "2026-11-05T10:09:42",
    "finished": null,
    "dur_min": null,
-   "phase": "starting",
+   "phase": "running",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
