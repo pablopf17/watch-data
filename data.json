@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T10:40:03",
+ "generated": "2026-11-05T10:58:04",
  "kpis": {
   "runs": 93,
-  "done": 84,
+  "done": 85,
   "ok": 40,
-  "ok_pct": 47.6,
+  "ok_pct": 47.1,
   "applied": 23,
   "blocked": 30,
   "manual": 13,
-  "manual_pct": 15.5,
-  "median_min": 4.7,
+  "manual_pct": 15.3,
+  "median_min": 4.8,
   "median_min_ok": 5.4,
   "median_min_applied": 5.4,
-  "p90_min": 15.7,
+  "p90_min": 17.5,
   "per_hour": 3.97,
   "median_gap_min": 15.1,
   "last_24h": 26,
@@ -542,18 +542,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 8228,
-      "company": "OKX",
-      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
-      "url": "https://www.linkedin.com/jobs/view/4474244818/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T10:26:54"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1160,8 +1150,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 26,
+    "count": 27,
     "cards": [
+     {
+      "row": 8228,
+      "company": "OKX",
+      "title": "Compliance Analyst / Senior Compliance Analyst (Special Investigations)",
+      "url": "https://www.linkedin.com/jobs/view/4474244818/",
+      "score": "",
+      "note": "sin formulario",
+      "ts": "2026-11-05T10:26:54"
+     },
      {
       "row": 8878,
       "company": "",
@@ -1593,10 +1592,10 @@
    "url": "https://www.linkedin.com/jobs/view/4474244818/",
    "lang": "en",
    "started": "2026-11-05T10:26:54",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T10:52:10",
+   "dur_min": 25.3,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
@@ -1610,7 +1609,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 8161,
