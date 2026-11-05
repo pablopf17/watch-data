@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T14:40:33",
+ "generated": "2026-11-05T14:46:31",
  "kpis": {
   "runs": 94,
-  "done": 85,
+  "done": 86,
   "ok": 42,
-  "ok_pct": 49.4,
+  "ok_pct": 48.8,
   "applied": 25,
-  "blocked": 29,
+  "blocked": 30,
   "manual": 12,
-  "manual_pct": 14.1,
-  "median_min": 4.9,
+  "manual_pct": 14.0,
+  "median_min": 5.0,
   "median_min_ok": 5.6,
   "median_min_applied": 5.6,
-  "p90_min": 15.7,
+  "p90_min": 15.5,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
   "last_24h": 19,
@@ -81,13 +81,13 @@
    "runs": 13,
    "ok": 7,
    "applied": 6,
-   "blocked": 2
+   "blocked": 3
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 18
+   "n": 19
   },
   {
    "reason": "login / cuenta",
@@ -542,27 +542,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
-    "cards": [
-     {
-      "row": 8366,
-      "company": "Grupo Dul-Cesar I.C.S.A.",
-      "title": "Crypto Project Manager",
-      "url": "https://www.linkedin.com/jobs/view/4483869132/",
-      "score": 9,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T14:40:33"
-     },
-     {
-      "row": 8366,
-      "company": "Grupo Dul-Cesar I.C.S.A.",
-      "title": "Crypto Project Manager",
-      "url": "https://www.linkedin.com/jobs/view/4483869132/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T14:37:14"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1177,8 +1158,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 26,
+    "count": 27,
     "cards": [
+     {
+      "row": 8366,
+      "company": "Grupo Dul-Cesar I.C.S.A.",
+      "title": "Crypto Project Manager",
+      "url": "https://www.linkedin.com/jobs/view/4483869132/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-05T14:37:14"
+     },
      {
       "row": 8878,
       "company": "",
@@ -1482,26 +1472,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 8366,
-   "company": "Grupo Dul-Cesar I.C.S.A.",
-   "title": "Crypto Project Manager",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4483869132/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-05T14:37:05+01:00",
-   "pid": 37680,
-   "lane": 0
-  },
+  "running": null,
   "pending": 47,
   "counters": {
    "pending": 48,
    "sent": 0,
    "review": 0,
-   "blocked": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1557,6 +1534,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T14:46:15+01:00",
+    "row": 8366,
+    "company": "Grupo Dul-Cesar I.C.S.A.",
+    "title": "Crypto Project Manager",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 550
+   },
+   {
     "ts": "2026-11-05T10:36:47+01:00",
     "row": 8228,
     "company": "OKX",
@@ -1599,17 +1587,6 @@
     "state": "sent",
     "note": "enviada",
     "dur_s": 370
-   },
-   {
-    "ts": "2026-11-05T09:58:46+01:00",
-    "row": 8878,
-    "company": "",
-    "title": "Contrôleur Financier - Réglementations Financières F1",
-    "score": 8,
-    "domain": "job-room.ch",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 160
    }
   ]
  },
@@ -1622,24 +1599,24 @@
    "url": "https://www.linkedin.com/jobs/view/4483869132/",
    "lang": "en",
    "started": "2026-11-05T14:37:14",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T14:46:13",
+   "dur_min": 9.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "hermes",
-   "blocked": "",
+   "blocked": "sin_formulario",
    "manual": false,
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "",
+   "apply_path": "linkedin_external",
    "files_verified": 0,
-   "files_total": 0,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 9002,
