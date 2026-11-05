@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T16:23:09",
+ "generated": "2026-11-05T16:28:47",
  "kpis": {
   "runs": 101,
-  "done": 92,
+  "done": 93,
   "ok": 46,
-  "ok_pct": 50.0,
+  "ok_pct": 49.5,
   "applied": 28,
-  "blocked": 32,
+  "blocked": 33,
   "manual": 13,
-  "manual_pct": 14.1,
+  "manual_pct": 14.0,
   "median_min": 5.0,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 16.3,
+  "p90_min": 16.1,
   "per_hour": 3.92,
   "median_gap_min": 15.3,
   "last_24h": 23,
@@ -81,13 +81,13 @@
    "runs": 20,
    "ok": 11,
    "applied": 9,
-   "blocked": 5
+   "blocked": 6
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 20
+   "n": 21
   },
   {
    "reason": "login / cuenta",
@@ -479,27 +479,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
-    "cards": [
-     {
-      "row": 8083,
-      "company": "Julius Baer",
-      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
-      "url": "https://www.linkedin.com/jobs/view/4478702740/",
-      "score": 9,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T16:23:09"
-     },
-     {
-      "row": 8083,
-      "company": "Julius Baer",
-      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
-      "url": "https://www.linkedin.com/jobs/view/4478702740/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T16:21:47"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1160,8 +1141,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 28,
+    "count": 29,
     "cards": [
+     {
+      "row": 8083,
+      "company": "Julius Baer",
+      "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+      "url": "https://www.linkedin.com/jobs/view/4478702740/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-05T16:21:47"
+     },
      {
       "row": 8456,
       "company": "Rocken®",
@@ -1483,26 +1473,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 8083,
-   "company": "Julius Baer",
-   "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4478702740/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-05T16:21:37+01:00",
-   "pid": 48300,
-   "lane": 0
-  },
+  "running": null,
   "pending": 40,
   "counters": {
    "pending": 41,
    "sent": 0,
    "review": 0,
-   "blocked": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1558,6 +1535,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T16:26:17+01:00",
+    "row": 8083,
+    "company": "Julius Baer",
+    "title": "Business Risk Manager 100% (f/m/d) - (Fixed Term Contract - Maternity Cover - 12 months)",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 280
+   },
+   {
     "ts": "2026-11-05T15:39:09+01:00",
     "row": 8461,
     "company": "Bank for International Settlements – BIS",
@@ -1600,17 +1588,6 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 250
-   },
-   {
-    "ts": "2026-11-05T15:14:44+01:00",
-    "row": 8155,
-    "company": "Talent Access Technologies",
-    "title": "Expert Denodo",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "3 avisos",
-    "dur_s": 430
    }
   ]
  },
@@ -1623,24 +1600,24 @@
    "url": "https://www.linkedin.com/jobs/view/4478702740/",
    "lang": "en",
    "started": "2026-11-05T16:21:47",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T16:26:08",
+   "dur_min": 4.3,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "codex",
-   "blocked": "",
+   "blocked": "sin_formulario",
    "manual": false,
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "",
+   "apply_path": "linkedin_external",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 8461,
