@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:11:47",
+ "generated": "2026-11-06T00:05:57",
  "kpis": {
   "runs": 110,
   "done": 102,
@@ -1426,7 +1426,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 83,
-   "runs_today": 23,
+   "runs_today": 0,
    "last": {
     "row": 8102,
     "company": "Flex Suisse",
@@ -1449,7 +1449,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
    "runs": 13,
-   "runs_today": 1,
+   "runs_today": 0,
    "last": {
     "row": 8083,
     "company": "Julius Baer",
@@ -1467,7 +1467,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
    "runs": 13,
-   "runs_today": 5,
+   "runs_today": 0,
    "last": {
     "row": 8461,
     "company": "Bank for International Settlements – BIS",
