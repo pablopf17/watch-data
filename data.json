@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T07:33:40",
+ "generated": "2026-11-05T08:09:45",
  "kpis": {
   "runs": 84,
-  "done": 76,
+  "done": 77,
   "ok": 36,
-  "ok_pct": 47.4,
+  "ok_pct": 46.8,
   "applied": 20,
   "blocked": 27,
   "manual": 13,
-  "manual_pct": 17.1,
+  "manual_pct": 16.9,
   "median_min": 4.7,
   "median_min_ok": 5.3,
   "median_min_applied": 5.6,
-  "p90_min": 17.3,
+  "p90_min": 18.1,
   "per_hour": 3.77,
   "median_gap_min": 15.9,
   "last_24h": 16,
@@ -605,18 +605,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 9203,
-      "company": "Michael Page Switzerland",
-      "title": "Contrôleur de gestion",
-      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T07:32:24"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1150,8 +1140,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 25,
+    "count": 26,
     "cards": [
+     {
+      "row": 9203,
+      "company": "Michael Page Switzerland",
+      "title": "Contrôleur de gestion",
+      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+      "score": "",
+      "note": "sin formulario",
+      "ts": "2026-11-05T07:32:24"
+     },
      {
       "row": 9004,
       "company": "",
@@ -1573,10 +1572,10 @@
    "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
    "lang": "fr",
    "started": "2026-11-05T07:32:24",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-05T08:06:08",
+   "dur_min": 33.7,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
@@ -1590,7 +1589,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 9004,
