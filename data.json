@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T10:15:59",
+ "generated": "2026-11-05T10:22:00",
  "kpis": {
-  "runs": 91,
-  "done": 82,
-  "ok": 38,
-  "ok_pct": 46.3,
-  "applied": 21,
+  "runs": 92,
+  "done": 83,
+  "ok": 39,
+  "ok_pct": 47.0,
+  "applied": 22,
   "blocked": 30,
   "manual": 13,
-  "manual_pct": 15.9,
+  "manual_pct": 15.7,
   "median_min": 4.7,
-  "median_min_ok": 5.4,
-  "median_min_applied": 5.4,
-  "p90_min": 16.1,
-  "per_hour": 3.92,
-  "median_gap_min": 15.3,
-  "last_24h": 24,
+  "median_min_ok": 5.6,
+  "median_min_applied": 5.6,
+  "p90_min": 15.9,
+  "per_hour": 3.95,
+  "median_gap_min": 15.2,
+  "last_24h": 25,
   "retries": 1,
-  "queue_pending": 49
+  "queue_pending": 48
  },
  "per_day": [
   {
@@ -78,9 +78,9 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 10,
-   "ok": 3,
-   "applied": 2,
+   "runs": 11,
+   "ok": 4,
+   "applied": 3,
    "blocked": 3
   }
  ],
@@ -111,7 +111,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 49,
+    "count": 48,
     "cards": [
      {
       "row": 8642,
@@ -202,15 +202,6 @@
       "score": "7",
       "note": "listo para lanzar",
       "ts": "2026-10-05"
-     },
-     {
-      "row": 8161,
-      "company": "Akkodis",
-      "title": "Data analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484118533/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
      },
      {
       "row": 8155,
@@ -563,22 +554,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8688,
-      "company": "Mirabaud Group",
-      "title": "Group MLRO Financial Crime Framework",
-      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
-      "score": 7,
+      "row": 8161,
+      "company": "Akkodis",
+      "title": "Data analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484118533/",
+      "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-05T10:15:59"
+      "ts": "2026-11-05T10:22:00"
      },
      {
-      "row": 8688,
-      "company": "Mirabaud Group",
-      "title": "Group MLRO Financial Crime Framework",
-      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
+      "row": 8161,
+      "company": "Akkodis",
+      "title": "Data analyst",
+      "url": "https://www.linkedin.com/jobs/view/4484118533/",
       "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-05T10:09:42"
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-05T10:21:27"
      }
     ],
     "more": 0
@@ -612,8 +603,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 61,
+    "count": 62,
     "cards": [
+     {
+      "row": 8688,
+      "company": "Mirabaud Group",
+      "title": "Group MLRO Financial Crime Framework",
+      "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
+      "score": "",
+      "note": "con respuesta · pasada paró en 3 avisos",
+      "ts": "2026-11-05T10:09:42"
+     },
      {
       "row": 8689,
       "company": "coni+partner AG",
@@ -1417,13 +1417,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 68,
-   "runs_today": 8,
+   "runs": 69,
+   "runs_today": 9,
    "last": {
-    "row": 8688,
-    "company": "Mirabaud Group",
-    "title": "Group MLRO Financial Crime Framework",
-    "started": "2026-11-05T10:09:42",
+    "row": 8161,
+    "company": "Akkodis",
+    "title": "Data analyst",
+    "started": "2026-11-05T10:21:27",
     "applied": false
    },
    "limit": {
@@ -1475,22 +1475,22 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8688,
-   "company": "Mirabaud Group",
-   "title": "Group MLRO Financial Crime Framework",
-   "score": 7,
-   "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
-   "domain": "ch.linkedin.com",
+   "row": 8161,
+   "company": "Akkodis",
+   "title": "Data analyst",
+   "score": 8,
+   "url": "https://www.linkedin.com/jobs/view/4484118533/",
+   "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-05T10:09:03+01:00",
-   "pid": 43456,
+   "started": "2026-11-05T10:21:20+01:00",
+   "pid": 34352,
    "lane": 0
   },
-  "pending": 49,
+  "pending": 48,
   "counters": {
-   "pending": 50,
+   "pending": 49,
    "sent": 0,
    "review": 0,
    "blocked": 0,
@@ -1549,6 +1549,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-05T10:18:43+01:00",
+    "row": 8688,
+    "company": "Mirabaud Group",
+    "title": "Group MLRO Financial Crime Framework",
+    "score": 7,
+    "domain": "ch.linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 580
+   },
+   {
     "ts": "2026-11-05T10:04:56+01:00",
     "row": 8689,
     "company": "coni+partner AG",
@@ -1591,32 +1602,21 @@
     "state": "review",
     "note": "5 avisos",
     "dur_s": 350
-   },
-   {
-    "ts": "2026-11-05T08:30:19+01:00",
-    "row": 8975,
-    "company": "nxt digital AG",
-    "title": "Unternehmensberater / Business Consultant auf Stufe «Manager» (m/w/d) 60-100% für Financial Services",
-    "score": 9,
-    "domain": "jobagent.ch",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 120
    }
   ]
  },
  "runs": [
   {
-   "row": 8688,
-   "folder": "8688_mirabaud-group-group-mlro-financial-crim",
-   "company": "Mirabaud Group",
-   "title": "Group MLRO Financial Crime Framework",
-   "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
-   "lang": "en",
-   "started": "2026-11-05T10:09:42",
+   "row": 8161,
+   "folder": "8161_akkodis-data-analyst",
+   "company": "Akkodis",
+   "title": "Data analyst",
+   "url": "https://www.linkedin.com/jobs/view/4484118533/",
+   "lang": "fr",
+   "started": "2026-11-05T10:21:27",
    "finished": null,
    "dur_min": null,
-   "phase": "running",
+   "phase": "starting",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
@@ -1632,6 +1632,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8688,
+   "folder": "8688_mirabaud-group-group-mlro-financial-crim",
+   "company": "Mirabaud Group",
+   "title": "Group MLRO Financial Crime Framework",
+   "url": "https://ch.linkedin.com/jobs/view/group-mlro-financial-crime-framework-at-mirabaud-group-4485395770",
+   "lang": "en",
+   "started": "2026-11-05T10:09:42",
+   "finished": "2026-11-05T10:18:37",
+   "dur_min": 8.9,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 3,
+   "verify_ok": true
   },
   {
    "row": 8689,
