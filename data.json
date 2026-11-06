@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T14:26:05",
+ "generated": "2026-11-06T14:32:06",
  "kpis": {
   "runs": 130,
   "done": 121,
@@ -21,16 +21,16 @@
   "claude_usage": {
    "h5": 100.0,
    "d7": 35.0,
-   "h5_reset": "2026-11-06T14:39:59.967652+00:00",
-   "d7_reset": "2026-11-11T16:59:59.967674+00:00",
+   "h5_reset": "2026-11-06T14:39:59.619572+00:00",
+   "d7_reset": "2026-11-11T16:59:59.619595+00:00",
    "stale": false,
-   "n_pairs": 18,
+   "n_pairs": 19,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 15.0,
-   "mean_h5": 5.56,
-   "tokens_per_cand_m": 0.92
+   "mean_h5": 5.26,
+   "tokens_per_cand_m": 0.87
   }
  },
  "per_day": [
@@ -248,18 +248,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 7268,
-      "company": "Geistlich",
-      "title": "Manager Shared Services",
-      "url": "https://www.linkedin.com/jobs/view/4481692644/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-06T14:18:41"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -300,8 +290,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 85,
+    "count": 86,
     "cards": [
+     {
+      "row": 7268,
+      "company": "Geistlich",
+      "title": "Manager Shared Services",
+      "url": "https://www.linkedin.com/jobs/view/4481692644/",
+      "score": "",
+      "note": "enviada · pasada paró en login",
+      "ts": "2026-11-06T14:18:41"
+     },
      {
       "row": 7695,
       "company": "Julius Baer",
@@ -1631,10 +1630,10 @@
    "url": "https://www.linkedin.com/jobs/view/4481692644/",
    "lang": "de",
    "started": "2026-11-06T14:18:41",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-06T14:28:01",
+   "dur_min": 9.3,
+   "phase": "paused",
+   "status": "PAUSA MANUAL",
    "status_at_start": "PENDING APPROVAL",
    "engine": "hermes",
    "blocked": "login",
