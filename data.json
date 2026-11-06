@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-06T09:07:16",
+ "generated": "2026-11-06T09:13:18",
  "kpis": {
   "runs": 120,
-  "done": 111,
+  "done": 112,
   "ok": 53,
-  "ok_pct": 47.7,
+  "ok_pct": 47.3,
   "applied": 33,
-  "blocked": 44,
-  "manual": 15,
-  "manual_pct": 13.5,
+  "blocked": 45,
+  "manual": 16,
+  "manual_pct": 14.3,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.3,
+  "p90_min": 14.2,
   "per_hour": 5.04,
   "median_gap_min": 11.9,
   "last_24h": 33,
@@ -98,7 +98,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 10
+   "n": 11
   },
   {
    "reason": "otro",
@@ -324,7 +324,14 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 4,
     "cards": [
      {
       "row": 8004,
@@ -332,17 +339,9 @@
       "title": "Third Party Risk Manager",
       "url": "https://www.linkedin.com/jobs/view/4481462887/",
       "score": "",
-      "note": "starting · sin cerrar",
+      "note": "login",
       "ts": "2026-11-06T09:07:00"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 3,
-    "cards": [
+     },
      {
       "row": 8039,
       "company": "UBS",
@@ -1617,10 +1616,10 @@
    "url": "https://www.linkedin.com/jobs/view/4481462887/",
    "lang": "en",
    "started": "2026-11-06T09:07:00",
-   "finished": null,
-   "dur_min": null,
-   "phase": "starting",
-   "status": "",
+   "finished": "2026-11-06T09:09:46",
+   "dur_min": 2.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "PENDING APPROVAL",
    "engine": "claude",
    "blocked": "login",
@@ -1633,7 +1632,7 @@
    "files_total": 2,
    "required_missing": 3,
    "needs_approval": 2,
-   "avisos": 4,
+   "avisos": 5,
    "verify_ok": false
   },
   {
