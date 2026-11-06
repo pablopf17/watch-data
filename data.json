@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T23:45:28",
+ "generated": "2026-11-07T00:03:33",
  "kpis": {
   "runs": 142,
   "done": 132,
@@ -1446,7 +1446,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 112,
-   "runs_today": 29,
+   "runs_today": 0,
    "last": {
     "row": 3905,
     "company": "CLEEVEN",
@@ -1469,7 +1469,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
    "runs": 15,
-   "runs_today": 2,
+   "runs_today": 0,
    "last": {
     "row": 2162,
     "company": "EY",
@@ -1487,7 +1487,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
    "runs": 14,
-   "runs_today": 1,
+   "runs_today": 0,
    "last": {
     "row": 7695,
     "company": "Julius Baer",
