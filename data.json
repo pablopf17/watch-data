@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T09:37:21",
+ "generated": "2026-11-06T09:43:22",
  "kpis": {
   "runs": 120,
   "done": 111,
@@ -332,7 +332,7 @@
       "title": "Audit Expert IB Execution Services",
       "url": "https://www.linkedin.com/jobs/view/4472890308/",
       "score": "",
-      "note": "starting · sin cerrar",
+      "note": "running · sin cerrar",
       "ts": "2026-11-06T09:37:00"
      }
     ],
@@ -1619,7 +1619,7 @@
    "started": "2026-11-06T09:37:00",
    "finished": null,
    "dur_min": null,
-   "phase": "starting",
+   "phase": "running",
    "status": "",
    "status_at_start": "PENDING APPROVAL",
    "engine": "claude",
