@@ -1,35 +1,35 @@
 {
- "generated": "2026-11-06T20:26:59",
+ "generated": "2026-11-06T20:33:00",
  "kpis": {
-  "runs": 135,
-  "done": 125,
-  "ok": 59,
+  "runs": 137,
+  "done": 127,
+  "ok": 60,
   "ok_pct": 47.2,
   "applied": 35,
-  "blocked": 50,
+  "blocked": 51,
   "manual": 17,
-  "manual_pct": 13.6,
+  "manual_pct": 13.4,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 13.2,
+  "p90_min": 13.0,
   "per_hour": 5.08,
   "median_gap_min": 11.8,
   "last_24h": 32,
   "retries": 1,
-  "queue_pending": 7,
+  "queue_pending": 5,
   "claude_usage": {
-   "h5": 72.0,
-   "d7": 39.0,
-   "h5_reset": "2026-11-06T20:39:59.833751+00:00",
-   "d7_reset": "2026-11-11T16:59:59.833772+00:00",
+   "h5": 83.0,
+   "d7": 40.0,
+   "h5_reset": "2026-11-06T20:40:00.357998+00:00",
+   "d7_reset": "2026-11-11T17:00:00.358015+00:00",
    "stale": false,
-   "n_pairs": 23,
+   "n_pairs": 25,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 7.13,
+   "mean_h5": 7.12,
    "tokens_per_cand_m": 1.18
   }
  },
@@ -99,10 +99,10 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 25,
-   "ok": 8,
+   "runs": 27,
+   "ok": 9,
    "applied": 4,
-   "blocked": 14
+   "blocked": 15
   }
  ],
  "blockers": [
@@ -116,7 +116,7 @@
   },
   {
    "reason": "otro",
-   "n": 5
+   "n": 6
   },
   {
    "reason": "captcha",
@@ -132,26 +132,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 7,
+    "count": 5,
     "cards": [
-     {
-      "row": 6550,
-      "company": "Geberit Schweiz",
-      "title": "Data Analyst (a) 80 - 100%",
-      "url": "https://www.linkedin.com/jobs/view/4483884165/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
-     },
-     {
-      "row": 5945,
-      "company": "Beyond Potentials",
-      "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
-      "url": "https://beyondpotentials.zohorecruit.com/jobs/Careers/495205000026656001/Senior-Compliance-Officer---Onboarding---Fluent-in-FR-EN?source=CareerSite",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
-     },
      {
       "row": 4314,
       "company": "coni+partner AG",
@@ -206,22 +188,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 6642,
-      "company": "Valora Group",
-      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4479354970/",
-      "score": 3,
+      "row": 5945,
+      "company": "Beyond Potentials",
+      "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
+      "url": "https://beyondpotentials.zohorecruit.com/jobs/Careers/495205000026656001/Senior-Compliance-Officer---Onboarding---Fluent-in-FR-EN?source=CareerSite",
+      "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T20:26:59"
+      "ts": "2026-11-06T20:33:00"
      },
      {
-      "row": 6642,
-      "company": "Valora Group",
-      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4479354970/",
+      "row": 5945,
+      "company": "Beyond Potentials",
+      "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
+      "url": "https://beyondpotentials.zohorecruit.com/jobs/Careers/495205000026656001/Senior-Compliance-Officer---Onboarding---Fluent-in-FR-EN?source=CareerSite",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T20:21:13"
+      "ts": "2026-11-06T20:30:50"
      }
     ],
     "more": 0
@@ -229,8 +211,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 3,
+    "count": 4,
     "cards": [
+     {
+      "row": 6550,
+      "company": "Geberit Schweiz",
+      "title": "Data Analyst (a) 80 - 100%",
+      "url": "https://www.linkedin.com/jobs/view/4483884165/",
+      "score": "",
+      "note": "formulario_equivocado",
+      "ts": "2026-11-06T20:28:23"
+     },
      {
       "row": 7677,
       "company": "SGI",
@@ -264,8 +255,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 87,
+    "count": 88,
     "cards": [
+     {
+      "row": 6642,
+      "company": "Valora Group",
+      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4479354970/",
+      "score": "",
+      "note": "enviada · pasada paró en 7 avisos",
+      "ts": "2026-11-06T20:21:13"
+     },
      {
       "row": 6901,
       "company": "albedis",
@@ -1456,13 +1456,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 106,
-   "runs_today": 23,
+   "runs": 108,
+   "runs_today": 25,
    "last": {
-    "row": 6642,
-    "company": "Valora Group",
-    "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-    "started": "2026-11-06T20:21:13",
+    "row": 5945,
+    "company": "Beyond Potentials",
+    "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
+    "started": "2026-11-06T20:30:50",
     "applied": false
    },
    "limit": {
@@ -1514,25 +1514,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 6642,
-   "company": "Valora Group",
-   "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-   "score": 3,
-   "url": "https://www.linkedin.com/jobs/view/4479354970/",
-   "domain": "linkedin.com",
+   "row": 5945,
+   "company": "Beyond Potentials",
+   "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
+   "score": 8,
+   "url": "https://beyondpotentials.zohorecruit.com/jobs/Careers/495205000026656001/Senior-Compliance-Officer---Onboarding---Fluent-in-FR-EN?source=CareerSite",
+   "domain": "beyondpotentials.zohorecruit.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T20:21:06+01:00",
-   "pid": 25032,
+   "started": "2026-11-06T20:30:36+01:00",
+   "pid": 44448,
    "lane": 0
   },
-  "pending": 7,
+  "pending": 5,
   "counters": {
    "pending": 9,
    "sent": 1,
-   "review": 0,
-   "blocked": 0,
+   "review": 1,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1562,14 +1562,6 @@
     "domain": "linkedin.com"
    },
    {
-    "row": 6550,
-    "company": "Geberit Schweiz",
-    "title": "Data Analyst (a) 80 - 100%",
-    "score": 9,
-    "url": "https://www.linkedin.com/jobs/view/4483884165/",
-    "domain": "linkedin.com"
-   },
-   {
     "row": 4189,
     "company": "Allianz Suisse",
     "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
@@ -1584,9 +1576,39 @@
     "score": 8,
     "url": "https://www.linkedin.com/jobs/view/4451291525/",
     "domain": "linkedin.com"
+   },
+   {
+    "row": 2162,
+    "company": "EY",
+    "title": "(Senior) Consultant - Business Consulting (Platform experience)",
+    "score": 7,
+    "url": "https://www.linkedin.com/jobs/view/4385036754/",
+    "domain": "linkedin.com"
    }
   ],
   "last": [
+   {
+    "ts": "2026-11-06T20:30:36+01:00",
+    "row": 6550,
+    "company": "Geberit Schweiz",
+    "title": "Data Analyst (a) 80 - 100%",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "formulario_equivocado",
+    "dur_s": 140
+   },
+   {
+    "ts": "2026-11-06T20:28:16+01:00",
+    "row": 6642,
+    "company": "Valora Group",
+    "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+    "score": 3,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "7 avisos",
+    "dur_s": 430
+   },
    {
     "ts": "2026-11-06T20:21:06+01:00",
     "row": 6901,
@@ -1619,40 +1641,18 @@
     "state": "review",
     "note": "pendiente de revisión (tras 1 prórroga(s))",
     "dur_s": 710
-   },
-   {
-    "ts": "2026-11-06T16:41:30+01:00",
-    "row": 7161,
-    "company": "LGT Capital Partners",
-    "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 150
-   },
-   {
-    "ts": "2026-11-06T11:37:19+01:00",
-    "row": 7268,
-    "company": "Geistlich",
-    "title": "Manager Shared Services",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 170
    }
   ]
  },
  "runs": [
   {
-   "row": 6642,
-   "folder": "6642_valora-group-internal-control-risk-speci",
-   "company": "Valora Group",
-   "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-   "url": "https://www.linkedin.com/jobs/view/4479354970/",
-   "lang": "de",
-   "started": "2026-11-06T20:21:13",
+   "row": 5945,
+   "folder": "5945_beyond-potentials-senior-compliance-offi",
+   "company": "Beyond Potentials",
+   "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
+   "url": "https://beyondpotentials.zohorecruit.com/jobs/Careers/495205000026656001/Senior-Compliance-Officer---Onboarding---Fluent-in-FR-EN?source=CareerSite",
+   "lang": "en",
+   "started": "2026-11-06T20:30:50",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1671,6 +1671,60 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 6550,
+   "folder": "6550_geberit-schweiz-data-analyst-a-80-100",
+   "company": "Geberit Schweiz",
+   "title": "Data Analyst (a) 80 - 100%",
+   "url": "https://www.linkedin.com/jobs/view/4483884165/",
+   "lang": "de",
+   "started": "2026-11-06T20:28:23",
+   "finished": "2026-11-06T20:30:35",
+   "dur_min": 2.2,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "formulario_equivocado",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 4,
+   "verify_ok": false
+  },
+  {
+   "row": 6642,
+   "folder": "6642_valora-group-internal-control-risk-speci",
+   "company": "Valora Group",
+   "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+   "url": "https://www.linkedin.com/jobs/view/4479354970/",
+   "lang": "de",
+   "started": "2026-11-06T20:21:13",
+   "finished": "2026-11-06T20:28:13",
+   "dur_min": 7.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 1,
+   "avisos": 7,
+   "verify_ok": true
   },
   {
    "row": 6901,
