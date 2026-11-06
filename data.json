@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:57:03",
+ "generated": "2026-11-06T21:03:04",
  "kpis": {
   "runs": 142,
   "done": 132,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 100.0,
    "d7": 42.0,
-   "h5_reset": "2026-11-06T20:40:00.139747+00:00",
-   "d7_reset": "2026-11-11T17:00:00.139769+00:00",
+   "h5_reset": "2026-11-06T20:39:59.682600+00:00",
+   "d7_reset": "2026-11-11T16:59:59.682623+00:00",
    "stale": false,
    "n_pairs": 32,
    "cross": 0,
@@ -139,18 +139,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 2162,
-      "company": "EY",
-      "title": "(Senior) Consultant - Business Consulting (Platform experience)",
-      "url": "https://www.linkedin.com/jobs/view/4385036754/",
-      "score": "",
-      "note": "paused · sin cerrar",
-      "ts": "2026-11-06T20:42:54"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -200,8 +190,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 89,
+    "count": 90,
     "cards": [
+     {
+      "row": 2162,
+      "company": "EY",
+      "title": "(Senior) Consultant - Business Consulting (Platform experience)",
+      "url": "https://www.linkedin.com/jobs/view/4385036754/",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-06T20:42:54"
+     },
      {
       "row": 5945,
       "company": "Beyond Potentials",
