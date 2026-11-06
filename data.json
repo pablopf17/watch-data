@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:14:57",
+ "generated": "2026-11-06T20:20:58",
  "kpis": {
   "runs": 134,
   "done": 124,
@@ -15,14 +15,14 @@
   "p90_min": 13.3,
   "per_hour": 5.04,
   "median_gap_min": 11.9,
-  "last_24h": 32,
+  "last_24h": 31,
   "retries": 1,
   "queue_pending": 8,
   "claude_usage": {
-   "h5": 57.0,
-   "d7": 38.0,
-   "h5_reset": "2026-11-06T20:39:59.949903+00:00",
-   "d7_reset": "2026-11-11T16:59:59.949921+00:00",
+   "h5": 64.0,
+   "d7": 39.0,
+   "h5_reset": "2026-11-06T20:39:59.591977+00:00",
+   "d7_reset": "2026-11-11T16:59:59.592007+00:00",
    "stale": false,
    "n_pairs": 22,
    "cross": 0,
@@ -221,7 +221,7 @@
       "url": "https://www.linkedin.com/jobs/view/4480961770/",
       "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T20:14:57"
+      "ts": "2026-11-06T20:20:58"
      },
      {
       "row": 6901,
@@ -229,7 +229,7 @@
       "title": "Lead Internal Auditor with focus on Front Office",
       "url": "https://www.linkedin.com/jobs/view/4480961770/",
       "score": "",
-      "note": "starting · sin cerrar",
+      "note": "running · sin cerrar",
       "ts": "2026-11-06T20:14:35"
      }
     ],
@@ -1655,7 +1655,7 @@
    "started": "2026-11-06T20:14:35",
    "finished": null,
    "dur_min": null,
-   "phase": "starting",
+   "phase": "running",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
@@ -1663,14 +1663,14 @@
    "manual": false,
    "ok": false,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 2,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "avisos": 2,
+   "verify_ok": true
   },
   {
    "row": 6905,
