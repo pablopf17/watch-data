@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-06T06:00:48",
+ "generated": "2026-11-06T06:06:48",
  "kpis": {
   "runs": 120,
-  "done": 111,
+  "done": 112,
   "ok": 53,
-  "ok_pct": 47.7,
+  "ok_pct": 47.3,
   "applied": 32,
-  "blocked": 44,
+  "blocked": 45,
   "manual": 16,
-  "manual_pct": 14.4,
+  "manual_pct": 14.3,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.2,
+  "p90_min": 14.1,
   "per_hour": 5.17,
   "median_gap_min": 11.6,
   "last_24h": 39,
@@ -102,7 +102,7 @@
   },
   {
    "reason": "otro",
-   "n": 3
+   "n": 4
   },
   {
    "reason": "captcha",
@@ -324,34 +324,24 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 10,
     "cards": [
-     {
-      "row": 7822,
-      "company": "KPMG Switzerland",
-      "title": "Consultant - Digital Transformation",
-      "url": "https://www.linkedin.com/jobs/view/4482791655/",
-      "score": 8,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T06:00:48"
-     },
      {
       "row": 7822,
       "company": "KPMG Switzerland",
       "title": "Consultant - Digital Transformation",
       "url": "https://www.linkedin.com/jobs/view/4482791655/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "oferta_equivocada",
       "ts": "2026-11-06T05:57:52"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 9,
-    "cards": [
+     },
      {
       "row": 8004,
       "company": "Vontobel",
@@ -1499,26 +1489,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 7822,
-   "company": "KPMG Switzerland",
-   "title": "Consultant - Digital Transformation",
-   "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4482791655/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-06T05:57:45+01:00",
-   "pid": 5556,
-   "lane": 0
-  },
+  "running": null,
   "pending": 22,
   "counters": {
    "pending": 32,
    "sent": 2,
    "review": 0,
-   "blocked": 7,
+   "blocked": 8,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1574,6 +1551,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T06:00:55+01:00",
+    "row": 7822,
+    "company": "KPMG Switzerland",
+    "title": "Consultant - Digital Transformation",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "oferta_equivocada",
+    "dur_s": 190
+   },
+   {
     "ts": "2026-11-06T05:57:45+01:00",
     "row": 7979,
     "company": "Zurich Insurance",
@@ -1616,17 +1604,6 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 240
-   },
-   {
-    "ts": "2026-11-06T05:43:14+01:00",
-    "row": 8045,
-    "company": "Netlight",
-    "title": "Tech Management Consultant",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 260
    }
   ]
  },
@@ -1639,10 +1616,10 @@
    "url": "https://www.linkedin.com/jobs/view/4482791655/",
    "lang": "en",
    "started": "2026-11-06T05:57:52",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-06T06:00:52",
+   "dur_min": 3.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "oferta_equivocada",
@@ -1656,7 +1633,7 @@
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 3,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 7979,
