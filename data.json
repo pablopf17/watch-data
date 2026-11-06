@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-06T11:01:34",
+ "generated": "2026-11-06T11:07:35",
  "kpis": {
-  "runs": 122,
-  "done": 113,
+  "runs": 123,
+  "done": 114,
   "ok": 54,
-  "ok_pct": 47.8,
+  "ok_pct": 47.4,
   "applied": 34,
   "blocked": 45,
   "manual": 16,
-  "manual_pct": 14.2,
-  "median_min": 4.6,
+  "manual_pct": 14.0,
+  "median_min": 4.7,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 14.1,
-  "per_hour": 4.76,
-  "median_gap_min": 12.6,
-  "last_24h": 31,
+  "p90_min": 14.5,
+  "per_hour": 4.51,
+  "median_gap_min": 13.3,
+  "last_24h": 32,
   "retries": 1,
-  "queue_pending": 20,
+  "queue_pending": 19,
   "claude_usage": {
-   "h5": 24.0,
+   "h5": 34.0,
    "d7": 29.0,
-   "h5_reset": "2026-11-06T14:39:59.915667+00:00",
-   "d7_reset": "2026-11-11T16:59:59.915692+00:00",
+   "h5_reset": "2026-11-06T14:40:00.272273+00:00",
+   "d7_reset": "2026-11-11T17:00:00.272299+00:00",
    "stale": false,
-   "n_pairs": 1,
+   "n_pairs": 2,
    "cross": 0,
-   "median_h5": 10.0,
-   "p90_h5": 10.0,
-   "max_h5": 10.0,
-   "mean_h5": 10.0,
-   "tokens_per_cand_m": 1.66
+   "median_h5": 15.0,
+   "p90_h5": 15.0,
+   "max_h5": 15.0,
+   "mean_h5": 12.5,
+   "tokens_per_cand_m": 2.08
   }
  },
  "per_day": [
@@ -99,7 +99,7 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 12,
+   "runs": 13,
    "ok": 3,
    "applied": 3,
    "blocked": 8
@@ -132,17 +132,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 20,
+    "count": 19,
     "cards": [
-     {
-      "row": 7695,
-      "company": "Julius Baer",
-      "title": "Data Scientist 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4483119293/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23"
-     },
      {
       "row": 7677,
       "company": "SGI",
@@ -323,22 +314,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 7772,
+      "row": 7695,
       "company": "Julius Baer",
-      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4478510327/",
+      "title": "Data Scientist 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483119293/",
       "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T11:01:34"
+      "ts": "2026-11-06T11:07:35"
      },
      {
-      "row": 7772,
+      "row": 7695,
       "company": "Julius Baer",
-      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4478510327/",
+      "title": "Data Scientist 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483119293/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T10:47:48"
+      "ts": "2026-11-06T11:02:28"
      }
     ],
     "more": 0
@@ -1118,8 +1109,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 36,
+    "count": 37,
     "cards": [
+     {
+      "row": 7772,
+      "company": "Julius Baer",
+      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4478510327/",
+      "score": "",
+      "note": "sin formulario",
+      "ts": "2026-11-06T10:47:48"
+     },
      {
       "row": 7822,
       "company": "KPMG Switzerland",
@@ -1456,13 +1456,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 95,
-   "runs_today": 12,
+   "runs": 96,
+   "runs_today": 13,
    "last": {
-    "row": 7772,
+    "row": 7695,
     "company": "Julius Baer",
-    "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
-    "started": "2026-11-06T10:47:48",
+    "title": "Data Scientist 100% (f/m/d)",
+    "started": "2026-11-06T11:02:28",
     "applied": false
    },
    "limit": {
@@ -1514,24 +1514,24 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 7772,
+   "row": 7695,
    "company": "Julius Baer",
-   "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+   "title": "Data Scientist 100% (f/m/d)",
    "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4478510327/",
+   "url": "https://www.linkedin.com/jobs/view/4483119293/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T10:47:39+01:00",
-   "pid": 40160,
+   "started": "2026-11-06T11:02:19+01:00",
+   "pid": 20832,
    "lane": 0
   },
-  "pending": 20,
+  "pending": 19,
   "counters": {
    "pending": 22,
    "sent": 1,
-   "review": 0,
+   "review": 1,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
@@ -1588,6 +1588,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T11:02:19+01:00",
+    "row": 7772,
+    "company": "Julius Baer",
+    "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "pendiente de revisión (tras 2 prórroga(s))",
+    "dur_s": 880
+   },
+   {
     "ts": "2026-11-06T10:47:39+01:00",
     "row": 7773,
     "company": "SGI",
@@ -1630,29 +1641,18 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 150
-   },
-   {
-    "ts": "2026-11-06T05:51:55+01:00",
-    "row": 8012,
-    "company": "Versified",
-    "title": "Senior Business Analyst",
-    "score": 7,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 280
    }
   ]
  },
  "runs": [
   {
-   "row": 7772,
-   "folder": "7772_julius-baer-strategic-financial-analyst",
+   "row": 7695,
+   "folder": "7695_julius-baer-data-scientist-100-f-m-d",
    "company": "Julius Baer",
-   "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
-   "url": "https://www.linkedin.com/jobs/view/4478510327/",
+   "title": "Data Scientist 100% (f/m/d)",
+   "url": "https://www.linkedin.com/jobs/view/4483119293/",
    "lang": "en",
-   "started": "2026-11-06T10:47:48",
+   "started": "2026-11-06T11:02:28",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1671,6 +1671,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 7772,
+   "folder": "7772_julius-baer-strategic-financial-analyst",
+   "company": "Julius Baer",
+   "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+   "url": "https://www.linkedin.com/jobs/view/4478510327/",
+   "lang": "en",
+   "started": "2026-11-06T10:47:48",
+   "finished": "2026-11-06T11:02:15",
+   "dur_min": 14.4,
+   "phase": "done",
+   "status": "TAILORED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": false
   },
   {
    "row": 7773,
