@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-06T13:56:01",
+ "generated": "2026-11-06T14:02:02",
  "kpis": {
   "runs": 130,
-  "done": 121,
-  "ok": 56,
-  "ok_pct": 46.3,
+  "done": 122,
+  "ok": 57,
+  "ok_pct": 46.7,
   "applied": 34,
   "blocked": 50,
   "manual": 18,
-  "manual_pct": 14.9,
+  "manual_pct": 14.8,
   "median_min": 4.5,
-  "median_min_ok": 5.6,
+  "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 13.5,
+  "p90_min": 13.4,
   "per_hour": 5.17,
   "median_gap_min": 11.6,
   "last_24h": 37,
@@ -21,16 +21,16 @@
   "claude_usage": {
    "h5": 100.0,
    "d7": 35.0,
-   "h5_reset": "2026-11-06T14:39:59.720476+00:00",
-   "d7_reset": "2026-11-11T16:59:59.720507+00:00",
+   "h5_reset": "2026-11-06T14:40:00.444190+00:00",
+   "d7_reset": "2026-11-11T17:00:00.444213+00:00",
    "stale": false,
-   "n_pairs": 16,
+   "n_pairs": 17,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 15.0,
-   "mean_h5": 6.25,
-   "tokens_per_cand_m": 1.04
+   "mean_h5": 5.88,
+   "tokens_per_cand_m": 0.98
   }
  },
  "per_day": [
@@ -100,7 +100,7 @@
   {
    "d": "2026-11-06",
    "runs": 20,
-   "ok": 5,
+   "ok": 6,
    "applied": 3,
    "blocked": 13
   }
@@ -248,18 +248,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 7695,
-      "company": "Julius Baer",
-      "title": "Data Scientist 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4483119293/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-06T13:51:27"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -309,8 +299,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 84,
+    "count": 85,
     "cards": [
+     {
+      "row": 7695,
+      "company": "Julius Baer",
+      "title": "Data Scientist 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4483119293/",
+      "score": "",
+      "note": "enviada · pasada paró en 5 avisos",
+      "ts": "2026-11-06T13:51:27"
+     },
      {
       "row": 7616,
       "company": "FYUL",
@@ -1631,23 +1630,23 @@
    "url": "https://www.linkedin.com/jobs/view/4483119293/",
    "lang": "en",
    "started": "2026-11-06T13:51:27",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-06T13:57:39",
+   "dur_min": 6.2,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "codex",
    "blocked": "",
    "manual": false,
-   "ok": false,
+   "ok": true,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
+   "form_reached": true,
+   "apply_path": "linkedin_external",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
+   "files_total": 3,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 5,
    "verify_ok": false
   },
   {
