@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T08:55:14",
+ "generated": "2026-11-06T09:01:15",
  "kpis": {
   "runs": 120,
   "done": 112,
@@ -331,7 +331,7 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 6,
+    "count": 5,
     "cards": [
      {
       "row": 8004,
@@ -350,15 +350,6 @@
       "score": "",
       "note": "login",
       "ts": "2026-11-06T05:43:22"
-     },
-     {
-      "row": 8072,
-      "company": "Hays",
-      "title": "Compliance Specialist AML",
-      "url": "https://www.linkedin.com/jobs/view/4484477438/",
-      "score": "",
-      "note": "url_lanzador_incorrecta",
-      "ts": "2026-11-06T05:30:51"
      },
      {
       "row": 8620,
@@ -393,7 +384,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 77,
+    "count": 78,
     "cards": [
      {
       "row": 8012,
@@ -412,6 +403,15 @@
       "score": "",
       "note": "enviada · pasada paró en permiso_herramienta",
       "ts": "2026-11-06T05:35:01"
+     },
+     {
+      "row": 8072,
+      "company": "Hays",
+      "title": "Compliance Specialist AML",
+      "url": "https://www.linkedin.com/jobs/view/4484477438/",
+      "score": "",
+      "note": "enviada · pasada paró en url_lanzador_incorrecta",
+      "ts": "2026-11-06T05:30:51"
      },
      {
       "row": 9305,
