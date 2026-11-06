@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-06T20:39:01",
+ "generated": "2026-11-06T20:45:02",
  "kpis": {
-  "runs": 140,
-  "done": 130,
+  "runs": 142,
+  "done": 132,
   "ok": 60,
-  "ok_pct": 46.2,
+  "ok_pct": 45.5,
   "applied": 35,
-  "blocked": 54,
+  "blocked": 55,
   "manual": 17,
-  "manual_pct": 13.1,
-  "median_min": 4.5,
+  "manual_pct": 12.9,
+  "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 12.8,
-  "per_hour": 5.36,
-  "median_gap_min": 11.2,
-  "last_24h": 34,
+  "p90_min": 12.7,
+  "per_hour": 5.45,
+  "median_gap_min": 11.0,
+  "last_24h": 35,
   "retries": 1,
-  "queue_pending": 2,
+  "queue_pending": 0,
   "claude_usage": {
-   "h5": 96.0,
-   "d7": 41.0,
-   "h5_reset": "2026-11-06T20:40:00.412546+00:00",
-   "d7_reset": "2026-11-11T17:00:00.412569+00:00",
-   "stale": true,
-   "n_pairs": 29,
+   "h5": 100.0,
+   "d7": 42.0,
+   "h5_reset": "2026-11-06T20:40:00.466794+00:00",
+   "d7_reset": "2026-11-11T17:00:00.466823+00:00",
+   "stale": false,
+   "n_pairs": 31,
    "cross": 0,
    "median_h5": 5.0,
-   "p90_h5": 15.0,
+   "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 6.76,
-   "tokens_per_cand_m": 1.12
+   "mean_h5": 6.45,
+   "tokens_per_cand_m": 1.07
   }
  },
  "per_day": [
@@ -99,7 +99,7 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 30,
+   "runs": 32,
    "ok": 9,
    "applied": 4,
    "blocked": 19
@@ -108,7 +108,7 @@
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 33
+   "n": 34
   },
   {
    "reason": "login / cuenta",
@@ -132,51 +132,23 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 2,
-    "cards": [
-     {
-      "row": 3905,
-      "company": "CLEEVEN",
-      "title": "Consultant fonctionnel/Consultante fonctionnel",
-      "url": "https://www.linkedin.com/jobs/view/4434701724/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-06-29"
-     },
-     {
-      "row": 2162,
-      "company": "EY",
-      "title": "(Senior) Consultant - Business Consulting (Platform experience)",
-      "url": "https://www.linkedin.com/jobs/view/4385036754/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-03-18"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
      {
-      "row": 4189,
-      "company": "Allianz Suisse",
-      "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4458277129/",
-      "score": 8,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T20:39:01"
-     },
-     {
-      "row": 4189,
-      "company": "Allianz Suisse",
-      "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4458277129/",
+      "row": 2162,
+      "company": "EY",
+      "title": "(Senior) Consultant - Business Consulting (Platform experience)",
+      "url": "https://www.linkedin.com/jobs/view/4385036754/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T20:37:34"
+      "ts": "2026-11-06T20:42:54"
      }
     ],
     "more": 0
@@ -1037,8 +1009,26 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 45,
+    "count": 47,
     "cards": [
+     {
+      "row": 3905,
+      "company": "CLEEVEN",
+      "title": "Consultant fonctionnel/Consultante fonctionnel",
+      "url": "https://www.linkedin.com/jobs/view/4434701724/",
+      "score": "",
+      "note": "sin formulario",
+      "ts": "2026-11-06T20:39:13"
+     },
+     {
+      "row": 4189,
+      "company": "Allianz Suisse",
+      "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4458277129/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-06T20:37:34"
+     },
      {
       "row": 4255,
       "company": "Federal Police fedpol",
@@ -1456,23 +1446,41 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 111,
-   "runs_today": 28,
+   "runs": 112,
+   "runs_today": 29,
    "last": {
-    "row": 4189,
-    "company": "Allianz Suisse",
-    "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
-    "started": "2026-11-06T20:37:34",
+    "row": 3905,
+    "company": "CLEEVEN",
+    "title": "Consultant fonctionnel/Consultante fonctionnel",
+    "started": "2026-11-06T20:39:13",
     "applied": false
    },
    "limit": {
-    "msg": "You've hit your session limit · resets 3:40pm (Europe/Zurich)",
-    "when": "2026-11-06T13:50:37",
-    "resets_at": "2026-11-07T15:40:00",
-    "resets_label": "15:40"
+    "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
+    "when": "2026-11-06T20:41:53",
+    "resets_at": "2026-11-06T21:40:00",
+    "resets_label": "21:40"
    },
-   "limit_folder": "7695_julius-baer-data-scientist-100-f-m-d",
+   "limit_folder": "2162_ey-senior-consultant-business-consulting",
    "limited": true
+  },
+  {
+   "engine": "hermes",
+   "label": "Hermes",
+   "cli": true,
+   "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
+   "runs": 15,
+   "runs_today": 2,
+   "last": {
+    "row": 2162,
+    "company": "EY",
+    "title": "(Senior) Consultant - Business Consulting (Platform experience)",
+    "started": "2026-11-06T20:42:54",
+    "applied": false
+   },
+   "limit": null,
+   "limit_folder": "",
+   "limited": false
   },
   {
    "engine": "codex",
@@ -1491,48 +1499,17 @@
    "limit": null,
    "limit_folder": "",
    "limited": false
-  },
-  {
-   "engine": "hermes",
-   "label": "Hermes",
-   "cli": true,
-   "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 14,
-   "runs_today": 1,
-   "last": {
-    "row": 7268,
-    "company": "Geistlich",
-    "title": "Manager Shared Services",
-    "started": "2026-11-06T14:18:41",
-    "applied": false
-   },
-   "limit": null,
-   "limit_folder": "",
-   "limited": false
   }
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 4189,
-   "company": "Allianz Suisse",
-   "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
-   "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4458277129/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-06T20:37:26+01:00",
-   "pid": 10068,
-   "lane": 0
-  },
-  "pending": 2,
+  "running": null,
+  "pending": 0,
   "counters": {
    "pending": 9,
    "sent": 1,
-   "review": 1,
-   "blocked": 4,
+   "review": 3,
+   "blocked": 5,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1544,25 +1521,41 @@
    "timeout": 600,
    "per_domain": 0
   },
-  "next": [
+  "next": [],
+  "last": [
    {
-    "row": 3905,
-    "company": "CLEEVEN",
-    "title": "Consultant fonctionnel/Consultante fonctionnel",
-    "score": 9,
-    "url": "https://www.linkedin.com/jobs/view/4434701724/",
-    "domain": "linkedin.com"
-   },
-   {
+    "ts": "2026-11-06T20:42:06+01:00",
     "row": 2162,
     "company": "EY",
     "title": "(Senior) Consultant - Business Consulting (Platform experience)",
     "score": 7,
-    "url": "https://www.linkedin.com/jobs/view/4385036754/",
-    "domain": "linkedin.com"
-   }
-  ],
-  "last": [
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "pendiente de revisión",
+    "dur_s": 50
+   },
+   {
+    "ts": "2026-11-06T20:41:16+01:00",
+    "row": 3905,
+    "company": "CLEEVEN",
+    "title": "Consultant fonctionnel/Consultante fonctionnel",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "pendiente de revisión",
+    "dur_s": 130
+   },
+   {
+    "ts": "2026-11-06T20:39:06+01:00",
+    "row": 4189,
+    "company": "Allianz Suisse",
+    "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 100
+   },
    {
     "ts": "2026-11-06T20:37:26+01:00",
     "row": 4255,
@@ -1584,43 +1577,64 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 120
-   },
-   {
-    "ts": "2026-11-06T20:33:36+01:00",
-    "row": 5945,
-    "company": "Beyond Potentials",
-    "title": "Senior Compliance Officer - Onboarding - Fluent in FR/EN",
-    "score": 8,
-    "domain": "beyondpotentials.zohorecruit.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 180
-   },
-   {
-    "ts": "2026-11-06T20:30:36+01:00",
-    "row": 6550,
-    "company": "Geberit Schweiz",
-    "title": "Data Analyst (a) 80 - 100%",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "formulario_equivocado",
-    "dur_s": 140
-   },
-   {
-    "ts": "2026-11-06T20:28:16+01:00",
-    "row": 6642,
-    "company": "Valora Group",
-    "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-    "score": 3,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "7 avisos",
-    "dur_s": 430
    }
   ]
  },
  "runs": [
+  {
+   "row": 2162,
+   "folder": "2162_ey-senior-consultant-business-consulting",
+   "company": "EY",
+   "title": "(Senior) Consultant - Business Consulting (Platform experience)",
+   "url": "https://www.linkedin.com/jobs/view/4385036754/",
+   "lang": "en",
+   "started": "2026-11-06T20:42:54",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": false
+  },
+  {
+   "row": 3905,
+   "folder": "3905_cleeven-consultant-fonctionnel-consultan",
+   "company": "CLEEVEN",
+   "title": "Consultant fonctionnel/Consultante fonctionnel",
+   "url": "https://www.linkedin.com/jobs/view/4434701724/",
+   "lang": "de",
+   "started": "2026-11-06T20:39:13",
+   "finished": "2026-11-06T20:41:11",
+   "dur_min": 2.0,
+   "phase": "done",
+   "status": "TAILORED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": false
+  },
   {
    "row": 4189,
    "folder": "4189_allianz-suisse-senior-investment-strateg",
@@ -1629,10 +1643,10 @@
    "url": "https://www.linkedin.com/jobs/view/4458277129/",
    "lang": "de",
    "started": "2026-11-06T20:37:34",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-06T20:39:00",
+   "dur_min": 1.4,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "sin_formulario",
