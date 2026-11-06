@@ -1,35 +1,35 @@
 {
- "generated": "2026-11-06T20:20:58",
+ "generated": "2026-11-06T20:26:59",
  "kpis": {
-  "runs": 134,
-  "done": 124,
-  "ok": 58,
-  "ok_pct": 46.8,
-  "applied": 34,
+  "runs": 135,
+  "done": 125,
+  "ok": 59,
+  "ok_pct": 47.2,
+  "applied": 35,
   "blocked": 50,
   "manual": 17,
-  "manual_pct": 13.7,
+  "manual_pct": 13.6,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 13.3,
-  "per_hour": 5.04,
-  "median_gap_min": 11.9,
-  "last_24h": 31,
+  "p90_min": 13.2,
+  "per_hour": 5.08,
+  "median_gap_min": 11.8,
+  "last_24h": 32,
   "retries": 1,
-  "queue_pending": 8,
+  "queue_pending": 7,
   "claude_usage": {
-   "h5": 64.0,
+   "h5": 72.0,
    "d7": 39.0,
-   "h5_reset": "2026-11-06T20:39:59.591977+00:00",
-   "d7_reset": "2026-11-11T16:59:59.592007+00:00",
+   "h5_reset": "2026-11-06T20:39:59.833751+00:00",
+   "d7_reset": "2026-11-11T16:59:59.833772+00:00",
    "stale": false,
-   "n_pairs": 22,
+   "n_pairs": 23,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 7.14,
+   "mean_h5": 7.13,
    "tokens_per_cand_m": 1.18
   }
  },
@@ -99,9 +99,9 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 24,
-   "ok": 7,
-   "applied": 3,
+   "runs": 25,
+   "ok": 8,
+   "applied": 4,
    "blocked": 14
   }
  ],
@@ -132,17 +132,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 8,
+    "count": 7,
     "cards": [
-     {
-      "row": 6642,
-      "company": "Valora Group",
-      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4479354970/",
-      "score": "3",
-      "note": "listo para lanzar",
-      "ts": "2026-10-16"
-     },
      {
       "row": 6550,
       "company": "Geberit Schweiz",
@@ -215,22 +206,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 6901,
-      "company": "albedis",
-      "title": "Lead Internal Auditor with focus on Front Office",
-      "url": "https://www.linkedin.com/jobs/view/4480961770/",
-      "score": 8,
+      "row": 6642,
+      "company": "Valora Group",
+      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4479354970/",
+      "score": 3,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T20:20:58"
+      "ts": "2026-11-06T20:26:59"
      },
      {
-      "row": 6901,
-      "company": "albedis",
-      "title": "Lead Internal Auditor with focus on Front Office",
-      "url": "https://www.linkedin.com/jobs/view/4480961770/",
+      "row": 6642,
+      "company": "Valora Group",
+      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4479354970/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T20:14:35"
+      "ts": "2026-11-06T20:21:13"
      }
     ],
     "more": 0
@@ -273,8 +264,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 86,
+    "count": 87,
     "cards": [
+     {
+      "row": 6901,
+      "company": "albedis",
+      "title": "Lead Internal Auditor with focus on Front Office",
+      "url": "https://www.linkedin.com/jobs/view/4480961770/",
+      "score": "",
+      "note": "enviada · pasada paró en 2 avisos",
+      "ts": "2026-11-06T20:14:35"
+     },
      {
       "row": 6905,
       "company": "System Recruitment Specialists",
@@ -1456,13 +1456,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 105,
-   "runs_today": 22,
+   "runs": 106,
+   "runs_today": 23,
    "last": {
-    "row": 6901,
-    "company": "albedis",
-    "title": "Lead Internal Auditor with focus on Front Office",
-    "started": "2026-11-06T20:14:35",
+    "row": 6642,
+    "company": "Valora Group",
+    "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+    "started": "2026-11-06T20:21:13",
     "applied": false
    },
    "limit": {
@@ -1514,23 +1514,23 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 6901,
-   "company": "albedis",
-   "title": "Lead Internal Auditor with focus on Front Office",
-   "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4480961770/",
+   "row": 6642,
+   "company": "Valora Group",
+   "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+   "score": 3,
+   "url": "https://www.linkedin.com/jobs/view/4479354970/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T20:14:26+01:00",
-   "pid": 38412,
+   "started": "2026-11-06T20:21:06+01:00",
+   "pid": 25032,
    "lane": 0
   },
-  "pending": 8,
+  "pending": 7,
   "counters": {
    "pending": 9,
-   "sent": 0,
+   "sent": 1,
    "review": 0,
    "blocked": 0,
    "errors": 0,
@@ -1588,6 +1588,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T20:21:06+01:00",
+    "row": 6901,
+    "company": "albedis",
+    "title": "Lead Internal Auditor with focus on Front Office",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 400
+   },
+   {
     "ts": "2026-11-06T17:01:00+01:00",
     "row": 6905,
     "company": "System Recruitment Specialists",
@@ -1630,29 +1641,18 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 170
-   },
-   {
-    "ts": "2026-11-06T11:34:29+01:00",
-    "row": 7554,
-    "company": "Ekkiden",
-    "title": "Senior Business Analyst Data Warehouse (m/w/d)",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 130
    }
   ]
  },
  "runs": [
   {
-   "row": 6901,
-   "folder": "6901_albedis-lead-internal-auditor-with-focus",
-   "company": "albedis",
-   "title": "Lead Internal Auditor with focus on Front Office",
-   "url": "https://www.linkedin.com/jobs/view/4480961770/",
-   "lang": "en",
-   "started": "2026-11-06T20:14:35",
+   "row": 6642,
+   "folder": "6642_valora-group-internal-control-risk-speci",
+   "company": "Valora Group",
+   "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+   "url": "https://www.linkedin.com/jobs/view/4479354970/",
+   "lang": "de",
+   "started": "2026-11-06T20:21:13",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1663,6 +1663,33 @@
    "manual": false,
    "ok": false,
    "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
+  {
+   "row": 6901,
+   "folder": "6901_albedis-lead-internal-auditor-with-focus",
+   "company": "albedis",
+   "title": "Lead Internal Auditor with focus on Front Office",
+   "url": "https://www.linkedin.com/jobs/view/4480961770/",
+   "lang": "en",
+   "started": "2026-11-06T20:14:35",
+   "finished": "2026-11-06T20:21:03",
+   "dur_min": 6.5,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
    "form_reached": true,
    "apply_path": "linkedin_external",
    "files_verified": 2,
