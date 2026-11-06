@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T15:38:18",
+ "generated": "2026-11-06T15:44:17",
  "kpis": {
   "runs": 130,
   "done": 121,
@@ -19,10 +19,10 @@
   "retries": 1,
   "queue_pending": 12,
   "claude_usage": {
-   "h5": 100.0,
+   "h5": 0.0,
    "d7": 35.0,
-   "h5_reset": "2026-11-06T14:39:59.939783+00:00",
-   "d7_reset": "2026-11-11T16:59:59.939804+00:00",
+   "h5_reset": null,
+   "d7_reset": "2026-11-11T17:00:00.132939+00:00",
    "stale": false,
    "n_pairs": 19,
    "cross": 0,
@@ -1458,7 +1458,7 @@
    "limit": {
     "msg": "You've hit your session limit · resets 3:40pm (Europe/Zurich)",
     "when": "2026-11-06T13:50:37",
-    "resets_at": "2026-11-06T15:40:00",
+    "resets_at": "2026-11-07T15:40:00",
     "resets_label": "15:40"
    },
    "limit_folder": "7695_julius-baer-data-scientist-100-f-m-d",
