@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-06T05:30:43",
+ "generated": "2026-11-06T05:36:46",
  "kpis": {
-  "runs": 112,
-  "done": 104,
+  "runs": 114,
+  "done": 105,
   "ok": 52,
-  "ok_pct": 50.0,
+  "ok_pct": 49.5,
   "applied": 31,
-  "blocked": 38,
+  "blocked": 39,
   "manual": 14,
-  "manual_pct": 13.5,
+  "manual_pct": 13.3,
   "median_min": 4.8,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.9,
-  "per_hour": 4.14,
-  "median_gap_min": 14.5,
-  "last_24h": 31,
+  "p90_min": 14.8,
+  "per_hour": 4.32,
+  "median_gap_min": 13.9,
+  "last_24h": 33,
   "retries": 1,
-  "queue_pending": 30
+  "queue_pending": 28
  },
  "per_day": [
   {
@@ -85,10 +85,10 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 2,
+   "runs": 4,
    "ok": 1,
    "applied": 1,
-   "blocked": 1
+   "blocked": 2
   }
  ],
  "blockers": [
@@ -105,11 +105,11 @@
    "n": 2
   },
   {
-   "reason": "easy apply (sin formulario)",
-   "n": 1
+   "reason": "otro",
+   "n": 2
   },
   {
-   "reason": "otro",
+   "reason": "easy apply (sin formulario)",
    "n": 1
   }
  ],
@@ -118,26 +118,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 30,
+    "count": 28,
     "cards": [
-     {
-      "row": 8072,
-      "company": "Hays",
-      "title": "Compliance Specialist AML",
-      "url": "https://www.linkedin.com/jobs/view/4484477438/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28"
-     },
-     {
-      "row": 8060,
-      "company": "Schroders",
-      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-      "url": "https://www.linkedin.com/jobs/view/4482163474/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-21"
-     },
      {
       "row": 8045,
       "company": "Netlight",
@@ -396,16 +378,25 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 2,
     "cards": [
      {
-      "row": 8091,
-      "company": "TMS Technology",
-      "title": "Product Owner | Anti-Financial Crime Software | Zurich",
-      "url": "https://www.linkedin.com/jobs/view/4475579401/",
+      "row": 8060,
+      "company": "Schroders",
+      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+      "url": "https://www.linkedin.com/jobs/view/4482163474/",
       "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T05:30:43"
+      "ts": "2026-11-06T05:36:46"
+     },
+     {
+      "row": 8060,
+      "company": "Schroders",
+      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+      "url": "https://www.linkedin.com/jobs/view/4482163474/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-06T05:35:01"
      }
     ],
     "more": 0
@@ -413,8 +404,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 5,
+    "count": 6,
     "cards": [
+     {
+      "row": 8072,
+      "company": "Hays",
+      "title": "Compliance Specialist AML",
+      "url": "https://www.linkedin.com/jobs/view/4484477438/",
+      "score": "",
+      "note": "url_lanzador_incorrecta",
+      "ts": "2026-11-06T05:30:51"
+     },
      {
       "row": 8587,
       "company": "EY",
@@ -1442,13 +1442,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 85,
-   "runs_today": 2,
+   "runs": 87,
+   "runs_today": 4,
    "last": {
-    "row": 8091,
-    "company": "TMS Technology",
-    "title": "Product Owner | Anti-Financial Crime Software | Zurich",
-    "started": "2026-11-06T05:27:51",
+    "row": 8060,
+    "company": "Schroders",
+    "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+    "started": "2026-11-06T05:35:01",
     "applied": false
    },
    "limit": {
@@ -1500,25 +1500,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8091,
-   "company": "TMS Technology",
-   "title": "Product Owner | Anti-Financial Crime Software | Zurich",
+   "row": 8060,
+   "company": "Schroders",
+   "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
    "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4475579401/",
+   "url": "https://www.linkedin.com/jobs/view/4482163474/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T05:27:44+01:00",
-   "pid": 24892,
+   "started": "2026-11-06T05:34:54+01:00",
+   "pid": 34180,
    "lane": 0
   },
-  "pending": 30,
+  "pending": 28,
   "counters": {
    "pending": 32,
    "sent": 1,
    "review": 0,
-   "blocked": 0,
+   "blocked": 2,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1574,6 +1574,28 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T05:34:54+01:00",
+    "row": 8072,
+    "company": "Hays",
+    "title": "Compliance Specialist AML",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "url_lanzador_incorrecta",
+    "dur_s": 250
+   },
+   {
+    "ts": "2026-11-06T05:30:44+01:00",
+    "row": 8091,
+    "company": "TMS Technology",
+    "title": "Product Owner | Anti-Financial Crime Software | Zurich",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 180
+   },
+   {
     "ts": "2026-11-06T05:27:44+01:00",
     "row": 9305,
     "company": "Michael Page",
@@ -1605,32 +1627,64 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 220
-   },
-   {
-    "ts": "2026-11-05T20:31:29+01:00",
-    "row": 8130,
-    "company": "UNICEF",
-    "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 190
-   },
-   {
-    "ts": "2026-11-05T20:28:19+01:00",
-    "row": 8510,
-    "company": "Mirabaud Group",
-    "title": "Transaction Monitoring Compliance Officer",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 580
    }
   ]
  },
  "runs": [
+  {
+   "row": 8060,
+   "folder": "8060_schroders-finance-data-business-analyst",
+   "company": "Schroders",
+   "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+   "url": "https://www.linkedin.com/jobs/view/4482163474/",
+   "lang": "en",
+   "started": "2026-11-06T05:35:01",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
+  {
+   "row": 8072,
+   "folder": "8072_hays-compliance-specialist-aml",
+   "company": "Hays",
+   "title": "Compliance Specialist AML",
+   "url": "https://www.linkedin.com/jobs/view/4484477438/",
+   "lang": "en",
+   "started": "2026-11-06T05:30:51",
+   "finished": "2026-11-06T05:34:49",
+   "dur_min": 4.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "url_lanzador_incorrecta",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": false
+  },
   {
    "row": 8091,
    "folder": "8091_tms-technology-product-owner-anti-financ",
