@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:51:05",
+ "generated": "2026-11-06T20:57:03",
  "kpis": {
   "runs": 142,
   "done": 132,
@@ -21,16 +21,16 @@
   "claude_usage": {
    "h5": 100.0,
    "d7": 42.0,
-   "h5_reset": "2026-11-06T20:40:00.097684+00:00",
-   "d7_reset": "2026-11-11T17:00:00.097704+00:00",
+   "h5_reset": "2026-11-06T20:40:00.139747+00:00",
+   "d7_reset": "2026-11-11T17:00:00.139769+00:00",
    "stale": false,
-   "n_pairs": 31,
+   "n_pairs": 32,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 6.45,
-   "tokens_per_cand_m": 1.07
+   "mean_h5": 6.25,
+   "tokens_per_cand_m": 1.04
   }
  },
  "per_day": [
@@ -147,7 +147,7 @@
       "title": "(Senior) Consultant - Business Consulting (Platform experience)",
       "url": "https://www.linkedin.com/jobs/view/4385036754/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "paused · sin cerrar",
       "ts": "2026-11-06T20:42:54"
      }
     ],
@@ -1589,10 +1589,10 @@
    "url": "https://www.linkedin.com/jobs/view/4385036754/",
    "lang": "en",
    "started": "2026-11-06T20:42:54",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-06T20:54:42",
+   "dur_min": 11.8,
+   "phase": "paused",
+   "status": "PAUSA MANUAL",
    "status_at_start": "TAILORED",
    "engine": "hermes",
    "blocked": "",
