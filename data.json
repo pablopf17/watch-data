@@ -1,28 +1,28 @@
 {
- "generated": "2026-11-06T14:08:02",
+ "generated": "2026-11-06T14:14:03",
  "kpis": {
   "runs": 130,
-  "done": 122,
+  "done": 121,
   "ok": 57,
-  "ok_pct": 46.7,
+  "ok_pct": 47.1,
   "applied": 34,
-  "blocked": 50,
-  "manual": 18,
-  "manual_pct": 14.8,
+  "blocked": 49,
+  "manual": 17,
+  "manual_pct": 14.0,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 13.4,
-  "per_hour": 5.17,
-  "median_gap_min": 11.6,
+  "p90_min": 13.5,
+  "per_hour": 5.04,
+  "median_gap_min": 11.9,
   "last_24h": 37,
   "retries": 1,
   "queue_pending": 12,
   "claude_usage": {
    "h5": 100.0,
    "d7": 35.0,
-   "h5_reset": "2026-11-06T14:40:00.331685+00:00",
-   "d7_reset": "2026-11-11T17:00:00.331712+00:00",
+   "h5_reset": "2026-11-06T14:40:00.188398+00:00",
+   "d7_reset": "2026-11-11T17:00:00.188426+00:00",
    "stale": false,
    "n_pairs": 17,
    "cross": 0,
@@ -112,7 +112,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 13
+   "n": 12
   },
   {
    "reason": "otro",
@@ -248,14 +248,7 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 4,
+    "count": 1,
     "cards": [
      {
       "row": 7268,
@@ -263,9 +256,17 @@
       "title": "Manager Shared Services",
       "url": "https://www.linkedin.com/jobs/view/4481692644/",
       "score": "",
-      "note": "login",
-      "ts": "2026-11-06T11:34:37"
-     },
+      "note": "running · sin cerrar",
+      "ts": "2026-11-06T14:10:30"
+     }
+    ],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 3,
+    "cards": [
      {
       "row": 7677,
       "company": "SGI",
@@ -1446,13 +1447,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 102,
-   "runs_today": 19,
+   "runs": 101,
+   "runs_today": 18,
    "last": {
-    "row": 7268,
-    "company": "Geistlich",
-    "title": "Manager Shared Services",
-    "started": "2026-11-06T11:34:37",
+    "row": 7554,
+    "company": "Ekkiden",
+    "title": "Senior Business Analyst Data Warehouse (m/w/d)",
+    "started": "2026-11-06T11:32:27",
     "applied": false
    },
    "limit": {
@@ -1469,13 +1470,13 @@
    "label": "ChatGPT (codex)",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
-   "runs": 14,
-   "runs_today": 1,
+   "runs": 15,
+   "runs_today": 2,
    "last": {
-    "row": 7695,
-    "company": "Julius Baer",
-    "title": "Data Scientist 100% (f/m/d)",
-    "started": "2026-11-06T13:51:27",
+    "row": 7268,
+    "company": "Geistlich",
+    "title": "Manager Shared Services",
+    "started": "2026-11-06T14:10:30",
     "applied": false
    },
    "limit": null,
@@ -1623,6 +1624,33 @@
  },
  "runs": [
   {
+   "row": 7268,
+   "folder": "7268_geistlich-manager-shared-services",
+   "company": "Geistlich",
+   "title": "Manager Shared Services",
+   "url": "https://www.linkedin.com/jobs/view/4481692644/",
+   "lang": "de",
+   "started": "2026-11-06T14:10:30",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "codex",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": false
+  },
+  {
    "row": 7695,
    "folder": "7695_julius-baer-data-scientist-100-f-m-d",
    "company": "Julius Baer",
@@ -1644,33 +1672,6 @@
    "apply_path": "linkedin_external",
    "files_verified": 0,
    "files_total": 3,
-   "required_missing": 3,
-   "needs_approval": 2,
-   "avisos": 5,
-   "verify_ok": false
-  },
-  {
-   "row": 7268,
-   "folder": "7268_geistlich-manager-shared-services",
-   "company": "Geistlich",
-   "title": "Manager Shared Services",
-   "url": "https://www.linkedin.com/jobs/view/4481692644/",
-   "lang": "de",
-   "started": "2026-11-06T11:34:37",
-   "finished": "2026-11-06T11:37:17",
-   "dur_min": 2.7,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "linkedin_external",
-   "files_verified": 0,
-   "files_total": 2,
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 5,
