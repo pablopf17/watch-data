@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T14:14:03",
+ "generated": "2026-11-06T14:20:04",
  "kpis": {
   "runs": 130,
   "done": 121,
@@ -21,16 +21,16 @@
   "claude_usage": {
    "h5": 100.0,
    "d7": 35.0,
-   "h5_reset": "2026-11-06T14:40:00.188398+00:00",
-   "d7_reset": "2026-11-11T17:00:00.188426+00:00",
+   "h5_reset": "2026-11-06T14:39:59.966479+00:00",
+   "d7_reset": "2026-11-11T16:59:59.966503+00:00",
    "stale": false,
-   "n_pairs": 17,
+   "n_pairs": 18,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 15.0,
-   "mean_h5": 5.88,
-   "tokens_per_cand_m": 0.98
+   "mean_h5": 5.56,
+   "tokens_per_cand_m": 0.92
   }
  },
  "per_day": [
@@ -257,7 +257,7 @@
       "url": "https://www.linkedin.com/jobs/view/4481692644/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T14:10:30"
+      "ts": "2026-11-06T14:18:41"
      }
     ],
     "more": 0
@@ -1470,13 +1470,13 @@
    "label": "ChatGPT (codex)",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
-   "runs": 15,
-   "runs_today": 2,
+   "runs": 14,
+   "runs_today": 1,
    "last": {
-    "row": 7268,
-    "company": "Geistlich",
-    "title": "Manager Shared Services",
-    "started": "2026-11-06T14:10:30",
+    "row": 7695,
+    "company": "Julius Baer",
+    "title": "Data Scientist 100% (f/m/d)",
+    "started": "2026-11-06T13:51:27",
     "applied": false
    },
    "limit": null,
@@ -1488,14 +1488,14 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 13,
-   "runs_today": 0,
+   "runs": 14,
+   "runs_today": 1,
    "last": {
-    "row": 8461,
-    "company": "Bank for International Settlements – BIS",
-    "title": "Senior Business Analyst",
-    "started": "2026-11-05T15:57:12",
-    "applied": true
+    "row": 7268,
+    "company": "Geistlich",
+    "title": "Manager Shared Services",
+    "started": "2026-11-06T14:18:41",
+    "applied": false
    },
    "limit": null,
    "limit_folder": "",
@@ -1630,18 +1630,18 @@
    "title": "Manager Shared Services",
    "url": "https://www.linkedin.com/jobs/view/4481692644/",
    "lang": "de",
-   "started": "2026-11-06T14:10:30",
+   "started": "2026-11-06T14:18:41",
    "finished": null,
    "dur_min": null,
    "phase": "running",
    "status": "",
    "status_at_start": "PENDING APPROVAL",
-   "engine": "codex",
+   "engine": "hermes",
    "blocked": "login",
    "manual": true,
    "ok": false,
    "applied": false,
-   "form_reached": false,
+   "form_reached": true,
    "apply_path": "linkedin_external",
    "files_verified": 0,
    "files_total": 2,
