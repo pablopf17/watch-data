@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T05:06:42",
+ "generated": "2026-11-06T05:18:41",
  "kpis": {
   "runs": 110,
   "done": 102,
@@ -17,7 +17,7 @@
   "median_gap_min": 14.6,
   "last_24h": 29,
   "retries": 1,
-  "queue_pending": 32
+  "queue_pending": 31
  },
  "per_day": [
   {
@@ -407,8 +407,18 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9305,
+      "company": "Michael Page",
+      "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+      "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
+      "score": 9,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-06T05:18:41"
+     }
+    ],
     "more": 0
    },
    {
@@ -1482,19 +1492,32 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 32,
+  "running": {
+   "row": 9305,
+   "company": "Michael Page",
+   "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+   "score": 9,
+   "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
+   "domain": "job-room.ch",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-06T05:18:34+01:00",
+   "pid": 14744,
+   "lane": 0
+  },
+  "pending": 31,
   "counters": {
-   "pending": 40,
-   "sent": 2,
-   "review": 3,
-   "blocked": 3,
+   "pending": 32,
+   "sent": 0,
+   "review": 0,
+   "blocked": 0,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
   },
   "config": {
-   "max": 8,
+   "max": 10,
    "min_score": 0,
    "engine": "claude",
    "timeout": 600,
