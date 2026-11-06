@@ -1,31 +1,36 @@
 {
- "generated": "2026-11-06T10:43:34",
+ "generated": "2026-11-06T10:49:32",
  "kpis": {
-  "runs": 121,
-  "done": 112,
-  "ok": 53,
-  "ok_pct": 47.3,
-  "applied": 33,
+  "runs": 122,
+  "done": 113,
+  "ok": 54,
+  "ok_pct": 47.8,
+  "applied": 34,
   "blocked": 45,
   "manual": 16,
-  "manual_pct": 14.3,
-  "median_min": 4.5,
+  "manual_pct": 14.2,
+  "median_min": 4.6,
   "median_min_ok": 5.7,
-  "median_min_applied": 5.8,
-  "p90_min": 14.2,
-  "per_hour": 4.51,
-  "median_gap_min": 13.3,
-  "last_24h": 30,
+  "median_min_applied": 5.7,
+  "p90_min": 14.1,
+  "per_hour": 4.76,
+  "median_gap_min": 12.6,
+  "last_24h": 31,
   "retries": 1,
-  "queue_pending": 21,
+  "queue_pending": 20,
   "claude_usage": {
-   "h5": 4.0,
-   "d7": 27.0,
-   "h5_reset": "2026-11-06T14:40:00.287810+00:00",
-   "d7_reset": "2026-11-11T17:00:00.287836+00:00",
+   "h5": 14.0,
+   "d7": 28.0,
+   "h5_reset": "2026-11-06T14:40:00.088333+00:00",
+   "d7_reset": "2026-11-11T17:00:00.088354+00:00",
    "stale": false,
-   "n_pairs": 0,
-   "cross": 0
+   "n_pairs": 1,
+   "cross": 0,
+   "median_h5": 10.0,
+   "p90_h5": 10.0,
+   "max_h5": 10.0,
+   "mean_h5": 10.0,
+   "tokens_per_cand_m": 1.66
   }
  },
  "per_day": [
@@ -94,9 +99,9 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 11,
-   "ok": 2,
-   "applied": 2,
+   "runs": 12,
+   "ok": 3,
+   "applied": 3,
    "blocked": 8
   }
  ],
@@ -127,17 +132,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 21,
+    "count": 20,
     "cards": [
-     {
-      "row": 7772,
-      "company": "Julius Baer",
-      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4478510327/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-12"
-     },
      {
       "row": 7695,
       "company": "Julius Baer",
@@ -327,22 +323,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 7773,
-      "company": "SGI",
-      "title": "Business Analyst / Test Lead – Pricing Tool",
-      "url": "https://www.linkedin.com/jobs/view/4482893047/",
-      "score": 7,
+      "row": 7772,
+      "company": "Julius Baer",
+      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4478510327/",
+      "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T10:43:34"
+      "ts": "2026-11-06T10:49:32"
      },
      {
-      "row": 7773,
-      "company": "SGI",
-      "title": "Business Analyst / Test Lead – Pricing Tool",
-      "url": "https://www.linkedin.com/jobs/view/4482893047/",
+      "row": 7772,
+      "company": "Julius Baer",
+      "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4478510327/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T10:41:59"
+      "ts": "2026-11-06T10:47:48"
      }
     ],
     "more": 0
@@ -376,8 +372,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 81,
+    "count": 82,
     "cards": [
+     {
+      "row": 7773,
+      "company": "SGI",
+      "title": "Business Analyst / Test Lead – Pricing Tool",
+      "url": "https://www.linkedin.com/jobs/view/4482893047/",
+      "score": "",
+      "note": "enviada · pasada paró en 1 avisos",
+      "ts": "2026-11-06T10:41:59"
+     },
      {
       "row": 8039,
       "company": "UBS",
@@ -1451,13 +1456,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 94,
-   "runs_today": 11,
+   "runs": 95,
+   "runs_today": 12,
    "last": {
-    "row": 7773,
-    "company": "SGI",
-    "title": "Business Analyst / Test Lead – Pricing Tool",
-    "started": "2026-11-06T10:41:59",
+    "row": 7772,
+    "company": "Julius Baer",
+    "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+    "started": "2026-11-06T10:47:48",
     "applied": false
    },
    "limit": {
@@ -1509,23 +1514,23 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 7773,
-   "company": "SGI",
-   "title": "Business Analyst / Test Lead – Pricing Tool",
-   "score": 7,
-   "url": "https://www.linkedin.com/jobs/view/4482893047/",
+   "row": 7772,
+   "company": "Julius Baer",
+   "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4478510327/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T10:41:49+01:00",
-   "pid": 12592,
+   "started": "2026-11-06T10:47:39+01:00",
+   "pid": 40160,
    "lane": 0
   },
-  "pending": 21,
+  "pending": 20,
   "counters": {
    "pending": 22,
-   "sent": 0,
+   "sent": 1,
    "review": 0,
    "blocked": 0,
    "errors": 0,
@@ -1583,6 +1588,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T10:47:39+01:00",
+    "row": 7773,
+    "company": "SGI",
+    "title": "Business Analyst / Test Lead – Pricing Tool",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 350
+   },
+   {
     "ts": "2026-11-06T06:00:55+01:00",
     "row": 7822,
     "company": "KPMG Switzerland",
@@ -1625,29 +1641,18 @@
     "state": "sent",
     "note": "enviada",
     "dur_s": 280
-   },
-   {
-    "ts": "2026-11-06T05:47:15+01:00",
-    "row": 8039,
-    "company": "UBS",
-    "title": "Audit Expert IB Execution Services",
-    "score": 7,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 240
    }
   ]
  },
  "runs": [
   {
-   "row": 7773,
-   "folder": "7773_sgi-business-analyst-test-lead-pricing-t",
-   "company": "SGI",
-   "title": "Business Analyst / Test Lead – Pricing Tool",
-   "url": "https://www.linkedin.com/jobs/view/4482893047/",
+   "row": 7772,
+   "folder": "7772_julius-baer-strategic-financial-analyst",
+   "company": "Julius Baer",
+   "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+   "url": "https://www.linkedin.com/jobs/view/4478510327/",
    "lang": "en",
-   "started": "2026-11-06T10:41:59",
+   "started": "2026-11-06T10:47:48",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1666,6 +1671,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 7773,
+   "folder": "7773_sgi-business-analyst-test-lead-pricing-t",
+   "company": "SGI",
+   "title": "Business Analyst / Test Lead – Pricing Tool",
+   "url": "https://www.linkedin.com/jobs/view/4482893047/",
+   "lang": "en",
+   "started": "2026-11-06T10:41:59",
+   "finished": "2026-11-06T10:47:34",
+   "dur_min": 5.6,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 1,
+   "verify_ok": false
   },
   {
    "row": 8039,
