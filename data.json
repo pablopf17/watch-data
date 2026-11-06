@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-06T11:13:37",
+ "generated": "2026-11-06T11:19:38",
  "kpis": {
-  "runs": 124,
-  "done": 115,
-  "ok": 54,
-  "ok_pct": 47.0,
+  "runs": 125,
+  "done": 116,
+  "ok": 55,
+  "ok_pct": 47.4,
   "applied": 34,
   "blocked": 45,
   "manual": 16,
-  "manual_pct": 13.9,
+  "manual_pct": 13.8,
   "median_min": 4.7,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
   "p90_min": 14.4,
-  "per_hour": 4.76,
-  "median_gap_min": 12.6,
-  "last_24h": 33,
+  "per_hour": 5.0,
+  "median_gap_min": 12.0,
+  "last_24h": 34,
   "retries": 1,
-  "queue_pending": 18,
+  "queue_pending": 17,
   "claude_usage": {
-   "h5": 43.0,
-   "d7": 30.0,
-   "h5_reset": "2026-11-06T14:39:59.904451+00:00",
-   "d7_reset": "2026-11-11T16:59:59.904473+00:00",
+   "h5": 54.0,
+   "d7": 31.0,
+   "h5_reset": "2026-11-06T14:39:59.946777+00:00",
+   "d7_reset": "2026-11-11T16:59:59.946802+00:00",
    "stale": false,
-   "n_pairs": 3,
+   "n_pairs": 4,
    "cross": 0,
    "median_h5": 14.0,
    "p90_h5": 15.0,
    "max_h5": 15.0,
-   "mean_h5": 13.0,
-   "tokens_per_cand_m": 2.16
+   "mean_h5": 12.75,
+   "tokens_per_cand_m": 2.12
   }
  },
  "per_day": [
@@ -99,8 +99,8 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 14,
-   "ok": 3,
+   "runs": 15,
+   "ok": 4,
    "applied": 3,
    "blocked": 8
   }
@@ -132,17 +132,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 18,
+    "count": 17,
     "cards": [
-     {
-      "row": 7671,
-      "company": "On",
-      "title": "Senior Specialist - HD Analytics & Reporting",
-      "url": "https://www.linkedin.com/jobs/view/4477410557/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-08"
-     },
      {
       "row": 7655,
       "company": "Belimo",
@@ -305,22 +296,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 7677,
-      "company": "SGI",
-      "title": "Data and AI Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4483532759/",
-      "score": 9,
+      "row": 7671,
+      "company": "On",
+      "title": "Senior Specialist - HD Analytics & Reporting",
+      "url": "https://www.linkedin.com/jobs/view/4477410557/",
+      "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T11:13:37"
+      "ts": "2026-11-06T11:19:38"
      },
      {
-      "row": 7677,
-      "company": "SGI",
-      "title": "Data and AI Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4483532759/",
+      "row": 7671,
+      "company": "On",
+      "title": "Senior Specialist - HD Analytics & Reporting",
+      "url": "https://www.linkedin.com/jobs/view/4477410557/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T11:12:18"
+      "ts": "2026-11-06T11:17:57"
      }
     ],
     "more": 0
@@ -328,8 +319,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 2,
+    "count": 3,
     "cards": [
+     {
+      "row": 7677,
+      "company": "SGI",
+      "title": "Data and AI Consultant",
+      "url": "https://www.linkedin.com/jobs/view/4483532759/",
+      "score": "",
+      "note": "4 avisos",
+      "ts": "2026-11-06T11:12:18"
+     },
      {
       "row": 8620,
       "company": "Interim Legal",
@@ -1456,13 +1456,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 97,
-   "runs_today": 14,
+   "runs": 98,
+   "runs_today": 15,
    "last": {
-    "row": 7677,
-    "company": "SGI",
-    "title": "Data and AI Consultant",
-    "started": "2026-11-06T11:12:18",
+    "row": 7671,
+    "company": "On",
+    "title": "Senior Specialist - HD Analytics & Reporting",
+    "started": "2026-11-06T11:17:57",
     "applied": false
    },
    "limit": {
@@ -1514,24 +1514,24 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 7677,
-   "company": "SGI",
-   "title": "Data and AI Consultant",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4483532759/",
+   "row": 7671,
+   "company": "On",
+   "title": "Senior Specialist - HD Analytics & Reporting",
+   "score": 8,
+   "url": "https://www.linkedin.com/jobs/view/4477410557/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T11:12:09+01:00",
-   "pid": 30608,
+   "started": "2026-11-06T11:17:49+01:00",
+   "pid": 16872,
    "lane": 0
   },
-  "pending": 18,
+  "pending": 17,
   "counters": {
    "pending": 22,
    "sent": 1,
-   "review": 2,
+   "review": 3,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
@@ -1588,6 +1588,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T11:17:49+01:00",
+    "row": 7677,
+    "company": "SGI",
+    "title": "Data and AI Consultant",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "4 avisos",
+    "dur_s": 340
+   },
+   {
     "ts": "2026-11-06T11:12:09+01:00",
     "row": 7695,
     "company": "Julius Baer",
@@ -1630,29 +1641,18 @@
     "state": "blocked",
     "note": "oferta_equivocada",
     "dur_s": 190
-   },
-   {
-    "ts": "2026-11-06T05:57:45+01:00",
-    "row": 7979,
-    "company": "Zurich Insurance",
-    "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 200
    }
   ]
  },
  "runs": [
   {
-   "row": 7677,
-   "folder": "7677_sgi-data-and-ai-consultant",
-   "company": "SGI",
-   "title": "Data and AI Consultant",
-   "url": "https://www.linkedin.com/jobs/view/4483532759/",
+   "row": 7671,
+   "folder": "7671_on-senior-specialist-hd-analytics-report",
+   "company": "On",
+   "title": "Senior Specialist - HD Analytics & Reporting",
+   "url": "https://www.linkedin.com/jobs/view/4477410557/",
    "lang": "en",
-   "started": "2026-11-06T11:12:18",
+   "started": "2026-11-06T11:17:57",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1671,6 +1671,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 7677,
+   "folder": "7677_sgi-data-and-ai-consultant",
+   "company": "SGI",
+   "title": "Data and AI Consultant",
+   "url": "https://www.linkedin.com/jobs/view/4483532759/",
+   "lang": "en",
+   "started": "2026-11-06T11:12:18",
+   "finished": "2026-11-06T11:17:44",
+   "dur_min": 5.4,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 7695,
