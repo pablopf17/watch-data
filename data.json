@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T06:06:48",
+ "generated": "2026-11-06T06:36:59",
  "kpis": {
   "runs": 120,
   "done": 112,
@@ -331,7 +331,7 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 10,
+    "count": 8,
     "cards": [
      {
       "row": 7822,
@@ -379,15 +379,6 @@
       "ts": "2026-11-06T05:30:51"
      },
      {
-      "row": 8587,
-      "company": "EY",
-      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-      "url": "https://www.linkedin.com/jobs/view/4477907467/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-05T20:14:18"
-     },
-     {
       "row": 8620,
       "company": "Interim Legal",
       "title": "Compliance Officer, Wealth Management",
@@ -406,15 +397,6 @@
       "ts": "2026-11-05T19:59:03"
      },
      {
-      "row": 9298,
-      "company": "Kraken",
-      "title": "Lead, Business Operations - Payward Services",
-      "url": "https://www.linkedin.com/jobs/view/4486529707/",
-      "score": "",
-      "note": "5 avisos",
-      "ts": "2026-11-05T19:54:39"
-     },
-     {
       "row": 8131,
       "company": "World Intellectual Property Organization – WIPO",
       "title": "Program Consultant (Temporary Parental Leave Cover)",
@@ -429,7 +411,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 74,
+    "count": 76,
     "cards": [
      {
       "row": 8012,
@@ -466,6 +448,24 @@
       "score": "",
       "note": "con respuesta · pasada paró en 4 avisos",
       "ts": "2026-11-05T20:18:47"
+     },
+     {
+      "row": 8587,
+      "company": "EY",
+      "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
+      "url": "https://www.linkedin.com/jobs/view/4477907467/",
+      "score": "",
+      "note": "enviada · pasada paró en login",
+      "ts": "2026-11-05T20:14:18"
+     },
+     {
+      "row": 9298,
+      "company": "Kraken",
+      "title": "Lead, Business Operations - Payward Services",
+      "url": "https://www.linkedin.com/jobs/view/4486529707/",
+      "score": "",
+      "note": "enviada · pasada paró en 5 avisos",
+      "ts": "2026-11-05T19:54:39"
      },
      {
       "row": 8461,
