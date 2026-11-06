@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-06T05:36:46",
+ "generated": "2026-11-06T05:42:45",
  "kpis": {
-  "runs": 114,
-  "done": 105,
+  "runs": 115,
+  "done": 106,
   "ok": 52,
-  "ok_pct": 49.5,
+  "ok_pct": 49.1,
   "applied": 31,
-  "blocked": 39,
+  "blocked": 40,
   "manual": 14,
-  "manual_pct": 13.3,
+  "manual_pct": 13.2,
   "median_min": 4.8,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.8,
-  "per_hour": 4.32,
-  "median_gap_min": 13.9,
-  "last_24h": 33,
+  "p90_min": 14.7,
+  "per_hour": 4.51,
+  "median_gap_min": 13.3,
+  "last_24h": 34,
   "retries": 1,
-  "queue_pending": 28
+  "queue_pending": 27
  },
  "per_day": [
   {
@@ -85,10 +85,10 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 4,
+   "runs": 5,
    "ok": 1,
    "applied": 1,
-   "blocked": 2
+   "blocked": 3
   }
  ],
  "blockers": [
@@ -101,11 +101,11 @@
    "n": 9
   },
   {
-   "reason": "captcha",
-   "n": 2
+   "reason": "otro",
+   "n": 3
   },
   {
-   "reason": "otro",
+   "reason": "captcha",
    "n": 2
   },
   {
@@ -118,17 +118,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 28,
+    "count": 27,
     "cards": [
-     {
-      "row": 8045,
-      "company": "Netlight",
-      "title": "Tech Management Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4478999846/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-21"
-     },
      {
       "row": 8039,
       "company": "UBS",
@@ -381,22 +372,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8060,
-      "company": "Schroders",
-      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-      "url": "https://www.linkedin.com/jobs/view/4482163474/",
-      "score": 9,
+      "row": 8045,
+      "company": "Netlight",
+      "title": "Tech Management Consultant",
+      "url": "https://www.linkedin.com/jobs/view/4478999846/",
+      "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T05:36:46"
+      "ts": "2026-11-06T05:42:45"
      },
      {
-      "row": 8060,
-      "company": "Schroders",
-      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-      "url": "https://www.linkedin.com/jobs/view/4482163474/",
+      "row": 8045,
+      "company": "Netlight",
+      "title": "Tech Management Consultant",
+      "url": "https://www.linkedin.com/jobs/view/4478999846/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T05:35:01"
+      "ts": "2026-11-06T05:39:01"
      }
     ],
     "more": 0
@@ -404,8 +395,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 6,
+    "count": 7,
     "cards": [
+     {
+      "row": 8060,
+      "company": "Schroders",
+      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+      "url": "https://www.linkedin.com/jobs/view/4482163474/",
+      "score": "",
+      "note": "permiso_herramienta",
+      "ts": "2026-11-06T05:35:01"
+     },
      {
       "row": 8072,
       "company": "Hays",
@@ -1442,13 +1442,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 87,
-   "runs_today": 4,
+   "runs": 88,
+   "runs_today": 5,
    "last": {
-    "row": 8060,
-    "company": "Schroders",
-    "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-    "started": "2026-11-06T05:35:01",
+    "row": 8045,
+    "company": "Netlight",
+    "title": "Tech Management Consultant",
+    "started": "2026-11-06T05:39:01",
     "applied": false
    },
    "limit": {
@@ -1500,25 +1500,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8060,
-   "company": "Schroders",
-   "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4482163474/",
+   "row": 8045,
+   "company": "Netlight",
+   "title": "Tech Management Consultant",
+   "score": 8,
+   "url": "https://www.linkedin.com/jobs/view/4478999846/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T05:34:54+01:00",
-   "pid": 34180,
+   "started": "2026-11-06T05:38:54+01:00",
+   "pid": 548,
    "lane": 0
   },
-  "pending": 28,
+  "pending": 27,
   "counters": {
    "pending": 32,
    "sent": 1,
    "review": 0,
-   "blocked": 2,
+   "blocked": 3,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1574,6 +1574,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T05:38:54+01:00",
+    "row": 8060,
+    "company": "Schroders",
+    "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "permiso_herramienta",
+    "dur_s": 240
+   },
+   {
     "ts": "2026-11-06T05:34:54+01:00",
     "row": 8072,
     "company": "Hays",
@@ -1616,29 +1627,18 @@
     "state": "sent",
     "note": "enviada",
     "dur_s": 300
-   },
-   {
-    "ts": "2026-11-05T20:35:09+01:00",
-    "row": 8123,
-    "company": "HUG - Hopitaux Universitaires de Genève",
-    "title": "Auditeur ou Auditrice interne - 100%",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 220
    }
   ]
  },
  "runs": [
   {
-   "row": 8060,
-   "folder": "8060_schroders-finance-data-business-analyst",
-   "company": "Schroders",
-   "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-   "url": "https://www.linkedin.com/jobs/view/4482163474/",
+   "row": 8045,
+   "folder": "8045_netlight-tech-management-consultant",
+   "company": "Netlight",
+   "title": "Tech Management Consultant",
+   "url": "https://www.linkedin.com/jobs/view/4478999846/",
    "lang": "en",
-   "started": "2026-11-06T05:35:01",
+   "started": "2026-11-06T05:39:01",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1657,6 +1657,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8060,
+   "folder": "8060_schroders-finance-data-business-analyst",
+   "company": "Schroders",
+   "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+   "url": "https://www.linkedin.com/jobs/view/4482163474/",
+   "lang": "en",
+   "started": "2026-11-06T05:35:01",
+   "finished": "2026-11-06T05:38:47",
+   "dur_min": 3.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "permiso_herramienta",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 5,
+   "needs_approval": 2,
+   "avisos": 7,
+   "verify_ok": false
   },
   {
    "row": 8072,
