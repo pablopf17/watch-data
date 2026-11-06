@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T12:01:51",
+ "generated": "2026-11-06T12:07:44",
  "kpis": {
   "runs": 130,
   "done": 122,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 83.0,
    "d7": 33.0,
-   "h5_reset": "2026-11-06T14:40:00.429180+00:00",
-   "d7_reset": "2026-11-11T17:00:00.429200+00:00",
+   "h5_reset": "2026-11-06T14:39:59.999427+00:00",
+   "d7_reset": "2026-11-11T16:59:59.999447+00:00",
    "stale": false,
    "n_pairs": 10,
    "cross": 0,
@@ -326,7 +326,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 81,
+    "count": 80,
     "cards": [
      {
       "row": 7773,
@@ -543,15 +543,6 @@
       "score": "",
       "note": "enviada · pasada paró en 7 avisos",
       "ts": "2026-11-05T08:28:16"
-     },
-     {
-      "row": 9203,
-      "company": "Michael Page Switzerland",
-      "title": "Contrôleur de gestion",
-      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
-      "score": "",
-      "note": "con respuesta",
-      "ts": "2026-11-05T07:32:24"
      },
      {
       "row": 9027,
@@ -1063,7 +1054,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 41,
+    "count": 42,
     "cards": [
      {
       "row": 7554,
@@ -1208,6 +1199,15 @@
       "score": "",
       "note": "sin_formulario",
       "ts": "2026-11-05T09:56:15"
+     },
+     {
+      "row": 9203,
+      "company": "Michael Page Switzerland",
+      "title": "Contrôleur de gestion",
+      "url": "https://www.job-room.ch/job-search/ebb8c55a-09f5-4af8-b49c-f1e41a7881a9",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-05T07:32:24"
      },
      {
       "row": 9004,
