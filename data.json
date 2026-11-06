@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T16:26:24",
+ "generated": "2026-11-06T16:32:23",
  "kpis": {
   "runs": 130,
   "done": 121,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 35.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T17:00:00.252785+00:00",
+   "d7_reset": "2026-11-11T17:00:00.299534+00:00",
    "stale": false,
    "n_pairs": 19,
    "cross": 0,
@@ -290,17 +290,8 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 86,
+    "count": 85,
     "cards": [
-     {
-      "row": 7268,
-      "company": "Geistlich",
-      "title": "Manager Shared Services",
-      "url": "https://www.linkedin.com/jobs/view/4481692644/",
-      "score": "",
-      "note": "enviada · pasada paró en login",
-      "ts": "2026-11-06T14:18:41"
-     },
      {
       "row": 7695,
       "company": "Julius Baer",
@@ -1072,8 +1063,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 40,
+    "count": 41,
     "cards": [
+     {
+      "row": 7268,
+      "company": "Geistlich",
+      "title": "Manager Shared Services",
+      "url": "https://www.linkedin.com/jobs/view/4481692644/",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-06T14:18:41"
+     },
      {
       "row": 7554,
       "company": "Ekkiden",
