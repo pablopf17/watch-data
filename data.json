@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T21:39:11",
+ "generated": "2026-11-06T21:45:11",
  "kpis": {
   "runs": 142,
   "done": 132,
@@ -1457,7 +1457,7 @@
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
     "when": "2026-11-06T20:41:53",
-    "resets_at": "2026-11-06T21:40:00",
+    "resets_at": "2026-11-07T21:40:00",
     "resets_label": "21:40"
    },
    "limit_folder": "2162_ey-senior-consultant-business-consulting",
