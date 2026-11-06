@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-06T09:13:18",
+ "generated": "2026-11-06T09:37:21",
  "kpis": {
   "runs": 120,
-  "done": 112,
+  "done": 111,
   "ok": 53,
-  "ok_pct": 47.3,
+  "ok_pct": 47.7,
   "applied": 33,
-  "blocked": 45,
-  "manual": 16,
-  "manual_pct": 14.3,
+  "blocked": 44,
+  "manual": 15,
+  "manual_pct": 13.5,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.2,
-  "per_hour": 5.04,
-  "median_gap_min": 11.9,
+  "p90_min": 14.3,
+  "per_hour": 4.76,
+  "median_gap_min": 12.6,
   "last_24h": 33,
   "retries": 1,
   "queue_pending": 22
@@ -98,7 +98,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 11
+   "n": 10
   },
   {
    "reason": "otro",
@@ -324,33 +324,25 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 4,
+    "count": 1,
     "cards": [
-     {
-      "row": 8004,
-      "company": "Vontobel",
-      "title": "Third Party Risk Manager",
-      "url": "https://www.linkedin.com/jobs/view/4481462887/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-06T09:07:00"
-     },
      {
       "row": 8039,
       "company": "UBS",
       "title": "Audit Expert IB Execution Services",
       "url": "https://www.linkedin.com/jobs/view/4472890308/",
       "score": "",
-      "note": "login",
-      "ts": "2026-11-06T05:43:22"
-     },
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-06T09:37:00"
+     }
+    ],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 2,
+    "cards": [
      {
       "row": 8620,
       "company": "Interim Legal",
@@ -375,8 +367,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 79,
+    "count": 80,
     "cards": [
+     {
+      "row": 8004,
+      "company": "Vontobel",
+      "title": "Third Party Risk Manager",
+      "url": "https://www.linkedin.com/jobs/view/4481462887/",
+      "score": "",
+      "note": "enviada · pasada paró en login",
+      "ts": "2026-11-06T09:07:00"
+     },
      {
       "row": 8012,
       "company": "Versified",
@@ -1435,10 +1436,10 @@
    "runs": 93,
    "runs_today": 10,
    "last": {
-    "row": 8004,
-    "company": "Vontobel",
-    "title": "Third Party Risk Manager",
-    "started": "2026-11-06T09:07:00",
+    "row": 8039,
+    "company": "UBS",
+    "title": "Audit Expert IB Execution Services",
+    "started": "2026-11-06T09:37:00",
     "applied": false
    },
    "limit": {
@@ -1609,6 +1610,33 @@
  },
  "runs": [
   {
+   "row": 8039,
+   "folder": "8039_ubs-audit-expert-ib-execution-services",
+   "company": "UBS",
+   "title": "Audit Expert IB Execution Services",
+   "url": "https://www.linkedin.com/jobs/view/4472890308/",
+   "lang": "en",
+   "started": "2026-11-06T09:37:00",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 6,
+   "verify_ok": false
+  },
+  {
    "row": 8004,
    "folder": "8004_vontobel-third-party-risk-manager",
    "company": "Vontobel",
@@ -1714,33 +1742,6 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 1,
-   "verify_ok": false
-  },
-  {
-   "row": 8039,
-   "folder": "8039_ubs-audit-expert-ib-execution-services",
-   "company": "UBS",
-   "title": "Audit Expert IB Execution Services",
-   "url": "https://www.linkedin.com/jobs/view/4472890308/",
-   "lang": "en",
-   "started": "2026-11-06T05:43:22",
-   "finished": "2026-11-06T05:47:08",
-   "dur_min": 3.8,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "linkedin_external",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 2,
-   "avisos": 6,
    "verify_ok": false
   },
   {
