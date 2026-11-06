@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-06T11:31:39",
+ "generated": "2026-11-06T11:37:39",
  "kpis": {
-  "runs": 128,
-  "done": 119,
-  "ok": 55,
-  "ok_pct": 46.2,
+  "runs": 130,
+  "done": 122,
+  "ok": 56,
+  "ok_pct": 45.9,
   "applied": 34,
-  "blocked": 48,
-  "manual": 17,
-  "manual_pct": 14.3,
-  "median_min": 4.6,
+  "blocked": 50,
+  "manual": 18,
+  "manual_pct": 14.8,
+  "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 14.2,
-  "per_hour": 5.17,
-  "median_gap_min": 11.6,
-  "last_24h": 37,
+  "p90_min": 14.0,
+  "per_hour": 5.36,
+  "median_gap_min": 11.2,
+  "last_24h": 39,
   "retries": 1,
-  "queue_pending": 14,
+  "queue_pending": 12,
   "claude_usage": {
-   "h5": 73.0,
+   "h5": 83.0,
    "d7": 33.0,
-   "h5_reset": "2026-11-06T14:40:00.446746+00:00",
-   "d7_reset": "2026-11-11T17:00:00.446770+00:00",
-   "stale": false,
-   "n_pairs": 7,
+   "h5_reset": "2026-11-06T14:40:00.166983+00:00",
+   "d7_reset": "2026-11-11T17:00:00.167001+00:00",
+   "stale": true,
+   "n_pairs": 10,
    "cross": 0,
-   "median_h5": 10.0,
+   "median_h5": 7.0,
    "p90_h5": 15.0,
    "max_h5": 15.0,
-   "mean_h5": 9.43,
-   "tokens_per_cand_m": 1.57
+   "mean_h5": 8.3,
+   "tokens_per_cand_m": 1.38
   }
  },
  "per_day": [
@@ -99,20 +99,20 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 18,
-   "ok": 4,
+   "runs": 20,
+   "ok": 5,
    "applied": 3,
-   "blocked": 11
+   "blocked": 13
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 28
+   "n": 29
   },
   {
    "reason": "login / cuenta",
-   "n": 12
+   "n": 13
   },
   {
    "reason": "otro",
@@ -132,26 +132,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 14,
+    "count": 12,
     "cards": [
-     {
-      "row": 7554,
-      "company": "Ekkiden",
-      "title": "Senior Business Analyst Data Warehouse (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4479824642/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-15"
-     },
-     {
-      "row": 7268,
-      "company": "Geistlich",
-      "title": "Manager Shared Services",
-      "url": "https://www.linkedin.com/jobs/view/4481692644/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23"
-     },
      {
       "row": 7161,
       "company": "LGT Capital Partners",
@@ -266,16 +248,23 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 7,
     "cards": [
      {
-      "row": 7616,
-      "company": "FYUL",
-      "title": "Senior Data Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4484956970/",
-      "score": 7,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T11:31:39"
+      "row": 7268,
+      "company": "Geistlich",
+      "title": "Manager Shared Services",
+      "url": "https://www.linkedin.com/jobs/view/4481692644/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-06T11:34:37"
      },
      {
       "row": 7616,
@@ -283,17 +272,9 @@
       "title": "Senior Data Analyst",
       "url": "https://www.linkedin.com/jobs/view/4484956970/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "6 avisos",
       "ts": "2026-11-06T11:27:47"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 5,
-    "cards": [
+     },
      {
       "row": 7629,
       "company": "ALTEN",
@@ -1082,8 +1063,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 40,
+    "count": 41,
     "cards": [
+     {
+      "row": 7554,
+      "company": "Ekkiden",
+      "title": "Senior Business Analyst Data Warehouse (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4479824642/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-06T11:32:27"
+     },
      {
       "row": 7655,
       "company": "Belimo",
@@ -1456,13 +1446,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 101,
-   "runs_today": 18,
+   "runs": 103,
+   "runs_today": 20,
    "last": {
-    "row": 7616,
-    "company": "FYUL",
-    "title": "Senior Data Analyst",
-    "started": "2026-11-06T11:27:47",
+    "row": 7268,
+    "company": "Geistlich",
+    "title": "Manager Shared Services",
+    "started": "2026-11-06T11:34:37",
     "applied": false
    },
    "limit": {
@@ -1513,26 +1503,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 7616,
-   "company": "FYUL",
-   "title": "Senior Data Analyst",
-   "score": 7,
-   "url": "https://www.linkedin.com/jobs/view/4484956970/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-06T11:27:39+01:00",
-   "pid": 23076,
-   "lane": 0
-  },
-  "pending": 14,
+  "running": null,
+  "pending": 12,
   "counters": {
    "pending": 22,
    "sent": 1,
-   "review": 3,
-   "blocked": 3,
+   "review": 4,
+   "blocked": 5,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1588,6 +1565,39 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T11:37:19+01:00",
+    "row": 7268,
+    "company": "Geistlich",
+    "title": "Manager Shared Services",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 170
+   },
+   {
+    "ts": "2026-11-06T11:34:29+01:00",
+    "row": 7554,
+    "company": "Ekkiden",
+    "title": "Senior Business Analyst Data Warehouse (m/w/d)",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 130
+   },
+   {
+    "ts": "2026-11-06T11:32:19+01:00",
+    "row": 7616,
+    "company": "FYUL",
+    "title": "Senior Data Analyst",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "6 avisos",
+    "dur_s": 280
+   },
+   {
     "ts": "2026-11-06T11:27:39+01:00",
     "row": 7629,
     "company": "ALTEN",
@@ -1608,43 +1618,64 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 140
-   },
-   {
-    "ts": "2026-11-06T11:22:19+01:00",
-    "row": 7671,
-    "company": "On",
-    "title": "Senior Specialist - HD Analytics & Reporting",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 270
-   },
-   {
-    "ts": "2026-11-06T11:17:49+01:00",
-    "row": 7677,
-    "company": "SGI",
-    "title": "Data and AI Consultant",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "4 avisos",
-    "dur_s": 340
-   },
-   {
-    "ts": "2026-11-06T11:12:09+01:00",
-    "row": 7695,
-    "company": "Julius Baer",
-    "title": "Data Scientist 100% (f/m/d)",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "pendiente de revisión",
-    "dur_s": 590
    }
   ]
  },
  "runs": [
+  {
+   "row": 7268,
+   "folder": "7268_geistlich-manager-shared-services",
+   "company": "Geistlich",
+   "title": "Manager Shared Services",
+   "url": "https://www.linkedin.com/jobs/view/4481692644/",
+   "lang": "de",
+   "started": "2026-11-06T11:34:37",
+   "finished": "2026-11-06T11:37:17",
+   "dur_min": 2.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": false
+  },
+  {
+   "row": 7554,
+   "folder": "7554_ekkiden-senior-business-analyst-data-war",
+   "company": "Ekkiden",
+   "title": "Senior Business Analyst Data Warehouse (m/w/d)",
+   "url": "https://www.linkedin.com/jobs/view/4479824642/",
+   "lang": "de",
+   "started": "2026-11-06T11:32:27",
+   "finished": "2026-11-06T11:34:23",
+   "dur_min": 1.9,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
+  },
   {
    "row": 7616,
    "folder": "7616_fyul-senior-data-analyst",
@@ -1653,24 +1684,24 @@
    "url": "https://www.linkedin.com/jobs/view/4484956970/",
    "lang": "en",
    "started": "2026-11-06T11:27:47",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-06T11:32:11",
+   "dur_min": 4.4,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
+   "ok": true,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 3,
+   "avisos": 6,
+   "verify_ok": true
   },
   {
    "row": 7629,
