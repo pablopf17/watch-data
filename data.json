@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-06T05:42:45",
+ "generated": "2026-11-06T05:48:46",
  "kpis": {
-  "runs": 115,
-  "done": 106,
+  "runs": 117,
+  "done": 108,
   "ok": 52,
-  "ok_pct": 49.1,
+  "ok_pct": 48.1,
   "applied": 31,
-  "blocked": 40,
-  "manual": 14,
-  "manual_pct": 13.2,
-  "median_min": 4.8,
+  "blocked": 42,
+  "manual": 15,
+  "manual_pct": 13.9,
+  "median_min": 4.7,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.7,
-  "per_hour": 4.51,
-  "median_gap_min": 13.3,
-  "last_24h": 34,
+  "p90_min": 14.5,
+  "per_hour": 5.0,
+  "median_gap_min": 12.0,
+  "last_24h": 36,
   "retries": 1,
-  "queue_pending": 27
+  "queue_pending": 25
  },
  "per_day": [
   {
@@ -85,20 +85,20 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 5,
+   "runs": 7,
    "ok": 1,
    "applied": 1,
-   "blocked": 3
+   "blocked": 5
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 25
+   "n": 26
   },
   {
    "reason": "login / cuenta",
-   "n": 9
+   "n": 10
   },
   {
    "reason": "otro",
@@ -118,26 +118,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 27,
+    "count": 25,
     "cards": [
-     {
-      "row": 8039,
-      "company": "UBS",
-      "title": "Audit Expert IB Execution Services",
-      "url": "https://www.linkedin.com/jobs/view/4472890308/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-02"
-     },
-     {
-      "row": 8012,
-      "company": "Versified",
-      "title": "Senior Business Analyst",
-      "url": "https://www.linkedin.com/jobs/view/4482451675/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-10-22"
-     },
      {
       "row": 8004,
       "company": "Vontobel",
@@ -372,22 +354,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 8045,
-      "company": "Netlight",
-      "title": "Tech Management Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4478999846/",
-      "score": 8,
+      "row": 8012,
+      "company": "Versified",
+      "title": "Senior Business Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4482451675/",
+      "score": 7,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T05:42:45"
+      "ts": "2026-11-06T05:48:46"
      },
      {
-      "row": 8045,
-      "company": "Netlight",
-      "title": "Tech Management Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4478999846/",
+      "row": 8012,
+      "company": "Versified",
+      "title": "Senior Business Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4482451675/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T05:39:01"
+      "ts": "2026-11-06T05:47:22"
      }
     ],
     "more": 0
@@ -395,8 +377,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
+    "count": 8,
     "cards": [
+     {
+      "row": 8039,
+      "company": "UBS",
+      "title": "Audit Expert IB Execution Services",
+      "url": "https://www.linkedin.com/jobs/view/4472890308/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-06T05:43:22"
+     },
      {
       "row": 8060,
       "company": "Schroders",
@@ -1131,8 +1122,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 33,
+    "count": 34,
     "cards": [
+     {
+      "row": 8045,
+      "company": "Netlight",
+      "title": "Tech Management Consultant",
+      "url": "https://www.linkedin.com/jobs/view/4478999846/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-06T05:39:01"
+     },
      {
       "row": 8091,
       "company": "TMS Technology",
@@ -1442,13 +1442,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 88,
-   "runs_today": 5,
+   "runs": 90,
+   "runs_today": 7,
    "last": {
-    "row": 8045,
-    "company": "Netlight",
-    "title": "Tech Management Consultant",
-    "started": "2026-11-06T05:39:01",
+    "row": 8012,
+    "company": "Versified",
+    "title": "Senior Business Analyst",
+    "started": "2026-11-06T05:47:22",
     "applied": false
    },
    "limit": {
@@ -1500,25 +1500,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8045,
-   "company": "Netlight",
-   "title": "Tech Management Consultant",
-   "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4478999846/",
+   "row": 8012,
+   "company": "Versified",
+   "title": "Senior Business Analyst",
+   "score": 7,
+   "url": "https://www.linkedin.com/jobs/view/4482451675/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T05:38:54+01:00",
-   "pid": 548,
+   "started": "2026-11-06T05:47:15+01:00",
+   "pid": 352,
    "lane": 0
   },
-  "pending": 27,
+  "pending": 25,
   "counters": {
    "pending": 32,
    "sent": 1,
    "review": 0,
-   "blocked": 3,
+   "blocked": 5,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1574,6 +1574,28 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T05:47:15+01:00",
+    "row": 8039,
+    "company": "UBS",
+    "title": "Audit Expert IB Execution Services",
+    "score": 7,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 240
+   },
+   {
+    "ts": "2026-11-06T05:43:14+01:00",
+    "row": 8045,
+    "company": "Netlight",
+    "title": "Tech Management Consultant",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 260
+   },
+   {
     "ts": "2026-11-06T05:38:54+01:00",
     "row": 8060,
     "company": "Schroders",
@@ -1605,40 +1627,18 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 180
-   },
-   {
-    "ts": "2026-11-06T05:27:44+01:00",
-    "row": 9305,
-    "company": "Michael Page",
-    "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
-    "score": 9,
-    "domain": "job-room.ch",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 550
-   },
-   {
-    "ts": "2026-11-05T20:40:09+01:00",
-    "row": 8111,
-    "company": "Alpinum Solutions",
-    "title": "Senior Compliance Officer (Spanish speaking)",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 300
    }
   ]
  },
  "runs": [
   {
-   "row": 8045,
-   "folder": "8045_netlight-tech-management-consultant",
-   "company": "Netlight",
-   "title": "Tech Management Consultant",
-   "url": "https://www.linkedin.com/jobs/view/4478999846/",
+   "row": 8012,
+   "folder": "8012_versified-senior-business-analyst",
+   "company": "Versified",
+   "title": "Senior Business Analyst",
+   "url": "https://www.linkedin.com/jobs/view/4482451675/",
    "lang": "en",
-   "started": "2026-11-06T05:39:01",
+   "started": "2026-11-06T05:47:22",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1657,6 +1657,60 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8039,
+   "folder": "8039_ubs-audit-expert-ib-execution-services",
+   "company": "UBS",
+   "title": "Audit Expert IB Execution Services",
+   "url": "https://www.linkedin.com/jobs/view/4472890308/",
+   "lang": "en",
+   "started": "2026-11-06T05:43:22",
+   "finished": "2026-11-06T05:47:08",
+   "dur_min": 3.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 6,
+   "verify_ok": false
+  },
+  {
+   "row": 8045,
+   "folder": "8045_netlight-tech-management-consultant",
+   "company": "Netlight",
+   "title": "Tech Management Consultant",
+   "url": "https://www.linkedin.com/jobs/view/4478999846/",
+   "lang": "en",
+   "started": "2026-11-06T05:39:01",
+   "finished": "2026-11-06T05:43:06",
+   "dur_min": 4.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 2,
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 8060,
