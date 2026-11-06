@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-06T05:24:42",
+ "generated": "2026-11-06T05:30:43",
  "kpis": {
-  "runs": 111,
-  "done": 102,
-  "ok": 51,
+  "runs": 112,
+  "done": 104,
+  "ok": 52,
   "ok_pct": 50.0,
-  "applied": 30,
-  "blocked": 37,
+  "applied": 31,
+  "blocked": 38,
   "manual": 14,
-  "manual_pct": 13.7,
+  "manual_pct": 13.5,
   "median_min": 4.8,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 15.1,
-  "per_hour": 4.11,
-  "median_gap_min": 14.6,
-  "last_24h": 30,
+  "p90_min": 14.9,
+  "per_hour": 4.14,
+  "median_gap_min": 14.5,
+  "last_24h": 31,
   "retries": 1,
-  "queue_pending": 31
+  "queue_pending": 30
  },
  "per_day": [
   {
@@ -85,16 +85,16 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 1,
-   "ok": 0,
-   "applied": 0,
-   "blocked": 0
+   "runs": 2,
+   "ok": 1,
+   "applied": 1,
+   "blocked": 1
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 24
+   "n": 25
   },
   {
    "reason": "login / cuenta",
@@ -118,17 +118,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 31,
+    "count": 30,
     "cards": [
-     {
-      "row": 8091,
-      "company": "TMS Technology",
-      "title": "Product Owner | Anti-Financial Crime Software | Zurich",
-      "url": "https://www.linkedin.com/jobs/view/4475579401/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-10-05"
-     },
      {
       "row": 8072,
       "company": "Hays",
@@ -405,25 +396,16 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 1,
     "cards": [
      {
-      "row": 9305,
-      "company": "Michael Page",
-      "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
-      "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
+      "row": 8091,
+      "company": "TMS Technology",
+      "title": "Product Owner | Anti-Financial Crime Software | Zurich",
+      "url": "https://www.linkedin.com/jobs/view/4475579401/",
       "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T05:24:42"
-     },
-     {
-      "row": 9305,
-      "company": "Michael Page",
-      "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
-      "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-06T05:18:44"
+      "ts": "2026-11-06T05:30:43"
      }
     ],
     "more": 0
@@ -484,8 +466,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 72,
+    "count": 73,
     "cards": [
+     {
+      "row": 9305,
+      "company": "Michael Page",
+      "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+      "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
+      "score": "",
+      "note": "con respuesta · pasada paró en 5 avisos",
+      "ts": "2026-11-06T05:18:44"
+     },
      {
       "row": 8111,
       "company": "Alpinum Solutions",
@@ -1140,8 +1131,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 32,
+    "count": 33,
     "cards": [
+     {
+      "row": 8091,
+      "company": "TMS Technology",
+      "title": "Product Owner | Anti-Financial Crime Software | Zurich",
+      "url": "https://www.linkedin.com/jobs/view/4475579401/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-06T05:27:51"
+     },
      {
       "row": 8102,
       "company": "Flex Suisse",
@@ -1442,13 +1442,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 84,
-   "runs_today": 1,
+   "runs": 85,
+   "runs_today": 2,
    "last": {
-    "row": 9305,
-    "company": "Michael Page",
-    "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
-    "started": "2026-11-06T05:18:44",
+    "row": 8091,
+    "company": "TMS Technology",
+    "title": "Product Owner | Anti-Financial Crime Software | Zurich",
+    "started": "2026-11-06T05:27:51",
     "applied": false
    },
    "limit": {
@@ -1500,23 +1500,23 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 9305,
-   "company": "Michael Page",
-   "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+   "row": 8091,
+   "company": "TMS Technology",
+   "title": "Product Owner | Anti-Financial Crime Software | Zurich",
    "score": 9,
-   "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
-   "domain": "job-room.ch",
+   "url": "https://www.linkedin.com/jobs/view/4475579401/",
+   "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T05:18:34+01:00",
-   "pid": 14744,
+   "started": "2026-11-06T05:27:44+01:00",
+   "pid": 24892,
    "lane": 0
   },
-  "pending": 31,
+  "pending": 30,
   "counters": {
    "pending": 32,
-   "sent": 0,
+   "sent": 1,
    "review": 0,
    "blocked": 0,
    "errors": 0,
@@ -1574,6 +1574,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T05:27:44+01:00",
+    "row": 9305,
+    "company": "Michael Page",
+    "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+    "score": 9,
+    "domain": "job-room.ch",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 550
+   },
+   {
     "ts": "2026-11-05T20:40:09+01:00",
     "row": 8111,
     "company": "Alpinum Solutions",
@@ -1616,21 +1627,37 @@
     "state": "sent",
     "note": "enviada",
     "dur_s": 580
-   },
-   {
-    "ts": "2026-11-05T20:18:38+01:00",
-    "row": 8587,
-    "company": "EY",
-    "title": "(Senior) Consultant - Business Consulting Finance - Data transformation and AI",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 270
    }
   ]
  },
  "runs": [
+  {
+   "row": 8091,
+   "folder": "8091_tms-technology-product-owner-anti-financ",
+   "company": "TMS Technology",
+   "title": "Product Owner | Anti-Financial Crime Software | Zurich",
+   "url": "https://www.linkedin.com/jobs/view/4475579401/",
+   "lang": "en",
+   "started": "2026-11-06T05:27:51",
+   "finished": "2026-11-06T05:30:38",
+   "dur_min": 2.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
+  },
   {
    "row": 9305,
    "folder": "9305_michael-page-onboarding-and-compliance-s",
@@ -1639,24 +1666,24 @@
    "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
    "lang": "en",
    "started": "2026-11-06T05:18:44",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-06T05:27:36",
+   "dur_min": 8.9,
+   "phase": "done",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "agregador",
+   "files_verified": 1,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "avisos": 5,
+   "verify_ok": false
   },
   {
    "row": 8102,
