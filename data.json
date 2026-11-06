@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-06T05:54:46",
+ "generated": "2026-11-06T06:00:48",
  "kpis": {
-  "runs": 119,
-  "done": 110,
+  "runs": 120,
+  "done": 111,
   "ok": 53,
-  "ok_pct": 48.2,
+  "ok_pct": 47.7,
   "applied": 32,
-  "blocked": 43,
+  "blocked": 44,
   "manual": 16,
-  "manual_pct": 14.5,
-  "median_min": 4.6,
+  "manual_pct": 14.4,
+  "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.3,
-  "per_hour": 5.08,
-  "median_gap_min": 11.8,
-  "last_24h": 38,
+  "p90_min": 14.2,
+  "per_hour": 5.17,
+  "median_gap_min": 11.6,
+  "last_24h": 39,
   "retries": 1,
-  "queue_pending": 23
+  "queue_pending": 22
  },
  "per_day": [
   {
@@ -85,16 +85,16 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 9,
+   "runs": 10,
    "ok": 2,
    "applied": 2,
-   "blocked": 6
+   "blocked": 8
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 26
+   "n": 27
   },
   {
    "reason": "login / cuenta",
@@ -118,17 +118,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 23,
+    "count": 22,
     "cards": [
-     {
-      "row": 7822,
-      "company": "KPMG Switzerland",
-      "title": "Consultant - Digital Transformation",
-      "url": "https://www.linkedin.com/jobs/view/4482791655/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23"
-     },
      {
       "row": 7773,
       "company": "SGI",
@@ -336,22 +327,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 7979,
-      "company": "Zurich Insurance",
-      "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
-      "url": "https://www.linkedin.com/jobs/view/4481159463/",
+      "row": 7822,
+      "company": "KPMG Switzerland",
+      "title": "Consultant - Digital Transformation",
+      "url": "https://www.linkedin.com/jobs/view/4482791655/",
       "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T05:54:46"
+      "ts": "2026-11-06T06:00:48"
      },
      {
-      "row": 7979,
-      "company": "Zurich Insurance",
-      "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
-      "url": "https://www.linkedin.com/jobs/view/4481159463/",
+      "row": 7822,
+      "company": "KPMG Switzerland",
+      "title": "Consultant - Digital Transformation",
+      "url": "https://www.linkedin.com/jobs/view/4482791655/",
       "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-06T05:54:35"
+      "note": "running · sin cerrar",
+      "ts": "2026-11-06T05:57:52"
      }
     ],
     "more": 0
@@ -1122,8 +1113,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 34,
+    "count": 35,
     "cards": [
+     {
+      "row": 7979,
+      "company": "Zurich Insurance",
+      "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
+      "url": "https://www.linkedin.com/jobs/view/4481159463/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-06T05:54:35"
+     },
      {
       "row": 8045,
       "company": "Netlight",
@@ -1442,13 +1442,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 92,
-   "runs_today": 9,
+   "runs": 93,
+   "runs_today": 10,
    "last": {
-    "row": 7979,
-    "company": "Zurich Insurance",
-    "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
-    "started": "2026-11-06T05:54:35",
+    "row": 7822,
+    "company": "KPMG Switzerland",
+    "title": "Consultant - Digital Transformation",
+    "started": "2026-11-06T05:57:52",
     "applied": false
    },
    "limit": {
@@ -1500,25 +1500,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 7979,
-   "company": "Zurich Insurance",
-   "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
+   "row": 7822,
+   "company": "KPMG Switzerland",
+   "title": "Consultant - Digital Transformation",
    "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4481159463/",
+   "url": "https://www.linkedin.com/jobs/view/4482791655/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T05:54:25+01:00",
-   "pid": 21944,
+   "started": "2026-11-06T05:57:45+01:00",
+   "pid": 5556,
    "lane": 0
   },
-  "pending": 23,
+  "pending": 22,
   "counters": {
    "pending": 32,
    "sent": 2,
    "review": 0,
-   "blocked": 6,
+   "blocked": 7,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1574,6 +1574,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T05:57:45+01:00",
+    "row": 7979,
+    "company": "Zurich Insurance",
+    "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 200
+   },
+   {
     "ts": "2026-11-06T05:54:25+01:00",
     "row": 8004,
     "company": "Vontobel",
@@ -1616,21 +1627,37 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 260
-   },
-   {
-    "ts": "2026-11-06T05:38:54+01:00",
-    "row": 8060,
-    "company": "Schroders",
-    "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "permiso_herramienta",
-    "dur_s": 240
    }
   ]
  },
  "runs": [
+  {
+   "row": 7822,
+   "folder": "7822_kpmg-switzerland-consultant-digital-tran",
+   "company": "KPMG Switzerland",
+   "title": "Consultant - Digital Transformation",
+   "url": "https://www.linkedin.com/jobs/view/4482791655/",
+   "lang": "en",
+   "started": "2026-11-06T05:57:52",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "oferta_equivocada",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 3,
+   "verify_ok": null
+  },
   {
    "row": 7979,
    "folder": "7979_zurich-insurance-ai-and-data-science-man",
@@ -1639,24 +1666,24 @@
    "url": "https://www.linkedin.com/jobs/view/4481159463/",
    "lang": "en",
    "started": "2026-11-06T05:54:35",
-   "finished": null,
-   "dur_min": null,
-   "phase": "starting",
-   "status": "",
+   "finished": "2026-11-06T05:57:35",
+   "dur_min": 3.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
-   "blocked": "",
+   "blocked": "sin_formulario",
    "manual": false,
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "",
+   "apply_path": "linkedin_external",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 5,
+   "verify_ok": false
   },
   {
    "row": 8004,
