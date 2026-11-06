@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T08:49:15",
+ "generated": "2026-11-06T08:55:14",
  "kpis": {
   "runs": 120,
   "done": 112,
@@ -15,7 +15,7 @@
   "p90_min": 14.1,
   "per_hour": 5.17,
   "median_gap_min": 11.6,
-  "last_24h": 34,
+  "last_24h": 33,
   "retries": 1,
   "queue_pending": 22
  },
@@ -331,17 +331,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 8,
+    "count": 6,
     "cards": [
-     {
-      "row": 7822,
-      "company": "KPMG Switzerland",
-      "title": "Consultant - Digital Transformation",
-      "url": "https://www.linkedin.com/jobs/view/4482791655/",
-      "score": "",
-      "note": "oferta_equivocada",
-      "ts": "2026-11-06T05:57:52"
-     },
      {
       "row": 8004,
       "company": "Vontobel",
@@ -359,15 +350,6 @@
       "score": "",
       "note": "login",
       "ts": "2026-11-06T05:43:22"
-     },
-     {
-      "row": 8060,
-      "company": "Schroders",
-      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
-      "url": "https://www.linkedin.com/jobs/view/4482163474/",
-      "score": "",
-      "note": "permiso_herramienta",
-      "ts": "2026-11-06T05:35:01"
      },
      {
       "row": 8072,
@@ -411,7 +393,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 76,
+    "count": 77,
     "cards": [
      {
       "row": 8012,
@@ -421,6 +403,15 @@
       "score": "",
       "note": "enviada · pasada paró en 1 avisos",
       "ts": "2026-11-06T05:47:22"
+     },
+     {
+      "row": 8060,
+      "company": "Schroders",
+      "title": "Finance Data Business Analyst - 6 months Fixed-Term-Contract",
+      "url": "https://www.linkedin.com/jobs/view/4482163474/",
+      "score": "",
+      "note": "enviada · pasada paró en permiso_herramienta",
+      "ts": "2026-11-06T05:35:01"
      },
      {
       "row": 9305,
@@ -1103,8 +1094,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 35,
+    "count": 36,
     "cards": [
+     {
+      "row": 7822,
+      "company": "KPMG Switzerland",
+      "title": "Consultant - Digital Transformation",
+      "url": "https://www.linkedin.com/jobs/view/4482791655/",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-06T05:57:52"
+     },
      {
       "row": 7979,
       "company": "Zurich Insurance",
