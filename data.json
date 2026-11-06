@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T17:02:28",
+ "generated": "2026-11-06T17:08:29",
  "kpis": {
   "runs": 133,
   "done": 124,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 57.0,
    "d7": 38.0,
-   "h5_reset": "2026-11-06T20:39:59.779585+00:00",
-   "d7_reset": "2026-11-11T16:59:59.779604+00:00",
+   "h5_reset": "2026-11-06T20:40:00.101433+00:00",
+   "d7_reset": "2026-11-11T17:00:00.101449+00:00",
    "stale": false,
    "n_pairs": 22,
    "cross": 0,
@@ -228,17 +228,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 4,
+    "count": 3,
     "cards": [
-     {
-      "row": 6905,
-      "company": "System Recruitment Specialists",
-      "title": "Lead Internal Auditor - Banking",
-      "url": "https://www.linkedin.com/jobs/view/4478469082/",
-      "score": "",
-      "note": "4 avisos",
-      "ts": "2026-11-06T16:53:29"
-     },
      {
       "row": 7677,
       "company": "SGI",
@@ -272,8 +263,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 86,
+    "count": 87,
     "cards": [
+     {
+      "row": 6905,
+      "company": "System Recruitment Specialists",
+      "title": "Lead Internal Auditor - Banking",
+      "url": "https://www.linkedin.com/jobs/view/4478469082/",
+      "score": "",
+      "note": "enviada · pasada paró en 4 avisos",
+      "ts": "2026-11-06T16:53:29"
+     },
      {
       "row": 6974,
       "company": "Stryker",
