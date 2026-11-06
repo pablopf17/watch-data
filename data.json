@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T05:18:41",
+ "generated": "2026-11-06T05:24:42",
  "kpis": {
-  "runs": 110,
+  "runs": 111,
   "done": 102,
   "ok": 51,
   "ok_pct": 50.0,
@@ -15,7 +15,7 @@
   "p90_min": 15.1,
   "per_hour": 4.11,
   "median_gap_min": 14.6,
-  "last_24h": 29,
+  "last_24h": 30,
   "retries": 1,
   "queue_pending": 31
  },
@@ -82,6 +82,13 @@
    "ok": 16,
    "applied": 11,
    "blocked": 10
+  },
+  {
+   "d": "2026-11-06",
+   "runs": 1,
+   "ok": 0,
+   "applied": 0,
+   "blocked": 0
   }
  ],
  "blockers": [
@@ -111,17 +118,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 32,
+    "count": 31,
     "cards": [
-     {
-      "row": 9305,
-      "company": "Michael Page",
-      "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
-      "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-05"
-     },
      {
       "row": 8091,
       "company": "TMS Technology",
@@ -407,7 +405,7 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 2,
     "cards": [
      {
       "row": 9305,
@@ -416,7 +414,16 @@
       "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
       "score": 9,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T05:18:41"
+      "ts": "2026-11-06T05:24:42"
+     },
+     {
+      "row": 9305,
+      "company": "Michael Page",
+      "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+      "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-06T05:18:44"
      }
     ],
     "more": 0
@@ -1435,13 +1442,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 83,
-   "runs_today": 0,
+   "runs": 84,
+   "runs_today": 1,
    "last": {
-    "row": 8102,
-    "company": "Flex Suisse",
-    "title": "Compliance Officer",
-    "started": "2026-11-05T21:31:26",
+    "row": 9305,
+    "company": "Michael Page",
+    "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+    "started": "2026-11-06T05:18:44",
     "applied": false
    },
    "limit": {
@@ -1624,6 +1631,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9305,
+   "folder": "9305_michael-page-onboarding-and-compliance-s",
+   "company": "Michael Page",
+   "title": "Onboarding and Compliance specialist - Asset Mgt - Perm Role",
+   "url": "https://www.job-room.ch/job-search/49bf7b14-a3be-4af3-89f9-a857af4991d3",
+   "lang": "en",
+   "started": "2026-11-06T05:18:44",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 8102,
    "folder": "8102_flex-suisse-compliance-officer",
