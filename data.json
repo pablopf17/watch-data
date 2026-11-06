@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T13:25:56",
+ "generated": "2026-11-06T13:31:57",
  "kpis": {
   "runs": 130,
   "done": 122,
@@ -12,25 +12,25 @@
   "median_min": 4.5,
   "median_min_ok": 5.6,
   "median_min_applied": 5.7,
-  "p90_min": 14.1,
+  "p90_min": 13.4,
   "per_hour": 5.36,
   "median_gap_min": 11.2,
   "last_24h": 39,
   "retries": 1,
   "queue_pending": 12,
   "claude_usage": {
-   "h5": 88.0,
-   "d7": 34.0,
-   "h5_reset": "2026-11-06T14:39:59.641911+00:00",
-   "d7_reset": "2026-11-11T16:59:59.641931+00:00",
-   "stale": true,
-   "n_pairs": 12,
+   "h5": 100.0,
+   "d7": 35.0,
+   "h5_reset": "2026-11-06T14:39:59.888844+00:00",
+   "d7_reset": "2026-11-11T16:59:59.888874+00:00",
+   "stale": false,
+   "n_pairs": 13,
    "cross": 0,
    "median_h5": 6.0,
    "p90_h5": 14.0,
    "max_h5": 15.0,
-   "mean_h5": 7.33,
-   "tokens_per_cand_m": 1.22
+   "mean_h5": 7.69,
+   "tokens_per_cand_m": 1.28
   }
  },
  "per_day": [
@@ -1456,12 +1456,12 @@
     "applied": false
    },
    "limit": {
-    "msg": "You've hit your session limit · resets 6:30pm (Europe/Zurich)",
-    "when": "2026-11-05T15:53:39",
-    "resets_at": "2026-11-06T18:30:00",
-    "resets_label": "18:30"
+    "msg": "You've hit your session limit · resets 3:40pm (Europe/Zurich)",
+    "when": "2026-11-06T13:28:45",
+    "resets_at": "2026-11-06T15:40:00",
+    "resets_label": "15:40"
    },
-   "limit_folder": "8461_bank-for-international-settlements-bis-s",
+   "limit_folder": "7772_julius-baer-strategic-financial-analyst",
    "limited": true
   },
   {
@@ -1846,8 +1846,8 @@
    "url": "https://www.linkedin.com/jobs/view/4478510327/",
    "lang": "en",
    "started": "2026-11-06T10:47:48",
-   "finished": "2026-11-06T11:02:15",
-   "dur_min": 14.4,
+   "finished": "2026-11-06T13:28:59",
+   "dur_min": 161.2,
    "phase": "done",
    "status": "TAILORED",
    "status_at_start": "TAILORED",
