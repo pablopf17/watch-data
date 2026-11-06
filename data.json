@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-06T11:19:38",
+ "generated": "2026-11-06T11:25:38",
  "kpis": {
-  "runs": 125,
-  "done": 116,
+  "runs": 127,
+  "done": 118,
   "ok": 55,
-  "ok_pct": 47.4,
+  "ok_pct": 46.6,
   "applied": 34,
-  "blocked": 45,
-  "manual": 16,
-  "manual_pct": 13.8,
+  "blocked": 47,
+  "manual": 17,
+  "manual_pct": 14.4,
   "median_min": 4.7,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
-  "p90_min": 14.4,
-  "per_hour": 5.0,
-  "median_gap_min": 12.0,
-  "last_24h": 34,
+  "p90_min": 14.3,
+  "per_hour": 5.08,
+  "median_gap_min": 11.8,
+  "last_24h": 36,
   "retries": 1,
-  "queue_pending": 17,
+  "queue_pending": 15,
   "claude_usage": {
-   "h5": 54.0,
-   "d7": 31.0,
-   "h5_reset": "2026-11-06T14:39:59.946777+00:00",
-   "d7_reset": "2026-11-11T16:59:59.946802+00:00",
+   "h5": 62.0,
+   "d7": 32.0,
+   "h5_reset": "2026-11-06T14:39:59.949367+00:00",
+   "d7_reset": "2026-11-11T16:59:59.949392+00:00",
    "stale": false,
-   "n_pairs": 4,
+   "n_pairs": 6,
    "cross": 0,
-   "median_h5": 14.0,
+   "median_h5": 12.0,
    "p90_h5": 15.0,
    "max_h5": 15.0,
-   "mean_h5": 12.75,
-   "tokens_per_cand_m": 2.12
+   "mean_h5": 10.17,
+   "tokens_per_cand_m": 1.69
   }
  },
  "per_day": [
@@ -99,20 +99,20 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 15,
+   "runs": 17,
    "ok": 4,
    "applied": 3,
-   "blocked": 8
+   "blocked": 10
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 27
+   "n": 28
   },
   {
    "reason": "login / cuenta",
-   "n": 11
+   "n": 12
   },
   {
    "reason": "otro",
@@ -132,26 +132,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 17,
+    "count": 15,
     "cards": [
-     {
-      "row": 7655,
-      "company": "Belimo",
-      "title": "Project Enabler & Business Analyst (80-100%)",
-      "url": "https://www.linkedin.com/jobs/view/4460675452/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-09-02"
-     },
-     {
-      "row": 7629,
-      "company": "ALTEN",
-      "title": "Analyste de données",
-      "url": "https://www.linkedin.com/jobs/view/4475432454/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-10-07"
-     },
      {
       "row": 7616,
       "company": "FYUL",
@@ -296,22 +278,22 @@
     "count": 2,
     "cards": [
      {
-      "row": 7671,
-      "company": "On",
-      "title": "Senior Specialist - HD Analytics & Reporting",
-      "url": "https://www.linkedin.com/jobs/view/4477410557/",
+      "row": 7629,
+      "company": "ALTEN",
+      "title": "Analyste de données",
+      "url": "https://www.linkedin.com/jobs/view/4475432454/",
       "score": 8,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-06T11:19:38"
+      "ts": "2026-11-06T11:25:38"
      },
      {
-      "row": 7671,
-      "company": "On",
-      "title": "Senior Specialist - HD Analytics & Reporting",
-      "url": "https://www.linkedin.com/jobs/view/4477410557/",
+      "row": 7629,
+      "company": "ALTEN",
+      "title": "Analyste de données",
+      "url": "https://www.linkedin.com/jobs/view/4475432454/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-06T11:17:57"
+      "ts": "2026-11-06T11:24:50"
      }
     ],
     "more": 0
@@ -319,8 +301,17 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 3,
+    "count": 4,
     "cards": [
+     {
+      "row": 7671,
+      "company": "On",
+      "title": "Senior Specialist - HD Analytics & Reporting",
+      "url": "https://www.linkedin.com/jobs/view/4477410557/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-06T11:17:57"
+     },
      {
       "row": 7677,
       "company": "SGI",
@@ -1100,8 +1091,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 38,
+    "count": 39,
     "cards": [
+     {
+      "row": 7655,
+      "company": "Belimo",
+      "title": "Project Enabler & Business Analyst (80-100%)",
+      "url": "https://www.linkedin.com/jobs/view/4460675452/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-06T11:22:27"
+     },
      {
       "row": 7695,
       "company": "Julius Baer",
@@ -1456,13 +1456,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 98,
-   "runs_today": 15,
+   "runs": 100,
+   "runs_today": 17,
    "last": {
-    "row": 7671,
-    "company": "On",
-    "title": "Senior Specialist - HD Analytics & Reporting",
-    "started": "2026-11-06T11:17:57",
+    "row": 7629,
+    "company": "ALTEN",
+    "title": "Analyste de données",
+    "started": "2026-11-06T11:24:50",
     "applied": false
    },
    "limit": {
@@ -1514,25 +1514,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 7671,
-   "company": "On",
-   "title": "Senior Specialist - HD Analytics & Reporting",
+   "row": 7629,
+   "company": "ALTEN",
+   "title": "Analyste de données",
    "score": 8,
-   "url": "https://www.linkedin.com/jobs/view/4477410557/",
+   "url": "https://www.linkedin.com/jobs/view/4475432454/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-06T11:17:49+01:00",
-   "pid": 16872,
+   "started": "2026-11-06T11:24:39+01:00",
+   "pid": 36892,
    "lane": 0
   },
-  "pending": 17,
+  "pending": 15,
   "counters": {
    "pending": 22,
    "sent": 1,
    "review": 3,
-   "blocked": 0,
+   "blocked": 2,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1588,6 +1588,28 @@
   ],
   "last": [
    {
+    "ts": "2026-11-06T11:24:39+01:00",
+    "row": 7655,
+    "company": "Belimo",
+    "title": "Project Enabler & Business Analyst (80-100%)",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 140
+   },
+   {
+    "ts": "2026-11-06T11:22:19+01:00",
+    "row": 7671,
+    "company": "On",
+    "title": "Senior Specialist - HD Analytics & Reporting",
+    "score": 8,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 270
+   },
+   {
     "ts": "2026-11-06T11:17:49+01:00",
     "row": 7677,
     "company": "SGI",
@@ -1619,40 +1641,18 @@
     "state": "review",
     "note": "pendiente de revisión (tras 2 prórroga(s))",
     "dur_s": 880
-   },
-   {
-    "ts": "2026-11-06T10:47:39+01:00",
-    "row": 7773,
-    "company": "SGI",
-    "title": "Business Analyst / Test Lead – Pricing Tool",
-    "score": 7,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 350
-   },
-   {
-    "ts": "2026-11-06T06:00:55+01:00",
-    "row": 7822,
-    "company": "KPMG Switzerland",
-    "title": "Consultant - Digital Transformation",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "oferta_equivocada",
-    "dur_s": 190
    }
   ]
  },
  "runs": [
   {
-   "row": 7671,
-   "folder": "7671_on-senior-specialist-hd-analytics-report",
-   "company": "On",
-   "title": "Senior Specialist - HD Analytics & Reporting",
-   "url": "https://www.linkedin.com/jobs/view/4477410557/",
-   "lang": "en",
-   "started": "2026-11-06T11:17:57",
+   "row": 7629,
+   "folder": "7629_alten-analyste-de-donnees",
+   "company": "ALTEN",
+   "title": "Analyste de données",
+   "url": "https://www.linkedin.com/jobs/view/4475432454/",
+   "lang": "fr",
+   "started": "2026-11-06T11:24:50",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1671,6 +1671,60 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 7655,
+   "folder": "7655_belimo-project-enabler-business-analyst",
+   "company": "Belimo",
+   "title": "Project Enabler & Business Analyst (80-100%)",
+   "url": "https://www.linkedin.com/jobs/view/4460675452/",
+   "lang": "en",
+   "started": "2026-11-06T11:22:27",
+   "finished": "2026-11-06T11:24:37",
+   "dur_min": 2.2,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 0,
+   "avisos": 3,
+   "verify_ok": false
+  },
+  {
+   "row": 7671,
+   "folder": "7671_on-senior-specialist-hd-analytics-report",
+   "company": "On",
+   "title": "Senior Specialist - HD Analytics & Reporting",
+   "url": "https://www.linkedin.com/jobs/view/4477410557/",
+   "lang": "en",
+   "started": "2026-11-06T11:17:57",
+   "finished": "2026-11-06T11:22:19",
+   "dur_min": 4.4,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 7677,
