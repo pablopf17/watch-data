@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T09:49:24",
+ "generated": "2026-11-06T09:55:24",
  "kpis": {
   "runs": 120,
   "done": 112,
@@ -331,17 +331,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 3,
+    "count": 2,
     "cards": [
-     {
-      "row": 8039,
-      "company": "UBS",
-      "title": "Audit Expert IB Execution Services",
-      "url": "https://www.linkedin.com/jobs/view/4472890308/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-06T09:37:00"
-     },
      {
       "row": 8620,
       "company": "Interim Legal",
@@ -366,8 +357,17 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 80,
+    "count": 81,
     "cards": [
+     {
+      "row": 8039,
+      "company": "UBS",
+      "title": "Audit Expert IB Execution Services",
+      "url": "https://www.linkedin.com/jobs/view/4472890308/",
+      "score": "",
+      "note": "enviada · pasada paró en login",
+      "ts": "2026-11-06T09:37:00"
+     },
      {
       "row": 8004,
       "company": "Vontobel",
