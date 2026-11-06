@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-06T09:01:15",
+ "generated": "2026-11-06T09:07:16",
  "kpis": {
   "runs": 120,
-  "done": 112,
+  "done": 111,
   "ok": 53,
-  "ok_pct": 47.3,
-  "applied": 32,
-  "blocked": 45,
-  "manual": 16,
-  "manual_pct": 14.3,
+  "ok_pct": 47.7,
+  "applied": 33,
+  "blocked": 44,
+  "manual": 15,
+  "manual_pct": 13.5,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.1,
-  "per_hour": 5.17,
-  "median_gap_min": 11.6,
+  "p90_min": 14.3,
+  "per_hour": 5.04,
+  "median_gap_min": 11.9,
   "last_24h": 33,
   "retries": 1,
   "queue_pending": 22
@@ -80,7 +80,7 @@
    "d": "2026-11-05",
    "runs": 29,
    "ok": 16,
-   "applied": 11,
+   "applied": 12,
    "blocked": 10
   },
   {
@@ -98,7 +98,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 11
+   "n": 10
   },
   {
    "reason": "otro",
@@ -324,14 +324,7 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 5,
+    "count": 1,
     "cards": [
      {
       "row": 8004,
@@ -339,9 +332,17 @@
       "title": "Third Party Risk Manager",
       "url": "https://www.linkedin.com/jobs/view/4481462887/",
       "score": "",
-      "note": "login",
-      "ts": "2026-11-06T05:52:03"
-     },
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-06T09:07:00"
+     }
+    ],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 3,
+    "cards": [
      {
       "row": 8039,
       "company": "UBS",
@@ -361,15 +362,6 @@
       "ts": "2026-11-05T20:07:27"
      },
      {
-      "row": 8642,
-      "company": "Mirabaud",
-      "title": "Transaction Monitoring Compliance Officer",
-      "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000158738272",
-      "score": "",
-      "note": "6 avisos",
-      "ts": "2026-11-05T19:59:03"
-     },
-     {
       "row": 8131,
       "company": "World Intellectual Property Organization – WIPO",
       "title": "Program Consultant (Temporary Parental Leave Cover)",
@@ -384,7 +376,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 78,
+    "count": 79,
     "cards": [
      {
       "row": 8012,
@@ -448,6 +440,15 @@
       "score": "",
       "note": "enviada · pasada paró en login",
       "ts": "2026-11-05T20:14:18"
+     },
+     {
+      "row": 8642,
+      "company": "Mirabaud",
+      "title": "Transaction Monitoring Compliance Officer",
+      "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000158738272",
+      "score": "",
+      "note": "con respuesta · pasada paró en 3 avisos",
+      "ts": "2026-11-05T19:59:03"
      },
      {
       "row": 9298,
@@ -1435,10 +1436,10 @@
    "runs": 93,
    "runs_today": 10,
    "last": {
-    "row": 7822,
-    "company": "KPMG Switzerland",
-    "title": "Consultant - Digital Transformation",
-    "started": "2026-11-06T05:57:52",
+    "row": 8004,
+    "company": "Vontobel",
+    "title": "Third Party Risk Manager",
+    "started": "2026-11-06T09:07:00",
     "applied": false
    },
    "limit": {
@@ -1609,6 +1610,33 @@
  },
  "runs": [
   {
+   "row": 8004,
+   "folder": "8004_vontobel-third-party-risk-manager",
+   "company": "Vontobel",
+   "title": "Third Party Risk Manager",
+   "url": "https://www.linkedin.com/jobs/view/4481462887/",
+   "lang": "en",
+   "started": "2026-11-06T09:07:00",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 4,
+   "verify_ok": false
+  },
+  {
    "row": 7822,
    "folder": "7822_kpmg-switzerland-consultant-digital-tran",
    "company": "KPMG Switzerland",
@@ -1660,33 +1688,6 @@
    "required_missing": 3,
    "needs_approval": 1,
    "avisos": 5,
-   "verify_ok": false
-  },
-  {
-   "row": 8004,
-   "folder": "8004_vontobel-third-party-risk-manager",
-   "company": "Vontobel",
-   "title": "Third Party Risk Manager",
-   "url": "https://www.linkedin.com/jobs/view/4481462887/",
-   "lang": "en",
-   "started": "2026-11-06T05:52:03",
-   "finished": "2026-11-06T05:54:21",
-   "dur_min": 2.3,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "linkedin_external",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 2,
-   "avisos": 4,
    "verify_ok": false
   },
   {
@@ -2075,23 +2076,23 @@
    "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000158738272",
    "lang": "en",
    "started": "2026-11-05T19:59:03",
-   "finished": "2026-11-05T20:07:11",
-   "dur_min": 8.1,
+   "finished": "2026-11-06T09:02:40",
+   "dur_min": 783.6,
    "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
    "ok": true,
-   "applied": false,
+   "applied": true,
    "form_reached": true,
    "apply_path": "intermedio",
    "files_verified": 2,
    "files_total": 2,
    "required_missing": 0,
-   "needs_approval": 1,
-   "avisos": 6,
+   "needs_approval": 0,
+   "avisos": 3,
    "verify_ok": true
   },
   {
