@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T14:23:43",
+ "generated": "2026-11-07T14:29:42",
  "kpis": {
   "runs": 142,
   "done": 132,
@@ -15,14 +15,14 @@
   "p90_min": 12.7,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 13,
+  "last_24h": 12,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
    "h5": 0.0,
    "d7": 43.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T16:59:59.921407+00:00",
+   "d7_reset": "2026-11-11T16:59:59.909081+00:00",
    "stale": false,
    "n_pairs": 32,
    "cross": 0,
