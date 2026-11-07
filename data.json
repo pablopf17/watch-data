@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T10:11:01",
+ "generated": "2026-11-07T10:17:03",
  "kpis": {
   "runs": 142,
   "done": 132,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 7.0,
    "d7": 43.0,
-   "h5_reset": "2026-11-07T11:29:59.995910+00:00",
-   "d7_reset": "2026-11-11T16:59:59.995929+00:00",
+   "h5_reset": "2026-11-07T11:30:00.415999+00:00",
+   "d7_reset": "2026-11-11T17:00:00.416019+00:00",
    "stale": false,
    "n_pairs": 32,
    "cross": 0,
@@ -1070,7 +1070,7 @@
       "title": "Senior Business Analyst Data Warehouse (m/w/d)",
       "url": "https://www.linkedin.com/jobs/view/4479824642/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-06T11:32:27"
      },
      {
@@ -1151,7 +1151,7 @@
       "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
       "url": "https://www.linkedin.com/jobs/view/4483720352/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-05T20:28:26"
      },
      {
@@ -1268,7 +1268,7 @@
       "title": "Associate Manager, Investigations, Diligence and Compliance",
       "url": "https://www.linkedin.com/jobs/view/4477344961/",
       "score": "",
-      "note": "sin formulario",
+      "note": "no disponible",
       "ts": "2026-11-03T17:45:56"
      },
      {
