@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T19:19:33",
+ "generated": "2026-11-08T19:25:36",
  "kpis": {
   "runs": 142,
   "done": 132,
@@ -132,8 +132,18 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9478,
+      "company": "KPMG AG",
+      "title": "Consultant - FS Consulting - Financial Risk Management",
+      "url": "https://www.jobagent.ch/job/consultant-fs-consulting-financial-risk-management/32564c576a",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-08"
+     }
+    ],
     "more": 0
    },
    {
@@ -1437,7 +1447,7 @@
     "more": 0
    }
   ],
-  "total": 141
+  "total": 142
  },
  "engines": [
   {
