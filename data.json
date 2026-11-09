@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:38:02",
+ "generated": "2026-11-09T14:44:04",
  "kpis": {
   "runs": 143,
   "done": 133,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 47.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T16:59:59.540616+00:00",
+   "d7_reset": "2026-11-11T17:00:00.105318+00:00",
    "stale": false,
    "n_pairs": 33,
    "cross": 0,
@@ -1023,7 +1023,7 @@
       "title": "Consultant - FS Consulting - Financial Risk Management",
       "url": "https://www.jobagent.ch/job/consultant-fs-consulting-financial-risk-management/32564c576a",
       "score": "",
-      "note": "sin formulario",
+      "note": "no disponible",
       "ts": "2026-11-09T14:29:35"
      },
      {
