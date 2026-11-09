@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:26:25",
+ "generated": "2026-11-09T15:31:43",
  "kpis": {
   "runs": 143,
   "done": 133,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 47.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T16:59:59.969374+00:00",
+   "d7_reset": "2026-11-11T17:00:00.369450+00:00",
    "stale": false,
    "n_pairs": 33,
    "cross": 0,
@@ -139,8 +139,45 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 0,
-    "cards": [],
+    "count": 4,
+    "cards": [
+     {
+      "row": 9514,
+      "company": "TotalEnergies Gas & Power Ltd",
+      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+      "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
+      "score": "5",
+      "note": "listo para lanzar",
+      "ts": "2026-11-08"
+     },
+     {
+      "row": 8145,
+      "company": "Expleo Group",
+      "title": "Data analyst industriel",
+      "url": "https://www.linkedin.com/jobs/view/4484710003/",
+      "score": "6",
+      "note": "listo para lanzar",
+      "ts": "2026-10-28"
+     },
+     {
+      "row": 5441,
+      "company": "AZQORE SA",
+      "title": "Business Analyst Credit & Risk",
+      "url": "https://www.linkedin.com/jobs/view/4481661811/",
+      "score": "6",
+      "note": "listo para lanzar",
+      "ts": "2026-10-23"
+     },
+     {
+      "row": 1396,
+      "company": "Pictet Group",
+      "title": "Front Desk & Cotation Specialist",
+      "url": "https://www.linkedin.com/jobs/view/4424546318/",
+      "score": "6",
+      "note": "listo para lanzar",
+      "ts": "2026-07-08"
+     }
+    ],
     "more": 0
    },
    {
@@ -1453,7 +1490,7 @@
     "more": 0
    }
   ],
-  "total": 142
+  "total": 146
  },
  "engines": [
   {
