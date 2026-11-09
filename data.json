@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-09T14:25:56",
+ "generated": "2026-11-09T14:31:59",
  "kpis": {
-  "runs": 142,
-  "done": 132,
+  "runs": 143,
+  "done": 133,
   "ok": 60,
-  "ok_pct": 45.5,
+  "ok_pct": 45.1,
   "applied": 35,
   "blocked": 55,
   "manual": 17,
-  "manual_pct": 12.9,
+  "manual_pct": 12.8,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
   "p90_min": 12.7,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 0,
+  "last_24h": 1,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
    "h5": 0.0,
    "d7": 47.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T16:59:59.983076+00:00",
+   "d7_reset": "2026-11-11T17:00:00.436160+00:00",
    "stale": false,
-   "n_pairs": 32,
+   "n_pairs": 33,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 6.25,
-   "tokens_per_cand_m": 1.04
+   "mean_h5": 6.06,
+   "tokens_per_cand_m": 1.01
   }
  },
  "per_day": [
@@ -103,6 +103,13 @@
    "ok": 9,
    "applied": 4,
    "blocked": 19
+  },
+  {
+   "d": "2026-11-09",
+   "runs": 1,
+   "ok": 0,
+   "applied": 0,
+   "blocked": 0
   }
  ],
  "blockers": [
@@ -132,18 +139,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 9478,
-      "company": "KPMG AG",
-      "title": "Consultant - FS Consulting - Financial Risk Management",
-      "url": "https://www.jobagent.ch/job/consultant-fs-consulting-financial-risk-management/32564c576a",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-08"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1018,8 +1015,17 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 47,
+    "count": 48,
     "cards": [
+     {
+      "row": 9478,
+      "company": "KPMG AG",
+      "title": "Consultant - FS Consulting - Financial Risk Management",
+      "url": "https://www.jobagent.ch/job/consultant-fs-consulting-financial-risk-management/32564c576a",
+      "score": "",
+      "note": "sin formulario",
+      "ts": "2026-11-09T14:29:35"
+     },
      {
       "row": 3905,
       "company": "CLEEVEN",
@@ -1478,13 +1484,13 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 15,
-   "runs_today": 0,
+   "runs": 16,
+   "runs_today": 1,
    "last": {
-    "row": 2162,
-    "company": "EY",
-    "title": "(Senior) Consultant - Business Consulting (Platform experience)",
-    "started": "2026-11-06T20:42:54",
+    "row": 9478,
+    "company": "KPMG AG",
+    "title": "Consultant - FS Consulting - Financial Risk Management",
+    "started": "2026-11-09T14:29:35",
     "applied": false
    },
    "limit": null,
@@ -1590,6 +1596,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9478,
+   "folder": "9478_kpmg-ag-consultant-fs-consulting-financi",
+   "company": "KPMG AG",
+   "title": "Consultant - FS Consulting - Financial Risk Management",
+   "url": "https://www.jobagent.ch/job/consultant-fs-consulting-financial-risk-management/32564c576a",
+   "lang": "de",
+   "started": "2026-11-09T14:29:35",
+   "finished": null,
+   "dur_min": null,
+   "phase": "done",
+   "status": "ERROR",
+   "status_at_start": "TAILORED",
+   "engine": "hermes",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 2162,
    "folder": "2162_ey-senior-consultant-business-consulting",
