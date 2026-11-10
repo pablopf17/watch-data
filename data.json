@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T16:23:25",
+ "generated": "2026-11-10T16:25:09",
  "kpis": {
-  "runs": 143,
+  "runs": 144,
   "done": 133,
   "ok": 60,
   "ok_pct": 45.1,
@@ -15,7 +15,7 @@
   "p90_min": 12.7,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 0,
+  "last_24h": 1,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
@@ -110,6 +110,13 @@
    "ok": 0,
    "applied": 0,
    "blocked": 0
+  },
+  {
+   "d": "2026-11-10",
+   "runs": 1,
+   "ok": 0,
+   "applied": 0,
+   "blocked": 0
   }
  ],
  "blockers": [
@@ -139,19 +146,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 12,
+    "count": 11,
     "cards": [
-     {
-      "row": 9594,
-      "company": "Le Comité international de la Croix-Rouge (CICR)",
-      "title": "Digitalization Lead",
-      "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-10",
-      "cv_pdf": "https://drive.google.com/file/d/1yoyqszt0m7VKWVsETWTyD11v8gg3My_S/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/10_i-Ht9wh29mctESvQduNBc1PwuSBLLR/view?usp=drivesdk"
-     },
      {
       "row": 9585,
       "company": "Kellerhals Carrard",
@@ -279,8 +275,20 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9594,
+      "company": "Le Comité international de la Croix-Rouge (CICR)",
+      "title": "Digitalization Lead",
+      "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
+      "score": "",
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-10T16:24:42",
+      "cv_pdf": "https://drive.google.com/file/d/1yoyqszt0m7VKWVsETWTyD11v8gg3My_S/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/10_i-Ht9wh29mctESvQduNBc1PwuSBLLR/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -1828,13 +1836,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 112,
-   "runs_today": 0,
+   "runs": 113,
+   "runs_today": 1,
    "last": {
-    "row": 3905,
-    "company": "CLEEVEN",
-    "title": "Consultant fonctionnel/Consultante fonctionnel",
-    "started": "2026-11-06T20:39:13",
+    "row": 9594,
+    "company": "Le Comité international de la Croix-Rouge (CICR)",
+    "title": "Digitalization Lead",
+    "started": "2026-11-10T16:24:42",
     "applied": false
    },
    "limit": {
@@ -1963,6 +1971,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9594,
+   "folder": "9594_le-comite-international-de-la-croix-roug",
+   "company": "Le Comité international de la Croix-Rouge (CICR)",
+   "title": "Digitalization Lead",
+   "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
+   "lang": "en",
+   "started": "2026-11-10T16:24:42",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 9478,
    "folder": "9478_kpmg-ag-consultant-fs-consulting-financi",
