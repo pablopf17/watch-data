@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T08:25:38",
+ "generated": "2026-11-10T08:31:41",
  "kpis": {
   "runs": 143,
   "done": 133,
@@ -23,7 +23,7 @@
    "d7": 49.0,
    "h5_reset": "2026-11-10T11:29:59.980688+00:00",
    "d7_reset": "2026-11-11T16:59:59.980706+00:00",
-   "stale": false,
+   "stale": true,
    "n_pairs": 33,
    "cross": 0,
    "median_h5": 5.0,
@@ -341,7 +341,7 @@
       "title": "Lead Internal Auditor - Banking",
       "url": "https://www.linkedin.com/jobs/view/4478469082/",
       "score": "",
-      "note": "enviada · pasada paró en 4 avisos",
+      "note": "con respuesta · pasada paró en 4 avisos",
       "ts": "2026-11-06T16:53:29"
      },
      {
