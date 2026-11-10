@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:25:09",
+ "generated": "2026-11-10T16:29:27",
  "kpis": {
   "runs": 144,
   "done": 133,
@@ -24,13 +24,13 @@
    "h5_reset": null,
    "d7_reset": "2026-11-11T17:00:00.083491+00:00",
    "stale": true,
-   "n_pairs": 33,
+   "n_pairs": 35,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 6.06,
-   "tokens_per_cand_m": 1.01
+   "mean_h5": 5.71,
+   "tokens_per_cand_m": 0.95
   }
  },
  "per_day": [
@@ -284,7 +284,7 @@
       "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
       "score": "",
       "note": "starting · sin cerrar",
-      "ts": "2026-11-10T16:24:42",
+      "ts": "2026-11-10T16:28:43",
       "cv_pdf": "https://drive.google.com/file/d/1yoyqszt0m7VKWVsETWTyD11v8gg3My_S/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/10_i-Ht9wh29mctESvQduNBc1PwuSBLLR/view?usp=drivesdk"
      }
@@ -1842,7 +1842,7 @@
     "row": 9594,
     "company": "Le Comité international de la Croix-Rouge (CICR)",
     "title": "Digitalization Lead",
-    "started": "2026-11-10T16:24:42",
+    "started": "2026-11-10T16:28:43",
     "applied": false
    },
    "limit": {
@@ -1978,7 +1978,7 @@
    "title": "Digitalization Lead",
    "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
    "lang": "en",
-   "started": "2026-11-10T16:24:42",
+   "started": "2026-11-10T16:28:43",
    "finished": null,
    "dur_min": null,
    "phase": "starting",
@@ -1996,7 +1996,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 9478,
