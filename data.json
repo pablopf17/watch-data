@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T06:18:49",
+ "generated": "2026-11-10T06:24:49",
  "kpis": {
   "runs": 143,
   "done": 133,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 48.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T17:00:00.468572+00:00",
+   "d7_reset": "2026-11-11T17:00:00.115554+00:00",
    "stale": false,
    "n_pairs": 33,
    "cross": 0,
@@ -139,8 +139,71 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 4,
+    "count": 11,
     "cards": [
+     {
+      "row": 9585,
+      "company": "Kellerhals Carrard",
+      "title": "Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4486214233/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-06"
+     },
+     {
+      "row": 9584,
+      "company": "Lombard Odier Group",
+      "title": "Tax Regulatory Officer (80-100%)",
+      "url": "https://www.linkedin.com/jobs/view/4486236163/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-06"
+     },
+     {
+      "row": 9580,
+      "company": "die Mobiliar",
+      "title": "Business Analyst Compliance, processus & transformation digitale (f/h/d)",
+      "url": "https://www.linkedin.com/jobs/view/4487159309/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-09"
+     },
+     {
+      "row": 9578,
+      "company": "Swissquote",
+      "title": "Quality Control & Remediations Manager",
+      "url": "https://www.linkedin.com/jobs/view/4477659735/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-10-09"
+     },
+     {
+      "row": 9575,
+      "company": "Richemont",
+      "title": "Business Performance & Data Analytics Project Manager",
+      "url": "https://www.linkedin.com/jobs/view/4479362300/",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-10-16"
+     },
+     {
+      "row": 9571,
+      "company": "coni+partner AG",
+      "title": "Banking Process Analyst | Operational Risk & Framework",
+      "url": "https://www.linkedin.com/jobs/view/4486619599/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-07"
+     },
+     {
+      "row": 9534,
+      "company": "Deloitte AG",
+      "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+      "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-09"
+     },
      {
       "row": 9514,
       "company": "TotalEnergies Gas & Power Ltd",
@@ -1490,7 +1553,7 @@
     "more": 0
    }
   ],
-  "total": 146
+  "total": 153
  },
  "engines": [
   {
