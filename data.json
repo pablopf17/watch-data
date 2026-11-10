@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-10T17:05:48",
+ "generated": "2026-11-10T17:11:51",
  "kpis": {
-  "runs": 149,
+  "runs": 150,
   "done": 139,
   "ok": 62,
   "ok_pct": 44.6,
   "applied": 36,
-  "blocked": 55,
-  "manual": 17,
-  "manual_pct": 12.2,
+  "blocked": 56,
+  "manual": 18,
+  "manual_pct": 12.9,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
   "p90_min": 12.5,
-  "per_hour": 5.56,
-  "median_gap_min": 10.8,
-  "last_24h": 6,
+  "per_hour": 5.61,
+  "median_gap_min": 10.7,
+  "last_24h": 7,
   "retries": 1,
-  "queue_pending": 0,
+  "queue_pending": 5,
   "claude_usage": {
-   "h5": 18.0,
-   "d7": 50.0,
-   "h5_reset": "2026-11-10T19:10:00.335377+00:00",
-   "d7_reset": "2026-11-11T17:00:00.335398+00:00",
+   "h5": 24.0,
+   "d7": 51.0,
+   "h5_reset": "2026-11-10T19:10:00.633050+00:00",
+   "d7_reset": "2026-11-11T17:00:00.633073+00:00",
    "stale": false,
-   "n_pairs": 40,
+   "n_pairs": 41,
    "cross": 0,
    "median_h5": 4.0,
-   "p90_h5": 14.0,
+   "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.08,
-   "tokens_per_cand_m": 0.84
+   "mean_h5": 5.02,
+   "tokens_per_cand_m": 0.83
   }
  },
  "per_day": [
@@ -113,10 +113,10 @@
   },
   {
    "d": "2026-11-10",
-   "runs": 6,
+   "runs": 7,
    "ok": 2,
    "applied": 1,
-   "blocked": 0
+   "blocked": 2
   }
  ],
  "blockers": [
@@ -126,7 +126,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 12
+   "n": 13
   },
   {
    "reason": "otro",
@@ -146,19 +146,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 6,
+    "count": 5,
     "cards": [
-     {
-      "row": 9571,
-      "company": "coni+partner AG",
-      "title": "Banking Process Analyst | Operational Risk & Framework",
-      "url": "https://www.linkedin.com/jobs/view/4486619599/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-07",
-      "cv_pdf": "https://drive.google.com/file/d/1OD6vM1S_vRIpWv-r6JuOL9TT81fnbDKn/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/16A-2Q0szQg2kR8Ydvdm_AQkquDzJRLWd/view?usp=drivesdk"
-     },
      {
       "row": 9534,
       "company": "Deloitte AG",
@@ -220,15 +209,47 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 2,
+    "cards": [
+     {
+      "row": 9571,
+      "company": "coni+partner AG",
+      "title": "Banking Process Analyst | Operational Risk & Framework",
+      "url": "https://www.linkedin.com/jobs/view/4486619599/",
+      "score": 9,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-10T17:11:51"
+     },
+     {
+      "row": 9571,
+      "company": "coni+partner AG",
+      "title": "Banking Process Analyst | Operational Risk & Framework",
+      "url": "https://www.linkedin.com/jobs/view/4486619599/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-10T17:09:58",
+      "cv_pdf": "https://drive.google.com/file/d/1OD6vM1S_vRIpWv-r6JuOL9TT81fnbDKn/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/16A-2Q0szQg2kR8Ydvdm_AQkquDzJRLWd/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 4,
+    "count": 5,
     "cards": [
+     {
+      "row": 9575,
+      "company": "Richemont",
+      "title": "Business Performance & Data Analytics Project Manager",
+      "url": "https://www.linkedin.com/jobs/view/4479362300/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-10T17:08:00",
+      "cv_pdf": "https://drive.google.com/file/d/18JQvhxdcF5yqgCY5NJmpRjdTJCFrJSMR/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/166GrHiWQgZjv7FswMQOzIS2j1Fa_Yrso/view?usp=drivesdk"
+     },
      {
       "row": 6550,
       "company": "Geberit Schweiz",
@@ -287,7 +308,7 @@
       "title": "Quality Control & Remediations Manager",
       "url": "https://www.linkedin.com/jobs/view/4477659735/",
       "score": "",
-      "note": "enviada · pasada paró en 2 avisos",
+      "note": "con respuesta · pasada paró en 2 avisos",
       "ts": "2026-11-10T16:57:21",
       "cv_pdf": "https://drive.google.com/file/d/1qF2yACvBHiFi8H1geIRwGt64U77eIHJs/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1_0ncaCSjEzJInomXwflyQTN26XVp4Dje/view?usp=drivesdk"
@@ -1319,19 +1340,8 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 50,
+    "count": 49,
     "cards": [
-     {
-      "row": 9575,
-      "company": "Richemont",
-      "title": "Business Performance & Data Analytics Project Manager",
-      "url": "https://www.linkedin.com/jobs/view/4479362300/",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-10T17:01:06",
-      "cv_pdf": "https://drive.google.com/file/d/18JQvhxdcF5yqgCY5NJmpRjdTJCFrJSMR/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/166GrHiWQgZjv7FswMQOzIS2j1Fa_Yrso/view?usp=drivesdk"
-     },
      {
       "row": 9478,
       "company": "KPMG AG",
@@ -1835,14 +1845,14 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 115,
-   "runs_today": 3,
+   "runs": 117,
+   "runs_today": 5,
    "last": {
-    "row": 9578,
-    "company": "Swissquote",
-    "title": "Quality Control & Remediations Manager",
-    "started": "2026-11-10T16:57:21",
-    "applied": true
+    "row": 9571,
+    "company": "coni+partner AG",
+    "title": "Banking Process Analyst | Operational Risk & Framework",
+    "started": "2026-11-10T17:09:58",
+    "applied": false
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
@@ -1876,13 +1886,13 @@
    "label": "ChatGPT (codex)",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
-   "runs": 16,
-   "runs_today": 2,
+   "runs": 15,
+   "runs_today": 1,
    "last": {
-    "row": 9575,
-    "company": "Richemont",
-    "title": "Business Performance & Data Analytics Project Manager",
-    "started": "2026-11-10T17:01:06",
+    "row": 9585,
+    "company": "Kellerhals Carrard",
+    "title": "Compliance Officer",
+    "started": "2026-11-10T16:40:31",
     "applied": false
    },
    "limit": null,
@@ -1892,26 +1902,91 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 0,
+  "running": {
+   "row": 9571,
+   "company": "coni+partner AG",
+   "title": "Banking Process Analyst | Operational Risk & Framework",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4486619599/",
+   "domain": "linkedin.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-10T17:09:47+01:00",
+   "pid": 41472,
+   "lane": 0
+  },
+  "pending": 5,
   "counters": {
-   "pending": 0,
-   "sent": 4,
-   "review": 1,
-   "blocked": 4,
+   "pending": 5,
+   "sent": 0,
+   "review": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
   },
   "config": {
-   "max": 9,
+   "max": 3,
    "min_score": 0,
    "engine": "claude",
    "timeout": 600,
    "per_domain": 0
   },
-  "next": [],
+  "next": [
+   {
+    "row": 9534,
+    "company": "Deloitte AG",
+    "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+    "score": 10,
+    "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+    "domain": "jobagent.ch"
+   },
+   {
+    "row": 1396,
+    "company": "Pictet Group",
+    "title": "Front Desk & Cotation Specialist",
+    "score": 6,
+    "url": "https://www.linkedin.com/jobs/view/4424546318/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 5441,
+    "company": "AZQORE SA",
+    "title": "Business Analyst Credit & Risk",
+    "score": 6,
+    "url": "https://www.linkedin.com/jobs/view/4481661811/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 8145,
+    "company": "Expleo Group",
+    "title": "Data analyst industriel",
+    "score": 6,
+    "url": "https://www.linkedin.com/jobs/view/4484710003/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 9514,
+    "company": "TotalEnergies Gas & Power Ltd",
+    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+    "score": 5,
+    "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
+    "domain": "job-room.ch"
+   }
+  ],
   "last": [
+   {
+    "ts": "2026-11-10T17:09:46+01:00",
+    "row": 9575,
+    "company": "Richemont",
+    "title": "Business Performance & Data Analytics Project Manager",
+    "score": 10,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 120
+   },
    {
     "ts": "2026-11-06T20:42:06+01:00",
     "row": 2162,
@@ -1955,21 +2030,37 @@
     "state": "blocked",
     "note": "sin_formulario",
     "dur_s": 110
-   },
-   {
-    "ts": "2026-11-06T20:35:36+01:00",
-    "row": 4314,
-    "company": "coni+partner AG",
-    "title": "Manager Group Internal Auditor Bank",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 120
    }
   ]
  },
  "runs": [
+  {
+   "row": 9571,
+   "folder": "9571_coni-partner-ag-banking-process-analyst",
+   "company": "coni+partner AG",
+   "title": "Banking Process Analyst | Operational Risk & Framework",
+   "url": "https://www.linkedin.com/jobs/view/4486619599/",
+   "lang": "en",
+   "started": "2026-11-10T17:09:58",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 1,
+   "verify_ok": null
+  },
   {
    "row": 9575,
    "folder": "9575_richemont-business-performance-data-anal",
@@ -1977,24 +2068,24 @@
    "title": "Business Performance & Data Analytics Project Manager",
    "url": "https://www.linkedin.com/jobs/view/4479362300/",
    "lang": "en",
-   "started": "2026-11-10T17:01:06",
-   "finished": "2026-11-10T17:03:12",
-   "dur_min": 2.1,
+   "started": "2026-11-10T17:08:00",
+   "finished": "2026-11-10T17:09:44",
+   "dur_min": 1.7,
    "phase": "done",
    "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "codex",
-   "blocked": "",
-   "manual": false,
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "",
+   "apply_path": "directo",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 3,
    "verify_ok": false
   },
   {
