@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-10T17:11:51",
+ "generated": "2026-11-10T17:17:55",
  "kpis": {
-  "runs": 150,
-  "done": 139,
+  "runs": 151,
+  "done": 141,
   "ok": 62,
-  "ok_pct": 44.6,
+  "ok_pct": 44.0,
   "applied": 36,
-  "blocked": 56,
-  "manual": 18,
-  "manual_pct": 12.9,
+  "blocked": 58,
+  "manual": 20,
+  "manual_pct": 14.2,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 12.5,
+  "p90_min": 12.4,
   "per_hour": 5.61,
   "median_gap_min": 10.7,
-  "last_24h": 7,
+  "last_24h": 8,
   "retries": 1,
-  "queue_pending": 5,
+  "queue_pending": 4,
   "claude_usage": {
-   "h5": 24.0,
+   "h5": 28.0,
    "d7": 51.0,
-   "h5_reset": "2026-11-10T19:10:00.633050+00:00",
-   "d7_reset": "2026-11-11T17:00:00.633073+00:00",
+   "h5_reset": "2026-11-10T19:10:00.964634+00:00",
+   "d7_reset": "2026-11-11T17:00:00.964654+00:00",
    "stale": false,
-   "n_pairs": 41,
+   "n_pairs": 43,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.02,
-   "tokens_per_cand_m": 0.83
+   "mean_h5": 4.95,
+   "tokens_per_cand_m": 0.82
   }
  },
  "per_day": [
@@ -113,10 +113,10 @@
   },
   {
    "d": "2026-11-10",
-   "runs": 7,
+   "runs": 8,
    "ok": 2,
    "applied": 1,
-   "blocked": 2
+   "blocked": 3
   }
  ],
  "blockers": [
@@ -126,7 +126,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 13
+   "n": 15
   },
   {
    "reason": "otro",
@@ -146,19 +146,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 5,
+    "count": 4,
     "cards": [
-     {
-      "row": 9534,
-      "company": "Deloitte AG",
-      "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
-      "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-09",
-      "cv_pdf": "https://drive.google.com/file/d/1Fyqz9fYZTpoRZkjYx6-8_TdNibKdE-LU/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1lFIZ7tHFnFLs68REWrgdgZakUz-5WIN7/view?usp=drivesdk"
-     },
      {
       "row": 9514,
       "company": "TotalEnergies Gas & Power Ltd",
@@ -209,16 +198,25 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 7,
     "cards": [
      {
-      "row": 9571,
-      "company": "coni+partner AG",
-      "title": "Banking Process Analyst | Operational Risk & Framework",
-      "url": "https://www.linkedin.com/jobs/view/4486619599/",
-      "score": 9,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-10T17:11:51"
+      "row": 9534,
+      "company": "Deloitte AG",
+      "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+      "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-10T17:12:17",
+      "cv_pdf": "https://drive.google.com/file/d/1Fyqz9fYZTpoRZkjYx6-8_TdNibKdE-LU/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1lFIZ7tHFnFLs68REWrgdgZakUz-5WIN7/view?usp=drivesdk"
      },
      {
       "row": 9571,
@@ -226,19 +224,11 @@
       "title": "Banking Process Analyst | Operational Risk & Framework",
       "url": "https://www.linkedin.com/jobs/view/4486619599/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "login",
       "ts": "2026-11-10T17:09:58",
       "cv_pdf": "https://drive.google.com/file/d/1OD6vM1S_vRIpWv-r6JuOL9TT81fnbDKn/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/16A-2Q0szQg2kR8Ydvdm_AQkquDzJRLWd/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 5,
-    "cards": [
+     },
      {
       "row": 9575,
       "company": "Richemont",
@@ -1845,13 +1835,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 117,
-   "runs_today": 5,
+   "runs": 118,
+   "runs_today": 6,
    "last": {
-    "row": 9571,
-    "company": "coni+partner AG",
-    "title": "Banking Process Analyst | Operational Risk & Framework",
-    "started": "2026-11-10T17:09:58",
+    "row": 9534,
+    "company": "Deloitte AG",
+    "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+    "started": "2026-11-10T17:12:17",
     "applied": false
    },
    "limit": {
@@ -1902,26 +1892,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 9571,
-   "company": "coni+partner AG",
-   "title": "Banking Process Analyst | Operational Risk & Framework",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4486619599/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-10T17:09:47+01:00",
-   "pid": 41472,
-   "lane": 0
-  },
-  "pending": 5,
+  "running": null,
+  "pending": 4,
   "counters": {
-   "pending": 5,
+   "pending": 4,
    "sent": 0,
    "review": 0,
-   "blocked": 1,
+   "blocked": 3,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -1934,14 +1911,6 @@
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 9534,
-    "company": "Deloitte AG",
-    "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
-    "score": 10,
-    "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
-    "domain": "jobagent.ch"
-   },
    {
     "row": 1396,
     "company": "Pictet Group",
@@ -1977,6 +1946,28 @@
   ],
   "last": [
    {
+    "ts": "2026-11-10T17:14:07+01:00",
+    "row": 9534,
+    "company": "Deloitte AG",
+    "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+    "score": 10,
+    "domain": "jobagent.ch",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 120
+   },
+   {
+    "ts": "2026-11-10T17:12:07+01:00",
+    "row": 9571,
+    "company": "coni+partner AG",
+    "title": "Banking Process Analyst | Operational Risk & Framework",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 140
+   },
+   {
     "ts": "2026-11-10T17:09:46+01:00",
     "row": 9575,
     "company": "Richemont",
@@ -2008,32 +1999,37 @@
     "state": "review",
     "note": "pendiente de revisión",
     "dur_s": 130
-   },
-   {
-    "ts": "2026-11-06T20:39:06+01:00",
-    "row": 4189,
-    "company": "Allianz Suisse",
-    "title": "Senior Investment Strategy & Controlling 100% (m/w/d)",
-    "score": 8,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 100
-   },
-   {
-    "ts": "2026-11-06T20:37:26+01:00",
-    "row": 4255,
-    "company": "Federal Police fedpol",
-    "title": "Referente specialista Compliance dei dati",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 110
    }
   ]
  },
  "runs": [
+  {
+   "row": 9534,
+   "folder": "9534_deloitte-ag-senior-consultant-manager-ba",
+   "company": "Deloitte AG",
+   "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+   "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+   "lang": "en",
+   "started": "2026-11-10T17:12:17",
+   "finished": "2026-11-10T17:14:00",
+   "dur_min": 1.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "directo",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 3,
+   "verify_ok": false
+  },
   {
    "row": 9571,
    "folder": "9571_coni-partner-ag-banking-process-analyst",
@@ -2042,10 +2038,10 @@
    "url": "https://www.linkedin.com/jobs/view/4486619599/",
    "lang": "en",
    "started": "2026-11-10T17:09:58",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-10T17:11:59",
+   "dur_min": 2.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "login",
@@ -2059,7 +2055,7 @@
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 1,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 9575,
