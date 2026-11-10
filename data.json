@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-10T16:41:34",
+ "generated": "2026-11-10T16:47:37",
  "kpis": {
-  "runs": 145,
-  "done": 134,
+  "runs": 146,
+  "done": 135,
   "ok": 60,
-  "ok_pct": 44.8,
+  "ok_pct": 44.4,
   "applied": 35,
   "blocked": 55,
   "manual": 17,
-  "manual_pct": 12.7,
+  "manual_pct": 12.6,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
   "p90_min": 12.7,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 2,
+  "last_24h": 3,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
@@ -24,13 +24,13 @@
    "h5_reset": null,
    "d7_reset": "2026-11-11T17:00:00.083491+00:00",
    "stale": true,
-   "n_pairs": 37,
+   "n_pairs": 38,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.41,
-   "tokens_per_cand_m": 0.9
+   "mean_h5": 5.26,
+   "tokens_per_cand_m": 0.87
   }
  },
  "per_day": [
@@ -113,7 +113,7 @@
   },
   {
    "d": "2026-11-10",
-   "runs": 2,
+   "runs": 3,
    "ok": 0,
    "applied": 0,
    "blocked": 0
@@ -146,19 +146,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 10,
+    "count": 9,
     "cards": [
-     {
-      "row": 9584,
-      "company": "Lombard Odier Group",
-      "title": "Tax Regulatory Officer (80-100%)",
-      "url": "https://www.linkedin.com/jobs/view/4486236163/",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-11-06",
-      "cv_pdf": "https://drive.google.com/file/d/1bTCdoHM-DxnRE-HQRhV7D9E_q2-GA-Gd/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1HWmkB7HOgeEh_ic5ppERBPxIpKWNvrgP/view?usp=drivesdk"
-     },
      {
       "row": 9580,
       "company": "die Mobiliar",
@@ -267,15 +256,15 @@
     "count": 1,
     "cards": [
      {
-      "row": 9585,
-      "company": "Kellerhals Carrard",
-      "title": "Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4486214233/",
+      "row": 9584,
+      "company": "Lombard Odier Group",
+      "title": "Tax Regulatory Officer (80-100%)",
+      "url": "https://www.linkedin.com/jobs/view/4486236163/",
       "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-10T16:40:31",
-      "cv_pdf": "https://drive.google.com/file/d/1rVZSDnDsDgUFYGg3Dg_NhmqKGNTL7g78/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1lrjUOeI-9cDL3XGQ54kg_sEWAtiVdwpq/view?usp=drivesdk"
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-10T16:47:09",
+      "cv_pdf": "https://drive.google.com/file/d/1bTCdoHM-DxnRE-HQRhV7D9E_q2-GA-Gd/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1HWmkB7HOgeEh_ic5ppERBPxIpKWNvrgP/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -335,8 +324,19 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 91,
+    "count": 92,
     "cards": [
+     {
+      "row": 9585,
+      "company": "Kellerhals Carrard",
+      "title": "Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4486214233/",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-10T16:40:31",
+      "cv_pdf": "https://drive.google.com/file/d/1rVZSDnDsDgUFYGg3Dg_NhmqKGNTL7g78/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1lrjUOeI-9cDL3XGQ54kg_sEWAtiVdwpq/view?usp=drivesdk"
+     },
      {
       "row": 9594,
       "company": "Le Comité international de la Croix-Rouge (CICR)",
@@ -1836,13 +1836,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 113,
-   "runs_today": 1,
+   "runs": 114,
+   "runs_today": 2,
    "last": {
-    "row": 9594,
-    "company": "Le Comité international de la Croix-Rouge (CICR)",
-    "title": "Digitalization Lead",
-    "started": "2026-11-10T16:28:43",
+    "row": 9584,
+    "company": "Lombard Odier Group",
+    "title": "Tax Regulatory Officer (80-100%)",
+    "started": "2026-11-10T16:47:09",
     "applied": false
    },
    "limit": {
@@ -1972,6 +1972,33 @@
  },
  "runs": [
   {
+   "row": 9584,
+   "folder": "9584_lombard-odier-group-tax-regulatory-offic",
+   "company": "Lombard Odier Group",
+   "title": "Tax Regulatory Officer (80-100%)",
+   "url": "https://www.linkedin.com/jobs/view/4486236163/",
+   "lang": "fr",
+   "started": "2026-11-10T16:47:09",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
+  {
    "row": 9585,
    "folder": "9585_kellerhals-carrard-compliance-officer",
    "company": "Kellerhals Carrard",
@@ -1979,10 +2006,10 @@
    "url": "https://www.linkedin.com/jobs/view/4486214233/",
    "lang": "fr",
    "started": "2026-11-10T16:40:31",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-10T16:43:31",
+   "dur_min": 3.0,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "TAILORED",
    "engine": "codex",
    "blocked": "",
