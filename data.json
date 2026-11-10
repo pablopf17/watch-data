@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:15:40",
+ "generated": "2026-11-10T12:21:32",
  "kpis": {
   "runs": 143,
   "done": 133,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 4.0,
    "d7": 49.0,
-   "h5_reset": "2026-11-10T11:30:00.263327+00:00",
-   "d7_reset": "2026-11-11T17:00:00.263350+00:00",
+   "h5_reset": "2026-11-10T11:30:00.968187+00:00",
+   "d7_reset": "2026-11-11T17:00:00.968213+00:00",
    "stale": false,
    "n_pairs": 33,
    "cross": 0,
@@ -139,8 +139,17 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 11,
+    "count": 12,
     "cards": [
+     {
+      "row": 9594,
+      "company": "Le Comité international de la Croix-Rouge (CICR)",
+      "title": "Digitalization Lead",
+      "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-10"
+     },
      {
       "row": 9585,
       "company": "Kellerhals Carrard",
@@ -1553,7 +1562,7 @@
     "more": 0
    }
   ],
-  "total": 153
+  "total": 154
  },
  "engines": [
   {
