@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T16:32:06",
+ "generated": "2026-11-10T16:41:34",
  "kpis": {
-  "runs": 144,
+  "runs": 145,
   "done": 134,
   "ok": 60,
   "ok_pct": 44.8,
@@ -15,7 +15,7 @@
   "p90_min": 12.7,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 1,
+  "last_24h": 2,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
@@ -24,13 +24,13 @@
    "h5_reset": null,
    "d7_reset": "2026-11-11T17:00:00.083491+00:00",
    "stale": true,
-   "n_pairs": 36,
+   "n_pairs": 37,
    "cross": 0,
-   "median_h5": 5.0,
+   "median_h5": 4.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.56,
-   "tokens_per_cand_m": 0.92
+   "mean_h5": 5.41,
+   "tokens_per_cand_m": 0.9
   }
  },
  "per_day": [
@@ -113,7 +113,7 @@
   },
   {
    "d": "2026-11-10",
-   "runs": 1,
+   "runs": 2,
    "ok": 0,
    "applied": 0,
    "blocked": 0
@@ -146,19 +146,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 11,
+    "count": 10,
     "cards": [
-     {
-      "row": 9585,
-      "company": "Kellerhals Carrard",
-      "title": "Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4486214233/",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-06",
-      "cv_pdf": "https://drive.google.com/file/d/1rVZSDnDsDgUFYGg3Dg_NhmqKGNTL7g78/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1lrjUOeI-9cDL3XGQ54kg_sEWAtiVdwpq/view?usp=drivesdk"
-     },
      {
       "row": 9584,
       "company": "Lombard Odier Group",
@@ -275,8 +264,20 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9585,
+      "company": "Kellerhals Carrard",
+      "title": "Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4486214233/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-10T16:40:31",
+      "cv_pdf": "https://drive.google.com/file/d/1rVZSDnDsDgUFYGg3Dg_NhmqKGNTL7g78/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1lrjUOeI-9cDL3XGQ54kg_sEWAtiVdwpq/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -334,8 +335,19 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 90,
+    "count": 91,
     "cards": [
+     {
+      "row": 9594,
+      "company": "Le Comité international de la Croix-Rouge (CICR)",
+      "title": "Digitalization Lead",
+      "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-10T16:28:43",
+      "cv_pdf": "https://drive.google.com/file/d/1yoyqszt0m7VKWVsETWTyD11v8gg3My_S/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/10_i-Ht9wh29mctESvQduNBc1PwuSBLLR/view?usp=drivesdk"
+     },
      {
       "row": 2162,
       "company": "EY",
@@ -1330,19 +1342,8 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 49,
+    "count": 48,
     "cards": [
-     {
-      "row": 9594,
-      "company": "Le Comité international de la Croix-Rouge (CICR)",
-      "title": "Digitalization Lead",
-      "url": "https://www.jobagent.ch/mail/job/3256693078/34465947",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-10T16:28:43",
-      "cv_pdf": "https://drive.google.com/file/d/1yoyqszt0m7VKWVsETWTyD11v8gg3My_S/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/10_i-Ht9wh29mctESvQduNBc1PwuSBLLR/view?usp=drivesdk"
-     },
      {
       "row": 9478,
       "company": "KPMG AG",
@@ -1876,13 +1877,13 @@
    "label": "ChatGPT (codex)",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
-   "runs": 14,
-   "runs_today": 0,
+   "runs": 15,
+   "runs_today": 1,
    "last": {
-    "row": 7695,
-    "company": "Julius Baer",
-    "title": "Data Scientist 100% (f/m/d)",
-    "started": "2026-11-06T13:51:27",
+    "row": 9585,
+    "company": "Kellerhals Carrard",
+    "title": "Compliance Officer",
+    "started": "2026-11-10T16:40:31",
     "applied": false
    },
    "limit": null,
@@ -1970,6 +1971,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9585,
+   "folder": "9585_kellerhals-carrard-compliance-officer",
+   "company": "Kellerhals Carrard",
+   "title": "Compliance Officer",
+   "url": "https://www.linkedin.com/jobs/view/4486214233/",
+   "lang": "fr",
+   "started": "2026-11-10T16:40:31",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "codex",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": false
+  },
   {
    "row": 9594,
    "folder": "9594_le-comite-international-de-la-croix-roug",
