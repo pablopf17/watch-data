@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:04:42",
+ "generated": "2026-11-10T06:18:49",
  "kpis": {
   "runs": 143,
   "done": 133,
@@ -20,10 +20,10 @@
   "queue_pending": 0,
   "claude_usage": {
    "h5": 0.0,
-   "d7": 47.0,
+   "d7": 48.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T17:00:00.362382+00:00",
-   "stale": true,
+   "d7_reset": "2026-11-11T17:00:00.468572+00:00",
+   "stale": false,
    "n_pairs": 33,
    "cross": 0,
    "median_h5": 5.0,
@@ -1522,7 +1522,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
    "runs": 16,
-   "runs_today": 1,
+   "runs_today": 0,
    "last": {
     "row": 9478,
     "company": "KPMG AG",
