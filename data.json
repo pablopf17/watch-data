@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:55:04",
+ "generated": "2026-11-11T11:01:06",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 54.0,
    "d7": 56.0,
-   "h5_reset": "2026-11-11T11:10:00.384046+00:00",
-   "d7_reset": "2026-11-11T17:00:00.384063+00:00",
+   "h5_reset": "2026-11-11T11:10:00.086411+00:00",
+   "d7_reset": "2026-11-11T17:00:00.086427+00:00",
    "stale": false,
    "n_pairs": 49,
    "cross": 0,
@@ -167,41 +167,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 10,
+    "count": 7,
     "cards": [
-     {
-      "row": 8145,
-      "company": "Expleo Group",
-      "title": "Data analyst industriel",
-      "url": "https://www.linkedin.com/jobs/view/4484710003/",
-      "score": "",
-      "note": "6 avisos",
-      "ts": "2026-11-11T10:02:31",
-      "cv_pdf": "https://drive.google.com/file/d/1LKbLh0IB32fz512ySuge47DA1ZVY13qs/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1pMqVlGy2Gqy6O0mnxe4MVoKih4iNBJsm/view?usp=drivesdk"
-     },
-     {
-      "row": 3905,
-      "company": "CLEEVEN",
-      "title": "Consultant fonctionnel/Consultante fonctionnel",
-      "url": "https://www.linkedin.com/jobs/view/4434701724/",
-      "score": "",
-      "note": "3 avisos",
-      "ts": "2026-11-11T09:58:51",
-      "cv_pdf": "https://drive.google.com/file/d/1pIVvjatqbtYRwI2p_lRgPXnP-7L535bN/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1-F9EG5-K3WZskLs9P0qS6YxmhMYH9-QS/view?usp=drivesdk"
-     },
-     {
-      "row": 2156,
-      "company": "EY",
-      "title": "Senior Consultant - Assurance - Technology Risk",
-      "url": "https://www.linkedin.com/jobs/view/4385096310/",
-      "score": "",
-      "note": "4 avisos",
-      "ts": "2026-11-11T09:56:45",
-      "cv_pdf": "https://drive.google.com/file/d/1Xi4PfFhlbJxSeewZQVwll0BYkDzJfuNX/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1udmgPuL2-TOJuSywiGHplIz2SWLR7gG_/view?usp=drivesdk"
-     },
      {
       "row": 9534,
       "company": "Deloitte AG",
@@ -285,7 +252,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 95,
+    "count": 97,
     "cards": [
      {
       "row": 9514,
@@ -293,10 +260,21 @@
       "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
       "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
       "score": "",
-      "note": "con respuesta",
+      "note": "enviada",
       "ts": "2026-11-11T10:07:34",
       "cv_pdf": "https://drive.google.com/file/d/1bvh_FHvK7ejF9RCXB_UM9yQRC7Td0ri2/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1J_udXoBYRh98HmsA0KOHIbGadfuUVSCD/view?usp=drivesdk"
+     },
+     {
+      "row": 8145,
+      "company": "Expleo Group",
+      "title": "Data analyst industriel",
+      "url": "https://www.linkedin.com/jobs/view/4484710003/",
+      "score": "",
+      "note": "enviada · pasada paró en 6 avisos",
+      "ts": "2026-11-11T10:02:31",
+      "cv_pdf": "https://drive.google.com/file/d/1LKbLh0IB32fz512ySuge47DA1ZVY13qs/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1pMqVlGy2Gqy6O0mnxe4MVoKih4iNBJsm/view?usp=drivesdk"
      },
      {
       "row": 5441,
@@ -308,6 +286,17 @@
       "ts": "2026-11-11T10:01:43",
       "cv_pdf": "https://drive.google.com/file/d/178RaLcwg0ejb5qSYqvCKcw1ugDGuUh0F/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/145_yYEGlpKHKAJFwMHD_mR50SlqM8PpQ/view?usp=drivesdk"
+     },
+     {
+      "row": 2156,
+      "company": "EY",
+      "title": "Senior Consultant - Assurance - Technology Risk",
+      "url": "https://www.linkedin.com/jobs/view/4385096310/",
+      "score": "",
+      "note": "enviada · pasada paró en 4 avisos",
+      "ts": "2026-11-11T09:56:45",
+      "cv_pdf": "https://drive.google.com/file/d/1Xi4PfFhlbJxSeewZQVwll0BYkDzJfuNX/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1udmgPuL2-TOJuSywiGHplIz2SWLR7gG_/view?usp=drivesdk"
      },
      {
       "row": 9578,
@@ -1336,15 +1325,26 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 49,
+    "count": 50,
     "cards": [
+     {
+      "row": 3905,
+      "company": "CLEEVEN",
+      "title": "Consultant fonctionnel/Consultante fonctionnel",
+      "url": "https://www.linkedin.com/jobs/view/4434701724/",
+      "score": "",
+      "note": "duplicada",
+      "ts": "2026-11-11T09:58:51",
+      "cv_pdf": "https://drive.google.com/file/d/1pIVvjatqbtYRwI2p_lRgPXnP-7L535bN/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1-F9EG5-K3WZskLs9P0qS6YxmhMYH9-QS/view?usp=drivesdk"
+     },
      {
       "row": 1396,
       "company": "Pictet Group",
       "title": "Front Desk & Cotation Specialist",
       "url": "https://www.linkedin.com/jobs/view/4424546318/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-11T09:56:47",
       "cv_pdf": "https://drive.google.com/file/d/1IUw3AA1YHKGSYCxr6_ligMOaKZaZQy1y/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1sdiitU54wEkXnu11FA45uss4S2kq9Vve/view?usp=drivesdk"
@@ -1902,8 +1902,8 @@
   "pending": 0,
   "counters": {
    "pending": 0,
-   "sent": 2,
-   "review": 3,
+   "sent": 4,
+   "review": 1,
    "blocked": 1,
    "errors": 0,
    "skipped": 0,
@@ -1936,8 +1936,8 @@
     "title": "Data analyst industriel",
     "score": 6,
     "domain": "linkedin.com",
-    "state": "review",
-    "note": "6 avisos (tras 1 prórroga(s))",
+    "state": "sent",
+    "note": "enviada (tracker)",
     "dur_s": 721
    },
    {
@@ -1969,8 +1969,8 @@
     "title": "Senior Consultant - Assurance - Technology Risk",
     "score": 9,
     "domain": "linkedin.com",
-    "state": "review",
-    "note": "4 avisos",
+    "state": "sent",
+    "note": "enviada (tracker)",
     "dur_s": 297
    }
   ]
