@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T08:23:38",
+ "generated": "2026-11-11T08:29:41",
  "kpis": {
   "runs": 151,
   "done": 141,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 12.0,
    "d7": 53.0,
-   "h5_reset": "2026-11-11T11:09:59.736496+00:00",
-   "d7_reset": "2026-11-11T16:59:59.736519+00:00",
+   "h5_reset": "2026-11-11T11:10:00.711614+00:00",
+   "d7_reset": "2026-11-11T17:00:00.711631+00:00",
    "stale": false,
    "n_pairs": 43,
    "cross": 0,
@@ -331,7 +331,7 @@
       "title": "Compliance Officer",
       "url": "https://www.linkedin.com/jobs/view/4486214233/",
       "score": "",
-      "note": "enviada",
+      "note": "con respuesta",
       "ts": "2026-11-10T16:40:31",
       "cv_pdf": "https://drive.google.com/file/d/1rVZSDnDsDgUFYGg3Dg_NhmqKGNTL7g78/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1lrjUOeI-9cDL3XGQ54kg_sEWAtiVdwpq/view?usp=drivesdk"
