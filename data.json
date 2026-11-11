@@ -1,35 +1,35 @@
 {
- "generated": "2026-11-11T18:33:51",
+ "generated": "2026-11-11T18:39:56",
  "kpis": {
   "runs": 155,
-  "done": 144,
+  "done": 145,
   "ok": 64,
-  "ok_pct": 44.4,
+  "ok_pct": 44.1,
   "applied": 38,
-  "blocked": 58,
-  "manual": 18,
-  "manual_pct": 12.5,
+  "blocked": 59,
+  "manual": 19,
+  "manual_pct": 13.1,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
   "p90_min": 11.9,
   "per_hour": 6.12,
   "median_gap_min": 9.8,
-  "last_24h": 12,
+  "last_24h": 13,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 43.0,
-   "d7": 3.0,
-   "h5_reset": "2026-11-11T22:10:00.017384+00:00",
-   "d7_reset": "2026-11-18T17:00:00.017405+00:00",
+   "h5": 54.0,
+   "d7": 4.0,
+   "h5_reset": "2026-11-11T22:09:59.928735+00:00",
+   "d7_reset": "2026-11-18T16:59:59.928753+00:00",
    "stale": false,
-   "n_pairs": 55,
+   "n_pairs": 57,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 5.95,
+   "mean_h5": 5.98,
    "tokens_per_cand_m": 0.99
   }
  },
@@ -92,10 +92,10 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 28,
+   "runs": 27,
    "ok": 15,
    "applied": 12,
-   "blocked": 10
+   "blocked": 9
   },
   {
    "d": "2026-11-06",
@@ -120,10 +120,10 @@
   },
   {
    "d": "2026-11-11",
-   "runs": 12,
+   "runs": 13,
    "ok": 4,
    "applied": 2,
-   "blocked": 5
+   "blocked": 6
   }
  ],
  "blockers": [
@@ -133,7 +133,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 13
+   "n": 14
   },
   {
    "reason": "otro",
@@ -160,27 +160,37 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 4,
     "cards": [
+     {
+      "row": 8131,
+      "company": "World Intellectual Property Organization – WIPO",
+      "title": "Program Consultant (Temporary Parental Leave Cover)",
+      "url": "https://www.linkedin.com/jobs/view/4483440231/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-11T18:35:26",
+      "cv_pdf": "https://drive.google.com/file/d/1WvKjSsvVsq2HA_fbS36ohAbbmnpTOFk1/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1z9XVJrZQtpZR7GQ8g-PTH7GULS8k_LPS/view?usp=drivesdk"
+     },
      {
       "row": 9575,
       "company": "Richemont",
       "title": "Business Performance & Data Analytics Project Manager",
       "url": "https://www.linkedin.com/jobs/view/4479362300/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "login",
       "ts": "2026-11-11T18:33:08",
       "cv_pdf": "https://drive.google.com/file/d/18JQvhxdcF5yqgCY5NJmpRjdTJCFrJSMR/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/166GrHiWQgZjv7FswMQOzIS2j1Fa_Yrso/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 3,
-    "cards": [
+     },
      {
       "row": 9534,
       "company": "Deloitte AG",
@@ -202,17 +212,6 @@
       "ts": "2026-11-11T18:11:54",
       "cv_pdf": "https://drive.google.com/file/d/1_LwqMSniirLaZy4SBecGnxxjW4RI9mPN/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1c5tzsHvNomjnqEdHGpu-3rb8Np9qGs5p/view?usp=drivesdk"
-     },
-     {
-      "row": 8131,
-      "company": "World Intellectual Property Organization – WIPO",
-      "title": "Program Consultant (Temporary Parental Leave Cover)",
-      "url": "https://www.linkedin.com/jobs/view/4483440231/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-05T15:04:55",
-      "cv_pdf": "https://drive.google.com/file/d/1WvKjSsvVsq2HA_fbS36ohAbbmnpTOFk1/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1z9XVJrZQtpZR7GQ8g-PTH7GULS8k_LPS/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -1837,12 +1836,12 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 123,
-   "runs_today": 12,
+   "runs_today": 13,
    "last": {
-    "row": 9575,
-    "company": "Richemont",
-    "title": "Business Performance & Data Analytics Project Manager",
-    "started": "2026-11-11T18:33:08",
+    "row": 8131,
+    "company": "World Intellectual Property Organization – WIPO",
+    "title": "Program Consultant (Temporary Parental Leave Cover)",
+    "started": "2026-11-11T18:35:26",
     "applied": false
    },
    "limit": {
@@ -1972,17 +1971,17 @@
  },
  "runs": [
   {
-   "row": 9575,
-   "folder": "9575_richemont-business-performance-data-anal",
-   "company": "Richemont",
-   "title": "Business Performance & Data Analytics Project Manager",
-   "url": "https://www.linkedin.com/jobs/view/4479362300/",
+   "row": 8131,
+   "folder": "8131_world-intellectual-property-organization",
+   "company": "World Intellectual Property Organization – WIPO",
+   "title": "Program Consultant (Temporary Parental Leave Cover)",
+   "url": "https://www.linkedin.com/jobs/view/4483440231/",
    "lang": "en",
-   "started": "2026-11-11T18:33:08",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "started": "2026-11-11T18:35:26",
+   "finished": "2026-11-11T18:37:05",
+   "dur_min": 1.6,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "PENDING APPROVAL",
    "engine": "claude",
    "blocked": "login",
@@ -1990,12 +1989,39 @@
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "directo",
+   "apply_path": "linkedin_external",
    "files_verified": 0,
    "files_total": 2,
    "required_missing": 3,
    "needs_approval": 2,
-   "avisos": 3,
+   "avisos": 5,
+   "verify_ok": false
+  },
+  {
+   "row": 9575,
+   "folder": "9575_richemont-business-performance-data-anal",
+   "company": "Richemont",
+   "title": "Business Performance & Data Analytics Project Manager",
+   "url": "https://www.linkedin.com/jobs/view/4479362300/",
+   "lang": "en",
+   "started": "2026-11-11T18:33:08",
+   "finished": "2026-11-11T18:34:51",
+   "dur_min": 1.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 5,
    "verify_ok": false
   },
   {
@@ -3616,33 +3642,6 @@
    "required_missing": 0,
    "needs_approval": 1,
    "avisos": 3,
-   "verify_ok": false
-  },
-  {
-   "row": 8131,
-   "folder": "8131_world-intellectual-property-organization",
-   "company": "World Intellectual Property Organization – WIPO",
-   "title": "Program Consultant (Temporary Parental Leave Cover)",
-   "url": "https://www.linkedin.com/jobs/view/4483440231/",
-   "lang": "en",
-   "started": "2026-11-05T15:04:55",
-   "finished": "2026-11-05T15:07:31",
-   "dur_min": 2.6,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "linkedin_external",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 2,
-   "avisos": 4,
    "verify_ok": false
   },
   {
