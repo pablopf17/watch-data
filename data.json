@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-11T10:00:34",
+ "generated": "2026-11-11T10:07:14",
  "kpis": {
-  "runs": 152,
-  "done": 140,
-  "ok": 62,
-  "ok_pct": 44.3,
+  "runs": 154,
+  "done": 142,
+  "ok": 63,
+  "ok_pct": 44.4,
   "applied": 36,
   "blocked": 59,
   "manual": 20,
-  "manual_pct": 14.3,
+  "manual_pct": 14.1,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 12.0,
-  "per_hour": 6.0,
-  "median_gap_min": 10.0,
-  "last_24h": 11,
+  "p90_min": 11.9,
+  "per_hour": 6.19,
+  "median_gap_min": 9.7,
+  "last_24h": 13,
   "retries": 1,
-  "queue_pending": 3,
+  "queue_pending": 0,
   "claude_usage": {
-   "h5": 20.0,
-   "d7": 53.0,
-   "h5_reset": "2026-11-11T11:10:00.596356+00:00",
-   "d7_reset": "2026-11-11T17:00:00.596376+00:00",
+   "h5": 39.0,
+   "d7": 55.0,
+   "h5_reset": "2026-11-11T11:10:00.031120+00:00",
+   "d7_reset": "2026-11-11T17:00:00.031136+00:00",
    "stale": false,
-   "n_pairs": 44,
+   "n_pairs": 46,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 4.98,
-   "tokens_per_cand_m": 0.83
+   "mean_h5": 5.15,
+   "tokens_per_cand_m": 0.86
   }
  },
  "per_day": [
@@ -120,8 +120,8 @@
   },
   {
    "d": "2026-11-11",
-   "runs": 3,
-   "ok": 0,
+   "runs": 5,
+   "ok": 1,
    "applied": 0,
    "blocked": 1
   }
@@ -153,7 +153,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 3,
+    "count": 1,
     "cards": [
      {
       "row": 9514,
@@ -165,28 +165,6 @@
       "ts": "2026-11-08",
       "cv_pdf": "https://drive.google.com/file/d/1bvh_FHvK7ejF9RCXB_UM9yQRC7Td0ri2/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1J_udXoBYRh98HmsA0KOHIbGadfuUVSCD/view?usp=drivesdk"
-     },
-     {
-      "row": 8145,
-      "company": "Expleo Group",
-      "title": "Data analyst industriel",
-      "url": "https://www.linkedin.com/jobs/view/4484710003/",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-10-28",
-      "cv_pdf": "https://drive.google.com/file/d/1LKbLh0IB32fz512ySuge47DA1ZVY13qs/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1pMqVlGy2Gqy6O0mnxe4MVoKih4iNBJsm/view?usp=drivesdk"
-     },
-     {
-      "row": 5441,
-      "company": "AZQORE SA",
-      "title": "Business Analyst Credit & Risk",
-      "url": "https://www.linkedin.com/jobs/view/4481661811/",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-10-23",
-      "cv_pdf": "https://drive.google.com/file/d/178RaLcwg0ejb5qSYqvCKcw1ugDGuUh0F/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/145_yYEGlpKHKAJFwMHD_mR50SlqM8PpQ/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -197,21 +175,51 @@
     "count": 3,
     "cards": [
      {
-      "row": 2156,
-      "company": "EY",
-      "title": "Senior Consultant - Assurance - Technology Risk",
-      "url": "https://www.linkedin.com/jobs/view/4385096310/",
-      "score": 9,
+      "row": 5441,
+      "company": "AZQORE SA",
+      "title": "Business Analyst Credit & Risk",
+      "url": "https://www.linkedin.com/jobs/view/4481661811/",
+      "score": 6,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-11T10:00:34"
+      "ts": "2026-11-11T10:07:14"
      },
+     {
+      "row": 8145,
+      "company": "Expleo Group",
+      "title": "Data analyst industriel",
+      "url": "https://www.linkedin.com/jobs/view/4484710003/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-11T10:02:31",
+      "cv_pdf": "https://drive.google.com/file/d/1LKbLh0IB32fz512ySuge47DA1ZVY13qs/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1pMqVlGy2Gqy6O0mnxe4MVoKih4iNBJsm/view?usp=drivesdk"
+     },
+     {
+      "row": 5441,
+      "company": "AZQORE SA",
+      "title": "Business Analyst Credit & Risk",
+      "url": "https://www.linkedin.com/jobs/view/4481661811/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-11T10:01:43",
+      "cv_pdf": "https://drive.google.com/file/d/178RaLcwg0ejb5qSYqvCKcw1ugDGuUh0F/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/145_yYEGlpKHKAJFwMHD_mR50SlqM8PpQ/view?usp=drivesdk"
+     }
+    ],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 9,
+    "cards": [
      {
       "row": 3905,
       "company": "CLEEVEN",
       "title": "Consultant fonctionnel/Consultante fonctionnel",
       "url": "https://www.linkedin.com/jobs/view/4434701724/",
       "score": "",
-      "note": "starting · sin cerrar",
+      "note": "3 avisos",
       "ts": "2026-11-11T09:58:51",
       "cv_pdf": "https://drive.google.com/file/d/1pIVvjatqbtYRwI2p_lRgPXnP-7L535bN/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1-F9EG5-K3WZskLs9P0qS6YxmhMYH9-QS/view?usp=drivesdk"
@@ -222,19 +230,11 @@
       "title": "Senior Consultant - Assurance - Technology Risk",
       "url": "https://www.linkedin.com/jobs/view/4385096310/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "4 avisos",
       "ts": "2026-11-11T09:56:45",
       "cv_pdf": "https://drive.google.com/file/d/1Xi4PfFhlbJxSeewZQVwll0BYkDzJfuNX/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1udmgPuL2-TOJuSywiGHplIz2SWLR7gG_/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
-    "cards": [
+     },
      {
       "row": 9534,
       "company": "Deloitte AG",
@@ -1852,13 +1852,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 120,
-   "runs_today": 3,
+   "runs": 122,
+   "runs_today": 5,
    "last": {
-    "row": 3905,
-    "company": "CLEEVEN",
-    "title": "Consultant fonctionnel/Consultante fonctionnel",
-    "started": "2026-11-11T09:58:51",
+    "row": 8145,
+    "company": "Expleo Group",
+    "title": "Data analyst industriel",
+    "started": "2026-11-11T10:02:31",
     "applied": false
    },
    "limit": {
@@ -1910,24 +1910,24 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 2156,
-   "company": "EY",
-   "title": "Senior Consultant - Assurance - Technology Risk",
-   "score": 9,
-   "url": "https://www.linkedin.com/jobs/view/4385096310/",
+   "row": 5441,
+   "company": "AZQORE SA",
+   "title": "Business Analyst Credit & Risk",
+   "score": 6,
+   "url": "https://www.linkedin.com/jobs/view/4481661811/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-11T09:56:35+01:00",
-   "pid": 14456,
+   "started": "2026-11-11T10:01:32+01:00",
+   "pid": 28524,
    "lane": 1
   },
-  "pending": 3,
+  "pending": 0,
   "counters": {
-   "pending": 3,
-   "sent": 0,
-   "review": 0,
+   "pending": 0,
+   "sent": 1,
+   "review": 2,
    "blocked": 1,
    "errors": 0,
    "skipped": 0,
@@ -1940,33 +1940,30 @@
    "timeout": 600,
    "per_domain": 0
   },
-  "next": [
-   {
-    "row": 5441,
-    "company": "AZQORE SA",
-    "title": "Business Analyst Credit & Risk",
-    "score": 6,
-    "url": "https://www.linkedin.com/jobs/view/4481661811/",
-    "domain": "linkedin.com"
-   },
-   {
-    "row": 8145,
-    "company": "Expleo Group",
-    "title": "Data analyst industriel",
-    "score": 6,
-    "url": "https://www.linkedin.com/jobs/view/4484710003/",
-    "domain": "linkedin.com"
-   },
-   {
-    "row": 9514,
-    "company": "TotalEnergies Gas & Power Ltd",
-    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-    "score": 5,
-    "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
-    "domain": "job-room.ch"
-   }
-  ],
+  "next": [],
   "last": [
+   {
+    "ts": "2026-11-11T10:02:20+01:00",
+    "row": 3905,
+    "company": "CLEEVEN",
+    "title": "Consultant fonctionnel/Consultante fonctionnel",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "3 avisos",
+    "dur_s": 219
+   },
+   {
+    "ts": "2026-11-11T10:01:32+01:00",
+    "row": 2156,
+    "company": "EY",
+    "title": "Senior Consultant - Assurance - Technology Risk",
+    "score": 9,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "4 avisos",
+    "dur_s": 297
+   },
    {
     "ts": "2026-11-11T09:58:41+01:00",
     "row": 1396,
@@ -1999,43 +1996,21 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 140
-   },
-   {
-    "ts": "2026-11-10T17:09:46+01:00",
-    "row": 9575,
-    "company": "Richemont",
-    "title": "Business Performance & Data Analytics Project Manager",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 120
-   },
-   {
-    "ts": "2026-11-06T20:42:06+01:00",
-    "row": 2162,
-    "company": "EY",
-    "title": "(Senior) Consultant - Business Consulting (Platform experience)",
-    "score": 7,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada (tracker)",
-    "dur_s": 50
    }
   ]
  },
  "runs": [
   {
-   "row": 3905,
-   "folder": "3905_cleeven-consultant-fonctionnel-consultan",
-   "company": "CLEEVEN",
-   "title": "Consultant fonctionnel/Consultante fonctionnel",
-   "url": "https://www.linkedin.com/jobs/view/4434701724/",
-   "lang": "de",
-   "started": "2026-11-11T09:58:51",
+   "row": 8145,
+   "folder": "8145_expleo-group-data-analyst-industriel",
+   "company": "Expleo Group",
+   "title": "Data analyst industriel",
+   "url": "https://www.linkedin.com/jobs/view/4484710003/",
+   "lang": "fr",
+   "started": "2026-11-11T10:02:31",
    "finished": null,
    "dur_min": null,
-   "phase": "starting",
+   "phase": "running",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
@@ -2050,6 +2025,60 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
+   "verify_ok": null
+  },
+  {
+   "row": 5441,
+   "folder": "5441_azqore-sa-business-analyst-credit-risk",
+   "company": "AZQORE SA",
+   "title": "Business Analyst Credit & Risk",
+   "url": "https://www.linkedin.com/jobs/view/4481661811/",
+   "lang": "en",
+   "started": "2026-11-11T10:01:43",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
+  {
+   "row": 3905,
+   "folder": "3905_cleeven-consultant-fonctionnel-consultan",
+   "company": "CLEEVEN",
+   "title": "Consultant fonctionnel/Consultante fonctionnel",
+   "url": "https://www.linkedin.com/jobs/view/4434701724/",
+   "lang": "de",
+   "started": "2026-11-11T09:58:51",
+   "finished": "2026-11-11T10:02:17",
+   "dur_min": 3.4,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 3,
    "verify_ok": false
   },
   {
@@ -2087,23 +2116,23 @@
    "url": "https://www.linkedin.com/jobs/view/4385096310/",
    "lang": "en",
    "started": "2026-11-11T09:56:45",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-11T10:01:29",
+   "dur_min": 4.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
+   "ok": true,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
+   "form_reached": true,
+   "apply_path": "linkedin_external",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 4,
    "verify_ok": false
   },
   {
