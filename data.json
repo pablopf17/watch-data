@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T08:05:31",
+ "generated": "2026-11-11T08:11:33",
  "kpis": {
   "runs": 151,
   "done": 141,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 12.0,
    "d7": 53.0,
-   "h5_reset": "2026-11-11T11:09:59.993759+00:00",
-   "d7_reset": "2026-11-11T16:59:59.993784+00:00",
+   "h5_reset": "2026-11-11T11:10:00.415833+00:00",
+   "d7_reset": "2026-11-11T17:00:00.415850+00:00",
    "stale": false,
    "n_pairs": 43,
    "cross": 0,
@@ -914,7 +914,7 @@
       "title": "Spécialiste en processus informatiques et qualité des données",
       "url": "https://www.linkedin.com/jobs/view/4484534825/",
       "score": "",
-      "note": "con respuesta · pasada paró en 2 avisos",
+      "note": "enviada · pasada paró en 2 avisos",
       "ts": "2026-11-02T22:10:32",
       "cv_pdf": "https://drive.google.com/file/d/1db37IuLygYHpx5HCDbFEiXbfHKRM4Qqf/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/12QENiQczWQqLismP8L-lwgivk3xRrEzm/view?usp=drivesdk"
