@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-11T18:09:56",
+ "generated": "2026-11-11T18:16:01",
  "kpis": {
   "runs": 155,
   "done": 145,
-  "ok": 65,
-  "ok_pct": 44.8,
+  "ok": 64,
+  "ok_pct": 44.1,
   "applied": 37,
   "blocked": 59,
   "manual": 20,
@@ -13,24 +13,24 @@
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
   "p90_min": 11.9,
-  "per_hour": 6.25,
-  "median_gap_min": 9.6,
-  "last_24h": 6,
+  "per_hour": 6.12,
+  "median_gap_min": 9.8,
+  "last_24h": 7,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 0.0,
-   "d7": 56.0,
-   "h5_reset": null,
-   "d7_reset": "2026-11-11T16:59:59.560855+00:00",
-   "stale": true,
-   "n_pairs": 50,
+   "h5": 7.0,
+   "d7": 0.0,
+   "h5_reset": "2026-11-11T22:09:59.799001+00:00",
+   "d7_reset": "2026-11-18T16:59:59.799021+00:00",
+   "stale": false,
+   "n_pairs": 51,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 5.88,
-   "tokens_per_cand_m": 0.98
+   "mean_h5": 5.76,
+   "tokens_per_cand_m": 0.96
   }
  },
  "per_day": [
@@ -99,8 +99,8 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 31,
-   "ok": 9,
+   "runs": 30,
+   "ok": 8,
    "applied": 4,
    "blocked": 19
   },
@@ -120,7 +120,7 @@
   },
   {
    "d": "2026-11-11",
-   "runs": 6,
+   "runs": 7,
    "ok": 3,
    "applied": 1,
    "blocked": 1
@@ -170,6 +170,17 @@
     "count": 7,
     "cards": [
      {
+      "row": 7677,
+      "company": "SGI",
+      "title": "Data and AI Consultant",
+      "url": "https://www.linkedin.com/jobs/view/4483532759/",
+      "score": "",
+      "note": "3 avisos",
+      "ts": "2026-11-11T18:11:54",
+      "cv_pdf": "https://drive.google.com/file/d/1_LwqMSniirLaZy4SBecGnxxjW4RI9mPN/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1c5tzsHvNomjnqEdHGpu-3rb8Np9qGs5p/view?usp=drivesdk"
+     },
+     {
       "row": 9534,
       "company": "Deloitte AG",
       "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
@@ -212,17 +223,6 @@
       "ts": "2026-11-06T20:28:23",
       "cv_pdf": "https://drive.google.com/file/d/16VGxIiEAY7093p5g8d1x5l5ZcBbK5MEm/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1vpNt-yvaqta3S3QS9miHuquDXLZcBA_g/view?usp=drivesdk"
-     },
-     {
-      "row": 7677,
-      "company": "SGI",
-      "title": "Data and AI Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4483532759/",
-      "score": "",
-      "note": "4 avisos",
-      "ts": "2026-11-06T11:12:18",
-      "cv_pdf": "https://drive.google.com/file/d/1_LwqMSniirLaZy4SBecGnxxjW4RI9mPN/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1c5tzsHvNomjnqEdHGpu-3rb8Np9qGs5p/view?usp=drivesdk"
      },
      {
       "row": 8620,
@@ -1836,12 +1836,12 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 123,
-   "runs_today": 6,
+   "runs_today": 7,
    "last": {
-    "row": 9514,
-    "company": "TotalEnergies Gas & Power Ltd",
-    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-    "started": "2026-11-11T10:07:34",
+    "row": 7677,
+    "company": "SGI",
+    "title": "Data and AI Consultant",
+    "started": "2026-11-11T18:11:54",
     "applied": false
    },
    "limit": {
@@ -1970,6 +1970,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 7677,
+   "folder": "7677_sgi-data-and-ai-consultant",
+   "company": "SGI",
+   "title": "Data and AI Consultant",
+   "url": "https://www.linkedin.com/jobs/view/4483532759/",
+   "lang": "en",
+   "started": "2026-11-11T18:11:54",
+   "finished": "2026-11-11T18:14:41",
+   "dur_min": 2.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 3,
+   "verify_ok": false
+  },
   {
    "row": 9514,
    "folder": "9514_totalenergies-gas-power-ltd-business-ana",
@@ -2858,33 +2885,6 @@
    "files_total": 2,
    "required_missing": 3,
    "needs_approval": 2,
-   "avisos": 4,
-   "verify_ok": false
-  },
-  {
-   "row": 7677,
-   "folder": "7677_sgi-data-and-ai-consultant",
-   "company": "SGI",
-   "title": "Data and AI Consultant",
-   "url": "https://www.linkedin.com/jobs/view/4483532759/",
-   "lang": "en",
-   "started": "2026-11-06T11:12:18",
-   "finished": "2026-11-06T11:17:44",
-   "dur_min": 5.4,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "",
-   "manual": false,
-   "ok": true,
-   "applied": false,
-   "form_reached": true,
-   "apply_path": "linkedin_easy_apply",
-   "files_verified": 1,
-   "files_total": 2,
-   "required_missing": 0,
-   "needs_approval": 1,
    "avisos": 4,
    "verify_ok": false
   },
