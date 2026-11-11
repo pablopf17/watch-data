@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-11T10:12:46",
+ "generated": "2026-11-11T10:18:47",
  "kpis": {
   "runs": 155,
-  "done": 143,
-  "ok": 64,
+  "done": 145,
+  "ok": 65,
   "ok_pct": 44.8,
   "applied": 37,
   "blocked": 59,
   "manual": 20,
-  "manual_pct": 14.0,
+  "manual_pct": 13.8,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
@@ -19,18 +19,18 @@
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 48.0,
+   "h5": 54.0,
    "d7": 56.0,
-   "h5_reset": "2026-11-11T11:10:00.868716+00:00",
-   "d7_reset": "2026-11-11T17:00:00.868738+00:00",
+   "h5_reset": "2026-11-11T11:10:00.519430+00:00",
+   "d7_reset": "2026-11-11T17:00:00.519450+00:00",
    "stale": false,
-   "n_pairs": 47,
+   "n_pairs": 49,
    "cross": 0,
    "median_h5": 4.0,
-   "p90_h5": 14.0,
+   "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 5.36,
-   "tokens_per_cand_m": 0.89
+   "mean_h5": 6.0,
+   "tokens_per_cand_m": 1.0
   }
  },
  "per_day": [
@@ -121,7 +121,7 @@
   {
    "d": "2026-11-11",
    "runs": 6,
-   "ok": 2,
+   "ok": 3,
    "applied": 1,
    "blocked": 1
   }
@@ -160,36 +160,26 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 10,
     "cards": [
-     {
-      "row": 8145,
-      "company": "Expleo Group",
-      "title": "Data analyst industriel",
-      "url": "https://www.linkedin.com/jobs/view/4484710003/",
-      "score": 6,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-11T10:12:46"
-     },
      {
       "row": 8145,
       "company": "Expleo Group",
       "title": "Data analyst industriel",
       "url": "https://www.linkedin.com/jobs/view/4484710003/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "6 avisos",
       "ts": "2026-11-11T10:02:31",
       "cv_pdf": "https://drive.google.com/file/d/1LKbLh0IB32fz512ySuge47DA1ZVY13qs/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1pMqVlGy2Gqy6O0mnxe4MVoKih4iNBJsm/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 9,
-    "cards": [
+     },
      {
       "row": 3905,
       "company": "CLEEVEN",
@@ -1908,25 +1898,12 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 8145,
-   "company": "Expleo Group",
-   "title": "Data analyst industriel",
-   "score": 6,
-   "url": "https://www.linkedin.com/jobs/view/4484710003/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-11T10:02:20+01:00",
-   "pid": 33068,
-   "lane": 0
-  },
+  "running": null,
   "pending": 0,
   "counters": {
    "pending": 0,
    "sent": 2,
-   "review": 2,
+   "review": 3,
    "blocked": 1,
    "errors": 0,
    "skipped": 0,
@@ -1941,6 +1918,28 @@
   },
   "next": [],
   "last": [
+   {
+    "ts": "2026-11-11T10:17:18+01:00",
+    "row": 9514,
+    "company": "TotalEnergies Gas & Power Ltd",
+    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+    "score": 5,
+    "domain": "job-room.ch",
+    "state": "sent",
+    "note": "enviada (tracker)",
+    "dur_s": 597
+   },
+   {
+    "ts": "2026-11-11T10:14:21+01:00",
+    "row": 8145,
+    "company": "Expleo Group",
+    "title": "Data analyst industriel",
+    "score": 6,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "6 avisos (tras 1 prórroga(s))",
+    "dur_s": 721
+   },
    {
     "ts": "2026-11-11T10:07:20+01:00",
     "row": 5441,
@@ -1973,28 +1972,6 @@
     "state": "review",
     "note": "4 avisos",
     "dur_s": 297
-   },
-   {
-    "ts": "2026-11-11T09:58:41+01:00",
-    "row": 1396,
-    "company": "Pictet Group",
-    "title": "Front Desk & Cotation Specialist",
-    "score": 6,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 126
-   },
-   {
-    "ts": "2026-11-10T17:14:07+01:00",
-    "row": 9534,
-    "company": "Deloitte AG",
-    "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
-    "score": 10,
-    "domain": "jobagent.ch",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 120
    }
   ]
  },
@@ -2007,10 +1984,10 @@
    "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
    "lang": "en",
    "started": "2026-11-11T10:07:34",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-11T10:17:15",
+   "dur_min": 9.7,
+   "phase": "done",
+   "status": "TAILORED",
    "status_at_start": "REPLY",
    "engine": "claude",
    "blocked": "",
@@ -2024,7 +2001,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 8145,
@@ -2034,24 +2011,24 @@
    "url": "https://www.linkedin.com/jobs/view/4484710003/",
    "lang": "fr",
    "started": "2026-11-11T10:02:31",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-11T10:14:19",
+   "dur_min": 11.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
+   "ok": true,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
+   "form_reached": true,
+   "apply_path": "linkedin_external",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 2,
+   "avisos": 6,
+   "verify_ok": false
   },
   {
    "row": 5441,
