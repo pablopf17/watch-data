@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T18:27:50",
+ "generated": "2026-11-11T18:33:51",
  "kpis": {
   "runs": 155,
   "done": 144,
@@ -7,30 +7,30 @@
   "ok_pct": 44.4,
   "applied": 38,
   "blocked": 58,
-  "manual": 19,
-  "manual_pct": 13.2,
+  "manual": 18,
+  "manual_pct": 12.5,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
   "p90_min": 11.9,
-  "per_hour": 5.83,
-  "median_gap_min": 10.3,
-  "last_24h": 10,
+  "per_hour": 6.12,
+  "median_gap_min": 9.8,
+  "last_24h": 12,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 31.0,
-   "d7": 2.0,
-   "h5_reset": "2026-11-11T22:10:00.347355+00:00",
-   "d7_reset": "2026-11-18T17:00:00.347380+00:00",
+   "h5": 43.0,
+   "d7": 3.0,
+   "h5_reset": "2026-11-11T22:10:00.017384+00:00",
+   "d7_reset": "2026-11-18T17:00:00.017405+00:00",
    "stale": false,
-   "n_pairs": 53,
+   "n_pairs": 55,
    "cross": 0,
-   "median_h5": 4.0,
+   "median_h5": 5.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 5.87,
-   "tokens_per_cand_m": 0.97
+   "mean_h5": 5.95,
+   "tokens_per_cand_m": 0.99
   }
  },
  "per_day": [
@@ -113,27 +113,27 @@
   },
   {
    "d": "2026-11-10",
-   "runs": 7,
+   "runs": 5,
    "ok": 2,
    "applied": 1,
-   "blocked": 2
+   "blocked": 0
   },
   {
    "d": "2026-11-11",
-   "runs": 10,
+   "runs": 12,
    "ok": 4,
    "applied": 2,
-   "blocked": 3
+   "blocked": 5
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 36
+   "n": 37
   },
   {
    "reason": "login / cuenta",
-   "n": 14
+   "n": 13
   },
   {
    "reason": "otro",
@@ -163,15 +163,15 @@
     "count": 1,
     "cards": [
      {
-      "row": 9534,
-      "company": "Deloitte AG",
-      "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
-      "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+      "row": 9575,
+      "company": "Richemont",
+      "title": "Business Performance & Data Analytics Project Manager",
+      "url": "https://www.linkedin.com/jobs/view/4479362300/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-11T18:25:25",
-      "cv_pdf": "https://drive.google.com/file/d/1Fyqz9fYZTpoRZkjYx6-8_TdNibKdE-LU/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1lFIZ7tHFnFLs68REWrgdgZakUz-5WIN7/view?usp=drivesdk"
+      "ts": "2026-11-11T18:33:08",
+      "cv_pdf": "https://drive.google.com/file/d/18JQvhxdcF5yqgCY5NJmpRjdTJCFrJSMR/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/166GrHiWQgZjv7FswMQOzIS2j1Fa_Yrso/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -179,8 +179,19 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 4,
+    "count": 3,
     "cards": [
+     {
+      "row": 9534,
+      "company": "Deloitte AG",
+      "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+      "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-11T18:25:25",
+      "cv_pdf": "https://drive.google.com/file/d/1Fyqz9fYZTpoRZkjYx6-8_TdNibKdE-LU/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1lFIZ7tHFnFLs68REWrgdgZakUz-5WIN7/view?usp=drivesdk"
+     },
      {
       "row": 7677,
       "company": "SGI",
@@ -191,28 +202,6 @@
       "ts": "2026-11-11T18:11:54",
       "cv_pdf": "https://drive.google.com/file/d/1_LwqMSniirLaZy4SBecGnxxjW4RI9mPN/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1c5tzsHvNomjnqEdHGpu-3rb8Np9qGs5p/view?usp=drivesdk"
-     },
-     {
-      "row": 9571,
-      "company": "coni+partner AG",
-      "title": "Banking Process Analyst | Operational Risk & Framework",
-      "url": "https://www.linkedin.com/jobs/view/4486619599/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-10T17:09:58",
-      "cv_pdf": "https://drive.google.com/file/d/1OD6vM1S_vRIpWv-r6JuOL9TT81fnbDKn/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/16A-2Q0szQg2kR8Ydvdm_AQkquDzJRLWd/view?usp=drivesdk"
-     },
-     {
-      "row": 9575,
-      "company": "Richemont",
-      "title": "Business Performance & Data Analytics Project Manager",
-      "url": "https://www.linkedin.com/jobs/view/4479362300/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-10T17:08:00",
-      "cv_pdf": "https://drive.google.com/file/d/18JQvhxdcF5yqgCY5NJmpRjdTJCFrJSMR/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/166GrHiWQgZjv7FswMQOzIS2j1Fa_Yrso/view?usp=drivesdk"
      },
      {
       "row": 8131,
@@ -1315,8 +1304,19 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 51,
+    "count": 52,
     "cards": [
+     {
+      "row": 9571,
+      "company": "coni+partner AG",
+      "title": "Banking Process Analyst | Operational Risk & Framework",
+      "url": "https://www.linkedin.com/jobs/view/4486619599/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-11T18:30:27",
+      "cv_pdf": "https://drive.google.com/file/d/1OD6vM1S_vRIpWv-r6JuOL9TT81fnbDKn/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/16A-2Q0szQg2kR8Ydvdm_AQkquDzJRLWd/view?usp=drivesdk"
+     },
      {
       "row": 6550,
       "company": "Geberit Schweiz",
@@ -1837,12 +1837,12 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 123,
-   "runs_today": 10,
+   "runs_today": 12,
    "last": {
-    "row": 9534,
-    "company": "Deloitte AG",
-    "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
-    "started": "2026-11-11T18:25:25",
+    "row": 9575,
+    "company": "Richemont",
+    "title": "Business Performance & Data Analytics Project Manager",
+    "started": "2026-11-11T18:33:08",
     "applied": false
    },
    "limit": {
@@ -1972,13 +1972,13 @@
  },
  "runs": [
   {
-   "row": 9534,
-   "folder": "9534_deloitte-ag-senior-consultant-manager-ba",
-   "company": "Deloitte AG",
-   "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
-   "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+   "row": 9575,
+   "folder": "9575_richemont-business-performance-data-anal",
+   "company": "Richemont",
+   "title": "Business Performance & Data Analytics Project Manager",
+   "url": "https://www.linkedin.com/jobs/view/4479362300/",
    "lang": "en",
-   "started": "2026-11-11T18:25:25",
+   "started": "2026-11-11T18:33:08",
    "finished": null,
    "dur_min": null,
    "phase": "running",
@@ -1996,6 +1996,60 @@
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 3,
+   "verify_ok": false
+  },
+  {
+   "row": 9571,
+   "folder": "9571_coni-partner-ag-banking-process-analyst",
+   "company": "coni+partner AG",
+   "title": "Banking Process Analyst | Operational Risk & Framework",
+   "url": "https://www.linkedin.com/jobs/view/4486619599/",
+   "lang": "en",
+   "started": "2026-11-11T18:30:27",
+   "finished": "2026-11-11T18:32:16",
+   "dur_min": 1.8,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 1,
+   "avisos": 3,
+   "verify_ok": false
+  },
+  {
+   "row": 9534,
+   "folder": "9534_deloitte-ag-senior-consultant-manager-ba",
+   "company": "Deloitte AG",
+   "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
+   "url": "https://www.jobagent.ch/job/senior-consultant-manager-banking-solutions-technology-transformation/3256694c38",
+   "lang": "en",
+   "started": "2026-11-11T18:25:25",
+   "finished": "2026-11-11T18:29:51",
+   "dur_min": 4.4,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "agregador",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 5,
    "verify_ok": false
   },
   {
@@ -2239,60 +2293,6 @@
    "required_missing": 3,
    "needs_approval": 1,
    "avisos": 4,
-   "verify_ok": false
-  },
-  {
-   "row": 9571,
-   "folder": "9571_coni-partner-ag-banking-process-analyst",
-   "company": "coni+partner AG",
-   "title": "Banking Process Analyst | Operational Risk & Framework",
-   "url": "https://www.linkedin.com/jobs/view/4486619599/",
-   "lang": "en",
-   "started": "2026-11-10T17:09:58",
-   "finished": "2026-11-10T17:11:59",
-   "dur_min": 2.0,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "linkedin_external",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 2,
-   "avisos": 1,
-   "verify_ok": false
-  },
-  {
-   "row": 9575,
-   "folder": "9575_richemont-business-performance-data-anal",
-   "company": "Richemont",
-   "title": "Business Performance & Data Analytics Project Manager",
-   "url": "https://www.linkedin.com/jobs/view/4479362300/",
-   "lang": "en",
-   "started": "2026-11-10T17:08:00",
-   "finished": "2026-11-10T17:09:44",
-   "dur_min": 1.7,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "PENDING APPROVAL",
-   "engine": "claude",
-   "blocked": "login",
-   "manual": true,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "directo",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 2,
-   "avisos": 3,
    "verify_ok": false
   },
   {
