@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-11T10:07:14",
+ "generated": "2026-11-11T10:12:46",
  "kpis": {
-  "runs": 154,
-  "done": 142,
-  "ok": 63,
-  "ok_pct": 44.4,
-  "applied": 36,
+  "runs": 155,
+  "done": 143,
+  "ok": 64,
+  "ok_pct": 44.8,
+  "applied": 37,
   "blocked": 59,
   "manual": 20,
-  "manual_pct": 14.1,
+  "manual_pct": 14.0,
   "median_min": 4.4,
   "median_min_ok": 5.7,
-  "median_min_applied": 5.8,
+  "median_min_applied": 5.7,
   "p90_min": 11.9,
-  "per_hour": 6.19,
-  "median_gap_min": 9.7,
-  "last_24h": 13,
+  "per_hour": 6.25,
+  "median_gap_min": 9.6,
+  "last_24h": 14,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 39.0,
-   "d7": 55.0,
-   "h5_reset": "2026-11-11T11:10:00.031120+00:00",
-   "d7_reset": "2026-11-11T17:00:00.031136+00:00",
+   "h5": 48.0,
+   "d7": 56.0,
+   "h5_reset": "2026-11-11T11:10:00.868716+00:00",
+   "d7_reset": "2026-11-11T17:00:00.868738+00:00",
    "stale": false,
-   "n_pairs": 46,
+   "n_pairs": 47,
    "cross": 0,
    "median_h5": 4.0,
-   "p90_h5": 12.0,
+   "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.15,
-   "tokens_per_cand_m": 0.86
+   "mean_h5": 5.36,
+   "tokens_per_cand_m": 0.89
   }
  },
  "per_day": [
@@ -120,9 +120,9 @@
   },
   {
    "d": "2026-11-11",
-   "runs": 5,
-   "ok": 1,
-   "applied": 0,
+   "runs": 6,
+   "ok": 2,
+   "applied": 1,
    "blocked": 1
   }
  ],
@@ -153,35 +153,23 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 9514,
-      "company": "TotalEnergies Gas & Power Ltd",
-      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-      "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
-      "score": "5",
-      "note": "listo para lanzar",
-      "ts": "2026-11-08",
-      "cv_pdf": "https://drive.google.com/file/d/1bvh_FHvK7ejF9RCXB_UM9yQRC7Td0ri2/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1J_udXoBYRh98HmsA0KOHIbGadfuUVSCD/view?usp=drivesdk"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 3,
+    "count": 2,
     "cards": [
      {
-      "row": 5441,
-      "company": "AZQORE SA",
-      "title": "Business Analyst Credit & Risk",
-      "url": "https://www.linkedin.com/jobs/view/4481661811/",
+      "row": 8145,
+      "company": "Expleo Group",
+      "title": "Data analyst industriel",
+      "url": "https://www.linkedin.com/jobs/view/4484710003/",
       "score": 6,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-11T10:07:14"
+      "ts": "2026-11-11T10:12:46"
      },
      {
       "row": 8145,
@@ -193,17 +181,6 @@
       "ts": "2026-11-11T10:02:31",
       "cv_pdf": "https://drive.google.com/file/d/1LKbLh0IB32fz512ySuge47DA1ZVY13qs/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1pMqVlGy2Gqy6O0mnxe4MVoKih4iNBJsm/view?usp=drivesdk"
-     },
-     {
-      "row": 5441,
-      "company": "AZQORE SA",
-      "title": "Business Analyst Credit & Risk",
-      "url": "https://www.linkedin.com/jobs/view/4481661811/",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-11T10:01:43",
-      "cv_pdf": "https://drive.google.com/file/d/178RaLcwg0ejb5qSYqvCKcw1ugDGuUh0F/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/145_yYEGlpKHKAJFwMHD_mR50SlqM8PpQ/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -318,8 +295,30 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 94,
+    "count": 96,
     "cards": [
+     {
+      "row": 9514,
+      "company": "TotalEnergies Gas & Power Ltd",
+      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+      "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
+      "score": "",
+      "note": "con respuesta",
+      "ts": "2026-11-11T10:07:34",
+      "cv_pdf": "https://drive.google.com/file/d/1bvh_FHvK7ejF9RCXB_UM9yQRC7Td0ri2/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1J_udXoBYRh98HmsA0KOHIbGadfuUVSCD/view?usp=drivesdk"
+     },
+     {
+      "row": 5441,
+      "company": "AZQORE SA",
+      "title": "Business Analyst Credit & Risk",
+      "url": "https://www.linkedin.com/jobs/view/4481661811/",
+      "score": "",
+      "note": "enviada",
+      "ts": "2026-11-11T10:01:43",
+      "cv_pdf": "https://drive.google.com/file/d/178RaLcwg0ejb5qSYqvCKcw1ugDGuUh0F/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/145_yYEGlpKHKAJFwMHD_mR50SlqM8PpQ/view?usp=drivesdk"
+     },
      {
       "row": 9578,
       "company": "Swissquote",
@@ -1852,13 +1851,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 122,
-   "runs_today": 5,
+   "runs": 123,
+   "runs_today": 6,
    "last": {
-    "row": 8145,
-    "company": "Expleo Group",
-    "title": "Data analyst industriel",
-    "started": "2026-11-11T10:02:31",
+    "row": 9514,
+    "company": "TotalEnergies Gas & Power Ltd",
+    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+    "started": "2026-11-11T10:07:34",
     "applied": false
    },
    "limit": {
@@ -1910,23 +1909,23 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 5441,
-   "company": "AZQORE SA",
-   "title": "Business Analyst Credit & Risk",
+   "row": 8145,
+   "company": "Expleo Group",
+   "title": "Data analyst industriel",
    "score": 6,
-   "url": "https://www.linkedin.com/jobs/view/4481661811/",
+   "url": "https://www.linkedin.com/jobs/view/4484710003/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-11T10:01:32+01:00",
-   "pid": 28524,
-   "lane": 1
+   "started": "2026-11-11T10:02:20+01:00",
+   "pid": 33068,
+   "lane": 0
   },
   "pending": 0,
   "counters": {
    "pending": 0,
-   "sent": 1,
+   "sent": 2,
    "review": 2,
    "blocked": 1,
    "errors": 0,
@@ -1942,6 +1941,17 @@
   },
   "next": [],
   "last": [
+   {
+    "ts": "2026-11-11T10:07:20+01:00",
+    "row": 5441,
+    "company": "AZQORE SA",
+    "title": "Business Analyst Credit & Risk",
+    "score": 6,
+    "domain": "linkedin.com",
+    "state": "sent",
+    "note": "enviada",
+    "dur_s": 348
+   },
    {
     "ts": "2026-11-11T10:02:20+01:00",
     "row": 3905,
@@ -1985,21 +1995,37 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 120
-   },
-   {
-    "ts": "2026-11-10T17:12:07+01:00",
-    "row": 9571,
-    "company": "coni+partner AG",
-    "title": "Banking Process Analyst | Operational Risk & Framework",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 140
    }
   ]
  },
  "runs": [
+  {
+   "row": 9514,
+   "folder": "9514_totalenergies-gas-power-ltd-business-ana",
+   "company": "TotalEnergies Gas & Power Ltd",
+   "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+   "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
+   "lang": "en",
+   "started": "2026-11-11T10:07:34",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "REPLY",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 8145,
    "folder": "8145_expleo-group-data-analyst-industriel",
@@ -2035,16 +2061,16 @@
    "url": "https://www.linkedin.com/jobs/view/4481661811/",
    "lang": "en",
    "started": "2026-11-11T10:01:43",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-11T10:07:18",
+   "dur_min": 5.6,
+   "phase": "done",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
-   "applied": false,
+   "ok": true,
+   "applied": true,
    "form_reached": true,
    "apply_path": "linkedin_external",
    "files_verified": 2,
@@ -2052,7 +2078,7 @@
    "required_missing": 0,
    "needs_approval": 0,
    "avisos": 0,
-   "verify_ok": null
+   "verify_ok": true
   },
   {
    "row": 3905,
