@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-11T18:16:01",
+ "generated": "2026-11-11T18:21:49",
  "kpis": {
   "runs": 155,
   "done": 145,
   "ok": 64,
   "ok_pct": 44.1,
-  "applied": 37,
+  "applied": 38,
   "blocked": 59,
   "manual": 20,
   "manual_pct": 13.8,
@@ -13,24 +13,24 @@
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
   "p90_min": 11.9,
-  "per_hour": 6.12,
-  "median_gap_min": 9.8,
-  "last_24h": 7,
+  "per_hour": 5.83,
+  "median_gap_min": 10.3,
+  "last_24h": 8,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 7.0,
-   "d7": 0.0,
-   "h5_reset": "2026-11-11T22:09:59.799001+00:00",
-   "d7_reset": "2026-11-18T16:59:59.799021+00:00",
-   "stale": false,
-   "n_pairs": 51,
+   "h5": 17.0,
+   "d7": 1.0,
+   "h5_reset": "2026-11-11T22:10:00.401610+00:00",
+   "d7_reset": "2026-11-18T17:00:00.401629+00:00",
+   "stale": true,
+   "n_pairs": 52,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 5.76,
-   "tokens_per_cand_m": 0.96
+   "mean_h5": 5.85,
+   "tokens_per_cand_m": 0.97
   }
  },
  "per_day": [
@@ -92,8 +92,8 @@
   },
   {
    "d": "2026-11-05",
-   "runs": 29,
-   "ok": 16,
+   "runs": 28,
+   "ok": 15,
    "applied": 12,
    "blocked": 10
   },
@@ -120,9 +120,9 @@
   },
   {
    "d": "2026-11-11",
-   "runs": 7,
-   "ok": 3,
-   "applied": 1,
+   "runs": 8,
+   "ok": 4,
+   "applied": 2,
    "blocked": 1
   }
  ],
@@ -167,7 +167,7 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
+    "count": 6,
     "cards": [
      {
       "row": 7677,
@@ -225,17 +225,6 @@
       "cl_pdf": "https://drive.google.com/file/d/1vpNt-yvaqta3S3QS9miHuquDXLZcBA_g/view?usp=drivesdk"
      },
      {
-      "row": 8620,
-      "company": "Interim Legal",
-      "title": "Compliance Officer, Wealth Management",
-      "url": "https://www.linkedin.com/jobs/view/4483467868/",
-      "score": "",
-      "note": "6 avisos",
-      "ts": "2026-11-05T20:07:27",
-      "cv_pdf": "https://drive.google.com/file/d/1lex1_xYhHIgnf71CPl6U97TiXcRwfAfs/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1NK2UBM92KFt7b3vuU8dqZbMR0TgEByPn/view?usp=drivesdk"
-     },
-     {
       "row": 8131,
       "company": "World Intellectual Property Organization – WIPO",
       "title": "Program Consultant (Temporary Parental Leave Cover)",
@@ -252,8 +241,19 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 97,
+    "count": 98,
     "cards": [
+     {
+      "row": 8620,
+      "company": "Interim Legal",
+      "title": "Compliance Officer, Wealth Management",
+      "url": "https://www.linkedin.com/jobs/view/4483467868/",
+      "score": "",
+      "note": "enviada · pasada paró en 3 avisos",
+      "ts": "2026-11-11T18:16:10",
+      "cv_pdf": "https://drive.google.com/file/d/1lex1_xYhHIgnf71CPl6U97TiXcRwfAfs/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1NK2UBM92KFt7b3vuU8dqZbMR0TgEByPn/view?usp=drivesdk"
+     },
      {
       "row": 9514,
       "company": "TotalEnergies Gas & Power Ltd",
@@ -1836,13 +1836,13 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 123,
-   "runs_today": 7,
+   "runs_today": 8,
    "last": {
-    "row": 7677,
-    "company": "SGI",
-    "title": "Data and AI Consultant",
-    "started": "2026-11-11T18:11:54",
-    "applied": false
+    "row": 8620,
+    "company": "Interim Legal",
+    "title": "Compliance Officer, Wealth Management",
+    "started": "2026-11-11T18:16:10",
+    "applied": true
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
@@ -1970,6 +1970,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 8620,
+   "folder": "8620_interim-legal-compliance-officer-wealth",
+   "company": "Interim Legal",
+   "title": "Compliance Officer, Wealth Management",
+   "url": "https://www.linkedin.com/jobs/view/4483467868/",
+   "lang": "en",
+   "started": "2026-11-11T18:16:10",
+   "finished": "2026-11-11T18:21:40",
+   "dur_min": 5.5,
+   "phase": "done",
+   "status": "APPLIED",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 3,
+   "verify_ok": false
+  },
   {
    "row": 7677,
    "folder": "7677_sgi-data-and-ai-consultant",
@@ -3372,33 +3399,6 @@
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 5,
-   "verify_ok": false
-  },
-  {
-   "row": 8620,
-   "folder": "8620_interim-legal-compliance-officer-wealth",
-   "company": "Interim Legal",
-   "title": "Compliance Officer, Wealth Management",
-   "url": "https://www.linkedin.com/jobs/view/4483467868/",
-   "lang": "en",
-   "started": "2026-11-05T20:07:27",
-   "finished": "2026-11-05T20:14:03",
-   "dur_min": 6.6,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
-   "blocked": "",
-   "manual": false,
-   "ok": true,
-   "applied": false,
-   "form_reached": true,
-   "apply_path": "linkedin_external",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 1,
-   "needs_approval": 1,
-   "avisos": 6,
    "verify_ok": false
   },
   {
