@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-11T09:54:38",
+ "generated": "2026-11-11T10:00:34",
  "kpis": {
-  "runs": 151,
-  "done": 141,
+  "runs": 152,
+  "done": 140,
   "ok": 62,
-  "ok_pct": 44.0,
+  "ok_pct": 44.3,
   "applied": 36,
-  "blocked": 58,
+  "blocked": 59,
   "manual": 20,
-  "manual_pct": 14.2,
+  "manual_pct": 14.3,
   "median_min": 4.4,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 12.4,
-  "per_hour": 5.61,
-  "median_gap_min": 10.7,
-  "last_24h": 8,
+  "p90_min": 12.0,
+  "per_hour": 6.0,
+  "median_gap_min": 10.0,
+  "last_24h": 11,
   "retries": 1,
-  "queue_pending": 4,
+  "queue_pending": 3,
   "claude_usage": {
-   "h5": 12.0,
+   "h5": 20.0,
    "d7": 53.0,
-   "h5_reset": "2026-11-11T11:10:00.317327+00:00",
-   "d7_reset": "2026-11-11T17:00:00.317349+00:00",
+   "h5_reset": "2026-11-11T11:10:00.596356+00:00",
+   "d7_reset": "2026-11-11T17:00:00.596376+00:00",
    "stale": false,
-   "n_pairs": 43,
+   "n_pairs": 44,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 4.95,
-   "tokens_per_cand_m": 0.82
+   "mean_h5": 4.98,
+   "tokens_per_cand_m": 0.83
   }
  },
  "per_day": [
@@ -85,7 +85,7 @@
   },
   {
    "d": "2026-11-04",
-   "runs": 16,
+   "runs": 15,
    "ok": 3,
    "applied": 3,
    "blocked": 6
@@ -99,7 +99,7 @@
   },
   {
    "d": "2026-11-06",
-   "runs": 32,
+   "runs": 31,
    "ok": 9,
    "applied": 4,
    "blocked": 19
@@ -117,12 +117,19 @@
    "ok": 2,
    "applied": 1,
    "blocked": 3
+  },
+  {
+   "d": "2026-11-11",
+   "runs": 3,
+   "ok": 0,
+   "applied": 0,
+   "blocked": 1
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 34
+   "n": 35
   },
   {
    "reason": "login / cuenta",
@@ -146,7 +153,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 4,
+    "count": 3,
     "cards": [
      {
       "row": 9514,
@@ -180,17 +187,6 @@
       "ts": "2026-10-23",
       "cv_pdf": "https://drive.google.com/file/d/178RaLcwg0ejb5qSYqvCKcw1ugDGuUh0F/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/145_yYEGlpKHKAJFwMHD_mR50SlqM8PpQ/view?usp=drivesdk"
-     },
-     {
-      "row": 1396,
-      "company": "Pictet Group",
-      "title": "Front Desk & Cotation Specialist",
-      "url": "https://www.linkedin.com/jobs/view/4424546318/",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-07-08",
-      "cv_pdf": "https://drive.google.com/file/d/1IUw3AA1YHKGSYCxr6_ligMOaKZaZQy1y/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1sdiitU54wEkXnu11FA45uss4S2kq9Vve/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -198,8 +194,40 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 3,
+    "cards": [
+     {
+      "row": 2156,
+      "company": "EY",
+      "title": "Senior Consultant - Assurance - Technology Risk",
+      "url": "https://www.linkedin.com/jobs/view/4385096310/",
+      "score": 9,
+      "note": "⏳ enviando ahora (cola)",
+      "ts": "2026-11-11T10:00:34"
+     },
+     {
+      "row": 3905,
+      "company": "CLEEVEN",
+      "title": "Consultant fonctionnel/Consultante fonctionnel",
+      "url": "https://www.linkedin.com/jobs/view/4434701724/",
+      "score": "",
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-11T09:58:51",
+      "cv_pdf": "https://drive.google.com/file/d/1pIVvjatqbtYRwI2p_lRgPXnP-7L535bN/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1-F9EG5-K3WZskLs9P0qS6YxmhMYH9-QS/view?usp=drivesdk"
+     },
+     {
+      "row": 2156,
+      "company": "EY",
+      "title": "Senior Consultant - Assurance - Technology Risk",
+      "url": "https://www.linkedin.com/jobs/view/4385096310/",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-11T09:56:45",
+      "cv_pdf": "https://drive.google.com/file/d/1Xi4PfFhlbJxSeewZQVwll0BYkDzJfuNX/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1udmgPuL2-TOJuSywiGHplIz2SWLR7gG_/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -1330,8 +1358,19 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 49,
+    "count": 48,
     "cards": [
+     {
+      "row": 1396,
+      "company": "Pictet Group",
+      "title": "Front Desk & Cotation Specialist",
+      "url": "https://www.linkedin.com/jobs/view/4424546318/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-11T09:56:47",
+      "cv_pdf": "https://drive.google.com/file/d/1IUw3AA1YHKGSYCxr6_ligMOaKZaZQy1y/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1sdiitU54wEkXnu11FA45uss4S2kq9Vve/view?usp=drivesdk"
+     },
      {
       "row": 9478,
       "company": "KPMG AG",
@@ -1340,17 +1379,6 @@
       "score": "",
       "note": "no disponible",
       "ts": "2026-11-09T14:29:35"
-     },
-     {
-      "row": 3905,
-      "company": "CLEEVEN",
-      "title": "Consultant fonctionnel/Consultante fonctionnel",
-      "url": "https://www.linkedin.com/jobs/view/4434701724/",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-06T20:39:13",
-      "cv_pdf": "https://drive.google.com/file/d/1pIVvjatqbtYRwI2p_lRgPXnP-7L535bN/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1-F9EG5-K3WZskLs9P0qS6YxmhMYH9-QS/view?usp=drivesdk"
      },
      {
       "row": 4189,
@@ -1526,7 +1554,7 @@
       "title": "Finance & Business Analyst (m/w/d)",
       "url": "https://www.linkedin.com/jobs/view/4483453374/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-05T15:26:03",
       "cv_pdf": "https://drive.google.com/file/d/19RJ17AuM6iIzh21lVKwjMSTTqxsrgJf9/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/14e0463rXY85VKfijD_PMn2Fuuusxhs9E/view?usp=drivesdk"
@@ -1570,17 +1598,6 @@
       "score": "",
       "note": "no disponible",
       "ts": "2026-11-05T07:07:53"
-     },
-     {
-      "row": 2156,
-      "company": "EY",
-      "title": "Senior Consultant - Assurance - Technology Risk",
-      "url": "https://www.linkedin.com/jobs/view/4385096310/",
-      "score": "",
-      "note": "sin formulario",
-      "ts": "2026-11-04T17:20:45",
-      "cv_pdf": "https://drive.google.com/file/d/1Xi4PfFhlbJxSeewZQVwll0BYkDzJfuNX/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1udmgPuL2-TOJuSywiGHplIz2SWLR7gG_/view?usp=drivesdk"
      },
      {
       "row": 8909,
@@ -1835,13 +1852,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 118,
-   "runs_today": 0,
+   "runs": 120,
+   "runs_today": 3,
    "last": {
-    "row": 9534,
-    "company": "Deloitte AG",
-    "title": "Senior Consultant / Manager Banking Solutions, Technology & Transformation",
-    "started": "2026-11-10T17:12:17",
+    "row": 3905,
+    "company": "CLEEVEN",
+    "title": "Consultant fonctionnel/Consultante fonctionnel",
+    "started": "2026-11-11T09:58:51",
     "applied": false
    },
    "limit": {
@@ -1858,7 +1875,7 @@
    "label": "Hermes",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
-   "runs": 17,
+   "runs": 16,
    "runs_today": 0,
    "last": {
     "row": 9580,
@@ -1892,33 +1909,38 @@
  ],
  "queue": {
   "exists": true,
-  "running": null,
-  "pending": 4,
+  "running": {
+   "row": 2156,
+   "company": "EY",
+   "title": "Senior Consultant - Assurance - Technology Risk",
+   "score": 9,
+   "url": "https://www.linkedin.com/jobs/view/4385096310/",
+   "domain": "linkedin.com",
+   "status": "TAILORED",
+   "state": "running",
+   "note": "",
+   "started": "2026-11-11T09:56:35+01:00",
+   "pid": 14456,
+   "lane": 1
+  },
+  "pending": 3,
   "counters": {
-   "pending": 4,
+   "pending": 3,
    "sent": 0,
    "review": 0,
-   "blocked": 3,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
   },
   "config": {
-   "max": 3,
+   "max": 6,
    "min_score": 0,
    "engine": "claude",
    "timeout": 600,
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 1396,
-    "company": "Pictet Group",
-    "title": "Front Desk & Cotation Specialist",
-    "score": 6,
-    "url": "https://www.linkedin.com/jobs/view/4424546318/",
-    "domain": "linkedin.com"
-   },
    {
     "row": 5441,
     "company": "AZQORE SA",
@@ -1945,6 +1967,17 @@
    }
   ],
   "last": [
+   {
+    "ts": "2026-11-11T09:58:41+01:00",
+    "row": 1396,
+    "company": "Pictet Group",
+    "title": "Front Desk & Cotation Specialist",
+    "score": 6,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "sin_formulario",
+    "dur_s": 126
+   },
    {
     "ts": "2026-11-10T17:14:07+01:00",
     "row": 9534,
@@ -1988,21 +2021,91 @@
     "state": "sent",
     "note": "enviada (tracker)",
     "dur_s": 50
-   },
-   {
-    "ts": "2026-11-06T20:41:16+01:00",
-    "row": 3905,
-    "company": "CLEEVEN",
-    "title": "Consultant fonctionnel/Consultante fonctionnel",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "pendiente de revisión",
-    "dur_s": 130
    }
   ]
  },
  "runs": [
+  {
+   "row": 3905,
+   "folder": "3905_cleeven-consultant-fonctionnel-consultan",
+   "company": "CLEEVEN",
+   "title": "Consultant fonctionnel/Consultante fonctionnel",
+   "url": "https://www.linkedin.com/jobs/view/4434701724/",
+   "lang": "de",
+   "started": "2026-11-11T09:58:51",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": false
+  },
+  {
+   "row": 1396,
+   "folder": "1396_pictet-group-front-desk-cotation-special",
+   "company": "Pictet Group",
+   "title": "Front Desk & Cotation Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4424546318/",
+   "lang": "fr",
+   "started": "2026-11-11T09:56:47",
+   "finished": "2026-11-11T09:58:40",
+   "dur_min": 1.9,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_easy_apply",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 0,
+   "avisos": 2,
+   "verify_ok": false
+  },
+  {
+   "row": 2156,
+   "folder": "2156_ey-senior-consultant-assurance-technolog",
+   "company": "EY",
+   "title": "Senior Consultant - Assurance - Technology Risk",
+   "url": "https://www.linkedin.com/jobs/view/4385096310/",
+   "lang": "en",
+   "started": "2026-11-11T09:56:45",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": false
+  },
   {
    "row": 9534,
    "folder": "9534_deloitte-ag-senior-consultant-manager-ba",
@@ -2260,33 +2363,6 @@
    "status": "PAUSA MANUAL",
    "status_at_start": "TAILORED",
    "engine": "hermes",
-   "blocked": "",
-   "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": false
-  },
-  {
-   "row": 3905,
-   "folder": "3905_cleeven-consultant-fonctionnel-consultan",
-   "company": "CLEEVEN",
-   "title": "Consultant fonctionnel/Consultante fonctionnel",
-   "url": "https://www.linkedin.com/jobs/view/4434701724/",
-   "lang": "de",
-   "started": "2026-11-06T20:39:13",
-   "finished": "2026-11-06T20:41:11",
-   "dur_min": 2.0,
-   "phase": "done",
-   "status": "TAILORED",
-   "status_at_start": "TAILORED",
-   "engine": "claude",
    "blocked": "",
    "manual": false,
    "ok": false,
@@ -3945,33 +4021,6 @@
    "required_missing": 2,
    "needs_approval": 2,
    "avisos": 6,
-   "verify_ok": false
-  },
-  {
-   "row": 2156,
-   "folder": "2156_ey-senior-consultant-assurance-technolog",
-   "company": "EY",
-   "title": "Senior Consultant - Assurance - Technology Risk",
-   "url": "https://www.linkedin.com/jobs/view/4385096310/",
-   "lang": "en",
-   "started": "2026-11-04T17:20:45",
-   "finished": "2026-11-04T17:53:32",
-   "dur_min": 32.8,
-   "phase": "done",
-   "status": "TAILORED",
-   "status_at_start": "TAILORED",
-   "engine": "hermes",
-   "blocked": "",
-   "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
    "verify_ok": false
   },
   {
