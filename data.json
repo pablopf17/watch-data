@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T17:15:19",
+ "generated": "2026-11-11T18:09:56",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -24,13 +24,13 @@
    "h5_reset": null,
    "d7_reset": "2026-11-11T16:59:59.560855+00:00",
    "stale": true,
-   "n_pairs": 49,
+   "n_pairs": 50,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 6.0,
-   "tokens_per_cand_m": 1.0
+   "mean_h5": 5.88,
+   "tokens_per_cand_m": 0.98
   }
  },
  "per_day": [
