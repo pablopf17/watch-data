@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:24:50",
+ "generated": "2026-11-11T10:31:05",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 54.0,
    "d7": 56.0,
-   "h5_reset": "2026-11-11T11:10:00.653331+00:00",
-   "d7_reset": "2026-11-11T17:00:00.653350+00:00",
+   "h5_reset": "2026-11-11T11:10:00.901950+00:00",
+   "d7_reset": "2026-11-11T17:00:00.901976+00:00",
    "stale": false,
    "n_pairs": 49,
    "cross": 0,
@@ -285,7 +285,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 96,
+    "count": 95,
     "cards": [
      {
       "row": 9514,
@@ -937,17 +937,6 @@
       "cl_pdf": "https://drive.google.com/file/d/12QENiQczWQqLismP8L-lwgivk3xRrEzm/view?usp=drivesdk"
      },
      {
-      "row": 7117,
-      "company": "INACTA",
-      "title": "Senior Project Manager & Business Analyst Softwareentwicklung (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4478395615/",
-      "score": "",
-      "note": "con respuesta",
-      "ts": "2026-11-02T20:03:28",
-      "cv_pdf": "https://drive.google.com/file/d/1EkNDgzo7Be7ATu73oH2q_EPf70U-_WyF/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1HVvywLuQF4s94ggcudkaSDmGWwk9ki_7/view?usp=drivesdk"
-     },
-     {
       "row": 7104,
       "company": "Partners Group",
       "title": "Valuation Analyst/ Professional",
@@ -1347,7 +1336,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 48,
+    "count": 49,
     "cards": [
      {
       "row": 1396,
@@ -1663,6 +1652,17 @@
       "score": "",
       "note": "no disponible",
       "ts": "2026-11-03T16:46:35"
+     },
+     {
+      "row": 7117,
+      "company": "INACTA",
+      "title": "Senior Project Manager & Business Analyst Softwareentwicklung (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4478395615/",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-02T20:03:28",
+      "cv_pdf": "https://drive.google.com/file/d/1EkNDgzo7Be7ATu73oH2q_EPf70U-_WyF/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1HVvywLuQF4s94ggcudkaSDmGWwk9ki_7/view?usp=drivesdk"
      },
      {
       "row": 6049,
