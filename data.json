@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T20:25:25",
+ "generated": "2026-11-11T06:47:04",
  "kpis": {
   "runs": 151,
   "done": 141,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 51.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T16:59:59.763709+00:00",
+   "d7_reset": "2026-11-11T17:00:00.292439+00:00",
    "stale": false,
    "n_pairs": 43,
    "cross": 0,
@@ -1836,7 +1836,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 118,
-   "runs_today": 6,
+   "runs_today": 0,
    "last": {
     "row": 9534,
     "company": "Deloitte AG",
@@ -1859,7 +1859,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
    "runs": 17,
-   "runs_today": 1,
+   "runs_today": 0,
    "last": {
     "row": 9580,
     "company": "die Mobiliar",
@@ -1877,7 +1877,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\codex.CMD",
    "runs": 15,
-   "runs_today": 1,
+   "runs_today": 0,
    "last": {
     "row": 9585,
     "company": "Kellerhals Carrard",
