@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T12:43:40",
+ "generated": "2026-11-11T12:49:43",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 56.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-11T16:59:59.607865+00:00",
+   "d7_reset": "2026-11-11T17:00:00.442771+00:00",
    "stale": false,
    "n_pairs": 49,
    "cross": 0,
@@ -1334,9 +1334,7 @@
       "url": "https://www.linkedin.com/jobs/view/4434701724/",
       "score": "",
       "note": "duplicada",
-      "ts": "2026-11-11T09:58:51",
-      "cv_pdf": "https://drive.google.com/file/d/1pIVvjatqbtYRwI2p_lRgPXnP-7L535bN/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1-F9EG5-K3WZskLs9P0qS6YxmhMYH9-QS/view?usp=drivesdk"
+      "ts": "2026-11-11T09:58:51"
      },
      {
       "row": 1396,
@@ -1345,9 +1343,7 @@
       "url": "https://www.linkedin.com/jobs/view/4424546318/",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-11T09:56:47",
-      "cv_pdf": "https://drive.google.com/file/d/1IUw3AA1YHKGSYCxr6_ligMOaKZaZQy1y/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1sdiitU54wEkXnu11FA45uss4S2kq9Vve/view?usp=drivesdk"
+      "ts": "2026-11-11T09:56:47"
      },
      {
       "row": 9478,
@@ -1533,9 +1529,7 @@
       "url": "https://www.linkedin.com/jobs/view/4483453374/",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-05T15:26:03",
-      "cv_pdf": "https://drive.google.com/file/d/19RJ17AuM6iIzh21lVKwjMSTTqxsrgJf9/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/14e0463rXY85VKfijD_PMn2Fuuusxhs9E/view?usp=drivesdk"
+      "ts": "2026-11-05T15:26:03"
      },
      {
       "row": 8366,
