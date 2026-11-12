@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T20:28:34",
+ "generated": "2026-11-12T06:09:11",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -19,10 +19,10 @@
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 54.0,
+   "h5": 0.0,
    "d7": 4.0,
-   "h5_reset": "2026-11-11T22:10:00.321884+00:00",
-   "d7_reset": "2026-11-18T17:00:00.321905+00:00",
+   "h5_reset": null,
+   "d7_reset": "2026-11-18T16:59:59.752434+00:00",
    "stale": false,
    "n_pairs": 57,
    "cross": 0,
@@ -208,7 +208,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 99,
+    "count": 98,
     "cards": [
      {
       "row": 8620,
@@ -231,17 +231,6 @@
       "ts": "2026-11-11T18:11:54",
       "cv_pdf": "https://drive.google.com/file/d/1_LwqMSniirLaZy4SBecGnxxjW4RI9mPN/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1c5tzsHvNomjnqEdHGpu-3rb8Np9qGs5p/view?usp=drivesdk"
-     },
-     {
-      "row": 9514,
-      "company": "TotalEnergies Gas & Power Ltd",
-      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-      "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
-      "score": "",
-      "note": "enviada",
-      "ts": "2026-11-11T10:07:34",
-      "cv_pdf": "https://drive.google.com/file/d/1bvh_FHvK7ejF9RCXB_UM9yQRC7Td0ri2/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1J_udXoBYRh98HmsA0KOHIbGadfuUVSCD/view?usp=drivesdk"
      },
      {
       "row": 8145,
@@ -1303,7 +1292,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 52,
+    "count": 53,
     "cards": [
      {
       "row": 9571,
@@ -1322,6 +1311,17 @@
       "score": "",
       "note": "nogo",
       "ts": "2026-11-11T18:22:52"
+     },
+     {
+      "row": 9514,
+      "company": "TotalEnergies Gas & Power Ltd",
+      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+      "url": "https://www.job-room.ch/job-search/806740f7-afce-4da2-9e20-4b786b007b15",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-11T10:07:34",
+      "cv_pdf": "https://drive.google.com/file/d/1bvh_FHvK7ejF9RCXB_UM9yQRC7Td0ri2/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1J_udXoBYRh98HmsA0KOHIbGadfuUVSCD/view?usp=drivesdk"
      },
      {
       "row": 3905,
@@ -1832,7 +1832,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 123,
-   "runs_today": 13,
+   "runs_today": 0,
    "last": {
     "row": 8131,
     "company": "World Intellectual Property Organization – WIPO",
@@ -1892,8 +1892,8 @@
   "pending": 0,
   "counters": {
    "pending": 0,
-   "sent": 4,
-   "review": 1,
+   "sent": 3,
+   "review": 2,
    "blocked": 1,
    "errors": 0,
    "skipped": 0,
@@ -1915,8 +1915,8 @@
     "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
     "score": 5,
     "domain": "job-room.ch",
-    "state": "sent",
-    "note": "enviada (tracker)",
+    "state": "review",
+    "note": "pendiente de revisión",
     "dur_s": 597
    },
    {
