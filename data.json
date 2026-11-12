@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T10:28:11",
+ "generated": "2026-11-12T10:34:17",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 10.0,
    "d7": 5.0,
-   "h5_reset": "2026-11-12T13:19:59.616322+00:00",
-   "d7_reset": "2026-11-18T16:59:59.616346+00:00",
+   "h5_reset": "2026-11-12T13:20:00.176579+00:00",
+   "d7_reset": "2026-11-18T17:00:00.176597+00:00",
    "stale": false,
    "n_pairs": 57,
    "cross": 0,
@@ -160,24 +160,14 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 8749,
-      "company": "AfterQuery",
-      "title": "Compliance Officer Expert",
-      "url": "https://www.linkedin.com/jobs/view/4483928712/",
-      "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-04T14:15:53"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 9,
+    "count": 3,
     "cards": [
      {
       "row": 8131,
@@ -211,60 +201,6 @@
       "ts": "2026-11-11T18:25:25",
       "cv_pdf": "https://drive.google.com/file/d/1Fyqz9fYZTpoRZkjYx6-8_TdNibKdE-LU/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1lFIZ7tHFnFLs68REWrgdgZakUz-5WIN7/view?usp=drivesdk"
-     },
-     {
-      "row": 3905,
-      "company": "CLEEVEN",
-      "title": "Consultant fonctionnel/Consultante fonctionnel",
-      "url": "https://www.linkedin.com/jobs/view/4434701724/",
-      "score": "",
-      "note": "3 avisos",
-      "ts": "2026-11-11T09:58:51"
-     },
-     {
-      "row": 7822,
-      "company": "KPMG Switzerland",
-      "title": "Consultant - Digital Transformation",
-      "url": "https://www.linkedin.com/jobs/view/4482791655/",
-      "score": "",
-      "note": "oferta_equivocada",
-      "ts": "2026-11-06T05:57:52"
-     },
-     {
-      "row": 7898,
-      "company": "Julius Baer",
-      "title": "Transformation Manager 100% (Fixed-term until 30 April 2027) (f/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4484202855/",
-      "score": "",
-      "note": "oferta_distinta",
-      "ts": "2026-11-03T17:29:04"
-     },
-     {
-      "row": 6814,
-      "company": "Deloitte",
-      "title": "Senior Consultant - Artificial Intelligence & Data - (AI & Insights focus)",
-      "url": "https://www.linkedin.com/jobs/view/4362850082/",
-      "score": "",
-      "note": "3 avisos",
-      "ts": "2026-11-01T11:28:58"
-     },
-     {
-      "row": 6018,
-      "company": "Academic Work",
-      "title": "Business Analyst en Finance pour une société internationale !",
-      "url": "https://www.job-room.ch/job-search/dc5102c9-9524-485c-90aa-d5c0ec044fc0",
-      "score": "",
-      "note": "5 avisos",
-      "ts": "2026-10-31T08:03:09"
-     },
-     {
-      "row": 5828,
-      "company": "Banque Pictet & Cie SA",
-      "title": "Financial Controlling Analyst - - 12-month contract",
-      "url": "https://www.jobagent.ch/job/financial-controlling-analyst-12-month-contract/32557a7755",
-      "score": "",
-      "note": "3 avisos",
-      "ts": "2026-10-27T18:22:02"
      }
     ],
     "more": 0
@@ -302,7 +238,7 @@
       "title": "Data analyst industriel",
       "url": "https://www.linkedin.com/jobs/view/4484710003/",
       "score": "",
-      "note": "enviada · pasada paró en 6 avisos",
+      "note": "con respuesta · pasada paró en 6 avisos",
       "ts": "2026-11-11T10:02:31",
       "cv_pdf": "https://drive.google.com/file/d/1LKbLh0IB32fz512ySuge47DA1ZVY13qs/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1pMqVlGy2Gqy6O0mnxe4MVoKih4iNBJsm/view?usp=drivesdk"
@@ -313,7 +249,7 @@
       "title": "Business Analyst Credit & Risk",
       "url": "https://www.linkedin.com/jobs/view/4481661811/",
       "score": "",
-      "note": "enviada",
+      "note": "con respuesta",
       "ts": "2026-11-11T10:01:43",
       "cv_pdf": "https://drive.google.com/file/d/178RaLcwg0ejb5qSYqvCKcw1ugDGuUh0F/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/145_yYEGlpKHKAJFwMHD_mR50SlqM8PpQ/view?usp=drivesdk"
@@ -1356,7 +1292,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 46,
+    "count": 53,
     "cards": [
      {
       "row": 9571,
@@ -1364,7 +1300,7 @@
       "title": "Banking Process Analyst | Operational Risk & Framework",
       "url": "https://www.linkedin.com/jobs/view/4486619599/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "nogo",
       "ts": "2026-11-11T18:30:27"
      },
      {
@@ -1373,7 +1309,7 @@
       "title": "Data Analyst (a) 80 - 100%",
       "url": "https://www.linkedin.com/jobs/view/4483884165/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "nogo",
       "ts": "2026-11-11T18:22:52"
      },
      {
@@ -1388,12 +1324,21 @@
       "cl_pdf": "https://drive.google.com/file/d/1J_udXoBYRh98HmsA0KOHIbGadfuUVSCD/view?usp=drivesdk"
      },
      {
+      "row": 3905,
+      "company": "CLEEVEN",
+      "title": "Consultant fonctionnel/Consultante fonctionnel",
+      "url": "https://www.linkedin.com/jobs/view/4434701724/",
+      "score": "",
+      "note": "duplicada",
+      "ts": "2026-11-11T09:58:51"
+     },
+     {
       "row": 1396,
       "company": "Pictet Group",
       "title": "Front Desk & Cotation Specialist",
       "url": "https://www.linkedin.com/jobs/view/4424546318/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-11T09:56:47"
      },
      {
@@ -1402,7 +1347,7 @@
       "title": "Consultant - FS Consulting - Financial Risk Management",
       "url": "https://www.jobagent.ch/job/consultant-fs-consulting-financial-risk-management/32564c576a",
       "score": "",
-      "note": "sin formulario",
+      "note": "no disponible",
       "ts": "2026-11-09T14:29:35"
      },
      {
@@ -1444,7 +1389,7 @@
       "title": "Product Owner/Business Analyst – Enterprise Data & Solutions",
       "url": "https://www.linkedin.com/jobs/view/4484712002/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-06T16:39:07"
      },
      {
@@ -1464,7 +1409,7 @@
       "title": "Senior Business Analyst Data Warehouse (m/w/d)",
       "url": "https://www.linkedin.com/jobs/view/4479824642/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-06T11:32:27"
      },
      {
@@ -1488,6 +1433,15 @@
       "ts": "2026-11-06T09:07:00",
       "cv_pdf": "https://drive.google.com/file/d/1_FH-6MYAHH3YaCkx9TeB_THkNoXElkRT/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/11v48EV_K33z-W6ydvFwdTLxFUC-PS7Rh/view?usp=drivesdk"
+     },
+     {
+      "row": 7822,
+      "company": "KPMG Switzerland",
+      "title": "Consultant - Digital Transformation",
+      "url": "https://www.linkedin.com/jobs/view/4482791655/",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-06T05:57:52"
      },
      {
       "row": 7979,
@@ -1550,7 +1504,7 @@
       "title": "Digital Data Analyst EAP Region Consultancy, Private FR & Partnership (PFP), Rome, Italy, Remote, 12 months, International",
       "url": "https://www.linkedin.com/jobs/view/4483720352/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-05T20:28:26"
      },
      {
@@ -1570,7 +1524,7 @@
       "title": "Finance & Business Analyst (m/w/d)",
       "url": "https://www.linkedin.com/jobs/view/4483453374/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-05T15:26:03"
      },
      {
@@ -1579,7 +1533,7 @@
       "title": "Crypto Project Manager",
       "url": "https://www.linkedin.com/jobs/view/4483869132/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "nogo",
       "ts": "2026-11-05T14:37:14"
      },
      {
@@ -1610,7 +1564,7 @@
       "title": "Gestionnaire administratif compliance",
       "url": "https://www.job-room.ch/job-search/1fb45f96-ed68-4cb9-9261-dd96e136af3e",
       "score": "",
-      "note": "sin formulario",
+      "note": "no disponible",
       "ts": "2026-11-05T07:07:53"
      },
      {
@@ -1630,8 +1584,17 @@
       "title": "Senior Auditor",
       "url": "https://www.linkedin.com/jobs/view/4479411555/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "duplicada",
       "ts": "2026-11-04T14:19:06"
+     },
+     {
+      "row": 8749,
+      "company": "AfterQuery",
+      "title": "Compliance Officer Expert",
+      "url": "https://www.linkedin.com/jobs/view/4483928712/",
+      "score": "",
+      "note": "nogo",
+      "ts": "2026-11-04T14:15:53"
      },
      {
       "row": 5671,
@@ -1650,7 +1613,7 @@
       "title": "Financial Controlling Analyst - - 12-month contract",
       "url": "https://www.linkedin.com/jobs/view/4481322390/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "duplicada",
       "ts": "2026-11-04T07:28:31"
      },
      {
@@ -1659,8 +1622,17 @@
       "title": "Associate Manager, Investigations, Diligence and Compliance",
       "url": "https://www.linkedin.com/jobs/view/4477344961/",
       "score": "",
-      "note": "sin formulario",
+      "note": "no disponible",
       "ts": "2026-11-03T17:45:56"
+     },
+     {
+      "row": 7898,
+      "company": "Julius Baer",
+      "title": "Transformation Manager 100% (Fixed-term until 30 April 2027) (f/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4484202855/",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-03T17:29:04"
      },
      {
       "row": 7689,
@@ -1668,7 +1640,7 @@
       "title": "Internal Auditor Kontrollsysteme",
       "url": "https://www.linkedin.com/jobs/view/4481016934/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-03T16:46:35"
      },
      {
@@ -1694,12 +1666,21 @@
       "cl_pdf": "https://drive.google.com/file/d/11a6ipRjX4AzlT4Fedv_8xo6aTa0bFRiR/view?usp=drivesdk"
      },
      {
+      "row": 6814,
+      "company": "Deloitte",
+      "title": "Senior Consultant - Artificial Intelligence & Data - (AI & Insights focus)",
+      "url": "https://www.linkedin.com/jobs/view/4362850082/",
+      "score": "",
+      "note": "duplicada",
+      "ts": "2026-11-01T11:28:58"
+     },
+     {
       "row": 4215,
       "company": "UBS",
       "title": "UBS Card Center AG - Business Analyst mit Projektmanagement-Skills 80-",
       "url": "https://www.linkedin.com/jobs/view/4470001178/",
       "score": "",
-      "note": "sin_formulario: oferta cerrada en LinkedIn ('Not currently accepting applications'), sin boton de candidatura",
+      "note": "no disponible",
       "ts": "2026-11-01T08:33:29"
      },
      {
@@ -1719,7 +1700,7 @@
       "title": "Risk Specialist - Banking & Asset Management",
       "url": "https://www.linkedin.com/jobs/view/4468940662/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-01T07:10:43"
      },
      {
@@ -1734,12 +1715,21 @@
       "cl_pdf": "https://drive.google.com/file/d/1yUd9mQmuo5BU0wJ6kYDsghpBPVWXcVN0/view?usp=drivesdk"
      },
      {
+      "row": 6018,
+      "company": "Academic Work",
+      "title": "Business Analyst en Finance pour une société internationale !",
+      "url": "https://www.job-room.ch/job-search/dc5102c9-9524-485c-90aa-d5c0ec044fc0",
+      "score": "",
+      "note": "duplicada",
+      "ts": "2026-10-31T08:03:09"
+     },
+     {
       "row": 1000,
       "company": "BBVA",
       "title": "Internal Audit Specialist",
       "url": "https://www.linkedin.com/jobs/view/4433382255/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-10-31T07:58:53"
      },
      {
@@ -1748,7 +1738,7 @@
       "title": "Legal Entity Controller - Associate",
       "url": "https://www.linkedin.com/jobs/view/4411251892/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-10-31T07:58:08"
      },
      {
@@ -1757,7 +1747,7 @@
       "title": "KYC Analyst – Private Wealth Management",
       "url": "https://www.linkedin.com/jobs/view/4427518105/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-10-31T07:54:10"
      },
      {
@@ -1766,7 +1756,7 @@
       "title": "Solutions Consultant, Digital Assets",
       "url": "https://www.linkedin.com/jobs/view/4476555993/",
       "score": "",
-      "note": "sin_formulario: LinkedIn muestra literalmente 'No longer accepting applications' y no hay control de candidatura",
+      "note": "nogo",
       "ts": "2026-10-28T09:12:07"
      },
      {
@@ -1786,7 +1776,7 @@
       "title": "Data Delivery Consultant - Financial Services (Geneva or Zurich)",
       "url": "https://www.linkedin.com/jobs/view/4474619102/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-10-28T08:14:49"
      },
      {
@@ -1801,12 +1791,21 @@
       "cl_pdf": "https://drive.google.com/file/d/1YoGcd-dCCD8YB6nKppD7Wx9fSMbyPRP_/view?usp=drivesdk"
      },
      {
+      "row": 5828,
+      "company": "Banque Pictet & Cie SA",
+      "title": "Financial Controlling Analyst - - 12-month contract",
+      "url": "https://www.jobagent.ch/job/financial-controlling-analyst-12-month-contract/32557a7755",
+      "score": "",
+      "note": "duplicada",
+      "ts": "2026-10-27T18:22:02"
+     },
+     {
       "row": 4613,
       "company": "Deloitte",
       "title": "Senior Consultant - Artificial Intelligence & Data - (AI & Insights focus)",
       "url": "https://www.linkedin.com/jobs/view/4362753143/",
       "score": "",
-      "note": "sin_formulario",
+      "note": "duplicada",
       "ts": "2026-10-27T17:37:10"
      },
      {
@@ -1893,8 +1892,8 @@
   "pending": 0,
   "counters": {
    "pending": 0,
-   "sent": 1,
-   "review": 4,
+   "sent": 3,
+   "review": 2,
    "blocked": 1,
    "errors": 0,
    "skipped": 0,
@@ -1927,8 +1926,8 @@
     "title": "Data analyst industriel",
     "score": 6,
     "domain": "linkedin.com",
-    "state": "review",
-    "note": "6 avisos (tras 1 prórroga(s))",
+    "state": "sent",
+    "note": "enviada (tracker)",
     "dur_s": 721
    },
    {
@@ -1960,8 +1959,8 @@
     "title": "Senior Consultant - Assurance - Technology Risk",
     "score": 9,
     "domain": "linkedin.com",
-    "state": "review",
-    "note": "4 avisos",
+    "state": "sent",
+    "note": "enviada (tracker)",
     "dur_s": 297
    }
   ]
