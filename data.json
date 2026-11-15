@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T15:13:46",
+ "generated": "2026-11-15T16:14:15",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -153,8 +153,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 22,
+    "count": 23,
     "cards": [
+     {
+      "row": 9849,
+      "company": "Swissquote",
+      "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-13",
+      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
+     },
      {
       "row": 9839,
       "company": "Recruitment Room - Global",
@@ -2066,7 +2077,7 @@
     "more": 0
    }
   ],
-  "total": 176
+  "total": 177
  },
  "engines": [
   {
