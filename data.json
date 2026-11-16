@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T10:02:11",
+ "generated": "2026-11-16T10:08:16",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 56.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-18T17:00:00.032240+00:00",
+   "d7_reset": "2026-11-18T16:59:59.848643+00:00",
    "stale": false,
    "n_pairs": 57,
    "cross": 0,
@@ -153,8 +153,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 23,
+    "count": 24,
     "cards": [
+     {
+      "row": 9931,
+      "company": "",
+      "title": "Business Analyst Private Banking FR-EN",
+      "url": "https://www.job-room.ch/job-search/79c0ff9d-66b6-4aeb-a2ac-a2723c076e47",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-11-15",
+      "cv_pdf": "https://drive.google.com/file/d/15XeL9LbBnkOia1dkqLH4KN-KzvKQMuP6/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1X6ukU2z_nVtuvOp6QvjqdTpUyZqMiocC/view?usp=drivesdk"
+     },
      {
       "row": 9849,
       "company": "Swissquote",
@@ -2077,7 +2088,7 @@
     "more": 0
    }
   ],
-  "total": 177
+  "total": 178
  },
  "engines": [
   {
