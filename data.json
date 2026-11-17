@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-17T10:50:45",
+ "generated": "2026-11-17T10:56:47",
  "kpis": {
-  "runs": 158,
-  "done": 148,
+  "runs": 159,
+  "done": 149,
   "ok": 65,
-  "ok_pct": 43.9,
+  "ok_pct": 43.6,
   "applied": 40,
-  "blocked": 61,
-  "manual": 20,
-  "manual_pct": 13.5,
-  "median_min": 4.6,
+  "blocked": 62,
+  "manual": 21,
+  "manual_pct": 14.1,
+  "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 13.9,
-  "per_hour": 5.77,
-  "median_gap_min": 10.4,
-  "last_24h": 3,
+  "p90_min": 13.8,
+  "per_hour": 6.0,
+  "median_gap_min": 10.0,
+  "last_24h": 4,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 29.0,
+   "h5": 33.0,
    "d7": 67.0,
-   "h5_reset": "2026-11-17T10:30:00.206363+00:00",
-   "d7_reset": "2026-11-18T17:00:00.206380+00:00",
-   "stale": false,
-   "n_pairs": 61,
+   "h5_reset": "2026-11-17T10:30:00.280580+00:00",
+   "d7_reset": "2026-11-18T17:00:00.280602+00:00",
+   "stale": true,
+   "n_pairs": 62,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.82,
-   "tokens_per_cand_m": 0.97
+   "mean_h5": 5.79,
+   "tokens_per_cand_m": 0.96
   }
  },
  "per_day": [
@@ -127,10 +127,10 @@
   },
   {
    "d": "2026-11-17",
-   "runs": 3,
+   "runs": 4,
    "ok": 1,
    "applied": 1,
-   "blocked": 2
+   "blocked": 3
   }
  ],
  "blockers": [
@@ -140,7 +140,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 15
+   "n": 16
   },
   {
    "reason": "otro",
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 18,
+    "count": 17,
     "cards": [
-     {
-      "row": 9773,
-      "company": "Basler Kantonalbank",
-      "title": "Projekt- und Portfoliomanagerin Unternehmensentwicklung (w/m) 80-100%",
-      "url": "https://www.jobagent.ch/job/projekt-und-portfoliomanagerin-unternehmensentwicklung-w-m-80-100/32566f7070",
-      "score": "9",
-      "note": "listo para lanzar",
-      "ts": "2026-11-12",
-      "cv_pdf": "https://drive.google.com/file/d/17oAgHXKfmM_meOOC_HEixdgbhmhKXtHj/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1KTsxFBT8GaEwFqhbDag98rSrTDAjtIZ5/view?usp=drivesdk"
-     },
      {
       "row": 9761,
       "company": "Michael Page Switzerland",
@@ -373,8 +362,19 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 4,
+    "count": 5,
     "cards": [
+     {
+      "row": 9773,
+      "company": "Basler Kantonalbank",
+      "title": "Projekt- und Portfoliomanagerin Unternehmensentwicklung (w/m) 80-100%",
+      "url": "https://www.jobagent.ch/job/projekt-und-portfoliomanagerin-unternehmensentwicklung-w-m-80-100/32566f7070",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-17T10:53:57",
+      "cv_pdf": "https://drive.google.com/file/d/17oAgHXKfmM_meOOC_HEixdgbhmhKXtHj/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1KTsxFBT8GaEwFqhbDag98rSrTDAjtIZ5/view?usp=drivesdk"
+     },
      {
       "row": 9839,
       "company": "Recruitment Room - Global",
@@ -2070,13 +2070,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 126,
-   "runs_today": 3,
+   "runs": 127,
+   "runs_today": 4,
    "last": {
-    "row": 9849,
-    "company": "Swissquote",
-    "title": "Compliance Data & Automation Engineer Gland, Switzerland",
-    "started": "2026-11-17T10:44:04",
+    "row": 9773,
+    "company": "Basler Kantonalbank",
+    "title": "Projekt- und Portfoliomanagerin Unternehmensentwicklung (w/m) 80-100%",
+    "started": "2026-11-17T10:53:57",
     "applied": false
    },
    "limit": {
@@ -2205,6 +2205,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9773,
+   "folder": "9773_basler-kantonalbank-projekt-und-portfoli",
+   "company": "Basler Kantonalbank",
+   "title": "Projekt- und Portfoliomanagerin Unternehmensentwicklung (w/m) 80-100%",
+   "url": "https://www.jobagent.ch/job/projekt-und-portfoliomanagerin-unternehmensentwicklung-w-m-80-100/32566f7070",
+   "lang": "de",
+   "started": "2026-11-17T10:53:57",
+   "finished": "2026-11-17T10:56:27",
+   "dur_min": 2.5,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 1,
+   "verify_ok": false
+  },
   {
    "row": 9849,
    "folder": "9849_swissquote-compliance-data-automation-en",
