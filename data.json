@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-17T11:15:02",
+ "generated": "2026-11-17T11:21:06",
  "kpis": {
-  "runs": 159,
-  "done": 149,
+  "runs": 160,
+  "done": 150,
   "ok": 65,
-  "ok_pct": 43.6,
+  "ok_pct": 43.3,
   "applied": 40,
-  "blocked": 62,
+  "blocked": 63,
   "manual": 21,
-  "manual_pct": 14.1,
+  "manual_pct": 14.0,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 13.8,
-  "per_hour": 6.0,
-  "median_gap_min": 10.0,
-  "last_24h": 4,
+  "p90_min": 13.7,
+  "per_hour": 5.77,
+  "median_gap_min": 10.4,
+  "last_24h": 5,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 33.0,
+   "h5": 36.0,
    "d7": 68.0,
-   "h5_reset": "2026-11-17T10:29:59.569041+00:00",
-   "d7_reset": "2026-11-18T16:59:59.569060+00:00",
+   "h5_reset": "2026-11-17T10:29:59.948501+00:00",
+   "d7_reset": "2026-11-18T16:59:59.948518+00:00",
    "stale": false,
-   "n_pairs": 62,
+   "n_pairs": 63,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.79,
-   "tokens_per_cand_m": 0.96
+   "mean_h5": 5.75,
+   "tokens_per_cand_m": 0.95
   }
  },
  "per_day": [
@@ -127,16 +127,16 @@
   },
   {
    "d": "2026-11-17",
-   "runs": 4,
+   "runs": 5,
    "ok": 1,
    "applied": 1,
-   "blocked": 3
+   "blocked": 4
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 38
+   "n": 39
   },
   {
    "reason": "login / cuenta",
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 17,
+    "count": 16,
     "cards": [
-     {
-      "row": 9761,
-      "company": "Michael Page Switzerland",
-      "title": "Market Risk Analyst - Commodity Trading House",
-      "url": "https://www.jobup.ch/fr/emplois/detail/14c827e3-41f6-40f9-8d7b-21d3b5208266",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-11-12",
-      "cv_pdf": "https://drive.google.com/file/d/1Lz_-B3FKNBoOM-FTrwWJJEJx0TFLw2AS/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1FPlsnPEjYbgxXODBvMP8mPbfCRSVUtmD/view?usp=drivesdk"
-     },
      {
       "row": 9748,
       "company": "PwC Switzerland - Legal",
@@ -1520,8 +1509,19 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 54,
+    "count": 55,
     "cards": [
+     {
+      "row": 9761,
+      "company": "Michael Page Switzerland",
+      "title": "Market Risk Analyst - Commodity Trading House",
+      "url": "https://www.jobup.ch/fr/emplois/detail/14c827e3-41f6-40f9-8d7b-21d3b5208266",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-17T11:15:21",
+      "cv_pdf": "https://drive.google.com/file/d/1Lz_-B3FKNBoOM-FTrwWJJEJx0TFLw2AS/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1FPlsnPEjYbgxXODBvMP8mPbfCRSVUtmD/view?usp=drivesdk"
+     },
      {
       "row": 9849,
       "company": "Swissquote",
@@ -2070,13 +2070,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 127,
-   "runs_today": 4,
+   "runs": 128,
+   "runs_today": 5,
    "last": {
-    "row": 9773,
-    "company": "Basler Kantonalbank",
-    "title": "Projekt- und Portfoliomanagerin Unternehmensentwicklung (w/m) 80-100%",
-    "started": "2026-11-17T10:53:57",
+    "row": 9761,
+    "company": "Michael Page Switzerland",
+    "title": "Market Risk Analyst - Commodity Trading House",
+    "started": "2026-11-17T11:15:21",
     "applied": false
    },
    "limit": {
@@ -2205,6 +2205,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9761,
+   "folder": "9761_michael-page-switzerland-market-risk-ana",
+   "company": "Michael Page Switzerland",
+   "title": "Market Risk Analyst - Commodity Trading House",
+   "url": "https://www.jobup.ch/fr/emplois/detail/14c827e3-41f6-40f9-8d7b-21d3b5208266",
+   "lang": "en",
+   "started": "2026-11-17T11:15:21",
+   "finished": "2026-11-17T11:16:16",
+   "dur_min": 0.9,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 3,
+   "verify_ok": false
+  },
   {
    "row": 9773,
    "folder": "9773_basler-kantonalbank-projekt-und-portfoli",
