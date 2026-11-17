@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-17T14:22:56",
+ "generated": "2026-11-17T14:29:01",
  "kpis": {
-  "runs": 161,
-  "done": 151,
+  "runs": 162,
+  "done": 152,
   "ok": 65,
-  "ok_pct": 43.0,
+  "ok_pct": 42.8,
   "applied": 40,
-  "blocked": 64,
+  "blocked": 65,
   "manual": 22,
-  "manual_pct": 14.6,
+  "manual_pct": 14.5,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 13.6,
-  "per_hour": 5.56,
-  "median_gap_min": 10.8,
-  "last_24h": 6,
+  "p90_min": 13.5,
+  "per_hour": 5.5,
+  "median_gap_min": 10.9,
+  "last_24h": 7,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 8.0,
+   "h5": 11.0,
    "d7": 69.0,
-   "h5_reset": "2026-11-17T15:30:00.191501+00:00",
-   "d7_reset": "2026-11-18T17:00:00.191524+00:00",
+   "h5_reset": "2026-11-17T15:30:00.321640+00:00",
+   "d7_reset": "2026-11-18T17:00:00.321663+00:00",
    "stale": false,
-   "n_pairs": 64,
+   "n_pairs": 65,
    "cross": 0,
-   "median_h5": 5.0,
+   "median_h5": 4.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.66,
-   "tokens_per_cand_m": 0.94
+   "mean_h5": 5.62,
+   "tokens_per_cand_m": 0.93
   }
  },
  "per_day": [
@@ -127,16 +127,16 @@
   },
   {
    "d": "2026-11-17",
-   "runs": 6,
+   "runs": 7,
    "ok": 1,
    "applied": 1,
-   "blocked": 5
+   "blocked": 6
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 39
+   "n": 40
   },
   {
    "reason": "login / cuenta",
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 15,
+    "count": 14,
     "cards": [
-     {
-      "row": 9748,
-      "company": "PwC Switzerland - Legal",
-      "title": "Compliance Consultant / Group Compliance Specialist",
-      "url": "https://www.linkedin.com/jobs/view/4487490608/",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-10",
-      "cv_pdf": "https://drive.google.com/file/d/1yhT_9CKHyKlxPA9HC357QbKpv-ySwIaG/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1DdKb5EcEuOq0b6yINTmdSIn3cWaY81WP/view?usp=drivesdk"
-     },
      {
       "row": 9742,
       "company": "Jobgether",
@@ -1509,8 +1498,19 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 55,
+    "count": 56,
     "cards": [
+     {
+      "row": 9748,
+      "company": "PwC Switzerland - Legal",
+      "title": "Compliance Consultant / Group Compliance Specialist",
+      "url": "https://www.linkedin.com/jobs/view/4487490608/",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-17T14:24:28",
+      "cv_pdf": "https://drive.google.com/file/d/1yhT_9CKHyKlxPA9HC357QbKpv-ySwIaG/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1DdKb5EcEuOq0b6yINTmdSIn3cWaY81WP/view?usp=drivesdk"
+     },
      {
       "row": 9761,
       "company": "Michael Page Switzerland",
@@ -2070,13 +2070,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 129,
-   "runs_today": 6,
+   "runs": 130,
+   "runs_today": 7,
    "last": {
-    "row": 9671,
-    "company": "",
-    "title": "Business Analyst IA - Claude - Try&Hire à 100%",
-    "started": "2026-11-17T14:05:19",
+    "row": 9748,
+    "company": "PwC Switzerland - Legal",
+    "title": "Compliance Consultant / Group Compliance Specialist",
+    "started": "2026-11-17T14:24:28",
     "applied": false
    },
    "limit": {
@@ -2205,6 +2205,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9748,
+   "folder": "9748_pwc-switzerland-legal-compliance-consult",
+   "company": "PwC Switzerland - Legal",
+   "title": "Compliance Consultant / Group Compliance Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4487490608/",
+   "lang": "en",
+   "started": "2026-11-17T14:24:28",
+   "finished": "2026-11-17T14:25:25",
+   "dur_min": 0.9,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
+  },
   {
    "row": 9671,
    "folder": "9671_business-analyst-ia-claude-try-hire-a-10",
