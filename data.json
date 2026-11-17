@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-17T20:45:35",
+ "generated": "2026-11-17T20:51:38",
  "kpis": {
-  "runs": 162,
-  "done": 152,
-  "ok": 65,
-  "ok_pct": 42.8,
+  "runs": 163,
+  "done": 153,
+  "ok": 66,
+  "ok_pct": 43.1,
   "applied": 40,
   "blocked": 65,
   "manual": 22,
-  "manual_pct": 14.5,
+  "manual_pct": 14.4,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 13.5,
-  "per_hour": 5.5,
-  "median_gap_min": 10.9,
-  "last_24h": 7,
+  "p90_min": 13.4,
+  "per_hour": 5.45,
+  "median_gap_min": 11.0,
+  "last_24h": 8,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 21.0,
-   "d7": 72.0,
-   "h5_reset": "2026-11-17T20:30:00.294845+00:00",
-   "d7_reset": "2026-11-18T17:00:00.294869+00:00",
+   "h5": 28.0,
+   "d7": 73.0,
+   "h5_reset": "2026-11-17T20:30:00.055357+00:00",
+   "d7_reset": "2026-11-18T17:00:00.055388+00:00",
    "stale": false,
-   "n_pairs": 65,
+   "n_pairs": 66,
    "cross": 0,
-   "median_h5": 4.0,
+   "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.62,
-   "tokens_per_cand_m": 0.93
+   "mean_h5": 5.64,
+   "tokens_per_cand_m": 0.94
   }
  },
  "per_day": [
@@ -127,8 +127,8 @@
   },
   {
    "d": "2026-11-17",
-   "runs": 7,
-   "ok": 1,
+   "runs": 8,
+   "ok": 2,
    "applied": 1,
    "blocked": 6
   }
@@ -160,7 +160,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 14,
+    "count": 13,
     "cards": [
      {
       "row": 9742,
@@ -172,17 +172,6 @@
       "ts": "2026-11-06",
       "cv_pdf": "https://drive.google.com/file/d/1LjdQJee9JRquzzEOPss7cYAHbttmZIJl/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1UaRRAb5DXj2y8Y1j46CG9SOOH7qT8heX/view?usp=drivesdk"
-     },
-     {
-      "row": 9697,
-      "company": "SCOR Services Switzerland AG",
-      "title": "Senior P&C Performance & Planning Analyst",
-      "url": "https://www.jobagent.ch/job/senior-p-c-performance-planning-analyst/32566e466a",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-11-11",
-      "cv_pdf": "https://drive.google.com/file/d/10bbRFV4nWU6DKjsj3aMtETAyGOLVR3pM/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1jXk6HZ_heUYPuFVxMWnJh1rF8Y5Ya9A1/view?usp=drivesdk"
      },
      {
       "row": 9593,
@@ -329,8 +318,19 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 6,
+    "count": 7,
     "cards": [
+     {
+      "row": 9697,
+      "company": "SCOR Services Switzerland AG",
+      "title": "Senior P&C Performance & Planning Analyst",
+      "url": "https://www.jobagent.ch/job/senior-p-c-performance-planning-analyst/32566e466a",
+      "score": "",
+      "note": "4 avisos",
+      "ts": "2026-11-17T20:46:03",
+      "cv_pdf": "https://drive.google.com/file/d/10bbRFV4nWU6DKjsj3aMtETAyGOLVR3pM/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1jXk6HZ_heUYPuFVxMWnJh1rF8Y5Ya9A1/view?usp=drivesdk"
+     },
      {
       "row": 9671,
       "company": "",
@@ -2070,13 +2070,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 130,
-   "runs_today": 7,
+   "runs": 131,
+   "runs_today": 8,
    "last": {
-    "row": 9748,
-    "company": "PwC Switzerland - Legal",
-    "title": "Compliance Consultant / Group Compliance Specialist",
-    "started": "2026-11-17T14:24:28",
+    "row": 9697,
+    "company": "SCOR Services Switzerland AG",
+    "title": "Senior P&C Performance & Planning Analyst",
+    "started": "2026-11-17T20:46:03",
     "applied": false
    },
    "limit": {
@@ -2205,6 +2205,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9697,
+   "folder": "9697_scor-services-switzerland-ag-senior-p-c",
+   "company": "SCOR Services Switzerland AG",
+   "title": "Senior P&C Performance & Planning Analyst",
+   "url": "https://www.jobagent.ch/job/senior-p-c-performance-planning-analyst/32566e466a",
+   "lang": "en",
+   "started": "2026-11-17T20:46:03",
+   "finished": "2026-11-17T20:51:11",
+   "dur_min": 5.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 2,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": true
+  },
   {
    "row": 9748,
    "folder": "9748_pwc-switzerland-legal-compliance-consult",
