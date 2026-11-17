@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T08:25:09",
+ "generated": "2026-11-17T08:31:10",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 13.0,
    "d7": 66.0,
-   "h5_reset": "2026-11-17T10:29:59.993545+00:00",
-   "d7_reset": "2026-11-18T16:59:59.993567+00:00",
+   "h5_reset": "2026-11-17T10:30:00.061249+00:00",
+   "d7_reset": "2026-11-18T17:00:00.061271+00:00",
    "stale": false,
    "n_pairs": 57,
    "cross": 0,
@@ -943,7 +943,7 @@
       "title": "FP&A Manager - Group Cost Controlling & Reporting 100%",
       "url": "https://www.jobagent.ch/job/fp-a-manager-group-cost-controlling-reporting-100/3256527a50",
       "score": "",
-      "note": "enviada",
+      "note": "con respuesta",
       "ts": "2026-11-04T21:21:19",
       "cv_pdf": "https://drive.google.com/file/d/1StG-VBjon0kIUVLLEnqXt58qUC2qb5TV/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1tSPc1iUP1P92L50aR6R66Q-VqVx18hl7/view?usp=drivesdk"
