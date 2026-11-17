@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-17T10:08:31",
+ "generated": "2026-11-17T10:14:32",
  "kpis": {
-  "runs": 156,
+  "runs": 157,
   "done": 146,
   "ok": 65,
   "ok_pct": 44.5,
@@ -13,24 +13,24 @@
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
   "p90_min": 14.1,
-  "per_hour": 6.12,
-  "median_gap_min": 9.8,
-  "last_24h": 1,
+  "per_hour": 6.0,
+  "median_gap_min": 10.0,
+  "last_24h": 2,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 19.0,
+   "h5": 21.0,
    "d7": 66.0,
-   "h5_reset": "2026-11-17T10:30:00.080507+00:00",
-   "d7_reset": "2026-11-18T17:00:00.080531+00:00",
-   "stale": false,
-   "n_pairs": 58,
+   "h5_reset": "2026-11-17T10:29:59.983986+00:00",
+   "d7_reset": "2026-11-18T16:59:59.984013+00:00",
+   "stale": true,
+   "n_pairs": 59,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 5.98,
-   "tokens_per_cand_m": 0.99
+   "mean_h5": 5.92,
+   "tokens_per_cand_m": 0.98
   }
  },
  "per_day": [
@@ -127,10 +127,10 @@
   },
   {
    "d": "2026-11-17",
-   "runs": 1,
+   "runs": 2,
    "ok": 1,
    "applied": 1,
-   "blocked": 0
+   "blocked": 1
   }
  ],
  "blockers": [
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 20,
+    "count": 19,
     "cards": [
-     {
-      "row": 9849,
-      "company": "Swissquote",
-      "title": "Compliance Data & Automation Engineer Gland, Switzerland",
-      "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
-      "score": "8",
-      "note": "listo para lanzar",
-      "ts": "2026-11-13",
-      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
-     },
      {
       "row": 9839,
       "company": "Recruitment Room - Global",
@@ -388,8 +377,20 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9849,
+      "company": "Swissquote",
+      "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-17T10:13:10",
+      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -2070,14 +2071,14 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 124,
-   "runs_today": 1,
+   "runs": 125,
+   "runs_today": 2,
    "last": {
-    "row": 9931,
-    "company": "",
-    "title": "Business Analyst Private Banking FR-EN",
-    "started": "2026-11-17T09:18:54",
-    "applied": true
+    "row": 9849,
+    "company": "Swissquote",
+    "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+    "started": "2026-11-17T10:13:10",
+    "applied": false
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
@@ -2205,6 +2206,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9849,
+   "folder": "9849_swissquote-compliance-data-automation-en",
+   "company": "Swissquote",
+   "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+   "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
+   "lang": "en",
+   "started": "2026-11-17T10:13:10",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "SCORED",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "directo",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 2,
+   "verify_ok": false
+  },
   {
    "row": 9931,
    "folder": "9931_business-analyst-private-banking-fr-en",
