@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T12:03:28",
+ "generated": "2026-11-17T12:09:34",
  "kpis": {
   "runs": 160,
   "done": 150,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 0.0,
    "d7": 68.0,
-   "h5_reset": "2026-11-17T15:29:59.583512+00:00",
-   "d7_reset": "2026-11-18T16:59:59.583535+00:00",
+   "h5_reset": "2026-11-17T15:29:59.714541+00:00",
+   "d7_reset": "2026-11-18T16:59:59.714562+00:00",
    "stale": false,
    "n_pairs": 63,
    "cross": 0,
@@ -170,8 +170,8 @@
       "score": "10",
       "note": "listo para lanzar",
       "ts": "2026-11-10",
-      "cv_pdf": "https://drive.google.com/file/d/1ZrULzyzN9UKd7SI4TYLt9SFzxQWsBlUO/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1tpkbRKS7BN05nAdB9ZiVRTOHm_IRqWOH/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1yhT_9CKHyKlxPA9HC357QbKpv-ySwIaG/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1DdKb5EcEuOq0b6yINTmdSIn3cWaY81WP/view?usp=drivesdk"
      },
      {
       "row": 9742,
@@ -181,8 +181,8 @@
       "score": "7",
       "note": "listo para lanzar",
       "ts": "2026-11-06",
-      "cv_pdf": "https://drive.google.com/file/d/19yYfPK4NaocI3UIrlv-lhur6szu6uTed/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1rytv3xVaoF1n7FmEmv8T40VrcQv7pd3c/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1LjdQJee9JRquzzEOPss7cYAHbttmZIJl/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1UaRRAb5DXj2y8Y1j46CG9SOOH7qT8heX/view?usp=drivesdk"
      },
      {
       "row": 9697,
@@ -192,8 +192,8 @@
       "score": "8",
       "note": "listo para lanzar",
       "ts": "2026-11-11",
-      "cv_pdf": "https://drive.google.com/file/d/1CVODtKvxgoEhHKwf6jieR_xUr1ckMzFN/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1dGa5KPFJvjGf1n4-V15fuT7Rgrkr8f-X/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/10bbRFV4nWU6DKjsj3aMtETAyGOLVR3pM/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1jXk6HZ_heUYPuFVxMWnJh1rF8Y5Ya9A1/view?usp=drivesdk"
      },
      {
       "row": 9671,
@@ -203,8 +203,8 @@
       "score": "7",
       "note": "listo para lanzar",
       "ts": "2026-11-10",
-      "cv_pdf": "https://drive.google.com/file/d/15W-VXiR6uh1wzOmFJMozU0WCMSFoM-XI/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1I-6JpIkel2254tO2jKm9cxZwDh0_58MH/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1yOYPWtBmohpEGM5wM2Zrc0Qj4wLhf_xL/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1j9UyLb5b710WGTgiacumLN6e1bYw5js7/view?usp=drivesdk"
      },
      {
       "row": 9593,
@@ -214,8 +214,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-11-09",
-      "cv_pdf": "https://drive.google.com/file/d/1okCAKHuteMuKuMA_R-tdYtrvseHYCih0/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1Yxnigl5nLBKX9AVA0UROPk56Zh6pHr3o/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1hqPnTz5JW4-0Xu6oWLGgLEeaX8QUFotC/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1rsYkXdgtd2eORs0NtwMQU1SxZ7f6_b0w/view?usp=drivesdk"
      },
      {
       "row": 9586,
@@ -225,8 +225,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-11-06",
-      "cv_pdf": "https://drive.google.com/file/d/1PjrfgzCZFrEHR8zWcFGCGeZkM_idyuRx/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1u4Kj5hQ5PlNwqO_LuBvFPqq-aaRk5jMb/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1TUK7ieEN-iLIrHNk1BmAIWzmY3MKlTpI/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/18V-ZLs8Yqgu4eSIz7FMHIjkfXk5DTf6_/view?usp=drivesdk"
      },
      {
       "row": 9460,
@@ -236,8 +236,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-10-11",
-      "cv_pdf": "https://drive.google.com/file/d/15Eu9cQEKK731u0JEl6pduD_nKfu6DxuW/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/18ImQxk_MKF4kZb2xsUpAY0zMY-Ol783o/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1C60Siz3oiE5qlb6qTashP5YAi-fGa9FY/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1yUrCmBo9NvJ-PtbRnD8FBABsO2KnR1SV/view?usp=drivesdk"
      },
      {
       "row": 9212,
@@ -247,8 +247,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-11-04",
-      "cv_pdf": "https://drive.google.com/file/d/1CYXdtTX4K0_kOjlEVHOpx-yGoJAfIJhg/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1ZNZuzaI71VNlzUqXxD4Th3BB7xbsae5S/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1tPjeSLBx4aFRGMuKhWrgffzFscnLTgrb/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/14-wsEwVV7fNAVPRIfZ8-RPRbpLwN0V8r/view?usp=drivesdk"
      },
      {
       "row": 9170,
@@ -258,8 +258,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-11-02",
-      "cv_pdf": "https://drive.google.com/file/d/1maJzR6e0C4Ojr9yh4EVyG5o52bS8Ssju/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1nPx5Pou7jY2CM9x_nTv8Kp0noEafmnXs/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1sbeU94akJdUl9aPsXalwJbiP35ikY5v8/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/14nbdH1WKkF-eswDbMtZUkPuy8FJbyuYh/view?usp=drivesdk"
      },
      {
       "row": 8985,
@@ -269,8 +269,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-11-02",
-      "cv_pdf": "https://drive.google.com/file/d/1EGPVrsA5qbxadVpczn8O7JzfTF2J0Jp9/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1WvL8lAFXqNXf4DsRkKdxl_sOH6A4VNi8/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1_5qvdYPMAF6S4rtmzZ8kkRQCON6uQEq4/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1zq4-NyDoZAw2z5xANHZ7RSP7DIlB5sHZ/view?usp=drivesdk"
      },
      {
       "row": 8895,
@@ -280,8 +280,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-10-27",
-      "cv_pdf": "https://drive.google.com/file/d/18HF8WLspRSnqW3lT0bg7gMvBnmxrQXkO/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1JKk7AyyzzIHaftbfxUdhYP_BaNLbpM6H/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1ZmYvi2z8EM4BOHKBuyV_PxQq3_rhNvK5/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1regpD-lgnLGXFhaEq6nNBQmaINRHkx11/view?usp=drivesdk"
      },
      {
       "row": 8665,
@@ -291,8 +291,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-10-15",
-      "cv_pdf": "https://drive.google.com/file/d/1KeyHqO0zXP_9tVl2VYHxTiXvPadR7Cne/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1D1LppXQaiPWYab0ZjVxAermgNUpfB1ug/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1YhQhuZKwTkcueBs-JkAgVqYRbHeAMfJB/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1NaXj_qvY3Masdo_CoBKaRft42-MwheMx/view?usp=drivesdk"
      },
      {
       "row": 8206,
@@ -302,8 +302,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-10-29",
-      "cv_pdf": "https://drive.google.com/file/d/1pBhOJgeH7aenlmErsGUwVHkQOr-qzRxM/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1-6wFGK8W42cGXvyfXgcnmk51TrsXWqEq/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1D7hE0v_s0kLUnXmYLxHqVQPhphGyBVdF/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1YybGCa9zuLqWWwAY5gzC90312OsRavVX/view?usp=drivesdk"
      },
      {
       "row": 8142,
@@ -313,8 +313,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-10-08",
-      "cv_pdf": "https://drive.google.com/file/d/1DNIrKyr3Vj6bFI9c3YEYexo8Q_6-T2In/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1QHSvBk8_I8RtQ9nQ8Vg0Kb9Ttop0c8tF/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1W30pLg54O1GlQ6BfNttYKQPzTEkuZ1LO/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1CnluebTZv8uCHxWps0rwzdWqMaZUJ2A7/view?usp=drivesdk"
      },
      {
       "row": 8114,
@@ -324,8 +324,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-10-19",
-      "cv_pdf": "https://drive.google.com/file/d/1SrjfX46LjE2r5pXUwAeCSCvUCtNbw55J/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1QyLH7BwoEf0li_Yw74CF6PMWns_bIxfw/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1aHQyJdwOILOtNSltGhp1PfAi5n0yqKP6/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1IhEPzDvH7afc9pSjvWa6oy-pSM_1RiRa/view?usp=drivesdk"
      },
      {
       "row": 8106,
@@ -335,8 +335,8 @@
       "score": "6",
       "note": "listo para lanzar",
       "ts": "2026-10-19",
-      "cv_pdf": "https://drive.google.com/file/d/1BKyHYtDx4fZDUZ1IaNs0fePV5IG2WAhq/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1wy-_iyoxCWmLIm2VhvmRUywD3kH_IvKv/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1wYcJz_7IwEag8FZUUXlmr0i9TqIZq0fa/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/16PtSqPFueV3Y3XKlsxgNi5ISFhZ9CeCo/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -361,8 +361,8 @@
       "score": "",
       "note": "login",
       "ts": "2026-11-17T10:53:57",
-      "cv_pdf": "https://drive.google.com/file/d/17oAgHXKfmM_meOOC_HEixdgbhmhKXtHj/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1KTsxFBT8GaEwFqhbDag98rSrTDAjtIZ5/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/1KQa1wZ_hr2dgHhoTt_imdzlaT_zvkuLv/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1njBB-kO74zQsPwRtKoOFKg3QlMXu4bKb/view?usp=drivesdk"
      },
      {
       "row": 9839,
@@ -372,8 +372,8 @@
       "score": "",
       "note": "login",
       "ts": "2026-11-17T10:16:12",
-      "cv_pdf": "https://drive.google.com/file/d/1qZDvXyIfQoj3uzQgQDCI0RdKoTKQ-Wnc/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1-9KuMRuvPq9GV1k1a5a5wk2tt1sbYTG1/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/17FtQ7a7Nkro5oh2yof_SX_lt986ekuLw/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1lJeF81GTec6bmYE97L6jK_MUBqQPtesG/view?usp=drivesdk"
      },
      {
       "row": 8131,
@@ -1519,8 +1519,8 @@
       "score": "",
       "note": "sin_formulario",
       "ts": "2026-11-17T11:15:21",
-      "cv_pdf": "https://drive.google.com/file/d/1Lz_-B3FKNBoOM-FTrwWJJEJx0TFLw2AS/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1FPlsnPEjYbgxXODBvMP8mPbfCRSVUtmD/view?usp=drivesdk"
+      "cv_pdf": "https://drive.google.com/file/d/19NrRigJyerFVeCBjAwV2opWaUxh-V9RK/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/10cfgyyRQWM6kC3rd8_3lr_eAK0LM5QLe/view?usp=drivesdk"
      },
      {
       "row": 9849,
