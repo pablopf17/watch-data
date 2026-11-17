@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T06:05:39",
+ "generated": "2026-11-17T06:11:30",
  "kpis": {
   "runs": 155,
   "done": 145,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 64.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-18T17:00:00.281527+00:00",
+   "d7_reset": "2026-11-18T17:00:00.002800+00:00",
    "stale": false,
    "n_pairs": 57,
    "cross": 0,
@@ -153,7 +153,7 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 24,
+    "count": 21,
     "cards": [
      {
       "row": 9931,
@@ -244,17 +244,6 @@
       "cl_pdf": "https://drive.google.com/file/d/1dGa5KPFJvjGf1n4-V15fuT7Rgrkr8f-X/view?usp=drivesdk"
      },
      {
-      "row": 9674,
-      "company": "Banque Cantonale Vaudoise",
-      "title": "Responsable de projet Digital",
-      "url": "https://www.jobagent.ch/mail/job/32566c6e41/34465947",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-11-11",
-      "cv_pdf": "https://drive.google.com/file/d/1ZVLA-nOZhyfLyDscjV1EOQun7lfsUnkr/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1-79gBeEEjY1Xe8lkDHxEqV1ACTM3JkeB/view?usp=drivesdk"
-     },
-     {
       "row": 9671,
       "company": "",
       "title": "Business Analyst IA - Claude - Try&Hire à 100%",
@@ -264,17 +253,6 @@
       "ts": "2026-11-10",
       "cv_pdf": "https://drive.google.com/file/d/15W-VXiR6uh1wzOmFJMozU0WCMSFoM-XI/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1I-6JpIkel2254tO2jKm9cxZwDh0_58MH/view?usp=drivesdk"
-     },
-     {
-      "row": 9620,
-      "company": "Goldman Sachs Bank AG",
-      "title": "Private Wealth Management, GSBZ Sales Management, Analyst, Zurich",
-      "url": "https://www.jobagent.ch/job/private-wealth-management-gsbz-sales-management-analyst-zurich/32566c5679",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-10",
-      "cv_pdf": "https://drive.google.com/file/d/1oo7QILua_OcAKKhkdqbF07YlirlDbyV9/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1F72-afNB2e3bjzyUyIrkmV79ZoVKAsFb/view?usp=drivesdk"
      },
      {
       "row": 9593,
@@ -297,17 +275,6 @@
       "ts": "2026-11-06",
       "cv_pdf": "https://drive.google.com/file/d/1PjrfgzCZFrEHR8zWcFGCGeZkM_idyuRx/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1u4Kj5hQ5PlNwqO_LuBvFPqq-aaRk5jMb/view?usp=drivesdk"
-     },
-     {
-      "row": 9538,
-      "company": "SiiRA",
-      "title": "Project Manager",
-      "url": "https://www.linkedin.com/jobs/view/4489104712/",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-11-09",
-      "cv_pdf": "https://drive.google.com/file/d/1zYBzLth3BbPgqcvN1ZjJWty1L8wFpsiN/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1nOKZBrCH5tFHiGW5Z57fEMXZ08WSQvcF/view?usp=drivesdk"
      },
      {
       "row": 9460,
@@ -2088,7 +2055,7 @@
     "more": 0
    }
   ],
-  "total": 178
+  "total": 175
  },
  "engines": [
   {
