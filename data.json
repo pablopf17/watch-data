@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-17T10:20:26",
+ "generated": "2026-11-17T10:26:37",
  "kpis": {
   "runs": 158,
-  "done": 147,
+  "done": 148,
   "ok": 65,
-  "ok_pct": 44.2,
+  "ok_pct": 43.9,
   "applied": 40,
-  "blocked": 60,
-  "manual": 19,
-  "manual_pct": 12.9,
-  "median_min": 4.7,
+  "blocked": 61,
+  "manual": 20,
+  "manual_pct": 13.5,
+  "median_min": 4.6,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.0,
+  "p90_min": 13.9,
   "per_hour": 6.12,
   "median_gap_min": 9.8,
   "last_24h": 3,
@@ -21,15 +21,15 @@
   "claude_usage": {
    "h5": 26.0,
    "d7": 67.0,
-   "h5_reset": "2026-11-17T10:29:59.856986+00:00",
-   "d7_reset": "2026-11-18T16:59:59.857013+00:00",
+   "h5_reset": "2026-11-17T10:30:00.296361+00:00",
+   "d7_reset": "2026-11-18T17:00:00.296384+00:00",
    "stale": false,
-   "n_pairs": 59,
+   "n_pairs": 60,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 15.0,
    "max_h5": 29.0,
-   "mean_h5": 5.92,
+   "mean_h5": 5.9,
    "tokens_per_cand_m": 0.98
   }
  },
@@ -140,7 +140,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 14
+   "n": 15
   },
   {
    "reason": "otro",
@@ -366,7 +366,14 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 4,
     "cards": [
      {
       "row": 9839,
@@ -374,19 +381,11 @@
       "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
       "url": "https://www.linkedin.com/jobs/view/4489965974/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "login",
       "ts": "2026-11-17T10:16:12",
       "cv_pdf": "https://drive.google.com/file/d/1qZDvXyIfQoj3uzQgQDCI0RdKoTKQ-Wnc/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1-9KuMRuvPq9GV1k1a5a5wk2tt1sbYTG1/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 3,
-    "cards": [
+     },
      {
       "row": 8131,
       "company": "World Intellectual Property Organization – WIPO",
@@ -2214,10 +2213,10 @@
    "url": "https://www.linkedin.com/jobs/view/4489965974/",
    "lang": "en",
    "started": "2026-11-17T10:16:12",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-17T10:20:42",
+   "dur_min": 4.5,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "SCORED",
    "engine": "claude",
    "blocked": "login",
@@ -2231,7 +2230,7 @@
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 3,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 9849,
