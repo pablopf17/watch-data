@@ -1,29 +1,29 @@
 {
- "generated": "2026-11-17T10:14:32",
+ "generated": "2026-11-17T10:20:26",
  "kpis": {
-  "runs": 157,
-  "done": 146,
+  "runs": 158,
+  "done": 147,
   "ok": 65,
-  "ok_pct": 44.5,
+  "ok_pct": 44.2,
   "applied": 40,
-  "blocked": 59,
+  "blocked": 60,
   "manual": 19,
-  "manual_pct": 13.0,
+  "manual_pct": 12.9,
   "median_min": 4.7,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.1,
-  "per_hour": 6.0,
-  "median_gap_min": 10.0,
-  "last_24h": 2,
+  "p90_min": 14.0,
+  "per_hour": 6.12,
+  "median_gap_min": 9.8,
+  "last_24h": 3,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 21.0,
-   "d7": 66.0,
-   "h5_reset": "2026-11-17T10:29:59.983986+00:00",
-   "d7_reset": "2026-11-18T16:59:59.984013+00:00",
-   "stale": true,
+   "h5": 26.0,
+   "d7": 67.0,
+   "h5_reset": "2026-11-17T10:29:59.856986+00:00",
+   "d7_reset": "2026-11-18T16:59:59.857013+00:00",
+   "stale": false,
    "n_pairs": 59,
    "cross": 0,
    "median_h5": 5.0,
@@ -127,16 +127,16 @@
   },
   {
    "d": "2026-11-17",
-   "runs": 2,
+   "runs": 3,
    "ok": 1,
    "applied": 1,
-   "blocked": 1
+   "blocked": 2
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 37
+   "n": 38
   },
   {
    "reason": "login / cuenta",
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 19,
+    "count": 18,
     "cards": [
-     {
-      "row": 9839,
-      "company": "Recruitment Room - Global",
-      "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
-      "url": "https://www.linkedin.com/jobs/view/4489965974/",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-11",
-      "cv_pdf": "https://drive.google.com/file/d/1qZDvXyIfQoj3uzQgQDCI0RdKoTKQ-Wnc/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1-9KuMRuvPq9GV1k1a5a5wk2tt1sbYTG1/view?usp=drivesdk"
-     },
      {
       "row": 9773,
       "company": "Basler Kantonalbank",
@@ -380,15 +369,15 @@
     "count": 1,
     "cards": [
      {
-      "row": 9849,
-      "company": "Swissquote",
-      "title": "Compliance Data & Automation Engineer Gland, Switzerland",
-      "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
+      "row": 9839,
+      "company": "Recruitment Room - Global",
+      "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
+      "url": "https://www.linkedin.com/jobs/view/4489965974/",
       "score": "",
       "note": "running · sin cerrar",
-      "ts": "2026-11-17T10:13:10",
-      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
+      "ts": "2026-11-17T10:16:12",
+      "cv_pdf": "https://drive.google.com/file/d/1qZDvXyIfQoj3uzQgQDCI0RdKoTKQ-Wnc/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1-9KuMRuvPq9GV1k1a5a5wk2tt1sbYTG1/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -1532,8 +1521,19 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 53,
+    "count": 54,
     "cards": [
+     {
+      "row": 9849,
+      "company": "Swissquote",
+      "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
+      "score": "",
+      "note": "sin_formulario",
+      "ts": "2026-11-17T10:13:10",
+      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
+     },
      {
       "row": 9571,
       "company": "coni+partner AG",
@@ -2071,13 +2071,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 125,
-   "runs_today": 2,
+   "runs": 126,
+   "runs_today": 3,
    "last": {
-    "row": 9849,
-    "company": "Swissquote",
-    "title": "Compliance Data & Automation Engineer Gland, Switzerland",
-    "started": "2026-11-17T10:13:10",
+    "row": 9839,
+    "company": "Recruitment Room - Global",
+    "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
+    "started": "2026-11-17T10:16:12",
     "applied": false
    },
    "limit": {
@@ -2207,6 +2207,33 @@
  },
  "runs": [
   {
+   "row": 9839,
+   "folder": "9839_recruitment-room-global-independent-cons",
+   "company": "Recruitment Room - Global",
+   "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
+   "url": "https://www.linkedin.com/jobs/view/4489965974/",
+   "lang": "en",
+   "started": "2026-11-17T10:16:12",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "SCORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "linkedin_external",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 2,
+   "avisos": 3,
+   "verify_ok": null
+  },
+  {
    "row": 9849,
    "folder": "9849_swissquote-compliance-data-automation-en",
    "company": "Swissquote",
@@ -2214,10 +2241,10 @@
    "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
    "lang": "en",
    "started": "2026-11-17T10:13:10",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-17T10:14:32",
+   "dur_min": 1.4,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "SCORED",
    "engine": "claude",
    "blocked": "sin_formulario",
