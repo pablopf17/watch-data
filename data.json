@@ -1,28 +1,28 @@
 {
- "generated": "2026-11-17T10:38:37",
+ "generated": "2026-11-17T10:44:41",
  "kpis": {
   "runs": 158,
-  "done": 148,
+  "done": 147,
   "ok": 65,
-  "ok_pct": 43.9,
+  "ok_pct": 44.2,
   "applied": 40,
-  "blocked": 61,
+  "blocked": 60,
   "manual": 20,
-  "manual_pct": 13.5,
-  "median_min": 4.6,
+  "manual_pct": 13.6,
+  "median_min": 4.7,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 13.9,
-  "per_hour": 6.12,
-  "median_gap_min": 9.8,
+  "p90_min": 14.0,
+  "per_hour": 5.77,
+  "median_gap_min": 10.4,
   "last_24h": 3,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 26.0,
+   "h5": 27.0,
    "d7": 67.0,
-   "h5_reset": "2026-11-17T10:29:59.768749+00:00",
-   "d7_reset": "2026-11-18T16:59:59.768772+00:00",
+   "h5_reset": "2026-11-17T10:30:00.243155+00:00",
+   "d7_reset": "2026-11-18T17:00:00.243177+00:00",
    "stale": false,
    "n_pairs": 60,
    "cross": 0,
@@ -136,7 +136,7 @@
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 38
+   "n": 37
   },
   {
    "reason": "login / cuenta",
@@ -366,8 +366,20 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9849,
+      "company": "Swissquote",
+      "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-17T10:44:04",
+      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -1520,19 +1532,8 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 54,
+    "count": 53,
     "cards": [
-     {
-      "row": 9849,
-      "company": "Swissquote",
-      "title": "Compliance Data & Automation Engineer Gland, Switzerland",
-      "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
-      "score": "",
-      "note": "sin_formulario",
-      "ts": "2026-11-17T10:13:10",
-      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
-     },
      {
       "row": 9571,
       "company": "coni+partner AG",
@@ -2073,10 +2074,10 @@
    "runs": 126,
    "runs_today": 3,
    "last": {
-    "row": 9839,
-    "company": "Recruitment Room - Global",
-    "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
-    "started": "2026-11-17T10:16:12",
+    "row": 9849,
+    "company": "Swissquote",
+    "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+    "started": "2026-11-17T10:44:04",
     "applied": false
    },
    "limit": {
@@ -2206,6 +2207,33 @@
  },
  "runs": [
   {
+   "row": 9849,
+   "folder": "9849_swissquote-compliance-data-automation-en",
+   "company": "Swissquote",
+   "title": "Compliance Data & Automation Engineer Gland, Switzerland",
+   "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
+   "lang": "en",
+   "started": "2026-11-17T10:44:04",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "PENDING APPROVAL",
+   "engine": "claude",
+   "blocked": "sin_formulario",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "directo",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 1,
+   "avisos": 2,
+   "verify_ok": false
+  },
+  {
    "row": 9839,
    "folder": "9839_recruitment-room-global-independent-cons",
    "company": "Recruitment Room - Global",
@@ -2230,33 +2258,6 @@
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 3,
-   "verify_ok": false
-  },
-  {
-   "row": 9849,
-   "folder": "9849_swissquote-compliance-data-automation-en",
-   "company": "Swissquote",
-   "title": "Compliance Data & Automation Engineer Gland, Switzerland",
-   "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
-   "lang": "en",
-   "started": "2026-11-17T10:13:10",
-   "finished": "2026-11-17T10:14:32",
-   "dur_min": 1.4,
-   "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
-   "status_at_start": "SCORED",
-   "engine": "claude",
-   "blocked": "sin_formulario",
-   "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "directo",
-   "files_verified": 0,
-   "files_total": 2,
-   "required_missing": 3,
-   "needs_approval": 1,
-   "avisos": 2,
    "verify_ok": false
   },
   {
