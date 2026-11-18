@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T13:19:30",
+ "generated": "2026-11-18T13:55:52",
  "kpis": {
-  "runs": 163,
+  "runs": 164,
   "done": 153,
   "ok": 66,
   "ok_pct": 43.1,
@@ -15,15 +15,15 @@
   "p90_min": 13.4,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 3,
+  "last_24h": 4,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 31.0,
-   "d7": 80.0,
-   "h5_reset": "2026-11-18T13:20:00.079380+00:00",
-   "d7_reset": "2026-11-18T17:00:00.079401+00:00",
-   "stale": true,
+   "h5": 40.0,
+   "d7": 81.0,
+   "h5_reset": "2026-11-18T13:20:00.328177+00:00",
+   "d7_reset": "2026-11-18T17:00:00.328204+00:00",
+   "stale": false,
    "n_pairs": 66,
    "cross": 0,
    "median_h5": 5.0,
@@ -34,13 +34,6 @@
   }
  },
  "per_day": [
-  {
-   "d": "2026-10-27",
-   "runs": 11,
-   "ok": 3,
-   "applied": 0,
-   "blocked": 4
-  },
   {
    "d": "2026-10-28",
    "runs": 5,
@@ -131,6 +124,13 @@
    "ok": 2,
    "applied": 1,
    "blocked": 6
+  },
+  {
+   "d": "2026-11-18",
+   "runs": 1,
+   "ok": 0,
+   "applied": 0,
+   "blocked": 0
   }
  ],
  "blockers": [
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 14,
+    "count": 13,
     "cards": [
-     {
-      "row": 9993,
-      "company": "",
-      "title": "Operational Risk Specialist",
-      "url": "https://www.job-room.ch/job-search/caa73c9e-7607-4f9a-b5fd-2640d7dd33b5",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-17",
-      "cv_pdf": "https://drive.google.com/file/d/1fryK-S8uXjyIJk6NsoOG3hwLXMN7Zi7g/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1DAEcU9TdLS2tlmbgoMvAhJ8VdYJbRAef/view?usp=drivesdk"
-     },
      {
       "row": 9742,
       "company": "Jobgether",
@@ -322,8 +311,20 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9993,
+      "company": "",
+      "title": "Operational Risk Specialist",
+      "url": "https://www.job-room.ch/job-search/caa73c9e-7607-4f9a-b5fd-2640d7dd33b5",
+      "score": "",
+      "note": "running · sin cerrar",
+      "ts": "2026-11-18T13:54:04",
+      "cv_pdf": "https://drive.google.com/file/d/1fryK-S8uXjyIJk6NsoOG3hwLXMN7Zi7g/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1DAEcU9TdLS2tlmbgoMvAhJ8VdYJbRAef/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -2081,13 +2082,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 131,
-   "runs_today": 0,
+   "runs": 132,
+   "runs_today": 1,
    "last": {
-    "row": 9697,
-    "company": "SCOR Services Switzerland AG",
-    "title": "Senior P&C Performance & Planning Analyst",
-    "started": "2026-11-17T20:46:03",
+    "row": 9993,
+    "company": "",
+    "title": "Operational Risk Specialist",
+    "started": "2026-11-18T13:54:04",
     "applied": false
    },
    "limit": {
@@ -2216,6 +2217,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9993,
+   "folder": "9993_operational-risk-specialist",
+   "company": "",
+   "title": "Operational Risk Specialist",
+   "url": "https://www.job-room.ch/job-search/caa73c9e-7607-4f9a-b5fd-2640d7dd33b5",
+   "lang": "fr",
+   "started": "2026-11-18T13:54:04",
+   "finished": null,
+   "dur_min": null,
+   "phase": "running",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 9697,
    "folder": "9697_scor-services-switzerland-ag-senior-p-c",
