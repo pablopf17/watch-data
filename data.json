@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T04:49:56",
+ "generated": "2026-11-18T04:55:58",
  "kpis": {
   "runs": 163,
   "done": 153,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 1.0,
    "d7": 73.0,
-   "h5_reset": "2026-11-18T08:09:59.648173+00:00",
-   "d7_reset": "2026-11-18T16:59:59.648193+00:00",
+   "h5_reset": "2026-11-18T08:09:59.715375+00:00",
+   "d7_reset": "2026-11-18T16:59:59.715394+00:00",
    "stale": false,
    "n_pairs": 66,
    "cross": 0,
@@ -414,7 +414,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 99,
+    "count": 98,
     "cards": [
      {
       "row": 9931,
@@ -1143,17 +1143,6 @@
       "cl_pdf": "https://drive.google.com/file/d/1oyew4qy6UEOIJb6ViMznzGBs4DP-XIl8/view?usp=drivesdk"
      },
      {
-      "row": 6067,
-      "company": "FORUM MONDIAL DE L'ECONOMIE",
-      "title": "Analyst, Strategic Intelligence and Foresight (Two year fixed-term contract)",
-      "url": "https://www.jobagent.ch/job/analyst-strategic-intelligence-and-foresight-two-year-fixed-term-contract/3256485967",
-      "score": "",
-      "note": "con respuesta · pasada paró en 5 avisos",
-      "ts": "2026-11-02T11:41:47",
-      "cv_pdf": "https://drive.google.com/file/d/1d134xB9QOtRmZeMyOwMHCcku0pMb4FhC/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1lXNK0S28BUYam3Q2w5A8lEWJRNP1bkPW/view?usp=drivesdk"
-     },
-     {
       "row": 5162,
       "company": "VZ VermögensZentrum",
       "title": "Responsable des risques opérationnels",
@@ -1509,7 +1498,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 56,
+    "count": 57,
     "cards": [
      {
       "row": 9748,
@@ -1903,6 +1892,17 @@
       "ts": "2026-11-02T20:03:28",
       "cv_pdf": "https://drive.google.com/file/d/1EkNDgzo7Be7ATu73oH2q_EPf70U-_WyF/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1HVvywLuQF4s94ggcudkaSDmGWwk9ki_7/view?usp=drivesdk"
+     },
+     {
+      "row": 6067,
+      "company": "FORUM MONDIAL DE L'ECONOMIE",
+      "title": "Analyst, Strategic Intelligence and Foresight (Two year fixed-term contract)",
+      "url": "https://www.jobagent.ch/job/analyst-strategic-intelligence-and-foresight-two-year-fixed-term-contract/3256485967",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-02T11:41:47",
+      "cv_pdf": "https://drive.google.com/file/d/1d134xB9QOtRmZeMyOwMHCcku0pMb4FhC/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1lXNK0S28BUYam3Q2w5A8lEWJRNP1bkPW/view?usp=drivesdk"
      },
      {
       "row": 6049,
