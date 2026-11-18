@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T04:19:50",
+ "generated": "2026-11-18T04:25:38",
  "kpis": {
   "runs": 163,
   "done": 153,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 1.0,
    "d7": 73.0,
-   "h5_reset": "2026-11-18T08:10:00.024311+00:00",
-   "d7_reset": "2026-11-18T17:00:00.024334+00:00",
+   "h5_reset": "2026-11-18T08:10:00.359257+00:00",
+   "d7_reset": "2026-11-18T17:00:00.359276+00:00",
    "stale": false,
    "n_pairs": 66,
    "cross": 0,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 13,
+    "count": 14,
     "cards": [
+     {
+      "row": 9993,
+      "company": "",
+      "title": "Operational Risk Specialist",
+      "url": "https://www.job-room.ch/job-search/caa73c9e-7607-4f9a-b5fd-2640d7dd33b5",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-17",
+      "cv_pdf": "https://drive.google.com/file/d/1fryK-S8uXjyIJk6NsoOG3hwLXMN7Zi7g/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1DAEcU9TdLS2tlmbgoMvAhJ8VdYJbRAef/view?usp=drivesdk"
+     },
      {
       "row": 9742,
       "company": "Jobgether",
@@ -2062,7 +2073,7 @@
     "more": 0
    }
   ],
-  "total": 175
+  "total": 176
  },
  "engines": [
   {
