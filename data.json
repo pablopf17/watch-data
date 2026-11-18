@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T17:33:23",
+ "generated": "2026-11-18T17:39:28",
  "kpis": {
   "runs": 164,
   "done": 154,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 10.0,
    "d7": 82.0,
-   "h5_reset": "2026-11-18T19:10:00.098468+00:00",
-   "d7_reset": "2026-11-18T17:00:00.098513+00:00",
+   "h5_reset": "2026-11-18T19:09:59.913884+00:00",
+   "d7_reset": "2026-11-18T16:59:59.913909+00:00",
    "stale": false,
    "n_pairs": 67,
    "cross": 0,
@@ -1528,7 +1528,7 @@
       "title": "Compliance Data & Automation Engineer Gland, Switzerland",
       "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-17T10:44:04",
       "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
