@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T22:00:05",
+ "generated": "2026-11-18T22:30:24",
  "kpis": {
   "runs": 164,
   "done": 154,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 13,
+    "count": 14,
     "cards": [
+     {
+      "row": 10067,
+      "company": "Taurus SA",
+      "title": "Senior Project Manager",
+      "url": "https://www.job-room.ch/job-search/80926024-70ab-4621-90e2-c189c07a38ba",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-18",
+      "cv_pdf": "https://drive.google.com/file/d/1B3DQ9_Q7F8gQ8e7aOwtjrZGJt-tyaqyi/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1gT2KOZiclroqLL_Orp2GmxLR6En4R34m/view?usp=drivesdk"
+     },
      {
       "row": 9742,
       "company": "Jobgether",
@@ -1529,9 +1540,7 @@
       "url": "https://jobs.smartrecruiters.com/Swissquote/744000160550821-compliance-data-automation-engineer",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-17T10:44:04",
-      "cv_pdf": "https://drive.google.com/file/d/12Gas2iIgYs13vRTjXmd1kd0V3txA-RsK/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1z5-ASb4VurqPVuouftRZs8_X8HRlLXYX/view?usp=drivesdk"
+      "ts": "2026-11-17T10:44:04"
      },
      {
       "row": 9571,
@@ -2073,7 +2082,7 @@
     "more": 0
    }
   ],
-  "total": 176
+  "total": 177
  },
  "engines": [
   {
