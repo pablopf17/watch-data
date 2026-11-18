@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-18T13:55:52",
+ "generated": "2026-11-18T14:01:55",
  "kpis": {
   "runs": 164,
-  "done": 153,
-  "ok": 66,
-  "ok_pct": 43.1,
-  "applied": 40,
+  "done": 154,
+  "ok": 67,
+  "ok_pct": 43.5,
+  "applied": 41,
   "blocked": 65,
   "manual": 22,
-  "manual_pct": 14.4,
+  "manual_pct": 14.3,
   "median_min": 4.5,
   "median_min_ok": 5.7,
-  "median_min_applied": 5.8,
-  "p90_min": 13.4,
+  "median_min_applied": 5.7,
+  "p90_min": 13.3,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
   "last_24h": 4,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 40.0,
-   "d7": 81.0,
-   "h5_reset": "2026-11-18T13:20:00.328177+00:00",
-   "d7_reset": "2026-11-18T17:00:00.328204+00:00",
+   "h5": 42.0,
+   "d7": 82.0,
+   "h5_reset": "2026-11-18T13:19:59.734056+00:00",
+   "d7_reset": "2026-11-18T16:59:59.734081+00:00",
    "stale": false,
-   "n_pairs": 66,
+   "n_pairs": 67,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.64,
-   "tokens_per_cand_m": 0.94
+   "mean_h5": 5.72,
+   "tokens_per_cand_m": 0.95
   }
  },
  "per_day": [
@@ -128,8 +128,8 @@
   {
    "d": "2026-11-18",
    "runs": 1,
-   "ok": 0,
-   "applied": 0,
+   "ok": 1,
+   "applied": 1,
    "blocked": 0
   }
  ],
@@ -311,20 +311,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 9993,
-      "company": "",
-      "title": "Operational Risk Specialist",
-      "url": "https://www.job-room.ch/job-search/caa73c9e-7607-4f9a-b5fd-2640d7dd33b5",
-      "score": "",
-      "note": "running · sin cerrar",
-      "ts": "2026-11-18T13:54:04",
-      "cv_pdf": "https://drive.google.com/file/d/1fryK-S8uXjyIJk6NsoOG3hwLXMN7Zi7g/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1DAEcU9TdLS2tlmbgoMvAhJ8VdYJbRAef/view?usp=drivesdk"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -415,8 +403,19 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 98,
+    "count": 99,
     "cards": [
+     {
+      "row": 9993,
+      "company": "",
+      "title": "Operational Risk Specialist",
+      "url": "https://www.job-room.ch/job-search/caa73c9e-7607-4f9a-b5fd-2640d7dd33b5",
+      "score": "",
+      "note": "enviada · pasada paró en 1 avisos",
+      "ts": "2026-11-18T13:54:04",
+      "cv_pdf": "https://drive.google.com/file/d/1fryK-S8uXjyIJk6NsoOG3hwLXMN7Zi7g/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1DAEcU9TdLS2tlmbgoMvAhJ8VdYJbRAef/view?usp=drivesdk"
+     },
      {
       "row": 9931,
       "company": "",
@@ -2089,7 +2088,7 @@
     "company": "",
     "title": "Operational Risk Specialist",
     "started": "2026-11-18T13:54:04",
-    "applied": false
+    "applied": true
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
@@ -2225,24 +2224,24 @@
    "url": "https://www.job-room.ch/job-search/caa73c9e-7607-4f9a-b5fd-2640d7dd33b5",
    "lang": "fr",
    "started": "2026-11-18T13:54:04",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-18T13:57:25",
+   "dur_min": 3.4,
+   "phase": "done",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
-   "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
+   "ok": true,
+   "applied": true,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 2,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "avisos": 1,
+   "verify_ok": true
   },
   {
    "row": 9697,
