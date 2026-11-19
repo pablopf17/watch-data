@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-19T09:49:27",
+ "generated": "2026-11-19T09:55:30",
  "kpis": {
-  "runs": 166,
+  "runs": 167,
   "done": 156,
   "ok": 67,
   "ok_pct": 42.9,
@@ -15,15 +15,15 @@
   "p90_min": 14.1,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 3,
+  "last_24h": 4,
   "retries": 1,
   "queue_pending": 13,
   "claude_usage": {
    "h5": 20.0,
    "d7": 3.0,
-   "h5_reset": "2026-11-19T12:30:00.246675+00:00",
-   "d7_reset": "2026-11-25T17:00:00.246697+00:00",
-   "stale": false,
+   "h5_reset": "2026-11-19T12:29:59.934754+00:00",
+   "d7_reset": "2026-11-25T16:59:59.934776+00:00",
+   "stale": true,
    "n_pairs": 69,
    "cross": 0,
    "median_h5": 5.0,
@@ -127,7 +127,7 @@
   },
   {
    "d": "2026-11-19",
-   "runs": 2,
+   "runs": 3,
    "ok": 0,
    "applied": 2,
    "blocked": 2
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 13,
+    "count": 12,
     "cards": [
-     {
-      "row": 9742,
-      "company": "Jobgether",
-      "title": "Project Manager PMO (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4486953803/",
-      "score": "7",
-      "note": "listo para lanzar",
-      "ts": "2026-11-06",
-      "cv_pdf": "https://drive.google.com/file/d/1LjdQJee9JRquzzEOPss7cYAHbttmZIJl/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1UaRRAb5DXj2y8Y1j46CG9SOOH7qT8heX/view?usp=drivesdk"
-     },
      {
       "row": 9593,
       "company": "Academic Work Switzerland SA",
@@ -311,8 +300,20 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 0,
-    "cards": [],
+    "count": 1,
+    "cards": [
+     {
+      "row": 9742,
+      "company": "Jobgether",
+      "title": "Project Manager PMO (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4486953803/",
+      "score": "",
+      "note": "starting · sin cerrar",
+      "ts": "2026-11-19T09:55:26",
+      "cv_pdf": "https://drive.google.com/file/d/1LjdQJee9JRquzzEOPss7cYAHbttmZIJl/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1UaRRAb5DXj2y8Y1j46CG9SOOH7qT8heX/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -2101,14 +2102,14 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 134,
-   "runs_today": 2,
+   "runs": 135,
+   "runs_today": 3,
    "last": {
-    "row": 10067,
-    "company": "Taurus SA",
-    "title": "Senior Project Manager",
-    "started": "2026-11-19T08:46:09",
-    "applied": true
+    "row": 9742,
+    "company": "Jobgether",
+    "title": "Project Manager PMO (m/w/d)",
+    "started": "2026-11-19T09:55:26",
+    "applied": false
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
@@ -2277,6 +2278,33 @@
   ]
  },
  "runs": [
+  {
+   "row": 9742,
+   "folder": "9742_jobgether-project-manager-pmo-m-w-d",
+   "company": "Jobgether",
+   "title": "Project Manager PMO (m/w/d)",
+   "url": "https://www.linkedin.com/jobs/view/4486953803/",
+   "lang": "en",
+   "started": "2026-11-19T09:55:26",
+   "finished": null,
+   "dur_min": null,
+   "phase": "starting",
+   "status": "",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": false,
+   "apply_path": "",
+   "files_verified": 0,
+   "files_total": 0,
+   "required_missing": 0,
+   "needs_approval": 0,
+   "avisos": 0,
+   "verify_ok": null
+  },
   {
    "row": 10067,
    "folder": "10067_taurus-sa-senior-project-manager",
