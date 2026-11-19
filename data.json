@@ -1,28 +1,28 @@
 {
- "generated": "2026-11-19T09:25:12",
+ "generated": "2026-11-19T09:31:13",
  "kpis": {
   "runs": 166,
   "done": 156,
   "ok": 67,
   "ok_pct": 42.9,
-  "applied": 42,
+  "applied": 43,
   "blocked": 67,
   "manual": 23,
   "manual_pct": 14.7,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 13.2,
+  "p90_min": 14.1,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
   "last_24h": 3,
   "retries": 1,
-  "queue_pending": 14,
+  "queue_pending": 13,
   "claude_usage": {
    "h5": 18.0,
    "d7": 2.0,
-   "h5_reset": "2026-11-19T12:30:00.465715+00:00",
-   "d7_reset": "2026-11-25T17:00:00.465734+00:00",
+   "h5_reset": "2026-11-19T12:30:00.350963+00:00",
+   "d7_reset": "2026-11-25T17:00:00.350988+00:00",
    "stale": false,
    "n_pairs": 69,
    "cross": 0,
@@ -129,7 +129,7 @@
    "d": "2026-11-19",
    "runs": 2,
    "ok": 0,
-   "applied": 1,
+   "applied": 2,
    "blocked": 2
   }
  ],
@@ -318,19 +318,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 8,
+    "count": 7,
     "cards": [
-     {
-      "row": 10067,
-      "company": "Taurus SA",
-      "title": "Senior Project Manager",
-      "url": "https://www.job-room.ch/job-search/80926024-70ab-4621-90e2-c189c07a38ba",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-19T08:46:09",
-      "cv_pdf": "https://drive.google.com/file/d/1B3DQ9_Q7F8gQ8e7aOwtjrZGJt-tyaqyi/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1gT2KOZiclroqLL_Orp2GmxLR6En4R34m/view?usp=drivesdk"
-     },
      {
       "row": 9697,
       "company": "SCOR Services Switzerland AG",
@@ -414,8 +403,19 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 99,
+    "count": 100,
     "cards": [
+     {
+      "row": 10067,
+      "company": "Taurus SA",
+      "title": "Senior Project Manager",
+      "url": "https://www.job-room.ch/job-search/80926024-70ab-4621-90e2-c189c07a38ba",
+      "score": "",
+      "note": "con respuesta · pasada paró en login",
+      "ts": "2026-11-19T08:46:09",
+      "cv_pdf": "https://drive.google.com/file/d/1B3DQ9_Q7F8gQ8e7aOwtjrZGJt-tyaqyi/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1gT2KOZiclroqLL_Orp2GmxLR6En4R34m/view?usp=drivesdk"
+     },
      {
       "row": 10127,
       "company": "Michael Page Switzerland",
@@ -2108,7 +2108,7 @@
     "company": "Taurus SA",
     "title": "Senior Project Manager",
     "started": "2026-11-19T08:46:09",
-    "applied": false
+    "applied": true
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
@@ -2159,10 +2159,10 @@
  "queue": {
   "exists": true,
   "running": null,
-  "pending": 14,
+  "pending": 13,
   "counters": {
-   "pending": 14,
-   "sent": 1,
+   "pending": 13,
+   "sent": 2,
    "review": 0,
    "blocked": 0,
    "errors": 0,
@@ -2177,14 +2177,6 @@
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 10067,
-    "company": "Taurus SA",
-    "title": "Senior Project Manager",
-    "score": 8,
-    "url": "https://www.job-room.ch/job-search/80926024-70ab-4621-90e2-c189c07a38ba",
-    "domain": "job-room.ch"
-   },
    {
     "row": 9742,
     "company": "Jobgether",
@@ -2215,6 +2207,14 @@
     "title": "Data analyst",
     "score": 6,
     "url": "https://www.linkedin.com/jobs/view/4477181870/",
+    "domain": "linkedin.com"
+   },
+   {
+    "row": 8206,
+    "company": "FYUL",
+    "title": "Data Analytics Team Lead",
+    "score": 6,
+    "url": "https://www.linkedin.com/jobs/view/4484954296/",
     "domain": "linkedin.com"
    }
   ],
@@ -2285,16 +2285,16 @@
    "url": "https://www.job-room.ch/job-search/80926024-70ab-4621-90e2-c189c07a38ba",
    "lang": "en",
    "started": "2026-11-19T08:46:09",
-   "finished": "2026-11-19T08:48:48",
-   "dur_min": 2.6,
+   "finished": "2026-11-19T09:26:23",
+   "dur_min": 40.2,
    "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "login",
    "manual": true,
    "ok": false,
-   "applied": false,
+   "applied": true,
    "form_reached": false,
    "apply_path": "intermedio",
    "files_verified": 0,
