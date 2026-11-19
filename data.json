@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-19T10:31:54",
+ "generated": "2026-11-19T10:38:01",
  "kpis": {
   "runs": 169,
-  "done": 158,
-  "ok": 68,
-  "ok_pct": 43.0,
+  "done": 159,
+  "ok": 69,
+  "ok_pct": 43.4,
   "applied": 44,
   "blocked": 68,
   "manual": 23,
-  "manual_pct": 14.6,
+  "manual_pct": 14.5,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.9,
-  "p90_min": 13.9,
+  "p90_min": 13.8,
   "per_hour": 5.22,
   "median_gap_min": 11.5,
   "last_24h": 6,
   "retries": 1,
   "queue_pending": 6,
   "claude_usage": {
-   "h5": 27.0,
-   "d7": 3.0,
-   "h5_reset": "2026-11-19T12:30:00.432228+00:00",
-   "d7_reset": "2026-11-25T17:00:00.432247+00:00",
+   "h5": 32.0,
+   "d7": 4.0,
+   "h5_reset": "2026-11-19T12:30:00.200360+00:00",
+   "d7_reset": "2026-11-25T17:00:00.200381+00:00",
    "stale": false,
-   "n_pairs": 71,
+   "n_pairs": 72,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.65,
-   "tokens_per_cand_m": 0.94
+   "mean_h5": 5.62,
+   "tokens_per_cand_m": 0.93
   }
  },
  "per_day": [
@@ -128,7 +128,7 @@
   {
    "d": "2026-11-19",
    "runs": 5,
-   "ok": 1,
+   "ok": 2,
    "applied": 3,
    "blocked": 3
   }
@@ -234,29 +234,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
-    "cards": [
-     {
-      "row": 9586,
-      "company": "TotalEnergies",
-      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-      "url": "https://www.linkedin.com/jobs/view/4488199436/",
-      "score": 6,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-19T10:31:54"
-     },
-     {
-      "row": 9586,
-      "company": "TotalEnergies",
-      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-      "url": "https://www.linkedin.com/jobs/view/4488199436/",
-      "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-19T10:31:11",
-      "cv_pdf": "https://drive.google.com/file/d/1TUK7ieEN-iLIrHNk1BmAIWzmY3MKlTpI/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/18V-ZLs8Yqgu4eSIz7FMHIjkfXk5DTf6_/view?usp=drivesdk"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1464,8 +1443,19 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 59,
+    "count": 60,
     "cards": [
+     {
+      "row": 9586,
+      "company": "TotalEnergies",
+      "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+      "url": "https://www.linkedin.com/jobs/view/4488199436/",
+      "score": "",
+      "note": "duplicada",
+      "ts": "2026-11-19T10:31:11",
+      "cv_pdf": "https://drive.google.com/file/d/1TUK7ieEN-iLIrHNk1BmAIWzmY3MKlTpI/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/18V-ZLs8Yqgu4eSIz7FMHIjkfXk5DTf6_/view?usp=drivesdk"
+     },
      {
       "row": 9742,
       "company": "Jobgether",
@@ -2110,25 +2100,12 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 9586,
-   "company": "TotalEnergies",
-   "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-   "score": 6,
-   "url": "https://www.linkedin.com/jobs/view/4488199436/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-19T10:31:00+01:00",
-   "pid": 35948,
-   "lane": 0
-  },
+  "running": null,
   "pending": 6,
   "counters": {
    "pending": 6,
    "sent": 0,
-   "review": 0,
+   "review": 1,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
@@ -2185,6 +2162,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-19T10:33:50+01:00",
+    "row": 9586,
+    "company": "TotalEnergies",
+    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+    "score": 6,
+    "domain": "linkedin.com",
+    "state": "review",
+    "note": "2 avisos",
+    "dur_s": 170
+   },
+   {
     "ts": "2026-11-19T10:18:50+01:00",
     "row": 9593,
     "company": "Academic Work Switzerland SA",
@@ -2227,17 +2215,6 @@
     "state": "sent",
     "note": "enviada (tracker)",
     "dur_s": 721
-   },
-   {
-    "ts": "2026-11-11T10:07:20+01:00",
-    "row": 5441,
-    "company": "AZQORE SA",
-    "title": "Business Analyst Credit & Risk",
-    "score": 6,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada",
-    "dur_s": 348
    }
   ]
  },
@@ -2250,24 +2227,24 @@
    "url": "https://www.linkedin.com/jobs/view/4488199436/",
    "lang": "en",
    "started": "2026-11-19T10:31:11",
-   "finished": null,
-   "dur_min": null,
-   "phase": "starting",
-   "status": "",
+   "finished": "2026-11-19T10:33:43",
+   "dur_min": 2.5,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
-   "ok": false,
+   "ok": true,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
+   "form_reached": true,
+   "apply_path": "linkedin_external",
    "files_verified": 0,
-   "files_total": 0,
+   "files_total": 2,
    "required_missing": 0,
    "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "avisos": 2,
+   "verify_ok": false
   },
   {
    "row": 9593,
