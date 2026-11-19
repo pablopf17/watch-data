@@ -1,35 +1,35 @@
 {
- "generated": "2026-11-19T08:48:36",
+ "generated": "2026-11-19T08:54:42",
  "kpis": {
   "runs": 166,
-  "done": 155,
+  "done": 156,
   "ok": 67,
-  "ok_pct": 43.2,
+  "ok_pct": 42.9,
   "applied": 42,
-  "blocked": 66,
-  "manual": 22,
-  "manual_pct": 14.2,
+  "blocked": 67,
+  "manual": 23,
+  "manual_pct": 14.7,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 13.3,
+  "p90_min": 13.2,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
   "last_24h": 3,
   "retries": 1,
   "queue_pending": 14,
   "claude_usage": {
-   "h5": 11.0,
-   "d7": 1.0,
-   "h5_reset": "2026-11-19T12:30:00.464672+00:00",
-   "d7_reset": "2026-11-25T17:00:00.464697+00:00",
+   "h5": 15.0,
+   "d7": 2.0,
+   "h5_reset": "2026-11-19T12:30:00.370745+00:00",
+   "d7_reset": "2026-11-25T17:00:00.370767+00:00",
    "stale": false,
-   "n_pairs": 68,
+   "n_pairs": 69,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.74,
+   "mean_h5": 5.71,
    "tokens_per_cand_m": 0.95
   }
  },
@@ -140,7 +140,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 17
+   "n": 18
   },
   {
    "reason": "otro",
@@ -311,7 +311,14 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 8,
     "cards": [
      {
       "row": 10067,
@@ -319,19 +326,11 @@
       "title": "Senior Project Manager",
       "url": "https://www.job-room.ch/job-search/80926024-70ab-4621-90e2-c189c07a38ba",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "login",
       "ts": "2026-11-19T08:46:09",
       "cv_pdf": "https://drive.google.com/file/d/1B3DQ9_Q7F8gQ8e7aOwtjrZGJt-tyaqyi/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1gT2KOZiclroqLL_Orp2GmxLR6En4R34m/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
-    "cards": [
+     },
      {
       "row": 9697,
       "company": "SCOR Services Switzerland AG",
@@ -2286,10 +2285,10 @@
    "url": "https://www.job-room.ch/job-search/80926024-70ab-4621-90e2-c189c07a38ba",
    "lang": "en",
    "started": "2026-11-19T08:46:09",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-19T08:48:48",
+   "dur_min": 2.6,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "login",
@@ -2303,7 +2302,7 @@
    "required_missing": 3,
    "needs_approval": 2,
    "avisos": 1,
-   "verify_ok": null
+   "verify_ok": false
   },
   {
    "row": 10127,
