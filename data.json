@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T04:03:35",
+ "generated": "2026-11-19T04:27:50",
  "kpis": {
   "runs": 164,
   "done": 154,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 14,
+    "count": 15,
     "cards": [
+     {
+      "row": 10127,
+      "company": "Michael Page Switzerland",
+      "title": "Sanctions Specialist - Corporate Banking",
+      "url": "https://www.job-room.ch/job-search/08495a59-5d4f-48f0-8feb-4efecd83620c",
+      "score": "6",
+      "note": "listo para lanzar",
+      "ts": "2026-11-18",
+      "cv_pdf": "https://drive.google.com/file/d/1aZHa75roRRjnyYLUktnk9IaHOKqsxf88/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1L_KBN31X-SiqjOaX9bH9I1zIXD58YMsP/view?usp=drivesdk"
+     },
      {
       "row": 10067,
       "company": "Taurus SA",
@@ -2082,7 +2093,7 @@
     "more": 0
    }
   ],
-  "total": 177
+  "total": 178
  },
  "engines": [
   {
