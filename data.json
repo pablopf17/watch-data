@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-19T10:19:45",
+ "generated": "2026-11-19T10:25:50",
  "kpis": {
   "runs": 168,
   "done": 158,
   "ok": 68,
   "ok_pct": 43.0,
-  "applied": 43,
+  "applied": 44,
   "blocked": 68,
   "manual": 23,
   "manual_pct": 14.6,
   "median_min": 4.5,
   "median_min_ok": 5.7,
-  "median_min_applied": 5.8,
+  "median_min_applied": 5.9,
   "p90_min": 13.9,
   "per_hour": 5.36,
   "median_gap_min": 11.2,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 27.0,
    "d7": 3.0,
-   "h5_reset": "2026-11-19T12:29:59.792595+00:00",
-   "d7_reset": "2026-11-25T16:59:59.792616+00:00",
+   "h5_reset": "2026-11-19T12:29:59.909465+00:00",
+   "d7_reset": "2026-11-25T16:59:59.909486+00:00",
    "stale": false,
    "n_pairs": 71,
    "cross": 0,
@@ -129,7 +129,7 @@
    "d": "2026-11-19",
    "runs": 4,
    "ok": 1,
-   "applied": 2,
+   "applied": 3,
    "blocked": 3
   }
  ],
@@ -296,19 +296,8 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 8,
+    "count": 7,
     "cards": [
-     {
-      "row": 9593,
-      "company": "Academic Work Switzerland SA",
-      "title": "Compliance officer - mission 2-3 mois",
-      "url": "https://www.job-room.ch/job-search/a29c502d-9f96-49b2-af64-f7c72cb54a90",
-      "score": "",
-      "note": "4 avisos",
-      "ts": "2026-11-19T10:15:40",
-      "cv_pdf": "https://drive.google.com/file/d/1hqPnTz5JW4-0Xu6oWLGgLEeaX8QUFotC/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1rsYkXdgtd2eORs0NtwMQU1SxZ7f6_b0w/view?usp=drivesdk"
-     },
      {
       "row": 9697,
       "company": "SCOR Services Switzerland AG",
@@ -392,8 +381,19 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 100,
+    "count": 101,
     "cards": [
+     {
+      "row": 9593,
+      "company": "Academic Work Switzerland SA",
+      "title": "Compliance officer - mission 2-3 mois",
+      "url": "https://www.job-room.ch/job-search/a29c502d-9f96-49b2-af64-f7c72cb54a90",
+      "score": "",
+      "note": "enviada · pasada paró en 4 avisos",
+      "ts": "2026-11-19T10:15:40",
+      "cv_pdf": "https://drive.google.com/file/d/1hqPnTz5JW4-0Xu6oWLGgLEeaX8QUFotC/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1rsYkXdgtd2eORs0NtwMQU1SxZ7f6_b0w/view?usp=drivesdk"
+     },
      {
       "row": 10067,
       "company": "Taurus SA",
@@ -2108,7 +2108,7 @@
     "company": "Academic Work Switzerland SA",
     "title": "Compliance officer - mission 2-3 mois",
     "started": "2026-11-19T10:15:40",
-    "applied": false
+    "applied": true
    },
    "limit": {
     "msg": "You've hit your session limit · resets 9:40pm (Europe/Zurich)",
@@ -2162,8 +2162,8 @@
   "pending": 11,
   "counters": {
    "pending": 11,
-   "sent": 0,
-   "review": 1,
+   "sent": 1,
+   "review": 0,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
@@ -2226,8 +2226,8 @@
     "title": "Compliance officer - mission 2-3 mois",
     "score": 6,
     "domain": "job-room.ch",
-    "state": "review",
-    "note": "4 avisos",
+    "state": "sent",
+    "note": "enviada (tracker)",
     "dur_s": 200
    },
    {
@@ -2285,16 +2285,16 @@
    "url": "https://www.job-room.ch/job-search/a29c502d-9f96-49b2-af64-f7c72cb54a90",
    "lang": "fr",
    "started": "2026-11-19T10:15:40",
-   "finished": "2026-11-19T10:18:49",
-   "dur_min": 3.1,
+   "finished": "2026-11-19T10:25:20",
+   "dur_min": 9.7,
    "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status": "APPLIED",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
    "manual": false,
    "ok": true,
-   "applied": false,
+   "applied": true,
    "form_reached": true,
    "apply_path": "intermedio",
    "files_verified": 0,
