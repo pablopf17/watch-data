@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:04:06",
+ "generated": "2026-11-19T13:10:03",
  "kpis": {
   "runs": 170,
   "done": 160,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 40.0,
    "d7": 4.0,
-   "h5_reset": "2026-11-19T12:30:00.300969+00:00",
-   "d7_reset": "2026-11-25T17:00:00.300989+00:00",
+   "h5_reset": "2026-11-19T12:29:59.848227+00:00",
+   "d7_reset": "2026-11-25T16:59:59.848279+00:00",
    "stale": false,
    "n_pairs": 73,
    "cross": 0,
@@ -2186,8 +2186,8 @@
     "title": "Compliance officer - mission 2-3 mois",
     "score": 6,
     "domain": "job-room.ch",
-    "state": "sent",
-    "note": "enviada (tracker)",
+    "state": "review",
+    "note": "4 avisos",
     "dur_s": 200
    },
    {
