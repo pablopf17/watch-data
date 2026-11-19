@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T10:44:18",
+ "generated": "2026-11-19T10:50:38",
  "kpis": {
   "runs": 170,
   "done": 160,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 38.0,
    "d7": 4.0,
-   "h5_reset": "2026-11-19T12:30:00.462860+00:00",
-   "d7_reset": "2026-11-25T17:00:00.462881+00:00",
+   "h5_reset": "2026-11-19T12:29:59.912447+00:00",
+   "d7_reset": "2026-11-25T16:59:59.912468+00:00",
    "stale": false,
    "n_pairs": 73,
    "cross": 0,
@@ -230,7 +230,7 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 8,
+    "count": 7,
     "cards": [
      {
       "row": 9212,
@@ -275,17 +275,6 @@
       "ts": "2026-11-17T10:53:57",
       "cv_pdf": "https://drive.google.com/file/d/1KQa1wZ_hr2dgHhoTt_imdzlaT_zvkuLv/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1njBB-kO74zQsPwRtKoOFKg3QlMXu4bKb/view?usp=drivesdk"
-     },
-     {
-      "row": 9839,
-      "company": "Recruitment Room - Global",
-      "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
-      "url": "https://www.linkedin.com/jobs/view/4489965974/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-17T10:16:12",
-      "cv_pdf": "https://drive.google.com/file/d/17FtQ7a7Nkro5oh2yof_SX_lt986ekuLw/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1lJeF81GTec6bmYE97L6jK_MUBqQPtesG/view?usp=drivesdk"
      },
      {
       "row": 8131,
@@ -1443,7 +1432,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 60,
+    "count": 61,
     "cards": [
      {
       "row": 9586,
@@ -1452,9 +1441,7 @@
       "url": "https://www.linkedin.com/jobs/view/4488199436/",
       "score": "",
       "note": "duplicada",
-      "ts": "2026-11-19T10:31:11",
-      "cv_pdf": "https://drive.google.com/file/d/1TUK7ieEN-iLIrHNk1BmAIWzmY3MKlTpI/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/18V-ZLs8Yqgu4eSIz7FMHIjkfXk5DTf6_/view?usp=drivesdk"
+      "ts": "2026-11-19T10:31:11"
      },
      {
       "row": 9742,
@@ -1493,6 +1480,15 @@
       "score": "",
       "note": "no disponible",
       "ts": "2026-11-17T10:44:04"
+     },
+     {
+      "row": 9839,
+      "company": "Recruitment Room - Global",
+      "title": "Independent Consultant / Entrepreneur, Finance, Data & Engineering (Domain Expert)",
+      "url": "https://www.linkedin.com/jobs/view/4489965974/",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-17T10:16:12"
      },
      {
       "row": 9571,
