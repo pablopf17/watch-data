@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-19T08:36:27",
+ "generated": "2026-11-19T08:42:32",
  "kpis": {
   "runs": 165,
-  "done": 154,
+  "done": 155,
   "ok": 67,
-  "ok_pct": 43.5,
+  "ok_pct": 43.2,
   "applied": 41,
-  "blocked": 65,
+  "blocked": 66,
   "manual": 22,
-  "manual_pct": 14.3,
+  "manual_pct": 14.2,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.7,
@@ -19,17 +19,17 @@
   "retries": 1,
   "queue_pending": 14,
   "claude_usage": {
-   "h5": 4.0,
-   "d7": 0.0,
-   "h5_reset": "2026-11-19T12:30:00.015667+00:00",
-   "d7_reset": "2026-11-25T17:00:00.015693+00:00",
+   "h5": 7.0,
+   "d7": 1.0,
+   "h5_reset": "2026-11-19T12:29:59.666427+00:00",
+   "d7_reset": "2026-11-25T16:59:59.666464+00:00",
    "stale": false,
-   "n_pairs": 67,
+   "n_pairs": 68,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.72,
+   "mean_h5": 5.74,
    "tokens_per_cand_m": 0.95
   }
  },
@@ -130,7 +130,7 @@
    "runs": 1,
    "ok": 0,
    "applied": 0,
-   "blocked": 0
+   "blocked": 1
   }
  ],
  "blockers": [
@@ -144,7 +144,7 @@
   },
   {
    "reason": "otro",
-   "n": 5
+   "n": 6
   },
   {
    "reason": "captcha",
@@ -322,36 +322,26 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 8,
     "cards": [
-     {
-      "row": 10127,
-      "company": "Michael Page Switzerland",
-      "title": "Sanctions Specialist - Corporate Banking",
-      "url": "https://www.job-room.ch/job-search/08495a59-5d4f-48f0-8feb-4efecd83620c",
-      "score": 6,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-19T08:36:27"
-     },
      {
       "row": 10127,
       "company": "Michael Page Switzerland",
       "title": "Sanctions Specialist - Corporate Banking",
       "url": "https://www.job-room.ch/job-search/08495a59-5d4f-48f0-8feb-4efecd83620c",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "declaracion",
       "ts": "2026-11-19T08:34:12",
       "cv_pdf": "https://drive.google.com/file/d/1aZHa75roRRjnyYLUktnk9IaHOKqsxf88/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1L_KBN31X-SiqjOaX9bH9I1zIXD58YMsP/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
-    "cards": [
+     },
      {
       "row": 9697,
       "company": "SCOR Services Switzerland AG",
@@ -2168,26 +2158,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 10127,
-   "company": "Michael Page Switzerland",
-   "title": "Sanctions Specialist - Corporate Banking",
-   "score": 6,
-   "url": "https://www.job-room.ch/job-search/08495a59-5d4f-48f0-8feb-4efecd83620c",
-   "domain": "job-room.ch",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-19T08:34:01+01:00",
-   "pid": 36500,
-   "lane": 0
-  },
+  "running": null,
   "pending": 14,
   "counters": {
    "pending": 14,
    "sent": 0,
    "review": 0,
-   "blocked": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -2243,6 +2220,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-19T08:39:01+01:00",
+    "row": 10127,
+    "company": "Michael Page Switzerland",
+    "title": "Sanctions Specialist - Corporate Banking",
+    "score": 6,
+    "domain": "job-room.ch",
+    "state": "blocked",
+    "note": "declaracion",
+    "dur_s": 300
+   },
+   {
     "ts": "2026-11-11T10:17:18+01:00",
     "row": 9514,
     "company": "TotalEnergies Gas & Power Ltd",
@@ -2285,17 +2273,6 @@
     "state": "review",
     "note": "3 avisos",
     "dur_s": 219
-   },
-   {
-    "ts": "2026-11-11T10:01:32+01:00",
-    "row": 2156,
-    "company": "EY",
-    "title": "Senior Consultant - Assurance - Technology Risk",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada (tracker)",
-    "dur_s": 297
    }
   ]
  },
@@ -2308,24 +2285,24 @@
    "url": "https://www.job-room.ch/job-search/08495a59-5d4f-48f0-8feb-4efecd83620c",
    "lang": "fr",
    "started": "2026-11-19T08:34:12",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-19T08:38:56",
+   "dur_min": 4.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
-   "blocked": "",
+   "blocked": "declaracion",
    "manual": false,
    "ok": false,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 3,
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 9993,
