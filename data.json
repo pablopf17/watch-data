@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-19T09:55:30",
+ "generated": "2026-11-19T10:01:33",
  "kpis": {
   "runs": 167,
-  "done": 156,
+  "done": 157,
   "ok": 67,
-  "ok_pct": 42.9,
+  "ok_pct": 42.7,
   "applied": 43,
-  "blocked": 67,
+  "blocked": 68,
   "manual": 23,
-  "manual_pct": 14.7,
+  "manual_pct": 14.6,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.1,
+  "p90_min": 14.0,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
   "last_24h": 4,
   "retries": 1,
   "queue_pending": 13,
   "claude_usage": {
-   "h5": 20.0,
+   "h5": 22.0,
    "d7": 3.0,
-   "h5_reset": "2026-11-19T12:29:59.934754+00:00",
-   "d7_reset": "2026-11-25T16:59:59.934776+00:00",
-   "stale": true,
-   "n_pairs": 69,
+   "h5_reset": "2026-11-19T12:30:00.333194+00:00",
+   "d7_reset": "2026-11-25T17:00:00.333219+00:00",
+   "stale": false,
+   "n_pairs": 70,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 14.0,
    "max_h5": 29.0,
-   "mean_h5": 5.71,
-   "tokens_per_cand_m": 0.95
+   "mean_h5": 5.66,
+   "tokens_per_cand_m": 0.94
   }
  },
  "per_day": [
@@ -130,13 +130,13 @@
    "runs": 3,
    "ok": 0,
    "applied": 2,
-   "blocked": 2
+   "blocked": 3
   }
  ],
  "blockers": [
   {
    "reason": "sin formulario / oferta cerrada",
-   "n": 40
+   "n": 41
   },
   {
    "reason": "login / cuenta",
@@ -300,20 +300,8 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 9742,
-      "company": "Jobgether",
-      "title": "Project Manager PMO (m/w/d)",
-      "url": "https://www.linkedin.com/jobs/view/4486953803/",
-      "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-19T09:55:26",
-      "cv_pdf": "https://drive.google.com/file/d/1LjdQJee9JRquzzEOPss7cYAHbttmZIJl/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1UaRRAb5DXj2y8Y1j46CG9SOOH7qT8heX/view?usp=drivesdk"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -1510,8 +1498,19 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 58,
+    "count": 59,
     "cards": [
+     {
+      "row": 9742,
+      "company": "Jobgether",
+      "title": "Project Manager PMO (m/w/d)",
+      "url": "https://www.linkedin.com/jobs/view/4486953803/",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-19T09:55:26",
+      "cv_pdf": "https://drive.google.com/file/d/1LjdQJee9JRquzzEOPss7cYAHbttmZIJl/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1UaRRAb5DXj2y8Y1j46CG9SOOH7qT8heX/view?usp=drivesdk"
+     },
      {
       "row": 9748,
       "company": "PwC Switzerland - Legal",
@@ -2286,24 +2285,24 @@
    "url": "https://www.linkedin.com/jobs/view/4486953803/",
    "lang": "en",
    "started": "2026-11-19T09:55:26",
-   "finished": null,
-   "dur_min": null,
-   "phase": "starting",
-   "status": "",
+   "finished": "2026-11-19T09:57:27",
+   "dur_min": 2.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
-   "blocked": "",
+   "blocked": "sin_formulario",
    "manual": false,
    "ok": false,
    "applied": false,
    "form_reached": false,
-   "apply_path": "",
+   "apply_path": "linkedin_easy_apply",
    "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "files_total": 2,
+   "required_missing": 1,
+   "needs_approval": 1,
+   "avisos": 2,
+   "verify_ok": false
   },
   {
    "row": 10067,
