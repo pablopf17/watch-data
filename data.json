@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T08:54:42",
+ "generated": "2026-11-19T09:00:49",
  "kpis": {
   "runs": 166,
   "done": 156,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 15.0,
    "d7": 2.0,
-   "h5_reset": "2026-11-19T12:30:00.370745+00:00",
-   "d7_reset": "2026-11-25T17:00:00.370767+00:00",
+   "h5_reset": "2026-11-19T12:29:59.600028+00:00",
+   "d7_reset": "2026-11-25T16:59:59.600050+00:00",
    "stale": false,
    "n_pairs": 69,
    "cross": 0,
@@ -414,7 +414,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 100,
+    "count": 99,
     "cards": [
      {
       "row": 10127,
@@ -1471,17 +1471,6 @@
       "cl_pdf": "https://drive.google.com/file/d/1LUUPNXPLffyE5lks5E2Jg07SdBI5DTFn/view?usp=drivesdk"
      },
      {
-      "row": 4970,
-      "company": "HSBC Private Bank (Suisse) SA",
-      "title": "Client Lifecycle Management Analyst",
-      "url": "https://career2.successfactors.eu/careers?company=hsbcholdin&career_ns=job_application&src=Eightfold&career_job_req_id=60512&lang=en_US",
-      "score": "",
-      "note": "con respuesta · pasada paró en sin_formulario",
-      "ts": "2026-10-27T17:14:29",
-      "cv_pdf": "https://drive.google.com/file/d/1kpV-kcieCV9CpGwUQo7clmZEvJXFlWQL/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1cY4Q9_m-YdAv0sPU7V7L3fB6M0jU_BJe/view?usp=drivesdk"
-     },
-     {
       "row": 5728,
       "company": "Michael Page",
       "title": "Analytics and Business Intelligence Analyst - 12 month contract",
@@ -1520,7 +1509,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 57,
+    "count": 58,
     "cards": [
      {
       "row": 9748,
@@ -2077,6 +2066,17 @@
       "score": "",
       "note": "duplicada",
       "ts": "2026-10-27T17:37:10"
+     },
+     {
+      "row": 4970,
+      "company": "HSBC Private Bank (Suisse) SA",
+      "title": "Client Lifecycle Management Analyst",
+      "url": "https://career2.successfactors.eu/careers?company=hsbcholdin&career_ns=job_application&src=Eightfold&career_job_req_id=60512&lang=en_US",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-10-27T17:14:29",
+      "cv_pdf": "https://drive.google.com/file/d/1kpV-kcieCV9CpGwUQo7clmZEvJXFlWQL/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1cY4Q9_m-YdAv0sPU7V7L3fB6M0jU_BJe/view?usp=drivesdk"
      },
      {
       "row": 5451,
