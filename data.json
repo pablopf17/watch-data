@@ -1,30 +1,30 @@
 {
- "generated": "2026-11-19T10:38:01",
+ "generated": "2026-11-19T10:44:18",
  "kpis": {
-  "runs": 169,
-  "done": 159,
+  "runs": 170,
+  "done": 160,
   "ok": 69,
-  "ok_pct": 43.4,
+  "ok_pct": 43.1,
   "applied": 44,
-  "blocked": 68,
-  "manual": 23,
-  "manual_pct": 14.5,
+  "blocked": 69,
+  "manual": 24,
+  "manual_pct": 15.0,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.9,
-  "p90_min": 13.8,
-  "per_hour": 5.22,
-  "median_gap_min": 11.5,
-  "last_24h": 6,
+  "p90_min": 13.7,
+  "per_hour": 5.36,
+  "median_gap_min": 11.2,
+  "last_24h": 7,
   "retries": 1,
-  "queue_pending": 6,
+  "queue_pending": 5,
   "claude_usage": {
-   "h5": 32.0,
+   "h5": 38.0,
    "d7": 4.0,
-   "h5_reset": "2026-11-19T12:30:00.200360+00:00",
-   "d7_reset": "2026-11-25T17:00:00.200381+00:00",
+   "h5_reset": "2026-11-19T12:30:00.462860+00:00",
+   "d7_reset": "2026-11-25T17:00:00.462881+00:00",
    "stale": false,
-   "n_pairs": 72,
+   "n_pairs": 73,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 12.0,
@@ -127,10 +127,10 @@
   },
   {
    "d": "2026-11-19",
-   "runs": 5,
+   "runs": 6,
    "ok": 2,
    "applied": 3,
-   "blocked": 3
+   "blocked": 4
   }
  ],
  "blockers": [
@@ -148,7 +148,7 @@
   },
   {
    "reason": "captcha",
-   "n": 2
+   "n": 3
   },
   {
    "reason": "easy apply (sin formulario)",
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 6,
+    "count": 5,
     "cards": [
-     {
-      "row": 9212,
-      "company": "",
-      "title": "Comptable",
-      "url": "https://www.job-room.ch/job-search/dbf2e092-ee39-488a-b0de-ec1168f80b99",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-11-04",
-      "cv_pdf": "https://drive.google.com/file/d/1tPjeSLBx4aFRGMuKhWrgffzFscnLTgrb/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/14-wsEwVV7fNAVPRIfZ8-RPRbpLwN0V8r/view?usp=drivesdk"
-     },
      {
       "row": 8985,
       "company": "Valion AG",
@@ -241,8 +230,19 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
+    "count": 8,
     "cards": [
+     {
+      "row": 9212,
+      "company": "",
+      "title": "Comptable",
+      "url": "https://www.job-room.ch/job-search/dbf2e092-ee39-488a-b0de-ec1168f80b99",
+      "score": "",
+      "note": "captcha",
+      "ts": "2026-11-19T10:40:23",
+      "cv_pdf": "https://drive.google.com/file/d/1tPjeSLBx4aFRGMuKhWrgffzFscnLTgrb/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/14-wsEwVV7fNAVPRIfZ8-RPRbpLwN0V8r/view?usp=drivesdk"
+     },
      {
       "row": 9697,
       "company": "SCOR Services Switzerland AG",
@@ -2043,13 +2043,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 137,
-   "runs_today": 5,
+   "runs": 138,
+   "runs_today": 6,
    "last": {
-    "row": 9586,
-    "company": "TotalEnergies",
-    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-    "started": "2026-11-19T10:31:11",
+    "row": 9212,
+    "company": "",
+    "title": "Comptable",
+    "started": "2026-11-19T10:40:23",
     "applied": false
    },
    "limit": {
@@ -2101,12 +2101,12 @@
  "queue": {
   "exists": true,
   "running": null,
-  "pending": 6,
+  "pending": 5,
   "counters": {
-   "pending": 6,
+   "pending": 5,
    "sent": 0,
-   "review": 1,
-   "blocked": 0,
+   "review": 0,
+   "blocked": 1,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -2162,6 +2162,17 @@
   ],
   "last": [
    {
+    "ts": "2026-11-19T10:43:34+01:00",
+    "row": 9212,
+    "company": "",
+    "title": "Comptable",
+    "score": 6,
+    "domain": "job-room.ch",
+    "state": "blocked",
+    "note": "captcha",
+    "dur_s": 200
+   },
+   {
     "ts": "2026-11-19T10:33:50+01:00",
     "row": 9586,
     "company": "TotalEnergies",
@@ -2204,21 +2215,37 @@
     "state": "review",
     "note": "pendiente de revisión",
     "dur_s": 597
-   },
-   {
-    "ts": "2026-11-11T10:14:21+01:00",
-    "row": 8145,
-    "company": "Expleo Group",
-    "title": "Data analyst industriel",
-    "score": 6,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada (tracker)",
-    "dur_s": 721
    }
   ]
  },
  "runs": [
+  {
+   "row": 9212,
+   "folder": "9212_comptable",
+   "company": "",
+   "title": "Comptable",
+   "url": "https://www.job-room.ch/job-search/dbf2e092-ee39-488a-b0de-ec1168f80b99",
+   "lang": "fr",
+   "started": "2026-11-19T10:40:23",
+   "finished": "2026-11-19T10:43:27",
+   "dur_min": 3.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "captcha",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 1,
+   "files_total": 2,
+   "required_missing": 2,
+   "needs_approval": 3,
+   "avisos": 6,
+   "verify_ok": false
+  },
   {
    "row": 9586,
    "folder": "9586_totalenergies-business-analyst-energy-da",
@@ -2227,10 +2254,10 @@
    "url": "https://www.linkedin.com/jobs/view/4488199436/",
    "lang": "en",
    "started": "2026-11-19T10:31:11",
-   "finished": "2026-11-19T10:33:43",
-   "dur_min": 2.5,
+   "finished": "2026-11-19T10:38:23",
+   "dur_min": 7.2,
    "phase": "done",
-   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status": "DUPLICATE",
    "status_at_start": "TAILORED",
    "engine": "claude",
    "blocked": "",
