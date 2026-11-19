@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-19T10:13:41",
+ "generated": "2026-11-19T10:19:45",
  "kpis": {
-  "runs": 167,
-  "done": 157,
-  "ok": 67,
-  "ok_pct": 42.7,
+  "runs": 168,
+  "done": 158,
+  "ok": 68,
+  "ok_pct": 43.0,
   "applied": 43,
   "blocked": 68,
   "manual": 23,
@@ -12,24 +12,24 @@
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 5.8,
-  "p90_min": 14.0,
-  "per_hour": 5.45,
-  "median_gap_min": 11.0,
-  "last_24h": 4,
+  "p90_min": 13.9,
+  "per_hour": 5.36,
+  "median_gap_min": 11.2,
+  "last_24h": 5,
   "retries": 1,
-  "queue_pending": 13,
+  "queue_pending": 11,
   "claude_usage": {
-   "h5": 22.0,
+   "h5": 27.0,
    "d7": 3.0,
-   "h5_reset": "2026-11-19T12:29:59.774219+00:00",
-   "d7_reset": "2026-11-25T16:59:59.774238+00:00",
+   "h5_reset": "2026-11-19T12:29:59.792595+00:00",
+   "d7_reset": "2026-11-25T16:59:59.792616+00:00",
    "stale": false,
-   "n_pairs": 70,
+   "n_pairs": 71,
    "cross": 0,
    "median_h5": 5.0,
-   "p90_h5": 14.0,
+   "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.66,
+   "mean_h5": 5.65,
    "tokens_per_cand_m": 0.94
   }
  },
@@ -127,8 +127,8 @@
   },
   {
    "d": "2026-11-19",
-   "runs": 3,
-   "ok": 0,
+   "runs": 4,
+   "ok": 1,
    "applied": 2,
    "blocked": 3
   }
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 12,
+    "count": 11,
     "cards": [
-     {
-      "row": 9593,
-      "company": "Academic Work Switzerland SA",
-      "title": "Compliance officer - mission 2-3 mois",
-      "url": "https://www.job-room.ch/job-search/a29c502d-9f96-49b2-af64-f7c72cb54a90",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-11-09",
-      "cv_pdf": "https://drive.google.com/file/d/1hqPnTz5JW4-0Xu6oWLGgLEeaX8QUFotC/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1rsYkXdgtd2eORs0NtwMQU1SxZ7f6_b0w/view?usp=drivesdk"
-     },
      {
       "row": 9586,
       "company": "TotalEnergies",
@@ -307,8 +296,19 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
+    "count": 8,
     "cards": [
+     {
+      "row": 9593,
+      "company": "Academic Work Switzerland SA",
+      "title": "Compliance officer - mission 2-3 mois",
+      "url": "https://www.job-room.ch/job-search/a29c502d-9f96-49b2-af64-f7c72cb54a90",
+      "score": "",
+      "note": "4 avisos",
+      "ts": "2026-11-19T10:15:40",
+      "cv_pdf": "https://drive.google.com/file/d/1hqPnTz5JW4-0Xu6oWLGgLEeaX8QUFotC/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1rsYkXdgtd2eORs0NtwMQU1SxZ7f6_b0w/view?usp=drivesdk"
+     },
      {
       "row": 9697,
       "company": "SCOR Services Switzerland AG",
@@ -2101,13 +2101,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 135,
-   "runs_today": 3,
+   "runs": 136,
+   "runs_today": 4,
    "last": {
-    "row": 9742,
-    "company": "Jobgether",
-    "title": "Project Manager PMO (m/w/d)",
-    "started": "2026-11-19T09:55:26",
+    "row": 9593,
+    "company": "Academic Work Switzerland SA",
+    "title": "Compliance officer - mission 2-3 mois",
+    "started": "2026-11-19T10:15:40",
     "applied": false
    },
    "limit": {
@@ -2159,11 +2159,11 @@
  "queue": {
   "exists": true,
   "running": null,
-  "pending": 13,
+  "pending": 11,
   "counters": {
-   "pending": 13,
-   "sent": 2,
-   "review": 0,
+   "pending": 11,
+   "sent": 0,
+   "review": 1,
    "blocked": 0,
    "errors": 0,
    "skipped": 0,
@@ -2177,14 +2177,6 @@
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 9742,
-    "company": "Jobgether",
-    "title": "Project Manager PMO (m/w/d)",
-    "score": 7,
-    "url": "https://www.linkedin.com/jobs/view/4486953803/",
-    "domain": "linkedin.com"
-   },
    {
     "row": 8106,
     "company": "EFG Private Banking",
@@ -2216,9 +2208,28 @@
     "score": 6,
     "url": "https://www.linkedin.com/jobs/view/4484954296/",
     "domain": "linkedin.com"
+   },
+   {
+    "row": 8665,
+    "company": "Kredete",
+    "title": "Project Manager",
+    "score": 6,
+    "url": "https://www.linkedin.com/jobs/view/4479830591/",
+    "domain": "linkedin.com"
    }
   ],
   "last": [
+   {
+    "ts": "2026-11-19T10:18:50+01:00",
+    "row": 9593,
+    "company": "Academic Work Switzerland SA",
+    "title": "Compliance officer - mission 2-3 mois",
+    "score": 6,
+    "domain": "job-room.ch",
+    "state": "review",
+    "note": "4 avisos",
+    "dur_s": 200
+   },
    {
     "ts": "2026-11-19T08:39:01+01:00",
     "row": 10127,
@@ -2262,21 +2273,37 @@
     "state": "sent",
     "note": "enviada",
     "dur_s": 348
-   },
-   {
-    "ts": "2026-11-11T10:02:20+01:00",
-    "row": 3905,
-    "company": "CLEEVEN",
-    "title": "Consultant fonctionnel/Consultante fonctionnel",
-    "score": 9,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "3 avisos",
-    "dur_s": 219
    }
   ]
  },
  "runs": [
+  {
+   "row": 9593,
+   "folder": "9593_academic-work-switzerland-sa-compliance",
+   "company": "Academic Work Switzerland SA",
+   "title": "Compliance officer - mission 2-3 mois",
+   "url": "https://www.job-room.ch/job-search/a29c502d-9f96-49b2-af64-f7c72cb54a90",
+   "lang": "fr",
+   "started": "2026-11-19T10:15:40",
+   "finished": "2026-11-19T10:18:49",
+   "dur_min": 3.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
+  },
   {
    "row": 9742,
    "folder": "9742_jobgether-project-manager-pmo-m-w-d",
