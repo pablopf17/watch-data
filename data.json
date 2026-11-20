@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T16:40:03",
+ "generated": "2026-11-20T16:46:07",
  "kpis": {
   "runs": 170,
   "done": 160,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 50.0,
    "d7": 18.0,
-   "h5_reset": "2026-11-20T17:40:00.199428+00:00",
-   "d7_reset": "2026-11-25T17:00:00.199448+00:00",
+   "h5_reset": "2026-11-20T17:40:00.136196+00:00",
+   "d7_reset": "2026-11-25T17:00:00.136216+00:00",
    "stale": false,
    "n_pairs": 73,
    "cross": 0,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 5,
+    "count": 6,
     "cards": [
+     {
+      "row": 10183,
+      "company": "SpeciTec SA",
+      "title": "Compliance Officer – Onboarding clients | Mission en décembre",
+      "url": "https://www.job-room.ch/job-search/ad1ecad2-4625-457d-960a-ffea27354571",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-20",
+      "cv_pdf": "https://drive.google.com/file/d/1-NMomvsFQRXTCoe85kXTTA1JrFTDePX3/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1Ukybz5xIK1y_Lj0lGs9bE03IwhVQoFQM/view?usp=drivesdk"
+     },
      {
       "row": 8985,
       "company": "Valion AG",
@@ -2031,7 +2042,7 @@
     "more": 0
    }
   ],
-  "total": 174
+  "total": 175
  },
  "engines": [
   {
