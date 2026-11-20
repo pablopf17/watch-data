@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T08:48:42",
+ "generated": "2026-11-20T09:19:07",
  "kpis": {
   "runs": 170,
   "done": 160,
@@ -315,7 +315,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 101,
+    "count": 100,
     "cards": [
      {
       "row": 9593,
@@ -912,17 +912,6 @@
       "cl_pdf": "https://drive.google.com/file/d/1WjonWQRGqRU3tFFsK-rvjrIq2trz3cdL/view?usp=drivesdk"
      },
      {
-      "row": 6891,
-      "company": "J. Safra Sarasin",
-      "title": "Lead Auditor",
-      "url": "https://www.linkedin.com/jobs/view/4477401160/",
-      "score": "",
-      "note": "enviada · pasada paró en login",
-      "ts": "2026-11-04T14:25:49",
-      "cv_pdf": "https://drive.google.com/file/d/11R0a42iIwQJey5TfVxmZEJvpQ-vhciTv/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1PZF2uvVl_2YLEOrDFzCY1e5w_8Zy2MqW/view?usp=drivesdk"
-     },
-     {
       "row": 8508,
       "company": "die Mobiliar",
       "title": "Business Analyst Transformation & Plateforme Contrats (f/h/d)",
@@ -1432,7 +1421,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 61,
+    "count": 62,
     "cards": [
      {
       "row": 9586,
@@ -1763,6 +1752,17 @@
       "ts": "2026-11-04T15:28:43",
       "cv_pdf": "https://drive.google.com/file/d/1T5HJqRu-qBcR0CCbq3P197HAGVRgwLw5/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1D9sHC3pcZ8mtyc9SJTSWdjzz4f7FJ3ys/view?usp=drivesdk"
+     },
+     {
+      "row": 6891,
+      "company": "J. Safra Sarasin",
+      "title": "Lead Auditor",
+      "url": "https://www.linkedin.com/jobs/view/4477401160/",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-04T14:25:49",
+      "cv_pdf": "https://drive.google.com/file/d/11R0a42iIwQJey5TfVxmZEJvpQ-vhciTv/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1PZF2uvVl_2YLEOrDFzCY1e5w_8Zy2MqW/view?usp=drivesdk"
      },
      {
       "row": 6898,
