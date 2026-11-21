@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T20:58:59",
+ "generated": "2026-11-21T06:23:26",
  "kpis": {
   "runs": 170,
   "done": 160,
@@ -19,10 +19,10 @@
   "retries": 1,
   "queue_pending": 5,
   "claude_usage": {
-   "h5": 5.0,
+   "h5": 0.0,
    "d7": 20.0,
-   "h5_reset": "2026-11-20T22:40:00.426044+00:00",
-   "d7_reset": "2026-11-25T17:00:00.426068+00:00",
+   "h5_reset": null,
+   "d7_reset": "2026-11-25T17:00:00.280604+00:00",
    "stale": false,
    "n_pairs": 73,
    "cross": 0,
@@ -2072,7 +2072,7 @@
    "engine": "hermes",
    "label": "Hermes",
    "cli": true,
-   "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\.hermes\\bin\\hermes.EXE",
+   "cli_path": "C:\\Users\\pablo\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.EXE",
    "runs": 16,
    "runs_today": 0,
    "last": {
