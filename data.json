@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T06:23:26",
+ "generated": "2026-11-21T06:29:42",
  "kpis": {
   "runs": 170,
   "done": 160,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 20.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-25T17:00:00.280604+00:00",
+   "d7_reset": "2026-11-25T16:59:59.639334+00:00",
    "stale": false,
    "n_pairs": 73,
    "cross": 0,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 6,
+    "count": 7,
     "cards": [
+     {
+      "row": 10306,
+      "company": "Spital Thurgau AG",
+      "title": "Fachspezialist/-in Datenmanagement",
+      "url": "https://www.linkedin.com/jobs/view/4492417972/",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-19",
+      "cv_pdf": "https://drive.google.com/file/d/1mtqoyRNCU0-6zh-4lmrshpBw34VS3O9f/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/18zM8S1MqzqCTg8O7UB5ZD6f-w10OsBWY/view?usp=drivesdk"
+     },
      {
       "row": 10183,
       "company": "SpeciTec SA",
@@ -1651,9 +1662,7 @@
       "url": "https://www.linkedin.com/jobs/view/4478999846/",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-06T05:39:01",
-      "cv_pdf": "https://drive.google.com/file/d/1wh71KRAgQsSnjP4n01QHW5nktc0SC6V5/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1Eva_BVrec5ipeBQqkKthiOT2WGRv_bVl/view?usp=drivesdk"
+      "ts": "2026-11-06T05:39:01"
      },
      {
       "row": 8091,
@@ -2042,7 +2051,7 @@
     "more": 0
    }
   ],
-  "total": 175
+  "total": 176
  },
  "engines": [
   {
