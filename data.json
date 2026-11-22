@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T23:48:02",
+ "generated": "2026-11-23T00:00:03",
  "kpis": {
   "runs": 171,
   "done": 161,
@@ -2082,7 +2082,7 @@
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
    "runs": 139,
-   "runs_today": 1,
+   "runs_today": 0,
    "last": {
     "row": 8106,
     "company": "EFG Private Banking",
