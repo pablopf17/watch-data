@@ -1,35 +1,35 @@
 {
- "generated": "2026-11-23T12:56:01",
+ "generated": "2026-11-23T13:02:00",
  "kpis": {
-  "runs": 178,
-  "done": 167,
+  "runs": 179,
+  "done": 168,
   "ok": 70,
-  "ok_pct": 41.9,
+  "ok_pct": 41.7,
   "applied": 45,
-  "blocked": 75,
-  "manual": 27,
-  "manual_pct": 16.2,
+  "blocked": 76,
+  "manual": 28,
+  "manual_pct": 16.7,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 6.0,
-  "p90_min": 14.0,
-  "per_hour": 5.77,
-  "median_gap_min": 10.4,
-  "last_24h": 8,
+  "p90_min": 13.9,
+  "per_hour": 6.0,
+  "median_gap_min": 10.0,
+  "last_24h": 9,
   "retries": 1,
-  "queue_pending": 1,
+  "queue_pending": 0,
   "claude_usage": {
-   "h5": 21.0,
-   "d7": 24.0,
-   "h5_reset": "2026-11-23T16:29:59.962854+00:00",
-   "d7_reset": "2026-11-25T16:59:59.962872+00:00",
+   "h5": 29.0,
+   "d7": 25.0,
+   "h5_reset": "2026-11-23T16:30:00.406199+00:00",
+   "d7_reset": "2026-11-25T17:00:00.406219+00:00",
    "stale": false,
-   "n_pairs": 80,
+   "n_pairs": 81,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.54,
+   "mean_h5": 5.53,
    "tokens_per_cand_m": 0.92
   }
  },
@@ -127,10 +127,10 @@
   },
   {
    "d": "2026-11-23",
-   "runs": 7,
+   "runs": 8,
    "ok": 1,
    "applied": 0,
-   "blocked": 5
+   "blocked": 6
   }
  ],
  "blockers": [
@@ -140,7 +140,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 21
+   "n": 22
   },
   {
    "reason": "otro",
@@ -160,20 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 1,
-    "cards": [
-     {
-      "row": 8142,
-      "company": "Tudor Watch",
-      "title": "Data analyst",
-      "url": "https://www.linkedin.com/jobs/view/4477181870/",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-10-08",
-      "cv_pdf": "https://drive.google.com/file/d/1W30pLg54O1GlQ6BfNttYKQPzTEkuZ1LO/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1CnluebTZv8uCHxWps0rwzdWqMaZUJ2A7/view?usp=drivesdk"
-     }
-    ],
+    "count": 0,
+    "cards": [],
     "more": 0
    },
    {
@@ -182,24 +170,24 @@
     "count": 2,
     "cards": [
      {
-      "row": 8206,
-      "company": "FYUL",
-      "title": "Data Analytics Team Lead",
-      "url": "https://www.linkedin.com/jobs/view/4484954296/",
+      "row": 8142,
+      "company": "Tudor Watch",
+      "title": "Data analyst",
+      "url": "https://www.linkedin.com/jobs/view/4477181870/",
       "score": 6,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-23T12:56:01"
+      "ts": "2026-11-23T13:02:00"
      },
      {
-      "row": 8206,
-      "company": "FYUL",
-      "title": "Data Analytics Team Lead",
-      "url": "https://www.linkedin.com/jobs/view/4484954296/",
+      "row": 8142,
+      "company": "Tudor Watch",
+      "title": "Data analyst",
+      "url": "https://www.linkedin.com/jobs/view/4477181870/",
       "score": "",
-      "note": "starting · sin cerrar",
-      "ts": "2026-11-23T12:55:12",
-      "cv_pdf": "https://drive.google.com/file/d/1D7hE0v_s0kLUnXmYLxHqVQPhphGyBVdF/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1YybGCa9zuLqWWwAY5gzC90312OsRavVX/view?usp=drivesdk"
+      "note": "running · sin cerrar",
+      "ts": "2026-11-23T12:59:35",
+      "cv_pdf": "https://drive.google.com/file/d/1W30pLg54O1GlQ6BfNttYKQPzTEkuZ1LO/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1CnluebTZv8uCHxWps0rwzdWqMaZUJ2A7/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -207,8 +195,19 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 12,
+    "count": 13,
     "cards": [
+     {
+      "row": 8206,
+      "company": "FYUL",
+      "title": "Data Analytics Team Lead",
+      "url": "https://www.linkedin.com/jobs/view/4484954296/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-23T12:55:12",
+      "cv_pdf": "https://drive.google.com/file/d/1D7hE0v_s0kLUnXmYLxHqVQPhphGyBVdF/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1YybGCa9zuLqWWwAY5gzC90312OsRavVX/view?usp=drivesdk"
+     },
      {
       "row": 8895,
       "company": "Prolific",
@@ -2091,13 +2090,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 146,
-   "runs_today": 7,
+   "runs": 147,
+   "runs_today": 8,
    "last": {
-    "row": 8206,
-    "company": "FYUL",
-    "title": "Data Analytics Team Lead",
-    "started": "2026-11-23T12:55:12",
+    "row": 8142,
+    "company": "Tudor Watch",
+    "title": "Data analyst",
+    "started": "2026-11-23T12:59:35",
     "applied": false
    },
    "limit": {
@@ -2149,25 +2148,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8206,
-   "company": "FYUL",
-   "title": "Data Analytics Team Lead",
+   "row": 8142,
+   "company": "Tudor Watch",
+   "title": "Data analyst",
    "score": 6,
-   "url": "https://www.linkedin.com/jobs/view/4484954296/",
+   "url": "https://www.linkedin.com/jobs/view/4477181870/",
    "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-23T12:54:59+01:00",
-   "pid": 34336,
+   "started": "2026-11-23T12:59:21+01:00",
+   "pid": 27368,
    "lane": 0
   },
-  "pending": 1,
+  "pending": 0,
   "counters": {
-   "pending": 1,
+   "pending": 0,
    "sent": 0,
    "review": 1,
-   "blocked": 5,
+   "blocked": 6,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -2179,17 +2178,19 @@
    "timeout": 600,
    "per_domain": 0
   },
-  "next": [
-   {
-    "row": 8142,
-    "company": "Tudor Watch",
-    "title": "Data analyst",
-    "score": 6,
-    "url": "https://www.linkedin.com/jobs/view/4477181870/",
-    "domain": "linkedin.com"
-   }
-  ],
+  "next": [],
   "last": [
+   {
+    "ts": "2026-11-23T12:59:20+01:00",
+    "row": 8206,
+    "company": "FYUL",
+    "title": "Data Analytics Team Lead",
+    "score": 6,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 261
+   },
    {
     "ts": "2026-11-23T12:54:59+01:00",
     "row": 8895,
@@ -2233,32 +2234,21 @@
     "state": "blocked",
     "note": "login",
     "dur_s": 300
-   },
-   {
-    "ts": "2026-11-23T12:41:39+01:00",
-    "row": 10369,
-    "company": "Coni & Partner AG",
-    "title": "Operational Risk Specialist Bank",
-    "score": 9,
-    "domain": "jobagent.ch",
-    "state": "review",
-    "note": "6 avisos",
-    "dur_s": 310
    }
   ]
  },
  "runs": [
   {
-   "row": 8206,
-   "folder": "8206_fyul-data-analytics-team-lead",
-   "company": "FYUL",
-   "title": "Data Analytics Team Lead",
-   "url": "https://www.linkedin.com/jobs/view/4484954296/",
-   "lang": "en",
-   "started": "2026-11-23T12:55:12",
+   "row": 8142,
+   "folder": "8142_tudor-watch-data-analyst",
+   "company": "Tudor Watch",
+   "title": "Data analyst",
+   "url": "https://www.linkedin.com/jobs/view/4477181870/",
+   "lang": "fr",
+   "started": "2026-11-23T12:59:35",
    "finished": null,
    "dur_min": null,
-   "phase": "starting",
+   "phase": "running",
    "status": "",
    "status_at_start": "TAILORED",
    "engine": "claude",
@@ -2274,6 +2264,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8206,
+   "folder": "8206_fyul-data-analytics-team-lead",
+   "company": "FYUL",
+   "title": "Data Analytics Team Lead",
+   "url": "https://www.linkedin.com/jobs/view/4484954296/",
+   "lang": "en",
+   "started": "2026-11-23T12:55:12",
+   "finished": "2026-11-23T12:59:18",
+   "dur_min": 4.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "directo",
+   "files_verified": 4,
+   "files_total": 4,
+   "required_missing": 1,
+   "needs_approval": 2,
+   "avisos": 6,
+   "verify_ok": true
   },
   {
    "row": 8895,
