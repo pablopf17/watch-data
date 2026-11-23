@@ -1,30 +1,30 @@
 {
- "generated": "2026-11-23T12:38:01",
+ "generated": "2026-11-23T12:44:03",
  "kpis": {
-  "runs": 173,
-  "done": 162,
-  "ok": 69,
-  "ok_pct": 42.6,
+  "runs": 174,
+  "done": 163,
+  "ok": 70,
+  "ok_pct": 42.9,
   "applied": 45,
   "blocked": 71,
   "manual": 24,
-  "manual_pct": 14.8,
+  "manual_pct": 14.7,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 6.0,
-  "p90_min": 14.5,
+  "p90_min": 14.4,
   "per_hour": 5.45,
   "median_gap_min": 11.0,
-  "last_24h": 3,
+  "last_24h": 4,
   "retries": 1,
-  "queue_pending": 6,
+  "queue_pending": 5,
   "claude_usage": {
-   "h5": 4.0,
+   "h5": 10.0,
    "d7": 23.0,
-   "h5_reset": "2026-11-23T16:29:59.905435+00:00",
-   "d7_reset": "2026-11-25T16:59:59.905457+00:00",
+   "h5_reset": "2026-11-23T16:29:59.638575+00:00",
+   "d7_reset": "2026-11-25T16:59:59.638596+00:00",
    "stale": false,
-   "n_pairs": 75,
+   "n_pairs": 76,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 12.0,
@@ -127,8 +127,8 @@
   },
   {
    "d": "2026-11-23",
-   "runs": 2,
-   "ok": 0,
+   "runs": 3,
+   "ok": 1,
    "applied": 0,
    "blocked": 1
   }
@@ -160,19 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 6,
+    "count": 5,
     "cards": [
-     {
-      "row": 10306,
-      "company": "Spital Thurgau AG",
-      "title": "Fachspezialist/-in Datenmanagement",
-      "url": "https://www.linkedin.com/jobs/view/4492417972/",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-19",
-      "cv_pdf": "https://drive.google.com/file/d/1mtqoyRNCU0-6zh-4lmrshpBw34VS3O9f/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/18zM8S1MqzqCTg8O7UB5ZD6f-w10OsBWY/view?usp=drivesdk"
-     },
      {
       "row": 10183,
       "company": "SpeciTec SA",
@@ -237,24 +226,24 @@
     "count": 2,
     "cards": [
      {
-      "row": 10369,
-      "company": "Coni & Partner AG",
-      "title": "Operational Risk Specialist Bank",
-      "url": "https://www.jobagent.ch/mail/job/3257435965/34465947",
-      "score": 9,
+      "row": 10306,
+      "company": "Spital Thurgau AG",
+      "title": "Fachspezialist/-in Datenmanagement",
+      "url": "https://www.linkedin.com/jobs/view/4492417972/",
+      "score": 10,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-23T12:38:01"
+      "ts": "2026-11-23T12:44:03"
      },
      {
-      "row": 10369,
-      "company": "Coni & Partner AG",
-      "title": "Operational Risk Specialist Bank",
-      "url": "https://www.jobagent.ch/mail/job/3257435965/34465947",
+      "row": 10306,
+      "company": "Spital Thurgau AG",
+      "title": "Fachspezialist/-in Datenmanagement",
+      "url": "https://www.linkedin.com/jobs/view/4492417972/",
       "score": "",
       "note": "starting · sin cerrar",
-      "ts": "2026-11-23T12:36:39",
-      "cv_pdf": "https://drive.google.com/file/d/1T7uA1rOqg4JU9OGp48K3uwq261Wwho6m/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1A1HXiaAI7v5evhwhVC896lCXhc926894/view?usp=drivesdk"
+      "ts": "2026-11-23T12:41:51",
+      "cv_pdf": "https://drive.google.com/file/d/1mtqoyRNCU0-6zh-4lmrshpBw34VS3O9f/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/18zM8S1MqzqCTg8O7UB5ZD6f-w10OsBWY/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -262,8 +251,19 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 7,
+    "count": 8,
     "cards": [
+     {
+      "row": 10369,
+      "company": "Coni & Partner AG",
+      "title": "Operational Risk Specialist Bank",
+      "url": "https://www.jobagent.ch/mail/job/3257435965/34465947",
+      "score": "",
+      "note": "6 avisos",
+      "ts": "2026-11-23T12:36:39",
+      "cv_pdf": "https://drive.google.com/file/d/1T7uA1rOqg4JU9OGp48K3uwq261Wwho6m/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1A1HXiaAI7v5evhwhVC896lCXhc926894/view?usp=drivesdk"
+     },
      {
       "row": 9212,
       "company": "",
@@ -2091,13 +2091,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 141,
-   "runs_today": 2,
+   "runs": 142,
+   "runs_today": 3,
    "last": {
-    "row": 10369,
-    "company": "Coni & Partner AG",
-    "title": "Operational Risk Specialist Bank",
-    "started": "2026-11-23T12:36:39",
+    "row": 10306,
+    "company": "Spital Thurgau AG",
+    "title": "Fachspezialist/-in Datenmanagement",
+    "started": "2026-11-23T12:41:51",
     "applied": false
    },
    "limit": {
@@ -2149,24 +2149,24 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 10369,
-   "company": "Coni & Partner AG",
-   "title": "Operational Risk Specialist Bank",
-   "score": 9,
-   "url": "https://www.jobagent.ch/mail/job/3257435965/34465947",
-   "domain": "jobagent.ch",
+   "row": 10306,
+   "company": "Spital Thurgau AG",
+   "title": "Fachspezialist/-in Datenmanagement",
+   "score": 10,
+   "url": "https://www.linkedin.com/jobs/view/4492417972/",
+   "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-23T12:36:28+01:00",
-   "pid": 35380,
+   "started": "2026-11-23T12:41:39+01:00",
+   "pid": 31424,
    "lane": 0
   },
-  "pending": 6,
+  "pending": 5,
   "counters": {
-   "pending": 6,
+   "pending": 5,
    "sent": 0,
-   "review": 0,
+   "review": 1,
    "blocked": 1,
    "errors": 0,
    "skipped": 0,
@@ -2187,14 +2187,6 @@
     "score": 10,
     "url": "https://www.job-room.ch/job-search/ad1ecad2-4625-457d-960a-ffea27354571",
     "domain": "job-room.ch"
-   },
-   {
-    "row": 10306,
-    "company": "Spital Thurgau AG",
-    "title": "Fachspezialist/-in Datenmanagement",
-    "score": 10,
-    "url": "https://www.linkedin.com/jobs/view/4492417972/",
-    "domain": "linkedin.com"
    },
    {
     "row": 8142,
@@ -2219,9 +2211,28 @@
     "score": 6,
     "url": "https://www.linkedin.com/jobs/view/4481853698/",
     "domain": "linkedin.com"
+   },
+   {
+    "row": 8985,
+    "company": "Valion AG",
+    "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+    "score": 6,
+    "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
+    "domain": "jobagent.ch"
    }
   ],
   "last": [
+   {
+    "ts": "2026-11-23T12:41:39+01:00",
+    "row": 10369,
+    "company": "Coni & Partner AG",
+    "title": "Operational Risk Specialist Bank",
+    "score": 9,
+    "domain": "jobagent.ch",
+    "state": "review",
+    "note": "6 avisos",
+    "dur_s": 310
+   },
    {
     "ts": "2026-11-23T12:36:28+01:00",
     "row": 10370,
@@ -2265,29 +2276,18 @@
     "state": "review",
     "note": "2 avisos",
     "dur_s": 170
-   },
-   {
-    "ts": "2026-11-19T10:18:50+01:00",
-    "row": 9593,
-    "company": "Academic Work Switzerland SA",
-    "title": "Compliance officer - mission 2-3 mois",
-    "score": 6,
-    "domain": "job-room.ch",
-    "state": "review",
-    "note": "4 avisos",
-    "dur_s": 200
    }
   ]
  },
  "runs": [
   {
-   "row": 10369,
-   "folder": "10369_coni-partner-ag-operational-risk-special",
-   "company": "Coni & Partner AG",
-   "title": "Operational Risk Specialist Bank",
-   "url": "https://www.jobagent.ch/mail/job/3257435965/34465947",
-   "lang": "en",
-   "started": "2026-11-23T12:36:39",
+   "row": 10306,
+   "folder": "10306_spital-thurgau-ag-fachspezialist-in-date",
+   "company": "Spital Thurgau AG",
+   "title": "Fachspezialist/-in Datenmanagement",
+   "url": "https://www.linkedin.com/jobs/view/4492417972/",
+   "lang": "de",
+   "started": "2026-11-23T12:41:51",
    "finished": null,
    "dur_min": null,
    "phase": "starting",
@@ -2306,6 +2306,33 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 10369,
+   "folder": "10369_coni-partner-ag-operational-risk-special",
+   "company": "Coni & Partner AG",
+   "title": "Operational Risk Specialist Bank",
+   "url": "https://www.jobagent.ch/mail/job/3257435965/34465947",
+   "lang": "en",
+   "started": "2026-11-23T12:36:39",
+   "finished": "2026-11-23T12:41:38",
+   "dur_min": 5.0,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "",
+   "manual": false,
+   "ok": true,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "agregador",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 0,
+   "needs_approval": 1,
+   "avisos": 6,
+   "verify_ok": false
   },
   {
    "row": 10370,
