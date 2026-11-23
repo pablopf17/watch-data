@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T09:56:03",
+ "generated": "2026-11-23T10:02:02",
  "kpis": {
   "runs": 171,
   "done": 161,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 23.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-25T17:00:00.234242+00:00",
+   "d7_reset": "2026-11-25T16:59:59.734889+00:00",
    "stale": false,
    "n_pairs": 74,
    "cross": 0,
@@ -348,7 +348,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 101,
+    "count": 100,
     "cards": [
      {
       "row": 8106,
@@ -547,17 +547,6 @@
       "ts": "2026-11-06T20:30:50",
       "cv_pdf": "https://drive.google.com/file/d/17AJuNcZgCmsdzkt6HOH_aDfagKZ3v4zj/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1jS7aQL0Zfbm3Rk_ObFc0Ri6bCyAFhCV-/view?usp=drivesdk"
-     },
-     {
-      "row": 6642,
-      "company": "Valora Group",
-      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
-      "url": "https://www.linkedin.com/jobs/view/4479354970/",
-      "score": "",
-      "note": "con respuesta · pasada paró en 7 avisos",
-      "ts": "2026-11-06T20:21:13",
-      "cv_pdf": "https://drive.google.com/file/d/1Xh9pxHhC3GfiXUu-sK-H-_FjlgDnfGEu/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/176OCYs-iY4gzPPxY0MEAltK8PpemsqHv/view?usp=drivesdk"
      },
      {
       "row": 6901,
@@ -1465,7 +1454,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 62,
+    "count": 63,
     "cards": [
      {
       "row": 9586,
@@ -1605,6 +1594,17 @@
       "score": "",
       "note": "no disponible",
       "ts": "2026-11-06T20:33:45"
+     },
+     {
+      "row": 6642,
+      "company": "Valora Group",
+      "title": "Internal Control & Risk Specialist 60-80% (w/m/d)",
+      "url": "https://www.linkedin.com/jobs/view/4479354970/",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-06T20:21:13",
+      "cv_pdf": "https://drive.google.com/file/d/1Xh9pxHhC3GfiXUu-sK-H-_FjlgDnfGEu/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/176OCYs-iY4gzPPxY0MEAltK8PpemsqHv/view?usp=drivesdk"
      },
      {
       "row": 7161,
