@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T18:38:00",
+ "generated": "2026-11-23T18:44:00",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 28.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-25T16:59:59.589422+00:00",
+   "d7_reset": "2026-11-25T16:59:59.724416+00:00",
    "stale": false,
    "n_pairs": 82,
    "cross": 0,
@@ -160,8 +160,42 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 0,
-    "cards": [],
+    "count": 3,
+    "cards": [
+     {
+      "row": 10391,
+      "company": "Ernst & Young AG",
+      "title": "Assistant(e) Asset Management Audit",
+      "url": "https://www.jobagent.ch/job/assistant-e-asset-management-audit/3257464b51",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-23",
+      "cv_pdf": "https://drive.google.com/file/d/1S1xCC0qjwaPhtVXYZ4tsiEvdp3XA99pi/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/19LJqeOOm-eJI4Rn28oaRUeAhw9X9O2X3/view?usp=drivesdk"
+     },
+     {
+      "row": 10390,
+      "company": "Ernst & Young AG",
+      "title": "Manager Asset Management Audit",
+      "url": "https://www.jobagent.ch/job/manager-asset-management-audit/3257464b63",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-11-23",
+      "cv_pdf": "https://drive.google.com/file/d/13zFjaMReYkcSDxGoqfN1vNFWgCY761WA/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1AtQkb0DZxKwtNrqzCCOGL4Va0UEYV209/view?usp=drivesdk"
+     },
+     {
+      "row": 10388,
+      "company": "LGT Capital Partners AG",
+      "title": "Senior Investor Reporting Specialist - Private Markets Financial Operations",
+      "url": "https://www.jobagent.ch/job/senior-investor-reporting-specialist-private-markets-financial-operations/3257463141",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-23",
+      "cv_pdf": "https://drive.google.com/file/d/1kxn2Y8akWfH99yVmjVhCHDE_UHZ5MhQw/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1pnlrbu03ebhUXS2Ju40qKm8qRSdWboxo/view?usp=drivesdk"
+     }
+    ],
     "more": 0
    },
    {
@@ -2072,7 +2106,7 @@
     "more": 0
    }
   ],
-  "total": 178
+  "total": 181
  },
  "engines": [
   {
