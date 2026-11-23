@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-23T12:50:00",
+ "generated": "2026-11-23T12:56:01",
  "kpis": {
-  "runs": 176,
-  "done": 165,
+  "runs": 178,
+  "done": 167,
   "ok": 70,
-  "ok_pct": 42.4,
+  "ok_pct": 41.9,
   "applied": 45,
-  "blocked": 73,
-  "manual": 25,
-  "manual_pct": 15.2,
+  "blocked": 75,
+  "manual": 27,
+  "manual_pct": 16.2,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 6.0,
-  "p90_min": 14.2,
-  "per_hour": 5.5,
-  "median_gap_min": 10.9,
-  "last_24h": 6,
+  "p90_min": 14.0,
+  "per_hour": 5.77,
+  "median_gap_min": 10.4,
+  "last_24h": 8,
   "retries": 1,
-  "queue_pending": 3,
+  "queue_pending": 1,
   "claude_usage": {
-   "h5": 15.0,
+   "h5": 21.0,
    "d7": 24.0,
-   "h5_reset": "2026-11-23T16:29:59.917630+00:00",
-   "d7_reset": "2026-11-25T16:59:59.917660+00:00",
+   "h5_reset": "2026-11-23T16:29:59.962854+00:00",
+   "d7_reset": "2026-11-25T16:59:59.962872+00:00",
    "stale": false,
-   "n_pairs": 78,
+   "n_pairs": 80,
    "cross": 0,
-   "median_h5": 5.0,
+   "median_h5": 4.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.6,
-   "tokens_per_cand_m": 0.93
+   "mean_h5": 5.54,
+   "tokens_per_cand_m": 0.92
   }
  },
  "per_day": [
@@ -127,10 +127,10 @@
   },
   {
    "d": "2026-11-23",
-   "runs": 5,
+   "runs": 7,
    "ok": 1,
    "applied": 0,
-   "blocked": 3
+   "blocked": 5
   }
  ],
  "blockers": [
@@ -140,7 +140,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 19
+   "n": 21
   },
   {
    "reason": "otro",
@@ -160,30 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 3,
+    "count": 1,
     "cards": [
-     {
-      "row": 8895,
-      "company": "Prolific",
-      "title": "Spanish - Fluent Speakers - AI Training",
-      "url": "https://www.linkedin.com/jobs/view/4481853698/",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-10-27",
-      "cv_pdf": "https://drive.google.com/file/d/1ZmYvi2z8EM4BOHKBuyV_PxQq3_rhNvK5/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1regpD-lgnLGXFhaEq6nNBQmaINRHkx11/view?usp=drivesdk"
-     },
-     {
-      "row": 8206,
-      "company": "FYUL",
-      "title": "Data Analytics Team Lead",
-      "url": "https://www.linkedin.com/jobs/view/4484954296/",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-10-29",
-      "cv_pdf": "https://drive.google.com/file/d/1D7hE0v_s0kLUnXmYLxHqVQPhphGyBVdF/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1YybGCa9zuLqWWwAY5gzC90312OsRavVX/view?usp=drivesdk"
-     },
      {
       "row": 8142,
       "company": "Tudor Watch",
@@ -204,24 +182,24 @@
     "count": 2,
     "cards": [
      {
-      "row": 8985,
-      "company": "Valion AG",
-      "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
-      "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
+      "row": 8206,
+      "company": "FYUL",
+      "title": "Data Analytics Team Lead",
+      "url": "https://www.linkedin.com/jobs/view/4484954296/",
       "score": 6,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-23T12:50:00"
+      "ts": "2026-11-23T12:56:01"
      },
      {
-      "row": 8985,
-      "company": "Valion AG",
-      "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
-      "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
+      "row": 8206,
+      "company": "FYUL",
+      "title": "Data Analytics Team Lead",
+      "url": "https://www.linkedin.com/jobs/view/4484954296/",
       "score": "",
       "note": "starting · sin cerrar",
-      "ts": "2026-11-23T12:49:22",
-      "cv_pdf": "https://drive.google.com/file/d/1_5qvdYPMAF6S4rtmzZ8kkRQCON6uQEq4/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1zq4-NyDoZAw2z5xANHZ7RSP7DIlB5sHZ/view?usp=drivesdk"
+      "ts": "2026-11-23T12:55:12",
+      "cv_pdf": "https://drive.google.com/file/d/1D7hE0v_s0kLUnXmYLxHqVQPhphGyBVdF/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1YybGCa9zuLqWWwAY5gzC90312OsRavVX/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -229,8 +207,30 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 10,
+    "count": 12,
     "cards": [
+     {
+      "row": 8895,
+      "company": "Prolific",
+      "title": "Spanish - Fluent Speakers - AI Training",
+      "url": "https://www.linkedin.com/jobs/view/4481853698/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-23T12:51:52",
+      "cv_pdf": "https://drive.google.com/file/d/1ZmYvi2z8EM4BOHKBuyV_PxQq3_rhNvK5/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1regpD-lgnLGXFhaEq6nNBQmaINRHkx11/view?usp=drivesdk"
+     },
+     {
+      "row": 8985,
+      "company": "Valion AG",
+      "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+      "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-23T12:49:22",
+      "cv_pdf": "https://drive.google.com/file/d/1_5qvdYPMAF6S4rtmzZ8kkRQCON6uQEq4/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1zq4-NyDoZAw2z5xANHZ7RSP7DIlB5sHZ/view?usp=drivesdk"
+     },
      {
       "row": 10183,
       "company": "SpeciTec SA",
@@ -2091,13 +2091,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 144,
-   "runs_today": 5,
+   "runs": 146,
+   "runs_today": 7,
    "last": {
-    "row": 8985,
-    "company": "Valion AG",
-    "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
-    "started": "2026-11-23T12:49:22",
+    "row": 8206,
+    "company": "FYUL",
+    "title": "Data Analytics Team Lead",
+    "started": "2026-11-23T12:55:12",
     "applied": false
    },
    "limit": {
@@ -2149,25 +2149,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 8985,
-   "company": "Valion AG",
-   "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+   "row": 8206,
+   "company": "FYUL",
+   "title": "Data Analytics Team Lead",
    "score": 6,
-   "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
-   "domain": "jobagent.ch",
+   "url": "https://www.linkedin.com/jobs/view/4484954296/",
+   "domain": "linkedin.com",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-23T12:49:09+01:00",
-   "pid": 35548,
+   "started": "2026-11-23T12:54:59+01:00",
+   "pid": 34336,
    "lane": 0
   },
-  "pending": 3,
+  "pending": 1,
   "counters": {
-   "pending": 3,
+   "pending": 1,
    "sent": 0,
    "review": 1,
-   "blocked": 3,
+   "blocked": 5,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -2187,25 +2187,31 @@
     "score": 6,
     "url": "https://www.linkedin.com/jobs/view/4477181870/",
     "domain": "linkedin.com"
-   },
+   }
+  ],
+  "last": [
    {
-    "row": 8206,
-    "company": "FYUL",
-    "title": "Data Analytics Team Lead",
-    "score": 6,
-    "url": "https://www.linkedin.com/jobs/view/4484954296/",
-    "domain": "linkedin.com"
-   },
-   {
+    "ts": "2026-11-23T12:54:59+01:00",
     "row": 8895,
     "company": "Prolific",
     "title": "Spanish - Fluent Speakers - AI Training",
     "score": 6,
-    "url": "https://www.linkedin.com/jobs/view/4481853698/",
-    "domain": "linkedin.com"
-   }
-  ],
-  "last": [
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 200
+   },
+   {
+    "ts": "2026-11-23T12:51:39+01:00",
+    "row": 8985,
+    "company": "Valion AG",
+    "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+    "score": 6,
+    "domain": "jobagent.ch",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 150
+   },
    {
     "ts": "2026-11-23T12:49:09+01:00",
     "row": 10183,
@@ -2238,40 +2244,18 @@
     "state": "review",
     "note": "6 avisos",
     "dur_s": 310
-   },
-   {
-    "ts": "2026-11-23T12:36:28+01:00",
-    "row": 10370,
-    "company": "Association pour le bien des aveugles et malvoyants",
-    "title": "Un·e Responsable de la transformation numérique à 80-100 %",
-    "score": 7,
-    "domain": "jobagent.ch",
-    "state": "blocked",
-    "note": "sin_formulario",
-    "dur_s": 240
-   },
-   {
-    "ts": "2026-11-22T13:34:38+01:00",
-    "row": 8106,
-    "company": "EFG Private Banking",
-    "title": "Third Party Risk Management Officer",
-    "score": 6,
-    "domain": "linkedin.com",
-    "state": "sent",
-    "note": "enviada (tracker)",
-    "dur_s": 210
    }
   ]
  },
  "runs": [
   {
-   "row": 8985,
-   "folder": "8985_valion-ag-it-consultant-als-business-ana",
-   "company": "Valion AG",
-   "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
-   "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
-   "lang": "de",
-   "started": "2026-11-23T12:49:22",
+   "row": 8206,
+   "folder": "8206_fyul-data-analytics-team-lead",
+   "company": "FYUL",
+   "title": "Data Analytics Team Lead",
+   "url": "https://www.linkedin.com/jobs/view/4484954296/",
+   "lang": "en",
+   "started": "2026-11-23T12:55:12",
    "finished": null,
    "dur_min": null,
    "phase": "starting",
@@ -2290,6 +2274,60 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 8895,
+   "folder": "8895_prolific-spanish-fluent-speakers-ai-trai",
+   "company": "Prolific",
+   "title": "Spanish - Fluent Speakers - AI Training",
+   "url": "https://www.linkedin.com/jobs/view/4481853698/",
+   "lang": "en",
+   "started": "2026-11-23T12:51:52",
+   "finished": "2026-11-23T12:54:58",
+   "dur_min": 3.1,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "directo",
+   "files_verified": 4,
+   "files_total": 4,
+   "required_missing": 1,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": true
+  },
+  {
+   "row": 8985,
+   "folder": "8985_valion-ag-it-consultant-als-business-ana",
+   "company": "Valion AG",
+   "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+   "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
+   "lang": "de",
+   "started": "2026-11-23T12:49:22",
+   "finished": "2026-11-23T12:51:35",
+   "dur_min": 2.2,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "intermedio",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 4,
+   "needs_approval": 1,
+   "avisos": 4,
+   "verify_ok": false
   },
   {
    "row": 10183,
