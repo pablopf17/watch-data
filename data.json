@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-23T12:44:03",
+ "generated": "2026-11-23T12:50:00",
  "kpis": {
-  "runs": 174,
-  "done": 163,
+  "runs": 176,
+  "done": 165,
   "ok": 70,
-  "ok_pct": 42.9,
+  "ok_pct": 42.4,
   "applied": 45,
-  "blocked": 71,
-  "manual": 24,
-  "manual_pct": 14.7,
+  "blocked": 73,
+  "manual": 25,
+  "manual_pct": 15.2,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 6.0,
-  "p90_min": 14.4,
-  "per_hour": 5.45,
-  "median_gap_min": 11.0,
-  "last_24h": 4,
+  "p90_min": 14.2,
+  "per_hour": 5.5,
+  "median_gap_min": 10.9,
+  "last_24h": 6,
   "retries": 1,
-  "queue_pending": 5,
+  "queue_pending": 3,
   "claude_usage": {
-   "h5": 10.0,
-   "d7": 23.0,
-   "h5_reset": "2026-11-23T16:29:59.638575+00:00",
-   "d7_reset": "2026-11-25T16:59:59.638596+00:00",
+   "h5": 15.0,
+   "d7": 24.0,
+   "h5_reset": "2026-11-23T16:29:59.917630+00:00",
+   "d7_reset": "2026-11-25T16:59:59.917660+00:00",
    "stale": false,
-   "n_pairs": 76,
+   "n_pairs": 78,
    "cross": 0,
    "median_h5": 5.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.68,
-   "tokens_per_cand_m": 0.94
+   "mean_h5": 5.6,
+   "tokens_per_cand_m": 0.93
   }
  },
  "per_day": [
@@ -127,10 +127,10 @@
   },
   {
    "d": "2026-11-23",
-   "runs": 3,
+   "runs": 5,
    "ok": 1,
    "applied": 0,
-   "blocked": 1
+   "blocked": 3
   }
  ],
  "blockers": [
@@ -140,11 +140,11 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 18
+   "n": 19
   },
   {
    "reason": "otro",
-   "n": 7
+   "n": 8
   },
   {
    "reason": "captcha",
@@ -160,30 +160,8 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 5,
+    "count": 3,
     "cards": [
-     {
-      "row": 10183,
-      "company": "SpeciTec SA",
-      "title": "Compliance Officer – Onboarding clients | Mission en décembre",
-      "url": "https://www.job-room.ch/job-search/ad1ecad2-4625-457d-960a-ffea27354571",
-      "score": "10",
-      "note": "listo para lanzar",
-      "ts": "2026-11-20",
-      "cv_pdf": "https://drive.google.com/file/d/1-NMomvsFQRXTCoe85kXTTA1JrFTDePX3/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1Ukybz5xIK1y_Lj0lGs9bE03IwhVQoFQM/view?usp=drivesdk"
-     },
-     {
-      "row": 8985,
-      "company": "Valion AG",
-      "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
-      "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
-      "score": "6",
-      "note": "listo para lanzar",
-      "ts": "2026-11-02",
-      "cv_pdf": "https://drive.google.com/file/d/1_5qvdYPMAF6S4rtmzZ8kkRQCON6uQEq4/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1zq4-NyDoZAw2z5xANHZ7RSP7DIlB5sHZ/view?usp=drivesdk"
-     },
      {
       "row": 8895,
       "company": "Prolific",
@@ -226,24 +204,24 @@
     "count": 2,
     "cards": [
      {
-      "row": 10306,
-      "company": "Spital Thurgau AG",
-      "title": "Fachspezialist/-in Datenmanagement",
-      "url": "https://www.linkedin.com/jobs/view/4492417972/",
-      "score": 10,
+      "row": 8985,
+      "company": "Valion AG",
+      "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+      "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
+      "score": 6,
       "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-23T12:44:03"
+      "ts": "2026-11-23T12:50:00"
      },
      {
-      "row": 10306,
-      "company": "Spital Thurgau AG",
-      "title": "Fachspezialist/-in Datenmanagement",
-      "url": "https://www.linkedin.com/jobs/view/4492417972/",
+      "row": 8985,
+      "company": "Valion AG",
+      "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+      "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
       "score": "",
       "note": "starting · sin cerrar",
-      "ts": "2026-11-23T12:41:51",
-      "cv_pdf": "https://drive.google.com/file/d/1mtqoyRNCU0-6zh-4lmrshpBw34VS3O9f/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/18zM8S1MqzqCTg8O7UB5ZD6f-w10OsBWY/view?usp=drivesdk"
+      "ts": "2026-11-23T12:49:22",
+      "cv_pdf": "https://drive.google.com/file/d/1_5qvdYPMAF6S4rtmzZ8kkRQCON6uQEq4/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1zq4-NyDoZAw2z5xANHZ7RSP7DIlB5sHZ/view?usp=drivesdk"
      }
     ],
     "more": 0
@@ -251,8 +229,30 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 8,
+    "count": 10,
     "cards": [
+     {
+      "row": 10183,
+      "company": "SpeciTec SA",
+      "title": "Compliance Officer – Onboarding clients | Mission en décembre",
+      "url": "https://www.job-room.ch/job-search/ad1ecad2-4625-457d-960a-ffea27354571",
+      "score": "",
+      "note": "declaracion",
+      "ts": "2026-11-23T12:46:51",
+      "cv_pdf": "https://drive.google.com/file/d/1-NMomvsFQRXTCoe85kXTTA1JrFTDePX3/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1Ukybz5xIK1y_Lj0lGs9bE03IwhVQoFQM/view?usp=drivesdk"
+     },
+     {
+      "row": 10306,
+      "company": "Spital Thurgau AG",
+      "title": "Fachspezialist/-in Datenmanagement",
+      "url": "https://www.linkedin.com/jobs/view/4492417972/",
+      "score": "",
+      "note": "login",
+      "ts": "2026-11-23T12:41:51",
+      "cv_pdf": "https://drive.google.com/file/d/1mtqoyRNCU0-6zh-4lmrshpBw34VS3O9f/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/18zM8S1MqzqCTg8O7UB5ZD6f-w10OsBWY/view?usp=drivesdk"
+     },
      {
       "row": 10369,
       "company": "Coni & Partner AG",
@@ -2091,13 +2091,13 @@
    "label": "Claude",
    "cli": true,
    "cli_path": "C:\\Users\\pablo\\AppData\\Roaming\\npm\\claude.CMD",
-   "runs": 142,
-   "runs_today": 3,
+   "runs": 144,
+   "runs_today": 5,
    "last": {
-    "row": 10306,
-    "company": "Spital Thurgau AG",
-    "title": "Fachspezialist/-in Datenmanagement",
-    "started": "2026-11-23T12:41:51",
+    "row": 8985,
+    "company": "Valion AG",
+    "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+    "started": "2026-11-23T12:49:22",
     "applied": false
    },
    "limit": {
@@ -2149,25 +2149,25 @@
  "queue": {
   "exists": true,
   "running": {
-   "row": 10306,
-   "company": "Spital Thurgau AG",
-   "title": "Fachspezialist/-in Datenmanagement",
-   "score": 10,
-   "url": "https://www.linkedin.com/jobs/view/4492417972/",
-   "domain": "linkedin.com",
+   "row": 8985,
+   "company": "Valion AG",
+   "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+   "score": 6,
+   "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
+   "domain": "jobagent.ch",
    "status": "TAILORED",
    "state": "running",
    "note": "",
-   "started": "2026-11-23T12:41:39+01:00",
-   "pid": 31424,
+   "started": "2026-11-23T12:49:09+01:00",
+   "pid": 35548,
    "lane": 0
   },
-  "pending": 5,
+  "pending": 3,
   "counters": {
-   "pending": 5,
+   "pending": 3,
    "sent": 0,
    "review": 1,
-   "blocked": 1,
+   "blocked": 3,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -2180,14 +2180,6 @@
    "per_domain": 0
   },
   "next": [
-   {
-    "row": 10183,
-    "company": "SpeciTec SA",
-    "title": "Compliance Officer – Onboarding clients | Mission en décembre",
-    "score": 10,
-    "url": "https://www.job-room.ch/job-search/ad1ecad2-4625-457d-960a-ffea27354571",
-    "domain": "job-room.ch"
-   },
    {
     "row": 8142,
     "company": "Tudor Watch",
@@ -2211,17 +2203,31 @@
     "score": 6,
     "url": "https://www.linkedin.com/jobs/view/4481853698/",
     "domain": "linkedin.com"
-   },
-   {
-    "row": 8985,
-    "company": "Valion AG",
-    "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
-    "score": 6,
-    "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
-    "domain": "jobagent.ch"
    }
   ],
   "last": [
+   {
+    "ts": "2026-11-23T12:49:09+01:00",
+    "row": 10183,
+    "company": "SpeciTec SA",
+    "title": "Compliance Officer – Onboarding clients | Mission en décembre",
+    "score": 10,
+    "domain": "job-room.ch",
+    "state": "blocked",
+    "note": "declaracion",
+    "dur_s": 150
+   },
+   {
+    "ts": "2026-11-23T12:46:39+01:00",
+    "row": 10306,
+    "company": "Spital Thurgau AG",
+    "title": "Fachspezialist/-in Datenmanagement",
+    "score": 10,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 300
+   },
    {
     "ts": "2026-11-23T12:41:39+01:00",
     "row": 10369,
@@ -2254,40 +2260,18 @@
     "state": "sent",
     "note": "enviada (tracker)",
     "dur_s": 210
-   },
-   {
-    "ts": "2026-11-19T10:43:34+01:00",
-    "row": 9212,
-    "company": "",
-    "title": "Comptable",
-    "score": 6,
-    "domain": "job-room.ch",
-    "state": "blocked",
-    "note": "captcha",
-    "dur_s": 200
-   },
-   {
-    "ts": "2026-11-19T10:33:50+01:00",
-    "row": 9586,
-    "company": "TotalEnergies",
-    "title": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
-    "score": 6,
-    "domain": "linkedin.com",
-    "state": "review",
-    "note": "2 avisos",
-    "dur_s": 170
    }
   ]
  },
  "runs": [
   {
-   "row": 10306,
-   "folder": "10306_spital-thurgau-ag-fachspezialist-in-date",
-   "company": "Spital Thurgau AG",
-   "title": "Fachspezialist/-in Datenmanagement",
-   "url": "https://www.linkedin.com/jobs/view/4492417972/",
+   "row": 8985,
+   "folder": "8985_valion-ag-it-consultant-als-business-ana",
+   "company": "Valion AG",
+   "title": "IT-Consultant als Business Analyst:in Prozessautomation (60-100%)",
+   "url": "https://www.jobagent.ch/job/it-consultant-als-business-analyst-in-prozessautomation-60-100/324f573069",
    "lang": "de",
-   "started": "2026-11-23T12:41:51",
+   "started": "2026-11-23T12:49:22",
    "finished": null,
    "dur_min": null,
    "phase": "starting",
@@ -2306,6 +2290,60 @@
    "needs_approval": 0,
    "avisos": 0,
    "verify_ok": null
+  },
+  {
+   "row": 10183,
+   "folder": "10183_specitec-sa-compliance-officer-onboardin",
+   "company": "SpeciTec SA",
+   "title": "Compliance Officer – Onboarding clients | Mission en décembre",
+   "url": "https://www.job-room.ch/job-search/ad1ecad2-4625-457d-960a-ffea27354571",
+   "lang": "fr",
+   "started": "2026-11-23T12:46:51",
+   "finished": "2026-11-23T12:49:04",
+   "dur_min": 2.2,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "declaracion",
+   "manual": false,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "directo",
+   "files_verified": 0,
+   "files_total": 2,
+   "required_missing": 3,
+   "needs_approval": 3,
+   "avisos": 4,
+   "verify_ok": false
+  },
+  {
+   "row": 10306,
+   "folder": "10306_spital-thurgau-ag-fachspezialist-in-date",
+   "company": "Spital Thurgau AG",
+   "title": "Fachspezialist/-in Datenmanagement",
+   "url": "https://www.linkedin.com/jobs/view/4492417972/",
+   "lang": "de",
+   "started": "2026-11-23T12:41:51",
+   "finished": "2026-11-23T12:46:32",
+   "dur_min": 4.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
+   "status_at_start": "TAILORED",
+   "engine": "claude",
+   "blocked": "login",
+   "manual": true,
+   "ok": false,
+   "applied": false,
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 4,
+   "files_total": 4,
+   "required_missing": 1,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": true
   },
   {
    "row": 10369,
