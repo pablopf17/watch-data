@@ -1,35 +1,35 @@
 {
- "generated": "2026-11-23T13:02:00",
+ "generated": "2026-11-23T13:08:27",
  "kpis": {
   "runs": 179,
-  "done": 168,
+  "done": 169,
   "ok": 70,
-  "ok_pct": 41.7,
+  "ok_pct": 41.4,
   "applied": 45,
-  "blocked": 76,
-  "manual": 28,
-  "manual_pct": 16.7,
+  "blocked": 77,
+  "manual": 29,
+  "manual_pct": 17.2,
   "median_min": 4.5,
   "median_min_ok": 5.7,
   "median_min_applied": 6.0,
-  "p90_min": 13.9,
+  "p90_min": 13.8,
   "per_hour": 6.0,
   "median_gap_min": 10.0,
   "last_24h": 9,
   "retries": 1,
   "queue_pending": 0,
   "claude_usage": {
-   "h5": 29.0,
+   "h5": 30.0,
    "d7": 25.0,
-   "h5_reset": "2026-11-23T16:30:00.406199+00:00",
-   "d7_reset": "2026-11-25T17:00:00.406219+00:00",
+   "h5_reset": "2026-11-23T16:30:00.388947+00:00",
+   "d7_reset": "2026-11-25T17:00:00.388967+00:00",
    "stale": false,
-   "n_pairs": 81,
+   "n_pairs": 82,
    "cross": 0,
    "median_h5": 4.0,
    "p90_h5": 12.0,
    "max_h5": 29.0,
-   "mean_h5": 5.53,
+   "mean_h5": 5.51,
    "tokens_per_cand_m": 0.92
   }
  },
@@ -130,7 +130,7 @@
    "runs": 8,
    "ok": 1,
    "applied": 0,
-   "blocked": 6
+   "blocked": 7
   }
  ],
  "blockers": [
@@ -140,7 +140,7 @@
   },
   {
    "reason": "login / cuenta",
-   "n": 22
+   "n": 23
   },
   {
    "reason": "otro",
@@ -167,36 +167,26 @@
    {
     "key": "running",
     "label": "🛠️ En curso / sin cerrar",
-    "count": 2,
+    "count": 0,
+    "cards": [],
+    "more": 0
+   },
+   {
+    "key": "review",
+    "label": "🟠 Revisión · necesitan a Pablo",
+    "count": 14,
     "cards": [
-     {
-      "row": 8142,
-      "company": "Tudor Watch",
-      "title": "Data analyst",
-      "url": "https://www.linkedin.com/jobs/view/4477181870/",
-      "score": 6,
-      "note": "⏳ enviando ahora (cola)",
-      "ts": "2026-11-23T13:02:00"
-     },
      {
       "row": 8142,
       "company": "Tudor Watch",
       "title": "Data analyst",
       "url": "https://www.linkedin.com/jobs/view/4477181870/",
       "score": "",
-      "note": "running · sin cerrar",
+      "note": "login",
       "ts": "2026-11-23T12:59:35",
       "cv_pdf": "https://drive.google.com/file/d/1W30pLg54O1GlQ6BfNttYKQPzTEkuZ1LO/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1CnluebTZv8uCHxWps0rwzdWqMaZUJ2A7/view?usp=drivesdk"
-     }
-    ],
-    "more": 0
-   },
-   {
-    "key": "review",
-    "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 13,
-    "cards": [
+     },
      {
       "row": 8206,
       "company": "FYUL",
@@ -2147,26 +2137,13 @@
  ],
  "queue": {
   "exists": true,
-  "running": {
-   "row": 8142,
-   "company": "Tudor Watch",
-   "title": "Data analyst",
-   "score": 6,
-   "url": "https://www.linkedin.com/jobs/view/4477181870/",
-   "domain": "linkedin.com",
-   "status": "TAILORED",
-   "state": "running",
-   "note": "",
-   "started": "2026-11-23T12:59:21+01:00",
-   "pid": 27368,
-   "lane": 0
-  },
+  "running": null,
   "pending": 0,
   "counters": {
    "pending": 0,
    "sent": 0,
    "review": 1,
-   "blocked": 6,
+   "blocked": 7,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
@@ -2180,6 +2157,17 @@
   },
   "next": [],
   "last": [
+   {
+    "ts": "2026-11-23T13:03:21+01:00",
+    "row": 8142,
+    "company": "Tudor Watch",
+    "title": "Data analyst",
+    "score": 6,
+    "domain": "linkedin.com",
+    "state": "blocked",
+    "note": "login",
+    "dur_s": 240
+   },
    {
     "ts": "2026-11-23T12:59:20+01:00",
     "row": 8206,
@@ -2223,17 +2211,6 @@
     "state": "blocked",
     "note": "declaracion",
     "dur_s": 150
-   },
-   {
-    "ts": "2026-11-23T12:46:39+01:00",
-    "row": 10306,
-    "company": "Spital Thurgau AG",
-    "title": "Fachspezialist/-in Datenmanagement",
-    "score": 10,
-    "domain": "linkedin.com",
-    "state": "blocked",
-    "note": "login",
-    "dur_s": 300
    }
   ]
  },
@@ -2246,24 +2223,24 @@
    "url": "https://www.linkedin.com/jobs/view/4477181870/",
    "lang": "fr",
    "started": "2026-11-23T12:59:35",
-   "finished": null,
-   "dur_min": null,
-   "phase": "running",
-   "status": "",
+   "finished": "2026-11-23T13:03:15",
+   "dur_min": 3.7,
+   "phase": "done",
+   "status": "PENDIENTE APROBACION CON AVISOS",
    "status_at_start": "TAILORED",
    "engine": "claude",
-   "blocked": "",
-   "manual": false,
+   "blocked": "login",
+   "manual": true,
    "ok": false,
    "applied": false,
-   "form_reached": false,
-   "apply_path": "",
-   "files_verified": 0,
-   "files_total": 0,
-   "required_missing": 0,
-   "needs_approval": 0,
-   "avisos": 0,
-   "verify_ok": null
+   "form_reached": true,
+   "apply_path": "linkedin_external",
+   "files_verified": 4,
+   "files_total": 4,
+   "required_missing": 1,
+   "needs_approval": 2,
+   "avisos": 5,
+   "verify_ok": true
   },
   {
    "row": 8206,
