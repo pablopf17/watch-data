@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T13:38:01",
+ "generated": "2026-11-23T13:44:01",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 30.0,
    "d7": 25.0,
-   "h5_reset": "2026-11-23T16:30:00.405421+00:00",
-   "d7_reset": "2026-11-25T17:00:00.405441+00:00",
+   "h5_reset": "2026-11-23T16:29:59.782946+00:00",
+   "d7_reset": "2026-11-25T16:59:59.782966+00:00",
    "stale": false,
    "n_pairs": 82,
    "cross": 0,
@@ -1266,7 +1266,7 @@
       "title": "Finance Transformation & Internal Control Lead",
       "url": "https://www.linkedin.com/jobs/view/4484942317/",
       "score": "",
-      "note": "con respuesta · pasada paró en 7 avisos",
+      "note": "enviada · pasada paró en 7 avisos",
       "ts": "2026-10-31T21:58:36",
       "cv_pdf": "https://drive.google.com/file/d/11Sie8ZcheVR3S75eoPco05OwuUfyG1M3/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1pH9VWvpoDsGyd9lVaBY6XGd9Fk_wnbzn/view?usp=drivesdk"
