@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T13:14:02",
+ "generated": "2026-11-23T13:20:01",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 30.0,
    "d7": 25.0,
-   "h5_reset": "2026-11-23T16:30:00.177171+00:00",
-   "d7_reset": "2026-11-25T17:00:00.177190+00:00",
+   "h5_reset": "2026-11-23T16:30:00.289334+00:00",
+   "d7_reset": "2026-11-25T17:00:00.289359+00:00",
    "stale": false,
    "n_pairs": 82,
    "cross": 0,
@@ -174,7 +174,7 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 14,
+    "count": 13,
     "cards": [
      {
       "row": 8142,
@@ -230,17 +230,6 @@
       "ts": "2026-11-23T12:46:51",
       "cv_pdf": "https://drive.google.com/file/d/1-NMomvsFQRXTCoe85kXTTA1JrFTDePX3/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1Ukybz5xIK1y_Lj0lGs9bE03IwhVQoFQM/view?usp=drivesdk"
-     },
-     {
-      "row": 10306,
-      "company": "Spital Thurgau AG",
-      "title": "Fachspezialist/-in Datenmanagement",
-      "url": "https://www.linkedin.com/jobs/view/4492417972/",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-23T12:41:51",
-      "cv_pdf": "https://drive.google.com/file/d/1mtqoyRNCU0-6zh-4lmrshpBw34VS3O9f/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/18zM8S1MqzqCTg8O7UB5ZD6f-w10OsBWY/view?usp=drivesdk"
      },
      {
       "row": 10369,
@@ -336,8 +325,19 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 100,
+    "count": 101,
     "cards": [
+     {
+      "row": 10306,
+      "company": "Spital Thurgau AG",
+      "title": "Fachspezialist/-in Datenmanagement",
+      "url": "https://www.linkedin.com/jobs/view/4492417972/",
+      "score": "",
+      "note": "enviada · pasada paró en login",
+      "ts": "2026-11-23T12:41:51",
+      "cv_pdf": "https://drive.google.com/file/d/1mtqoyRNCU0-6zh-4lmrshpBw34VS3O9f/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/18zM8S1MqzqCTg8O7UB5ZD6f-w10OsBWY/view?usp=drivesdk"
+     },
      {
       "row": 8106,
       "company": "EFG Private Banking",
@@ -2141,9 +2141,9 @@
   "pending": 0,
   "counters": {
    "pending": 0,
-   "sent": 0,
+   "sent": 1,
    "review": 1,
-   "blocked": 7,
+   "blocked": 6,
    "errors": 0,
    "skipped": 0,
    "login_blocked": 0
