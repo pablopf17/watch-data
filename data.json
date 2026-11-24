@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T06:27:59",
+ "generated": "2026-11-24T06:34:39",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 29.0,
    "h5_reset": null,
-   "d7_reset": "2026-11-25T17:00:00.060925+00:00",
+   "d7_reset": "2026-11-25T17:00:00.374141+00:00",
    "stale": false,
    "n_pairs": 82,
    "cross": 0,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 3,
+    "count": 4,
     "cards": [
+     {
+      "row": 10403,
+      "company": "UBP",
+      "title": "Internal Audit Manager",
+      "url": "https://iaadtu.fa.ocs.oraclecloud.eu/hcmUI/CandidateExperience/en/sites/CX_1/job/1599",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-11-23",
+      "cv_pdf": "https://drive.google.com/file/d/1gbFpSbty5wnnOU-J5rbk4uJUQk_b0SiC/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1kQ1HxTNisNC6VhX-IxzYAWiqryQlFoRj/view?usp=drivesdk"
+     },
      {
       "row": 10391,
       "company": "Ernst & Young AG",
@@ -2106,7 +2117,7 @@
     "more": 0
    }
   ],
-  "total": 181
+  "total": 182
  },
  "engines": [
   {
