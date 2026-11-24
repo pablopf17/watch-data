@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T17:58:14",
+ "generated": "2026-11-24T18:10:17",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -370,7 +370,7 @@
    {
     "key": "sent",
     "label": "✅ Enviada / con respuesta",
-    "count": 101,
+    "count": 100,
     "cards": [
      {
       "row": 10306,
@@ -1209,17 +1209,6 @@
       "cl_pdf": "https://drive.google.com/file/d/1qI4g1VUC47vIx9-sv0bPnBJhvm7NcF_H/view?usp=drivesdk"
      },
      {
-      "row": 6890,
-      "company": "Basler Kantonalbank",
-      "title": "Compliance Officer",
-      "url": "https://www.linkedin.com/jobs/view/4478703081/",
-      "score": "",
-      "note": "enviada · pasada paró en login: el formulario crea una cuenta con contrasena al pulsar Weiter; no hay opcion de invitado ni de Google",
-      "ts": "2026-11-01T11:33:19",
-      "cv_pdf": "https://drive.google.com/file/d/1C0lv3C4GCErKT-oc_JJ0-Zyb9ro9PhfA/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1nZ3VLJGy_AMdM0EE8SgAX5_VEb1KmS9G/view?usp=drivesdk"
-     },
-     {
       "row": 4226,
       "company": "Synpulse",
       "title": "Consultant / Senior Consultant Banking – Geneva",
@@ -1487,7 +1476,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 64,
+    "count": 65,
     "cards": [
      {
       "row": 10370,
@@ -1947,6 +1936,17 @@
       "ts": "2026-11-01T16:16:23",
       "cv_pdf": "https://drive.google.com/file/d/1g9nJG-6X0zGS3D0w80m0Fnn4162ed5IB/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/11a6ipRjX4AzlT4Fedv_8xo6aTa0bFRiR/view?usp=drivesdk"
+     },
+     {
+      "row": 6890,
+      "company": "Basler Kantonalbank",
+      "title": "Compliance Officer",
+      "url": "https://www.linkedin.com/jobs/view/4478703081/",
+      "score": "",
+      "note": "descartada",
+      "ts": "2026-11-01T11:33:19",
+      "cv_pdf": "https://drive.google.com/file/d/1C0lv3C4GCErKT-oc_JJ0-Zyb9ro9PhfA/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1nZ3VLJGy_AMdM0EE8SgAX5_VEb1KmS9G/view?usp=drivesdk"
      },
      {
       "row": 6814,
