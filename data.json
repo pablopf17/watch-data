@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T10:28:36",
+ "generated": "2026-11-25T11:16:37",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -160,8 +160,52 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 4,
+    "count": 8,
     "cards": [
+     {
+      "row": 10458,
+      "company": "SpeciTec SA",
+      "title": "Compliance Officer — Mission temporaire de 4 mois",
+      "url": "https://www.jobup.ch/fr/emplois/detail/0dc98e7e-6773-4ba1-905f-511831d60eb8",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-25",
+      "cv_pdf": "https://drive.google.com/file/d/1dCIaBew0asfrrqwjQvhOKgMEhWbKwIiV/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1_4YSGFUBSB-DktKte6ftmCGo0WGivdCM/view?usp=drivesdk"
+     },
+     {
+      "row": 10452,
+      "company": "EY Suisse",
+      "title": "Assistant(e) Asset Management Audit",
+      "url": "https://careers.ey.com/ey/job/Grand-Lancy-Geneva-Assistant%28e%29-Asset-Management-Audit-1212/1459800033/",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-24",
+      "cv_pdf": "https://drive.google.com/file/d/1v06Ekkfld6VuPbO4gokwtWJBmceCyLof/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1JKB-5tviYHGbfxLpty-utu-H5onqKjPY/view?usp=drivesdk"
+     },
+     {
+      "row": 10451,
+      "company": "EY Suisse",
+      "title": "Manager Asset Management Audit",
+      "url": "https://careers.ey.com/ey/job/Grand-Lancy-Geneva-Manager-Asset-Management-Audit-1212/1459801133/",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-24",
+      "cv_pdf": "https://drive.google.com/file/d/1YmpwCA7QAn3QNKQpBs2QlrpBIrgP-vuO/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1J4Riz9XnaooflT1SAfYeBaagJxa8IMMz/view?usp=drivesdk"
+     },
+     {
+      "row": 10450,
+      "company": "EY Suisse",
+      "title": "Senior Asset Management Audit",
+      "url": "https://careers.ey.com/ey/job/Grand-Lancy-Geneva-Senior-Asset-Management-Audit-1212/1459801933/",
+      "score": "10",
+      "note": "listo para lanzar",
+      "ts": "2026-11-24",
+      "cv_pdf": "https://drive.google.com/file/d/1wInqd4pjESILtAiwEI2tF2M1zjRcomoy/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1hhoVsg721beRUaCCBLK7csGT4HQv-AcS/view?usp=drivesdk"
+     },
      {
       "row": 10403,
       "company": "UBP",
@@ -2115,7 +2159,7 @@
     "more": 0
    }
   ],
-  "total": 182
+  "total": 186
  },
  "engines": [
   {
