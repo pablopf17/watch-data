@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T17:32:36",
+ "generated": "2026-11-26T17:38:40",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -274,7 +274,7 @@
    {
     "key": "review",
     "label": "🟠 Revisión · necesitan a Pablo",
-    "count": 13,
+    "count": 11,
     "cards": [
      {
       "row": 8142,
@@ -354,17 +354,6 @@
       "cl_pdf": "https://drive.google.com/file/d/14-wsEwVV7fNAVPRIfZ8-RPRbpLwN0V8r/view?usp=drivesdk"
      },
      {
-      "row": 9697,
-      "company": "SCOR Services Switzerland AG",
-      "title": "Senior P&C Performance & Planning Analyst",
-      "url": "https://www.jobagent.ch/job/senior-p-c-performance-planning-analyst/32566e466a",
-      "score": "",
-      "note": "4 avisos",
-      "ts": "2026-11-17T20:46:03",
-      "cv_pdf": "https://drive.google.com/file/d/10bbRFV4nWU6DKjsj3aMtETAyGOLVR3pM/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1jXk6HZ_heUYPuFVxMWnJh1rF8Y5Ya9A1/view?usp=drivesdk"
-     },
-     {
       "row": 9671,
       "company": "",
       "title": "Business Analyst IA - Claude - Try&Hire à 100%",
@@ -374,17 +363,6 @@
       "ts": "2026-11-17T14:05:19",
       "cv_pdf": "https://drive.google.com/file/d/1yOYPWtBmohpEGM5wM2Zrc0Qj4wLhf_xL/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1j9UyLb5b710WGTgiacumLN6e1bYw5js7/view?usp=drivesdk"
-     },
-     {
-      "row": 9773,
-      "company": "Basler Kantonalbank",
-      "title": "Projekt- und Portfoliomanagerin Unternehmensentwicklung (w/m) 80-100%",
-      "url": "https://www.jobagent.ch/job/projekt-und-portfoliomanagerin-unternehmensentwicklung-w-m-80-100/32566f7070",
-      "score": "",
-      "note": "login",
-      "ts": "2026-11-17T10:53:57",
-      "cv_pdf": "https://drive.google.com/file/d/1KQa1wZ_hr2dgHhoTt_imdzlaT_zvkuLv/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1njBB-kO74zQsPwRtKoOFKg3QlMXu4bKb/view?usp=drivesdk"
      },
      {
       "row": 8131,
@@ -1520,7 +1498,7 @@
    {
     "key": "closed",
     "label": "🏁 Cerrada",
-    "count": 66,
+    "count": 68,
     "cards": [
      {
       "row": 10370,
@@ -1528,7 +1506,7 @@
       "title": "Un·e Responsable de la transformation numérique à 80-100 %",
       "url": "https://www.jobagent.ch/mail/job/3257443867/34465947",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-23T12:32:41",
       "cv_pdf": "https://drive.google.com/file/d/1ee412DuyncMECFn8ybtfXcniEEWlSVYh/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/1PU4y2X8E-SIfYNjmzmXF4i46UdCV_yjS/view?usp=drivesdk"
@@ -1552,6 +1530,17 @@
       "ts": "2026-11-19T09:55:26"
      },
      {
+      "row": 9697,
+      "company": "SCOR Services Switzerland AG",
+      "title": "Senior P&C Performance & Planning Analyst",
+      "url": "https://www.jobagent.ch/job/senior-p-c-performance-planning-analyst/32566e466a",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-17T20:46:03",
+      "cv_pdf": "https://drive.google.com/file/d/10bbRFV4nWU6DKjsj3aMtETAyGOLVR3pM/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1jXk6HZ_heUYPuFVxMWnJh1rF8Y5Ya9A1/view?usp=drivesdk"
+     },
+     {
       "row": 9748,
       "company": "PwC Switzerland - Legal",
       "title": "Compliance Consultant / Group Compliance Specialist",
@@ -1566,10 +1555,21 @@
       "title": "Market Risk Analyst - Commodity Trading House",
       "url": "https://www.jobup.ch/fr/emplois/detail/14c827e3-41f6-40f9-8d7b-21d3b5208266",
       "score": "",
-      "note": "sin_formulario",
+      "note": "no disponible",
       "ts": "2026-11-17T11:15:21",
       "cv_pdf": "https://drive.google.com/file/d/19NrRigJyerFVeCBjAwV2opWaUxh-V9RK/view?usp=drivesdk",
       "cl_pdf": "https://drive.google.com/file/d/10cfgyyRQWM6kC3rd8_3lr_eAK0LM5QLe/view?usp=drivesdk"
+     },
+     {
+      "row": 9773,
+      "company": "Basler Kantonalbank",
+      "title": "Projekt- und Portfoliomanagerin Unternehmensentwicklung (w/m) 80-100%",
+      "url": "https://www.jobagent.ch/job/projekt-und-portfoliomanagerin-unternehmensentwicklung-w-m-80-100/32566f7070",
+      "score": "",
+      "note": "no disponible",
+      "ts": "2026-11-17T10:53:57",
+      "cv_pdf": "https://drive.google.com/file/d/1KQa1wZ_hr2dgHhoTt_imdzlaT_zvkuLv/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1njBB-kO74zQsPwRtKoOFKg3QlMXu4bKb/view?usp=drivesdk"
      },
      {
       "row": 9849,
