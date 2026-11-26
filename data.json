@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T23:25:15",
+ "generated": "2026-11-26T23:31:13",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -22,7 +22,7 @@
    "h5": 0.0,
    "d7": 0.0,
    "h5_reset": null,
-   "d7_reset": "2026-12-02T16:59:59.634252+00:00",
+   "d7_reset": "2026-12-02T16:59:59.709540+00:00",
    "stale": false,
    "n_pairs": 82,
    "cross": 0,
@@ -160,8 +160,41 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 9,
+    "count": 12,
     "cards": [
+     {
+      "row": 10539,
+      "company": "LHH",
+      "title": "Regulatory Reporting Specialist",
+      "url": "https://www.lhh.com/en-ch/search-jobs/regulatory-reporting-specialist-geneve-geneva/jn-112026-1207333",
+      "score": "7",
+      "note": "listo para lanzar",
+      "ts": "2026-11-26",
+      "cv_pdf": "https://drive.google.com/file/d/1BJQsHZ-U4cdNInUBMqZsr5iGphIfa911/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/10ozL_5nJbOhM1qJPtPqieTEiEPDI7XiA/view?usp=drivesdk"
+     },
+     {
+      "row": 10529,
+      "company": "Gunvor SA",
+      "title": "Quantitative Analyst - Portfolio Optimization",
+      "url": "https://www.jobagent.ch/job/quantitative-analyst-portfolio-optimization/32574e5537",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-26",
+      "cv_pdf": "https://drive.google.com/file/d/1-M6KyThhBX4fLTLStzUUEj5LSXuuyiBx/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/10OsYoToyqbxAkMjtYbqT4UFKlbkdbaPK/view?usp=drivesdk"
+     },
+     {
+      "row": 10509,
+      "company": "VAUDOISE ASSURANCES HOLDING SA",
+      "title": "Responsable Portfolio Management Office - 80-100%",
+      "url": "https://www.jobagent.ch/job/responsable-portfolio-management-office-80-100/3257463546",
+      "score": "6",
+      "note": "listo para lanzar",
+      "ts": "2026-11-26",
+      "cv_pdf": "https://drive.google.com/file/d/1xxdnKU82Tm2nJlCbpv64EWjZqeVR8QQI/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1_iUYx3HD8jtwhpcniC2t_OQTmV2ytoli/view?usp=drivesdk"
+     },
      {
       "row": 10501,
       "company": "",
@@ -1507,9 +1540,7 @@
       "url": "https://www.jobagent.ch/mail/job/3257443867/34465947",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-23T12:32:41",
-      "cv_pdf": "https://drive.google.com/file/d/1ee412DuyncMECFn8ybtfXcniEEWlSVYh/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1PU4y2X8E-SIfYNjmzmXF4i46UdCV_yjS/view?usp=drivesdk"
+      "ts": "2026-11-23T12:32:41"
      },
      {
       "row": 9586,
@@ -1536,9 +1567,7 @@
       "url": "https://www.jobagent.ch/job/senior-p-c-performance-planning-analyst/32566e466a",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-17T20:46:03",
-      "cv_pdf": "https://drive.google.com/file/d/10bbRFV4nWU6DKjsj3aMtETAyGOLVR3pM/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1jXk6HZ_heUYPuFVxMWnJh1rF8Y5Ya9A1/view?usp=drivesdk"
+      "ts": "2026-11-17T20:46:03"
      },
      {
       "row": 9748,
@@ -1556,9 +1585,7 @@
       "url": "https://www.jobup.ch/fr/emplois/detail/14c827e3-41f6-40f9-8d7b-21d3b5208266",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-17T11:15:21",
-      "cv_pdf": "https://drive.google.com/file/d/19NrRigJyerFVeCBjAwV2opWaUxh-V9RK/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/10cfgyyRQWM6kC3rd8_3lr_eAK0LM5QLe/view?usp=drivesdk"
+      "ts": "2026-11-17T11:15:21"
      },
      {
       "row": 9773,
@@ -1567,9 +1594,7 @@
       "url": "https://www.jobagent.ch/job/projekt-und-portfoliomanagerin-unternehmensentwicklung-w-m-80-100/32566f7070",
       "score": "",
       "note": "no disponible",
-      "ts": "2026-11-17T10:53:57",
-      "cv_pdf": "https://drive.google.com/file/d/1KQa1wZ_hr2dgHhoTt_imdzlaT_zvkuLv/view?usp=drivesdk",
-      "cl_pdf": "https://drive.google.com/file/d/1njBB-kO74zQsPwRtKoOFKg3QlMXu4bKb/view?usp=drivesdk"
+      "ts": "2026-11-17T10:53:57"
      },
      {
       "row": 9849,
@@ -2170,7 +2195,7 @@
     "more": 0
    }
   ],
-  "total": 187
+  "total": 190
  },
  "engines": [
   {
