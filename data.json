@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T17:14:54",
+ "generated": "2026-11-26T17:32:36",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 8,
+    "count": 9,
     "cards": [
+     {
+      "row": 10501,
+      "company": "",
+      "title": "Manager, Global Controls & Obligations Management Jobgether &middot; Switzerland (Remote) Easy Apply",
+      "url": "https://www.linkedin.com/jobs/view/4494910286",
+      "score": "8",
+      "note": "listo para lanzar",
+      "ts": "2026-11-26",
+      "cv_pdf": "https://drive.google.com/file/d/1ay-6VGZZBT2oP4LNTk1AEuL6WwfSsIRg/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1cttlflj6dI7N3uffoJyAJFGHq6uy6qMT/view?usp=drivesdk"
+     },
      {
       "row": 10458,
       "company": "SpeciTec SA",
@@ -2159,7 +2170,7 @@
     "more": 0
    }
   ],
-  "total": 186
+  "total": 187
  },
  "engines": [
   {
