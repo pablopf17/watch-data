@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T05:24:38",
+ "generated": "2026-11-27T05:30:37",
  "kpis": {
   "runs": 179,
   "done": 169,
@@ -21,8 +21,8 @@
   "claude_usage": {
    "h5": 16.0,
    "d7": 2.0,
-   "h5_reset": "2026-11-27T07:20:00.495809+00:00",
-   "d7_reset": "2026-12-02T17:00:00.495868+00:00",
+   "h5_reset": "2026-11-27T07:20:00.477380+00:00",
+   "d7_reset": "2026-12-02T17:00:00.477399+00:00",
    "stale": false,
    "n_pairs": 82,
    "cross": 0,
@@ -160,8 +160,19 @@
    {
     "key": "backlog",
     "label": "📥 Backlog · listas para lanzar",
-    "count": 12,
+    "count": 13,
     "cards": [
+     {
+      "row": 10543,
+      "company": "TotalEnergies Gas & Power Ltd",
+      "title": "Digital & Innovation Engineer",
+      "url": "https://www.job-room.ch/job-search/cedaf9ec-abf9-49ed-87f7-736c2cf7d0c1",
+      "score": "9",
+      "note": "listo para lanzar",
+      "ts": "2026-11-26",
+      "cv_pdf": "https://drive.google.com/file/d/1QOrB9IdCXNYi_ko0OMOllO6ROLBhaFP1/view?usp=drivesdk",
+      "cl_pdf": "https://drive.google.com/file/d/1NdlU9ERuzdXjlakduKeCxZkyLNYplNcQ/view?usp=drivesdk"
+     },
      {
       "row": 10539,
       "company": "LHH",
@@ -2195,7 +2206,7 @@
     "more": 0
    }
   ],
-  "total": 190
+  "total": 191
  },
  "engines": [
   {
